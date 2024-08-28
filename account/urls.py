@@ -28,6 +28,9 @@ urlpatterns = [
 # path('alreadyauthenticated/', views.alreadyAuthenticated, name="alreadyAuthenticated"),
 path('alreadyauthenticated/',views.alreadyAuthenticated,name="alreadyAuthenticated"),
 
+path("testapi",views.mail,name='testapi'),
+
+
 path("mail",views.mail,name='mail'),
 
 path('register/', register_view, name="register"),
