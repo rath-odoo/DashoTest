@@ -17,13 +17,13 @@ jobs:
       postgres:
         image: postgres:14  # Specify a stable version to avoid compatibility issues
         env:
-          POSTGRES_DB: postgres
-          POSTGRES_USER: tapasmohanty
+          POSTGRES_DB: myproject
+          POSTGRES_USER: myprojectuser
           POSTGRES_PASSWORD: 'password'  # Ensure this matches your local configuration
         ports:
           - 5432:5432
         options: >-
-          --health-cmd="pg_isready -U tapasmohanty"
+          --health-cmd="pg_isready -U myprojectuser"
           --health-interval=10s
           --health-timeout=5s
           --health-retries=10
