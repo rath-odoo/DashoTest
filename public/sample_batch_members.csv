@@ -1,0 +1,6 @@
+email,phone,first_name,last_name,user_type
+john.doe@example.com,,John,Doe,Student
+jane.smith@example.com,,Jane,Smith,Admin
+,bob.marley@example.com,Bob,Marley,Teacher
+alice.jones@example.com,,Alice,Jones,Student
+charlie.brown@example.com,,Charlie,Brown,Owner
