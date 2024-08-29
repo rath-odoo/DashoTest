@@ -1,0 +1,187 @@
+.oneFriend {
+
+  border-style: solid;
+  display: flex;
+  /* flex-direction: column-reverse; */
+  background-color: white;
+  padding: 12px;
+  border-color: var(--cardBorderColor);
+  border-width: 1px;
+  border-radius: var(--cardBorderRadius);
+  /* height: 250px; */
+
+}
+
+
+
+.iconContainer {
+  align-items: flex-start;
+  /* margin-top: 20px; */
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.chat {
+  background-color: var(--lightThemeColor2);
+  color: var(--tintGreyColor1);
+  padding: 6px;
+  align-content: center;
+  border-radius: 50px;
+}
+
+.chat :hover {
+  cursor: pointer;
+}
+
+.profile {
+  background-color: white;
+  color: var(--themeColor);
+  border-color: var(--themeColor);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  align-content: end;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.profile:hover {
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.lineHorizontal {
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(37, 36, 36, 0.2);
+}
+
+.friendImage {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  /* width: 150px; */
+  /* height: 150px; */
+  margin: 0;
+  /* border-radius: var(--cardBorderRadius); */
+}
+
+.InfoBox {
+  align-self: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+  border-style: none;
+}
+
+.InfoBox i {
+  font-size: 14px;
+  color: var(--tintGreyColor1);
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: darkred;
+}
+
+
+.optionsContainer {
+  position: relative;
+  left: 170px;
+  top: -50px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 23px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  font-size: small;
+}
+
+.dropdownItem {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: #f5f5f5;
+}
+
+.overLay {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmDialog {
+  padding: 20px;
+  background-color: white;
+  width: 380px;
+  height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);
+  font-family: Roboto;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.p {
+  color: #808080;
+  padding-left: 4px;
+}
+
+.deleteYes {
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteNo {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2;
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.div1 {
+
+  display: flex;
+  gap: 80px;
+  padding-left: 10%;
+}

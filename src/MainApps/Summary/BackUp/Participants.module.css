@@ -1,0 +1,41 @@
+.participants{
+
+width: 75%;
+min-height: calc( 0.7 * var(--headerHeight) );
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.participants i{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color:var(--TextColorDarkBlue1);
+color: grey;
+}
+
+.participants span{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color:var(--TextColorDarkBlue1);
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+padding: 10px;
+
+}
+
+
+.titleSpace{
+min-width: 300px;
+}
+
+
+
+
+
+
+
+
+

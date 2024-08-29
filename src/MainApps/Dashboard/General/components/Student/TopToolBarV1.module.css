@@ -1,0 +1,77 @@
+.topToolBar{
+border-style: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.iconContainerBox{
+border-bottom-style: none;	
+border-bottom-color:grey;
+display: flex;
+width:95%;
+background-color:white;
+/*border-radius: 4px;*/
+border-width: 1px;
+border-color: var(--headerRightIconsColor);
+/*padding-bottom: 20px;*/
+align-items: center;
+margin: auto;
+}
+
+.searchBoxParentDiv{
+width: 100%;
+height:70px;
+border-style: none;
+}
+
+
+.searchBoxDiv{
+
+border-style: none;
+width: 50%;
+height:100%;
+border-width:1px;
+border-color: lightgrey;
+border-radius: 5px;
+background-color:white;
+/*var(--lightThemeColor1);*/
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: grey;
+}
+
+.searchBoxDiv span{
+margin-left: 20px;
+font-size: 40px;
+color: black;
+}
+
+
+.buttonsSubBoxDiv{
+
+height: 40px;
+width: 95%;
+background-color:white;
+/*#f0f0f0;*/
+/*background-color:var(--lightThemeColor1);*/
+margin: auto;
+border-top-style: solid;
+border-top-color:lightgrey;
+border-width: 1px;
+
+}
+
+
+.createCourseButton{
+height: 100%;
+border-style: none;
+background-color:var(--headerIconColor);
+font-size: 20px;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+}
+
+

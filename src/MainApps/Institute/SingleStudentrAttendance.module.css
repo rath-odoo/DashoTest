@@ -1,0 +1,208 @@
+.parentDiv {
+    display: flex;
+
+}
+
+
+.settingGear {
+
+
+    cursor: pointer;
+    border-style: none;
+    width: 50px;
+    background-color: white;
+}
+
+
+.settingGear:hover {
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+}
+
+.present {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    color: white;
+}
+
+.notavailable {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+}
+
+.pstyle {
+    color: white;
+    background-color: #45966e;
+    padding: 5px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.astyle {
+    color: white;
+    background-color: var(--redColor1);
+    padding: 5px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.absent {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nastyle {
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+
+
+.parentClass {
+    width: 96.2%;
+    height: 45px;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+    display: flex;
+    background-color: white;
+
+    border-style: none;
+    align-items: center;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+}
+
+.parentClass:hover {
+    cursor: pointer;
+    background-color: var(--cardBorderColorLight);
+}
+
+.userContainer {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    border-style: none;
+    align-items: center;
+    margin: auto;
+}
+
+.namenimagediv {
+    display: flex;
+    justify-content: flex-start;
+    border-style: none;
+    align-items: center;
+    width: 30%;
+    white-space: nowrap;
+    /* margin-left: 30%; */
+}
+
+
+.pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.nameContainer {
+    margin-left: 15px;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+}
+
+.rolwContainer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+}
+
+.dateContainer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+}
+
+.statusContainer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+}
+
+
+
+
+.approveButton {
+    border-style: none;
+    background-color: #45966e;
+    border-radius: 4px;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.rejectButton {
+    border-style: none;
+    background-color: #ff726f;
+    border-radius: 4px;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.apprAndRej {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.date {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 20%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 10px;
+    margin-left: 20px;
+}

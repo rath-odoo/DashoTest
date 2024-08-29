@@ -1,0 +1,50 @@
+.goBackNavBar{
+display: flex;
+align-items: center;
+margin-top: 15px;
+margin-left: 10px;
+border-style: none;
+height: 40px;
+}
+
+
+.backButton{
+display: flex;
+align-items: center;
+border-style: none;
+background: white;
+color: grey;
+color:var(--lightGreyTintTextColor);
+padding: 10px;
+border-radius: 5px;
+}
+
+.backButton:hover{
+color: var(--themeColor);
+text-decoration: underline;
+cursor: pointer;
+background-color: var(--tintGreyColor4);
+}
+
+
+.currentWindowButton{
+display: flex;
+align-items: center;
+border-style: none;
+background: white;
+color: grey;
+}
+
+
+.currentWindowButton:hover{
+text-decoration: underline;
+color: var(--themeColor);
+cursor: pointer;
+}
+
+
+.backIcon{
+padding-right: 10px;
+font-size: 30px;
+border-style: none;
+}

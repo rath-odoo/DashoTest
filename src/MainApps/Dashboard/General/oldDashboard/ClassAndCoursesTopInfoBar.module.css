@@ -1,0 +1,154 @@
+
+.classAndCoursesTopInfoBar{
+position: relative;
+width: 100%;
+height: 100px;
+background-color: white;
+border-style: solid;
+border-width:1px;
+border-color: #e0ebff;
+border-radius: 10px 10px 0px 0px;
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.changeClassButton{
+
+border-style: solid;
+background-color: lightgrey;
+margin-left: 10px;
+display:flex;
+align-items: center;
+cursor: pointer;
+border-radius: 3px;
+color: #a52a2a;
+background-color: white;
+border-color: #a52a2a;
+font-size: calc( 0.20 * var(--headerHeight) );
+}
+
+.changeBtnIcon{
+padding-right: 3px;
+font-size: calc( 0.20 * var(--headerHeight) );
+}
+
+
+
+
+.topSectionBar{
+width: 100%;
+height:50%;
+border-style: none;
+display: flex;
+justify-content: space-around;
+align-items:center;
+}
+
+.topSectionBar div{
+width: 33%;	
+position: relative;	
+font-style: normal;
+overflow: hidden;
+color: var(--themeColor);
+border-style: none;
+overflow: hidden;
+font-size: calc( 0.25 * var(--headerHeight) );
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.signupIcon{
+color: green;
+font-size: calc( 0.25 * var(--headerHeight) );
+}
+
+
+
+.addCourseButton{
+display: flex;
+align-items: center;
+font-size: calc( 0.25 * var(--headerHeight) );
+color: white;
+background-color: white;
+cursor: pointer;
+border-style: solid;
+border-color: var(--themeColor);
+border-width: 1px;
+background-color: #5a80c4;
+border-radius: 3px;
+}
+
+
+.addCourseIcon{
+color: white;
+font-size: calc( 0.25 * var(--headerHeight) );
+}
+
+
+
+
+
+.bottomSectionBar{
+width: 100%;
+height: 50%;
+border-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+}
+
+
+.upcomingClasses{
+height: 100%;
+width: 70%;
+overflow-x:auto;
+overflow-y:hidden;
+font-size: calc( 0.33 * var(--headerHeight) );
+color: var(--ticketTextColor);
+
+}
+
+
+/*
+ 
+
+
+height: 100%;
+width: 500px;
+overflow: hidden;
+white-space: nowrap;
+overflow-x:scroll;
+overflow-y:hidden !important;
+text-overflow: ellipsis;
+font-size: calc( 0.33 * var(--headerHeight) );
+color: var(--ticketTextColor);
+
+
+ */
+
+
+
+.upcomingClass{
+height: calc( 0.40 * var(--headerHeight) );;
+color: white;	
+background-color: #ffa07a;
+padding-left: 5px;
+padding-right: 5px;
+margin-left: 5px;
+margin-right: 5px;
+border-radius: 3px;
+font-size: calc( 0.25 * var(--headerHeight) );
+overflow: hidden;
+border-style: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+.allFriends_parent{
+    /* width: 400px; */
+    border-style: none;
+    border-color: green;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 200px;
+}
+    
+    .allFriends{
+    width: 96%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px );
+    grid-template-rows: 1fr ;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    border-style: none;
+    border-color: red;
+    position: relative;
+    top: 20px;
+    }
+    
+    .searchBar_contact{
+    width: 80%;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    }
+    
+    .searchIcon{
+    margin-left: 15px;
+    font-size: 25px;
+    color: grey;
+    }
+    
+    
+    
+    

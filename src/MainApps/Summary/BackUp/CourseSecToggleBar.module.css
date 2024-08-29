@@ -1,0 +1,85 @@
+.courseSecToggleBar{
+width: 75%;
+min-height: calc( 0.7 * var(--headerHeight) );
+background-color: grey;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color: white;
+border-style: none;
+border-width: 2px;
+border-color: lightgrey;
+margin: auto;
+margin-top: 30px;
+overflow-y: scroll;
+
+}
+
+
+
+
+
+.courseSecToggleBarButtons{
+width: 100%;
+min-height: calc( 0.7 * var(--headerHeight) );
+background-color: grey;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: white;
+border-style: none;
+border-width: 2px;
+border-color: lightgrey;
+}
+
+
+
+
+
+
+.privateInfo{
+width: 50%;
+border-style: none;
+border-color: white;
+border-width: 2px;
+color:#5177bd;
+background-color: #e0ebff;
+font-size: calc( 0.3 * var(--headerHeight) );
+cursor: pointer;
+
+
+}
+
+.publicInfo{
+width: 50%;
+border-style: none;
+border-color: lightgrey;
+border-width: 2px;
+color: grey;
+background-color: white;
+font-size: calc( 0.3 * var(--headerHeight) );
+cursor: pointer;
+}
+
+
+.updateDiv{
+
+width: 100%;
+height: 2000px;
+border-style: solid 1px lightgrey;
+background-color: white;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

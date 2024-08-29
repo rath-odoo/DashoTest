@@ -1,0 +1,114 @@
+
+
+.bookingForm{
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+
+}
+
+.formBox{
+margin-top: 5%;
+width: 350px;
+height:400px;
+background-color: white;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+justify-content: center;
+}
+
+
+.editmobileNuBox {
+  background-color: var(--bodyBkgColor);
+  border-radius: 5px;
+  /* background-color: #f0f2f5; */
+  height: 28px;
+  width: 90%;
+  padding-left: 10px;
+  border: 1px solid var(--cardBorderColorLight);
+  font-size: 14px;
+  margin: auto;
+  border-color: grey;
+}
+
+.editmobileNuBox:focus {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-style: solid;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--themeColor);
+  background-color: white;
+}
+
+.formContentBox{
+
+margin-top: 50px;
+padding: 30px;
+}
+
+
+.textInfoForm{
+height: 30px;
+}
+
+
+.fieldtype{
+border-style: none;
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+border-radius: 5px;
+padding: 10px;
+background-color:pink;
+}
+
+
+.bookSlotButton{
+width: 100%;
+background-color: var(--themeColor);
+border-style: none;
+border-radius: 5px;
+color: white;
+margin: auto;
+height: 35px;
+cursor: pointer;
+margin-top: 30px;
+}
+
+.bookSlotButton:hover{
+
+
+}
+
+
+.closeButton{
+
+}
+
+.closeButtonDiv{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+
+
+.loginToMeetingLinkButton{
+margin-top:20px;
+border-style: none;
+height:35px;
+width: 100%;
+border-radius: 5px;
+color: var(--themeColor);
+cursor: pointer;
+}

@@ -1,0 +1,1125 @@
+.Profile {
+    font-family: Arial, sans-serif;
+    
+  
+    position: absolute;
+    top: 0;  
+    background-color: #f2f2f2;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* To ensure the child can scroll within this container */
+  width: 90%;
+  
+    /* max-width: 90%; */
+    /* margin: 0 auto; */
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); */
+    /* background-color: #555555 ; */
+  }
+  
+  .profileInner{
+    overflow-y: auto;  
+    max-width: 90%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    height: 70%; 
+  }
+  
+  .ProfileBox {
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); */
+  }
+  
+  .ProfileImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+    object-fit: cover;
+   
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profileContainer{
+    display: flex;
+    justify-content: center;
+     
+  }
+  .ProfileName {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .Section {
+    margin-bottom: 20px;
+  }
+  
+  .Section h2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+    gap: 20px;
+  }
+  
+  .PersonalDetails,
+  .AcademicDetails,
+  .Achievements,
+  .ParentsDetails,
+  .Address,
+  .HealthData,
+  .AttendanceData,
+  .ProgressReport,
+  .Section1 {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); */
+    /* transition: background-color 0.3s ease; */
+  }
+  
+  .PersonalDetails:hover,
+  .AcademicDetails:hover,
+  .Documents:hover,
+  .Achievements:hover,
+  .ParentsDetails:hover,
+  .Address:hover,
+  .HealthData:hover,
+  .AttendanceData:hover,
+  .CoursesEnrolled:hover,
+  .ProgressReport:hover,
+  .Section1:hover {
+    /* transform: scale(1.01);  */
+    border-color: #007bff;
+  }
+  
+  .PersonalDetails h3,
+  .AcademicDetails h3,
+  .Documents h3,
+  .Achievements h3,
+  .ParentsDetails h3,
+  .Address h3,
+  .HealthData h3,
+  .AttendanceData h3,
+  .CoursesEnrolled h3,
+  .ProgressReport h3,
+  .Section1 h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .PersonalDetails ul,
+  .AcademicDetails ul,
+  .Documents ul,
+  .Achievements ul,
+  .ParentsDetails ul,
+  .Address ul,
+  .HealthData ul,
+  .AttendanceData ul,
+  .CoursesEnrolled ul,
+  .ProgressReport ul {
+    list-style-type:none;
+    padding: 0;
+  }
+  
+  .PersonalDetails ul li,
+  .AcademicDetails ul li,
+  .Documents ul li,
+  .Achievements ul li,
+  .ParentsDetails ul li,
+  .Address ul li,
+  .HealthData ul li,
+  .AttendanceData ul li,
+  .CoursesEnrolled ul li,
+  .ProgressReport ul li {
+    margin-bottom: 5px;
+    
+  }
+  
+  .PersonalDetails ul li strong,
+  .AcademicDetails ul li strong,
+  .Documents ul li strong,
+  .Achievements ul li strong,
+  .ParentsDetails ul li strong,
+  .Address ul li strong,
+  .HealthData ul li strong,
+  .AttendanceData ul li strong,
+  .CoursesEnrolled ul li strong,
+  .ProgressReport ul li strong {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .Role {
+    display: flex;
+    justify-content: start;
+  }
+  
+  .Role h2 {
+    color: black;
+    display: flex;
+  }
+  
+  .SubjectExpert {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .SubjectExpert button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .SubjectExpert img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .Section1 {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); */
+  }
+  
+  .Section1 h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .PersonalDetails ul li a {
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+  
+  .PersonalDetails ul li a img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .CoursesEnrolled progress {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+  }
+  
+  .ProgressReport span {
+    font-weight: bold;
+  }
+  
+  .Documents ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Documents ul li button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .Documents ul li button:hover {
+    background-color: #0056b3;
+  }
+  
+  .icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+  }
+  
+  .seticon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .seticon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007bff;
+  }
+  
+  .icon1 {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .CoursesEnrolled{
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); */
+    transition: background-color 0.3s ease;
+    align-self: stretch; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .Documents {
+    background-color: whitesmoke;
+    border: 1px solid lightgrey ;
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); */
+    transition: background-color 0.3s ease;
+    align-self: stretch; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ParentsDetails {
+    background-color: whitesmoke;
+    border: 1px solid lightgray ;
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); */
+    transition: background-color 0.3s ease;
+    align-self: stretch;
+    margin-top: 20px;
+  
+  }
+  
+  .ParentsDetails h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ParentsDetails ul {
+    list-style-type: circle;
+    padding: 0;
+  }
+  
+  .ParentsDetails ul li {
+    margin-bottom: 5px;
+  }
+  
+  .ParentsDetails ul li strong {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .ParentsDetails ul li a {
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+  
+  .ParentsDetails ul li a img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .ParentsDetails ul li button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .ParentsDetails ul li button:hover {
+    background-color: #0056b3;
+  }
+  
+  .seticon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+  }
+  
+  .icon1 {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  .Section {
+    margin-bottom: 20px;
+  }
+  
+  .Section h2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #myChart {
+    margin: auto;
+    display: block;
+    max-width: 400px;
+  }
+  
+  .Experience {
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    align-self: stretch; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Experience h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Experience ul {
+    list-style-type: disc !important;
+    padding: 0;
+  }
+  
+  .Experience ul li {
+    margin-bottom: 10px;
+  }
+  
+  .Experience ul li strong {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  ul.achievementUl {
+    list-style-type: circle !important;
+  }
+  
+  .Experience ul li p {
+    margin-top: 5px;
+  }
+  
+  .Experience ul li button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .Experience ul li button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .name{
+    color: #555555;
+    margin-right: 4px;
+    margin-left: 5px;
+  }
+  
+  .editButton{
+    margin-left: auto;
+    /* background-color: black; */
+    color: white;
+    
+    border-radius: 50%;
+    /* height: 20px;
+    width: 20px; */
+    height: 26px;
+    width: 26px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    cursor: pointer;
+  }
+  
+  .editContainer{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  
+  }
+  .listContainer{
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+  }
+  
+  
+  .listTwo{
+    display: flex;
+    padding: 15px;
+    padding-left: 10px;
+  }
+  
+  .imgContainer{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+  }
+  
+  .imgIcon{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hrefLink{
+    margin-left: 10px;
+  }
+  
+  .listProgress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 98%;
+    margin-left: 10px;
+  }
+  
+  .oltag{
+    margin-top: 0;
+    padding-left: 15px;
+  }
+  
+  
+  .eduInnerDiv{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .divOne{
+    font-weight: 600;
+  }
+  .dateEdu{
+    color: #00000099;
+    font-size: 15px;
+  
+  }  
+  
+  .skillListOuter{
+    display: flex;
+    margin-top: 5px;
+  }
+  .skillList{
+    display: flex;
+    padding-right: 4px;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  .mainDivCert {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 1px;
+  /* border: 1px solid #d3d3d3; */
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  }
+  .mediaPreview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+  
+  .mediaImage, .mediaVideo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 0;
+  margin-left: 5px;
+  object-fit: cover;
+  }
+  .credentialsBtn{
+  cursor: pointer;
+  background-color: white;
+  width: 150px;
+  height: 30px;
+  border-color: #808080;
+  border-radius:  1.6rem;
+  border: 0.5px solid #808080;
+  color: #808080;
+  font-weight: 600;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 3px; */
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 4px;
+  
+  }
+  
+  .title{
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-weight: 600;
+  }
+  .divText{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  
+  
+  .sameTwo ,.sameThree{
+  font-size: 15px;
+  color: #00000099;
+  
+  }
+  
+  .sameOne{
+  font-size: 16px;
+  font-weight: 10;
+  }
+  
+  .gobackBtn{
+  
+  cursor: pointer;
+  /* background-color: grey; */
+  border-style: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  }
+  
+  .gobackBtn:hover{
+  background-color: #e8e8e8;
+  }
+  
+  
+  .editBtn{
+  cursor: pointer;
+  margin-left: auto;
+  width: 30px;
+  background-color: #f2f2f2;
+  
+  /* background-color: white; */
+  
+  height: 30px;
+  border-style: none;
+  border-radius: 50%;
+  }
+  
+  .editInner{
+    width: 17px;
+    height: 17px;
+  }
+  
+  .bankDetailFlex{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  }
+  
+  .headingAcc{
+  color: #007bff;
+  }
+  
+  
+  
+  .addStudentbtnContainer{
+  height: 26px;
+  width: 26px;
+  border-style: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #efefef;
+  margin-left: auto;
+   
+  
+  }
+  
+  .btnAddBankDetails{
+    height: 26px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-self: center; */
+  }
+  
+  .editIcon{
+  width: 10px;
+  height: 11px;
+  color: black;
+  border-radius: 50%;
+  }
+  
+  .bankDetailList{
+  margin-bottom: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 2px; */
+  }
+  
+  .deleteBank{
+  background-color: #efefef;
+  cursor: pointer;
+  border-radius: 50%;
+  border-style: none;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  /* margin-right: 4px; */
+  
+  }
+  
+  .bankDetailsHeading{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  .bankDetails{
+  margin-bottom: 50px;
+  }
+  
+  
+  .trashBtn {
+  height: 13px;
+  width: 13px;
+  }
+  
+  .listBank{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5px;
+  }
+  
+  
+  
+  /* edit bank details form styling */
+  
+  .outerDiv {
+  display: flex;
+  width: 90%;
+  border: 1px solid #d3d3d3;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .title {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 2px;
+  }
+  
+  .titleTwo{
+  display: flex;
+  margin-left: auto;
+  }
+  
+  .sameTwo, .sameThree {
+  font-size: 15px;
+  color: #00000099;
+  }
+  
+  .sameOne {
+  font-size: 16px;
+  font-weight: 400;
+  }
+  
+  .location {
+  margin-bottom: 20px;
+  font-size: 15px;
+  }
+  
+  .mainDiv{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    margin-bottom: 15px;
+    /* gap:3px; */
+}
+
+.mainDiv2{
+  display: flex;
+  padding-top: 6px;
+  /* flex-direction: column; */
+  padding-left: 3px;
+  margin-bottom: 15px;
+
+}
+
+  
+  .innerMainDiv{
+  padding-left: 5px;
+  }
+  
+  .deleteBtn {
+  background-color: #efefef;
+  cursor: pointer;
+  border-radius: 50%;
+  border-style: none;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  }
+  
+  .editBtnBank{
+  background-color: #efefef;
+  cursor: pointer;
+  border-radius: 50%;
+  border-style: none;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  }
+  
+  .trashBtn {
+  height: 13px;
+  width: 13px;
+  }
+  
+  .warningBlock {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid;
+  border-radius: 5px;
+  z-index: 9999;
+  max-width: 500px;
+  height: 80vh;
+  min-width: 30%;
+  background-color: white;
+  border-radius: calc(0.2 * 3.0rem);
+  border-style: none;
+  border-color: grey;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+  }
+  
+  .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  }
+  
+  .datesContainer {
+  display: flex;
+  padding-left: 26px;
+  flex-direction: column;
+  width: 88%;
+  }
+  
+  .dateStart {
+  width: 100%;
+  margin: 10px;
+  }
+  
+  .dateEnd {
+  width: 50%;
+  margin: 10px;
+  margin-left: 2px;
+  }
+  
+  .closeBtn {
+  margin-left: auto;
+  display: flex;
+  cursor: pointer;
+  background-color: white;
+  border-style: none;
+  margin-top: 10px;
+  margin-right: 5px;
+  }
+  
+  .heading {
+  display: flex;
+  justify-content: center;
+  color: #585858;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  
+  .LeaveReasonConatainer {
+  width: 88%;
+  display: flex;
+  justify-content: center;
+  padding-left: 35px;
+  gap: 20px;
+  }
+  
+  .logo {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .submitContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  }
+  
+  .submitBtn {
+  width: 50%;
+  border-style: none;
+  background-color: var(--themeColor);
+  color: white;
+  height: 40px;
+  width: 130px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 25px;
+  align-self: center;
+  }
+  
+  .demoText {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .title {
+  margin-top: 0;
+  }
+  
+  .btnLeave {
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-left: 10px;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  .btnContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  }
+  
+  .toolContainer {
+  display: flex;
+  height: 1px;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 20px;
+  }
+  
+  .assetItem {
+  display: flex;
+  margin-bottom: 20px;
+  }
+  
+  .scroll {
+  max-height: 400px;
+  overflow-y: auto;
+  }
+  
+  .divOne {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 3px;
+  }
+  
+  
+  
+  .outerOneDiv {
+  padding: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  }
+  
+  .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: auto;
+  }
+  
+  .redStar {
+  color: red;
+  }
+  
+  .label {
+  color: #808080;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 16px;
+  }
+  
+  .borderBox {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  height: 38px;
+  font-size: 19px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  }
+  
+  .borderBoxTwo {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  height: 34px;
+  font-size: 19px;
+  box-sizing: border-box;
+  border-style: solid
+  }
+  
+  
+  
+  
+  /* new  */
+  
+  .CertificateList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  }
+  
+  .CertificateItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  font-weight: 300;
+  }
+  
+  .CertificateItem img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  }
+  
+  
+  .credentialsBtn{
+  cursor: pointer;
+  background-color: white;
+  width: 150px;
+  height: 30px;
+  border-color: #808080;
+  border-radius:  1.6rem;
+  border: 0.5px solid #808080;
+  color: #808080;
+  font-weight: 600;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 3px; */
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 4px;
+  
+  }
+  
+  
+  .btnDiv{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+  
+  }
+  
+  
+  .divDocument{
+    display: flex;
+  }
+
+
+
+
+
+.educationDiv{
+  padding-left: 3px;
+}
+
+.eduInnerDiv{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dateEdu{
+  color: #00000099;
+  font-size: 15px;
+
+}

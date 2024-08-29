@@ -1,0 +1,27 @@
+
+
+.appointmentsAndDuties{
+
+width: 40%;
+min-width:300px;
+height: 50px;
+border-style: none;
+border-width:2px;
+border-radius:5px;
+margin-left: 50px;
+background-color:#ffd4d1;
+color:#ff5349;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.showButton{
+border-style: none;
+background-color:#ffd4d1;
+color: #ff5349;
+font-size: 20px;
+cursor: pointer;
+}

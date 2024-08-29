@@ -1,0 +1,161 @@
+
+
+
+.profileImageDiv{
+
+    /* position:relative; */
+    height:auto;
+    
+    
+    /* background-color:white; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-style: none;
+    border-radius: var(--cardBorderRadius);
+    /* margin-top: 240px; */
+    width:100%;
+    background-color: #f5f5f5;
+
+    }
+
+    .profileTitle{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: #808080;
+        font-size: 18px ;
+    }
+    
+    
+    
+    
+    .userImage{
+    position: relative;
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    align-self: center;
+    /* border-radius: var(--cardBorderRadius); */
+    border-radius: 50%;
+    margin-bottom: 20px;
+    }
+    
+    .changePicButton{
+    border-style: none;
+    height: 30px;
+    width: 100px;
+    /* background-color: #5b58b0; */
+    /* background-color: #0000ff; */
+    background-color: #808080;
+    color: white;
+    border-radius: 20px;
+    /* margin-left: 45px; */
+    margin-top: 7px;
+    margin-bottom: 10px;
+    }
+    
+    
+    .changePicButton:hover{
+    color: #808080;
+    /* background-color:var(--themeColor); */
+    background-color: #f5f5f5;
+    cursor: pointer;
+     
+    border: 0.5px solid #808080;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+   
+    justify-content: center;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .imageUpload{
+    
+    height: 14%;
+    width: 100%;
+    border-style: none;
+    cursor:pointer;
+    /* background-color: red; */
+    margin-top: 2px;
+    }
+    .image_field{
+    /* background-color: green; */
+    background-color: #808080;
+    /* background-color: #f0f0f0; */
+    width:73%;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 5px;
+     
+    }
+    
+    
+    .submit_button{
+    width: 150px;
+    align-self: center;
+    color: white;
+    background-color:var(--themeColor);
+    /* background-color: #7878E3; */
+    /* background-color: #808080; */
+    border-style: none;
+    margin-top:5px;
+    height:32px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+    }
+    
+    .submit_button:hover{
+    cursor: pointer;
+    
+    
+    }
+
+     
+    
+    .bottomDiv{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .afterSelect{
+         
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .selectedImageName{
+        color: #808080;
+    }
+ 
+    .imageUploadName{
+        background-color: white;
+        height: 20px;
+        width: 100%;
+        padding: 7px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        padding-right: 5px;
+
+    }
+
+    .crossIcon{
+        color: #808080;
+        cursor: pointer;
+        width: 17px;
+        height: 17px;
+    }

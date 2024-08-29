@@ -1,0 +1,11 @@
+{          
+ "course": "201",
+             "serialNo": "1",
+             "status": "scheduled",
+             "datetime": "2024-05-24T22:34:00Z",
+             "duration": "20",
+             "meetingLink": "https..",
+             "address": "dhd",
+             "topics": "[123,23]", 
+             "about": "hello"
+}

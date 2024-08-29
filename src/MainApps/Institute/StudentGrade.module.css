@@ -1,0 +1,50 @@
+.gradestablecontainer {
+    margin: 20px;
+    overflow-x: auto;
+  }
+  .gradestablecontainer {
+    margin: 20px;
+    overflow-x: auto;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  }
+  
+  .gradestablecontainer::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
+  
+  .gradesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .gradesTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .gradesTable th, .gradesTable td {
+    padding: 12px 15px;
+  }
+  
+  .gradesTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .gradesTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .gradesTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  .tbody{
+    height: auto;
+    overflow: hidden;
+  }

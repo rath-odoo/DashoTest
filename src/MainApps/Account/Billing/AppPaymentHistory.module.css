@@ -1,0 +1,133 @@
+.parentPaymentHistoryMain {
+}
+
+.parentPaymentHistoryMain:hover {
+  background-color: var(--cardBorderColorLight);
+}
+
+.parentPaymentHistory {
+  width: 100%;
+  height: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.srNo {
+  width: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.Date {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.Amount {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--greyTextColor);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Invoice {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--themeColor);
+  text-decoration: underline;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Invoice:hover {
+  cursor: pointer;
+}
+
+.PaymnetMethod {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.Credit {
+  font-size: 14px;
+
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Debit {
+  font-size: 14px;
+
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Status {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: green;
+}
+
+.horizontalLine {
+  width: 100%;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+}
+
+@media (max-width: 800px) {
+  .srNo {
+    font-size: 10px;
+  }
+  .Date {
+    font-size: 9px;
+  }
+  .Amount {
+    font-size: 10px;
+  }
+
+  .PaymnetMethod {
+    font-size: 10px;
+    text-wrap: nowrap;
+  }
+  .Credit {
+    font-size: 10px;
+  }
+
+  .Debit {
+    font-size: 10px;
+  }
+  .Status {
+    font-size: 10px;
+  }
+  .Invoice {
+    font-size: 10px;
+  }
+}

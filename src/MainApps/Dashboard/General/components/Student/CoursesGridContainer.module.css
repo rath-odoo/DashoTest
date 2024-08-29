@@ -1,0 +1,99 @@
+
+.coursesGridContainer{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax( calc( 9 * var(--headerHeight) ), 1fr) );
+grid-auto-rows: calc( 4 * var(--headerHeight) ) ;
+border-style: none;
+grid-column-gap: calc( 0.36 * var(--headerHeight) );
+grid-row-gap: calc( 0.36 * var(--headerHeight) );
+width: 90%;
+margin:auto;
+margin-top: calc( 0.5 * var(--headerHeight) );
+}
+
+
+
+
+.course{
+border-style: solid;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+}
+
+
+.course:hover{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.noCourseMessage{
+color: var(--darkThemeTextColor);
+width: 90%;
+height: 70%;
+margin: auto;
+font-size: calc( 0.35 * var(--headerHeight) );
+border-style: none;
+display: flex;
+border-color: var(--tintGreyColor3);
+border-width: 1px;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.noCourseMessage span{
+width: 50%;
+margin: auto;
+}
+
+.welcomeImg{
+width: calc( 3 * var(--headerHeight) );
+margin: auto;
+border-style: none;
+}
+
+
+
+
+.switchBar{
+height: calc( 0.7 * var(--headerHeight) );
+width:90%;
+margin: auto;
+margin-top: calc( 0.4 * var(--headerHeight) );
+border-color: lightgrey;
+border-style: none;
+
+}
+
+
+
+.createCourseButton{
+height: 100%;
+border-style: solid;;
+font-size: calc( 0.3 * var(--headerHeight) );
+cursor: pointer;
+border-width: calc( 0.04 * var(--headerHeight) );
+border-color: var(--cardBorderColor);
+background-color: white;
+color: var(--themeColor);
+font-family: Roboto;
+border-radius: 5px;
+padding-left: calc( 0.5 * var(--headerHeight) );
+padding-right: calc( 0.5 * var(--headerHeight) );
+border-width: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

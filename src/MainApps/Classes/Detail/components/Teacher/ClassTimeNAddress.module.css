@@ -1,0 +1,105 @@
+
+.instituteBar{
+width: 75%;
+min-height: calc( 0.7 * var(--headerHeight) );
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: white;
+padding: 20px;
+margin: auto;
+}
+
+.instituteBar i{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color: grey;
+}
+
+.timeAndAddressInfo{
+font-size:calc( 0.30 * var(--headerHeight) );
+border-style: none;
+background-color: white;
+color:var(--TextColorDarkBlue1);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.editButton{
+font-size:calc( 0.30 * var(--headerHeight) );
+border-style: none;
+background-color: white;
+cursor: pointer;
+color:var(--TextColorDarkBlue1);
+}
+
+
+
+
+
+.titleSpace{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.editIcon{
+color: grey;
+font-size: calc( 0.40 * var(--headerHeight) );
+}
+
+.goLiveButton{
+margin-top: 50px;
+height:50px;
+width: 200px;
+background-color: orange;
+color: white;
+border-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.goLiveButton:hover{
+cursor: pointer;
+}
+
+
+
+.copyMeetingLink{
+border-style: solid;
+color: white;
+border-width:1px;
+border-color:lightgrey;
+margin-left:10px;
+padding-left:5px;
+padding-right:5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:lightgrey;
+border-radius: 3px;
+
+}
+
+
+.copyMeetingLink:hover{
+cursor:pointer;
+background-color: grey;
+}
+
+
+
+.meetingLinki{
+display: flex;
+margin-top: 10px;
+}
+
+
+
+

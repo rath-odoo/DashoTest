@@ -1,0 +1,72 @@
+.addChapterButton{
+position: relative;
+border-style: none;
+float: right;
+background-color: lightgrey;
+border-radius: 3px;
+color: grey;
+padding: 2px;
+padding-left: 5px;
+padding-right: 5px;
+font-size: 15px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 30px;
+width: 200px;
+}
+
+.addChapterButton:hover{
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionEditButton{
+border-style: none;
+float: right;
+background-color: lightgrey;
+border-radius: 3px;
+color: grey;
+padding: 2px;
+padding-left: 5px;
+padding-right: 5px;
+font-size: 15px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.sectionEditButton:hover{
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

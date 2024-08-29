@@ -1,0 +1,36 @@
+.slotsContainer {
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: white;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.nextPreButtonsDiv{
+
+height: 50px;
+margin: auto;
+}
+
+
+.navButton{
+
+border-style:none;
+padding: 5px;
+color: var(--themeColor);
+background-color: var(--chatCommentBkgColor);
+width: 100px;
+cursor: pointer;
+border-radius: 5px;
+margin: auto;
+}
+.titleMessageBooking{
+margin: auto;
+height: 50px;
+
+}

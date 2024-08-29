@@ -1,0 +1,64 @@
+
+
+.noticeBoardToolBar{
+height: 40px;
+width:100%;
+border-style: solid;
+margin: auto;
+border-width: 1px;
+border-color: lightgrey;
+border-bottom-style: none;
+display: flex;
+
+
+}
+
+
+
+
+
+.noticeBoardButton{
+width: auto;
+height: calc( 0.6 * var(--headerHeight) );
+background-color: #ffd4d1;
+border-style: none;
+border-width: 1px;
+overflow: hidden;
+cursor: pointer;
+border-color: var(--themeColor);
+color: #ff5349;
+font-size: calc( 0.3 * var(--headerHeight) );
+display: flex;
+align-items: center;
+border-radius: 4px;
+}
+
+
+.noticeBoardButton:hover{
+
+text-decoration: underline;
+}
+
+
+
+
+.postNoticeIcon{
+color: #ff5349;
+font-size: calc( 0.5 * var(--headerHeight) );
+padding-left: 10px;
+}
+
+
+
+
+.backArrow{
+font-size: calc( 0.5 * var(--headerHeight) );
+
+}
+
+
+
+
+
+
+

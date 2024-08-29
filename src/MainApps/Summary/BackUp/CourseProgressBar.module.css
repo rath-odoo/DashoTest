@@ -1,0 +1,63 @@
+
+
+
+.infoUnitBar{
+min-height: calc( 0.7 * var(--headerHeight) );
+width: 75%;
+border-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.infoUnitBar i{
+font-style: normal;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: grey;
+display: flex;
+align-items: center;
+}
+
+
+
+.courseProgress{
+border-style: none;
+width: 100%;
+border-style: none;
+}
+
+
+
+.progressBar{
+width: 30%;
+height: 100%;
+background-color: #50C878;
+border-style: none;
+}
+
+
+
+
+
+
+
+.cproTitle{
+border-style:none;
+
+}
+
+.cproCont{
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+width: 50%;
+height: calc( 0.3 * var(--headerHeight) );
+}
+
+.progressBar{
+width: 30%;
+height: 100%;
+background-color: #50C878;
+border-style: none;
+}
+

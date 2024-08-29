@@ -1,0 +1,113 @@
+.app {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1200px; 
+    /* background-color: #fff; */
+  }
+  
+  .header {
+    border: 2px solid #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  .gobackBtn{
+
+    cursor: pointer;
+    /* background-color: grey; */
+    border-style: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    }
+    
+    .gobackBtn:hover{
+    background-color: #e8e8e8;
+    }
+  .backContainer{
+    display: flex;
+    margin-bottom: 20px;
+
+  }
+  .details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  
+  .message {
+    border: 2px solid #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactlist {
+    border: 2px solid #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactlistheader,
+  .contactitem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .contactlistheader {
+    font-weight: bold;
+    background-color: #f1f1f1;
+  }
+  
+  .contactitem:last-child {
+    border-bottom: none;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.delivered {
+    color: green;
+  }
+  
+  .status.failed {
+    color: red;
+  }
+  
+  .status.pending {
+    color: orange;
+  }
+  
+  .footer {
+    border: 2px solid #000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  

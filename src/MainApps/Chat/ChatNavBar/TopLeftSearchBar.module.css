@@ -1,0 +1,31 @@
+
+
+.topLeftSearchBar{
+
+width: 100%;
+height: calc( 0.8 * var(--headerHeight) );
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.innerRoundedBox{
+position:relative;
+height: calc( 0.6 * var(--headerHeight) );
+width: 90%;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+border-radius: 20px;
+display: flex;
+align-items: center;
+
+}
+
+.searchIcon{
+position: relative;
+left: calc( 0.25 * var(--headerHeight) );
+font-size: calc( 0.25 * var(--headerHeight) );
+color:grey;
+}

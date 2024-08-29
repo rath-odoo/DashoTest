@@ -1,0 +1,19 @@
+
+
+
+.mateIconBox{
+
+position: relative;
+height: 100%;
+left: calc( 0.2 * var(--headerHeight) );
+display: flex;
+align-items: center;
+color: grey;
+}
+
+
+
+.mateIconUserImage{
+font-size: 30px;
+color: var(--themeColor);
+}

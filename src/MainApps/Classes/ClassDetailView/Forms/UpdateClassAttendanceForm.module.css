@@ -1,0 +1,76 @@
+.mainContainer{
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    top: 200px;
+    left: 600px;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inTimeContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.statusContainer{
+    margin-top: 30px;
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.presentContainer , .absentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remarkContainer{
+    margin-top: 30px;
+    width: 85%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.remarkInput{
+    padding: 10px;
+}
+
+.updateButtonContainer{
+    margin-top: 30px;
+    width: 89%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.updateButton{
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    background-color: var(--themeColor);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.closeContainer{
+    position: relative;
+}
+
+.closeButtonIcon{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    font-size: 30px;
+}

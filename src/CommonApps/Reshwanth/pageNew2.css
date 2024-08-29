@@ -1,0 +1,257 @@
+.mainContainer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    overflow-y: hidden;
+}
+
+.holder {
+    max-width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 1;
+    
+}
+
+.holder:hover {
+    transform: scale(1.05);
+}
+.imageContainer{
+    width: 100%;
+}
+
+.imageContainer img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+}
+
+.titleContainer {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 0;
+    color: var(--themeColor);
+}
+
+.headingContainer {
+    color: #666;
+}
+
+@media (max-width:1300px) {
+    .bodyContainer{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+
+@media (max-width:600px){
+    .bodyContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:10px;
+        justify-items: center;
+        width: 90%;
+    }
+    .mainContainer{
+        padding: 0px;
+        width: 100%;
+    }
+    .imageContainer{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1300px) and (max-width:1900px) {
+    .bodyContainer {
+        width: 85%;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width:1300px) {
+    .bodyContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+    }
+    .holder:nth-child(odd) {
+        justify-self: start;
+    }
+
+    .holder:nth-child(even) {
+        justify-self: end;
+    }
+
+    .holder{
+        max-width: 600px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+/*
+----------------------------------------------------------------------------------------- 
+.mainContainer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 80%;
+}
+
+.holder {
+    max-width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.holder:hover {
+    transform: scale(1.05);
+}
+
+.imageContainer img {
+    width: 100%;
+    aspect-ratio: 1.85/1;
+    border-radius: 15px;
+}
+
+.titleContainer {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 0;
+}
+
+.headingContainer {
+    color: #666;
+}
+
+@media (max-width:1300px) {
+    .bodyContainer{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+
+@media (max-width:600px){
+    .bodyContainer{
+        width: 100%;
+    }
+    .mainContainer{
+        padding: 0px;
+        width: 100%;
+    }
+    .imageContainer{
+        width: 100%;
+    }
+    .holder {
+        width: 70%;
+        height: auto;
+    }
+    
+} */
+
+/* 
+
+
+
+
+
+-----------------------------------------------------------------------------
+.mainContainer{
+    background-color: #f4f4f4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .bodyContainer{
+    width: 1200px;
+}
+
+.mainContainer .bodyContainer .holder {
+    max-width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 1;
+    
+}
+
+.mainContainer .bodyContainer .holder .headingContainer {
+    color: #666;
+}
+
+
+@media screen and (max-width:1300px) {
+    .mainContainer .bodyContainer{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+*/

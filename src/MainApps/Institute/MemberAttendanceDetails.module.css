@@ -1,0 +1,347 @@
+
+
+.parentClass {
+    width: calc( 100%  );
+    height: 40px;
+    border-right: 1px solid var(--cardBorderColorLight);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid var(--cardBorderColor);
+  }
+  
+  .topNavigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+    background-color: var(--bodyBkgColor);
+  }
+  
+  .viewAttendanceButton{
+    cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: 0.6px solid #007bff;
+      border-radius: 5px;
+      padding: 7px;
+      height: 30px;
+      margin-left: 20px;
+  }
+  
+  .schedule {
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--themeColor);
+    color: var(--themeColor);
+    margin-left: 10px;
+    padding: 2px;
+    border-radius: 4px;
+  }
+  
+  .schedule:hover {
+    cursor: pointer;
+    background-color: var(--themeColor);
+    color: white;
+  }
+  
+  .showSummary {
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--themeColor);
+    color: var(--themeColor);
+    margin-right: 10px;
+    padding: 2px;
+    border-radius: 4px;
+  }
+  
+  .showSummary:hover {
+    cursor: pointer;
+    background-color: var(--themeColor);
+    color: white;
+  }
+  .backButton{
+position: absolute;
+top: 15%;
+left: 22%;
+cursor: pointer;
+    /* background-color: grey; */
+    border-style: none;
+    border-radius: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+  }
+.backButton:hover{
+    background-color: lightgray;
+}
+   
+.imgContainer{
+    height: 22px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .mainData{ 
+    display: flex;
+    width: 99%;
+    height: 40px;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid var(--cardBorderColorLight);
+  }
+  
+  .pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .pageInfo{
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+.container{
+    margin-top: 20px;
+}
+
+
+.userContainer {
+    width:43%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    border-style: none;
+    align-items: center; 
+    /* margin: auto;  */
+  }
+  
+  .namenimagediv{
+  display: flex;
+  justify-content: flex-start;
+  border-style: none;
+  align-items: center;
+  white-space: nowrap;
+  margin-left: 30%;
+  }
+  
+  .approvalLabel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    
+  }
+  
+  
+  .pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .nameContainer {
+    margin-left: 15px;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    padding-left: 40px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .nameContainer3{
+    margin-left: 15px;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    color: var(--deepDarkThemeTextColor);
+  }
+  
+  
+  .rolwContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  
+  .rolwContainer2 {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  
+  .dateContainer {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+  }
+
+  .dateContainer2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+    /* margin-left: 10px; */
+  }
+  
+  .statusContainer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+  }
+  
+  
+
+.nu {
+    width: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  
+  .date {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 10%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+  .c{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .name {
+    width: 18%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .inTime {
+    width: 12%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .outTime {
+    width: 12%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .approverStatusPending{
+  width: 16%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--redColor1)
+  }
+  
+  
+  
+  .approverStatusApproved{
+  width: 16%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--redColor1)
+  }
+  
+  
+  
+  
+  
+  .absent{
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .pstyle{
+  color: white;
+  background-color: #45966e;
+  padding: 5px;
+  width:15px;
+  display: flex; 
+  justify-content: center;
+  border-radius: 50%;
+  }
+  
+  .astyle{
+  color: white;
+  background-color: var(--redColor1);
+  padding: 5px;
+  width:15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  }
+  
+  .pending {
+    color: orange;
+  }
+  
+  .approved {
+    color: green;
+  }
+  
+  .rejected {
+    color: red;
+  }

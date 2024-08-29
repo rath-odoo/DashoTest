@@ -1,0 +1,43 @@
+
+
+
+
+.chatUserInfoTopBar{
+position: relative;
+width: 100%;
+height: calc( 0.80 * var(--headerHeight) );
+background-color: lightgrey;
+border-left:1px solid;
+border-color: #9c9c9c;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+
+.userNameImageDiv{
+
+position: relative;
+left: calc( 0.20 * var(--headerHeight) );
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.userName{
+
+font-size:calc( 0.25 * var(--headerHeight) );
+padding-left: calc( 0.20 * var(--headerHeight) );
+
+}
+
+
+.userImage{
+
+width: calc( 0.60 * var(--headerHeight) );
+height: calc( 0.60 * var(--headerHeight) );
+border-radius: 50%;
+
+
+}

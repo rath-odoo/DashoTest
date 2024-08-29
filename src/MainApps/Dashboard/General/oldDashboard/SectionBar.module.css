@@ -1,0 +1,70 @@
+.sectionBar{
+position: relative;
+width: 100%;
+height: calc( 0.5 * var(--headerHeight) );
+background: linear-gradient(to right, white, lightgrey);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-radius: 10px 0px 0px 0px;
+background: lightgrey;
+}
+
+
+.noticeBoardTitle{
+width: 33.5%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: var(--themeColor);
+}
+
+.classesAndCoursesTitle{
+width: 66.5%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: white;
+}
+
+.noticeBbutton{
+border-style: none;
+background: transparent;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: var(--themeColor);
+}
+
+
+.noticeBbutton:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
+
+
+.courseButton{
+border-style: none;
+background: transparent;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: white;
+
+}
+
+.courseButton:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

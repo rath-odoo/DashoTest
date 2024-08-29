@@ -1,0 +1,477 @@
+
+.txtDiv{
+  width: 96%;
+  padding-left: 3px;
+}
+
+
+
+.educationDiv{
+  padding-left: 3px;
+}
+
+.eduInnerDiv{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dateEdu{
+  color: #00000099;
+  font-size: 15px;
+
+}
+
+
+.deleteBtn{
+  background-color: #efefef;
+  cursor: pointer;
+  border-radius: 50%;
+  border-style: none;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  
+}
+
+.div{
+  display: flex;
+  align-items: end;
+  font-size: 18px;
+  width: 100%;
+}
+
+
+.editBtn{
+background-color: #efefef;
+cursor: pointer;
+border-radius: 50%;
+border-style: none;
+height: 26px;
+width: 26px;
+display: flex;
+
+align-items: center;
+ 
+/* margin-left: auto; */
+/* margin-right: 100px; */
+}
+.editContainer{
+  display: flex;
+  margin-left: auto;
+}
+
+.aboutUsContent{
+  display: flex;
+  width: 96%;
+  flex-direction: column;
+}
+
+.trashBtn{
+height: 13px;
+width: 13px;
+}
+
+
+
+
+.warningBlock{
+position: fixed;
+top: 45%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 80vw;
+height: 80vh;
+max-width: 800px;
+min-width: 370px;
+background-color: white;
+border-radius: 5px;
+border-style: none;
+border-color: grey;
+border-width: 2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+overflow-y: scroll;
+
+
+}
+
+.overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.3);
+z-index: 999;
+}
+
+.datesContainer{
+/* justify-content: ce; */
+display: flex;
+padding-left: 26px;
+flex-direction: column;
+
+width: 88%;
+/* gap: 53px; */
+/* margin: 10px; */
+}
+
+.dateStart {
+width: 100%;
+margin: 10px;
+}
+
+.dateEnd{
+  width: 50%;
+margin: 10px;
+margin-left: 2px;
+/* margin-left: auto; */
+/* margin-right: 66px; */
+}
+
+.closeBtn{
+margin-left: auto;
+display: flex;
+cursor: pointer;
+background-color: white;
+border-style: none;
+margin-top: 10px;
+margin-right: 5px;
+}
+
+.heading{
+display: flex;
+justify-content: center;
+color: #585858;
+font-size: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.LeaveReasonConatainer{
+width: 88%;
+display: flex;
+justify-content: center;
+padding-left: 35px;
+gap: 20px;
+}
+.logo{
+display: flex;
+justify-content: center;
+}
+
+.submitContainer{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+
+
+}
+
+.submitBtn{
+width: 50%;
+border-style: none;
+background-color: var(--themeColor);
+color: white;
+height: 40px;
+width: 130px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 18px;
+}
+
+.demoText {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  background-color: var(--bodyBkgColor);
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 50%;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.btnLeave{
+
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-left: 10px;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.btnContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.toolContainer{
+  display: flex;
+  height: 1px;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.assetItem{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.fieldContainer{
+  max-height: 500px; 
+  overflow-y: auto;
+  padding: 30px;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputFieldStart{
+  width: 45%;
+}
+
+.divDate{
+  width: 100%;
+
+   
+  height: 35px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.dateDiv{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.startDate ,.endDate{
+  width: 45%;
+}
+
+.divOne{
+  font-weight: 600;
+}
+.skillList{
+  display: flex;
+  padding-right: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillListTwo{
+  display: flex;
+  flex-direction: column;
+}
+
+.skillItem{
+  display: flex;
+}
+
+.skillListOuter{
+  display: flex;
+  margin-top: 5px;
+}
+
+.skillIcon{
+  margin-right: 3px;
+  margin-top: 1px;
+  width: 15px;
+  height: 15px;
+
+   
+}
+.assetNameInput{
+  /* position: relative; */
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+
+.redStar{
+  color: red;
+}
+.labelAsset{
+  font-size: 16px;
+  color: #808080;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  
+}
+
+.fieldAndGrade{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.inputFieldField ,.inputFieldGrade{ 
+  width: 45%;
+}
+
+
+.assetNameInputTextArea{
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+
+}
+
+.skillField{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.skillsContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.removeSkillBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addSkillBtn{
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  border-style: none;
+  height: 30px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .div{
+  position: relative;
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+} */
+
+
+.divInputTextArea{
+
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 16px;
+
+}
+
+.divInput{
+  position: relative;
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+
+}
+.redStar{
+  color: red;
+}
+
+.inputField{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.label{
+  color: #808080;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 30px;
+}
+.redStar{
+  color: red;
+}
+
+.aboutUsInnerDiv{
+  display: flex;
+  
+}
+
+.idClass{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-top: 10px;
+}

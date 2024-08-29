@@ -1,0 +1,42 @@
+.actButton {
+  height: 170px;
+  background-color: white;
+  border: 1px solid var(--cardBorderColorLight);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.actButton:hover {
+  border: 1px solid var(--themeColor);
+  background-color: var(--lightThemeColor1);
+  cursor: pointer;
+}
+
+.mainImg {
+  visibility: hidden;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.title {
+  margin: 10px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.des {
+  font-size: 14px;
+  margin: 10px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  text-align: center;
+  -webkit-box-orient: vertical;
+}

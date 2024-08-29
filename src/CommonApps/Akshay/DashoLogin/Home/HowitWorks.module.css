@@ -1,0 +1,37 @@
+.paarent {
+  width: 200px;
+
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagesExam {
+  width: 80px;
+  height: 80px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}

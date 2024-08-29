@@ -1,0 +1,222 @@
+.courseViewDashboard{
+border-style: solid;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+}
+
+
+.courseViewDashboard:hover{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.infoUnitBarParent{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:white;
+border-radius: 0px 0px 0px 0px;
+}
+
+
+
+
+
+.infoUnitBar{
+height: 40px;
+width: 96%;
+border-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: solid 1px lightgrey;
+
+}
+
+
+
+.subjectSection{
+max-width: 50%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+color: grey;
+}
+
+.signupIcon{
+color: green;
+}
+
+
+.subjectName{
+color: var(--themeColor);
+font-weight: bold;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.codeSection{
+margin-left: 50px;
+font-style: normal;
+color: grey;
+max-width: 50%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+
+
+
+.genInfoBar{
+width:90%;	
+background-color: white;
+height: 40px;
+color: grey;
+border-style: none;
+border-bottom: solid 1px lightgrey;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content:space-between;
+border-style: none;
+}
+
+
+.designedFor{
+background-color: white;
+width:100%;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: none;
+}
+
+.designedFor i{
+font-style: normal;
+border-style: solid;
+border-width:2px;
+border-color: lightblue;
+padding:3px;
+padding-left:15px;
+padding-right: 15px;
+border-radius:3px;
+}
+
+
+
+.toolIcons{
+width:30%;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+border-style: none;
+}
+
+.editButton{
+border-style: none;
+font-size: 25px;
+color: grey;
+cursor: pointer;
+border-radius: 3px;
+color: var(--themeColor);
+}
+
+.editButton:hover{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.instructor{
+background-color: white;
+width:100%;
+height: 100%;
+display: flex;
+align-items: center;
+
+}
+
+.instructor i{
+font-style: normal;
+margin-left: 10px;
+
+}
+
+
+
+.status{
+background-color: white;
+width:100%;
+height: 100%;
+display: flex;
+align-items: center;
+
+}
+
+.status i{
+font-style: normal;
+margin-left: 20px;
+background: #25D366;
+color: white;
+padding: 3px;
+border-radius: 3px;
+}
+
+
+.switchTo{
+background-color: var(--themeColor);
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: solid;
+color: white;
+font-weight: bold;
+border-radius: 4px;
+border-style: none;
+}
+
+
+.switchTo:hover{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.viewDetail{
+background-color: white;
+width:100%;
+height: 100%;
+display: flex;
+align-items: center;
+}
+
+.viewDetail i{
+margin: auto;
+font-style: normal;
+}
+
+
+
+
+
+
+
+.genInfoBarAddCourse{
+width:90%;
+background-color: white;
+height: 40px;
+color: grey;
+border-style: none;
+border-bottom: solid 1px lightgrey;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content:center;
+border-style: none;
+padding-bottom: 20px;
+}
+
+

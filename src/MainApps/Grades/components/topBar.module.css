@@ -1,0 +1,56 @@
+html {
+  --themeColor: #207ef5; /* #224C98;/*#263c63;/* #1b3d7a;#4285F4*/
+  --deepDarkThemeTextColor: #1b1e24; /*#29303d;/*#132545;/*#0e1c36;*/
+  --greyTextColor: #5e5d5d;
+  --cardBorderColor: #d3d3d3;
+  --cardBorderColorLight: #e8e8e8;
+  --greenColor1: #65c394;
+  --redColor1: #ff726f;
+  --chatCommentBkgColor: #e3effe;
+}
+
+.parentTopBar {
+  width: 98%;
+  height: auto;
+  margin: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftBox {
+  margin: 10px;
+}
+
+.GradesTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.addGrade {
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.rightBox {
+}
+
+.viewGradesbtton {
+}
+
+.viewgradesBtn {
+  margin-right: 20px;
+  color: white;
+  background-color: var(--themeColor);
+  border-radius: 8px;
+  border: 1px solid var(--themeColor);
+  padding: 6px;
+}

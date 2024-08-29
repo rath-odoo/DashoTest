@@ -1,0 +1,41 @@
+.parent {
+  background-color: var(--bodyBkgColor);
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSideBlock {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .parent {
+    padding-top: 10px;
+  }
+
+  .mainContainer {
+    width: 85%;
+  }
+  .lastContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftsideBlock {
+    width: 100%;
+  }
+
+  .rightSideBlock {
+    width: 100%;
+  }
+}

@@ -1,0 +1,104 @@
+
+.topToolBar{
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
+grid-template-rows: 1fr ;
+grid-column-gap: 50px;
+grid-row-gap: 50px;
+border-style: none;
+margin: 50px;
+margin-bottom: 100px;
+}
+
+
+.tool{
+height: 120px;	
+border-style: none;
+border-width: 1px;
+border-color:#ffd4d1;
+border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+background-color: #ffd4d1;
+border-style:solid;
+border-color: lightgrey;
+}
+
+.upperHalf{
+height: 50%;
+border-style: none;
+border-width: 1px;
+}
+.lowerHalf{
+height: 50%;
+width: 100%;
+border-style: none;
+border-width: 1px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.lowerHalf i{
+font-style: normal;
+color: #ff5349;
+font-weight: bold;
+}
+
+.numCourses{
+font-size: 20px;
+
+}
+
+
+
+
+
+
+.actionButton{
+position: relative;	
+width: 100px;
+height:80px;
+background-color: #ff5349;
+top: -20px;
+left: 20px;
+border-radius: 5px;
+font-weight: bold;
+border-style: none;
+cursor: pointer;
+color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.numOngoing{
+float: right;
+border-style: solid;
+height: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: grey;
+padding-right: 10px;
+padding-top: 10px;
+padding-left: 10px;
+background-color: white;
+border-style: solid;
+border-color: #ffd4d1;
+border-radius: 5px;
+}
+
+
+.numOngoing_text{
+color: green; 
+}
+
+.numOngoing_number{
+color: #ff5349;
+font-size: 20px;
+font-weight: bold;
+}
+
+
+
+

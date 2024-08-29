@@ -1,0 +1,50 @@
+
+
+.headerMiddle{
+border-style: none;
+height: 100%;
+display: flex;
+width: 50%;
+max-width: 500px;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.middleHeaderButton{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 70px;
+background-color: white;
+cursor: pointer;
+height: 100%;
+justify-content: flex-end;
+}
+
+
+.middleHeaderButton:hover{
+color: var(--themeColor);
+}
+
+.buttonIconDiv{
+border-style: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 5px;
+}
+
+
+.buttonStyleDiv{
+height:0px;
+background-color: var(--themeColor);
+border-style: solid;
+width: 120%;
+border-radius: 2px;
+border-width: 2px;
+}
+
+

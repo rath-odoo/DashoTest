@@ -1,0 +1,244 @@
+.instituteBar {
+
+    border-radius: 10px;
+    border: 1px none;
+    border-color: #e8e8e8;
+    border-color: #d3d3d3;
+    padding: 16px;
+    background-color: white;
+}
+
+.instituteBar i {
+    font-style: normal;
+    font-size: calc(0.3 * var(--headerHeight));
+    color: grey;
+}
+
+.timeAndAddressInfo {
+    font-size: calc(0.3 * var(--headerHeight));
+    border-style: none;
+    background-color: white;
+    color: var(--TextColorDarkBlue1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSideContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studyIcon {
+    color: var(--greyTextColor);
+
+    background-color: var(--bodyBkgColor);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitle {
+    margin-left: 8px;
+    color: var(--greyTextColor);
+    text-transform: uppercase;
+}
+
+.editBtnContainer {
+    border: 1px solid;
+    border-color: #e8e8e8;
+    border-color: #d3d3d3;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bodyBkgColor);
+}
+
+.editBtnContainer:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--themeColor);
+    font-weight: 700;
+}
+
+.editBtnContainer:hover .editbutton {
+    color: white;
+}
+
+.editbutton {
+    padding-right: 6px;
+    color: var(--tintGreyColor1);
+}
+
+.titleSpace {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editIcon {
+    color: grey;
+    font-size: calc(0.4 * var(--headerHeight));
+}
+
+.videoMicroContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    border-style: none;
+    margin-top: 20px;
+    border-style: none;
+}
+
+.uploadButton {
+    border-style: none;
+    background-color: #207ef5;
+    margin-left: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.uploadButton:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--themeColor);
+    border: 1px solid var(--themeColor);
+}
+
+.attendanceContainer {
+    margin-top: 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.parentClassmain {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.textInfo {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.pdfFileIcon {
+    width: 100px;
+    height: 150px;
+}
+
+.pdfFileIcon:hover {
+    cursor: pointer;
+}
+
+
+.linksContainer {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.oneLink {
+
+    border-style: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+    cursor: pointer;
+    display: flex;
+    padding: 10px;
+}
+
+.fileDiv {
+
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.parentClass {
+    width: calc(100% - 50px);
+    height: 40px;
+    border-right: 1px solid var(--cardBorderColorLight);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid var(--cardBorderColor);
+    margin-top: 2%;
+}
+
+.nameContainer {
+    width: 40%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-weight: bold;
+}
+
+.rolwContainer {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-weight: bold;
+}
+
+.statusContainer {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-weight: bold;
+}
+
+pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: var(--themeColor);
+}
+
+.pageButton {
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: var(--themeColor);
+}
+
+.pageButtonDisabled {
+    padding: 10px;
+    margin: 0 5px;
+    cursor: not-allowed;
+    color: #ccc;
+}
+
+.pageInfo {
+    margin: 0 10px;
+    color: var(--themeColor);
+}

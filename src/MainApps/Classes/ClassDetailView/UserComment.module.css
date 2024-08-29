@@ -1,0 +1,60 @@
+
+
+
+.parentContainer{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    background-color: white;
+
+}
+
+
+
+.pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.rightContainer{
+    margin-left: 10px;
+    /* border-bottom: 1px solid var(--cardBorderColor); */
+}
+
+.topContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.userName{
+    font-weight: 500;
+    color: var(--deepDarkThemeTextColor);
+}
+
+.timepost{
+    margin-left: 10px;
+    color: var(--greyTextColor);
+    font-size: 14px;
+}
+
+.comment{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--deepDarkThemeTextColor);
+
+    
+    
+}
+
+@media (max-width: 1300px) {
+    .parentContainer{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        background-color: white;
+    
+    }
+  
+  }

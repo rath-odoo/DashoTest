@@ -1,0 +1,229 @@
+
+.warningBlock{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+    border-radius: 5px;
+    z-index: 9999;
+    max-width: 500px;
+    height: 55vh;
+    min-width: 40%;
+    background-color: white;
+    border-radius: calc(0.2* 3.0rem);
+    border-style: none;
+    border-color: grey;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+   
+  
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+  }
+  
+  .datesContainer{
+    /* justify-content: ce; */
+    display: flex;
+    padding-left: 26px;
+    flex-direction: column;
+  
+    width: 88%;
+    /* gap: 53px; */
+    /* margin: 10px; */
+  }
+  
+  .dateStart {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .dateEnd{
+      width: 50%;
+    margin: 10px;
+    margin-left: 2px;
+    /* margin-left: auto; */
+    /* margin-right: 66px; */
+  }
+  
+  .closeBtn{
+    margin-left: auto;
+    display: flex;
+    cursor: pointer;
+    background-color: white;
+    border-style: none;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  
+  .heading{
+    display: flex;
+    justify-content: center;
+    color: #585858;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .LeaveReasonConatainer{
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    padding-left: 35px;
+    gap: 20px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submitContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  
+  }
+  
+  .submitBtn{
+    width: 50%;
+    border-style: none;
+    background-color: var(--themeColor);
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .demoText {
+      height: 10%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .icon {
+      height: 80px;
+      width: 80px;
+      background-color: var(--bodyBkgColor);
+      border: 1px solid var(--cardBorderColor);
+      border-radius: 50%;
+    }
+    
+    .title {
+      margin-top: 20px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  
+    .btnLeave{
+      /* align-self: flex-start; */
+      /* height: 35px; */
+  
+      background-color: transparent;
+      border: 1px solid var(--themeColor);
+      color: var(--themeColor);
+      margin-left: 10px;
+      padding: 4px;
+      border-radius: 4px;
+      cursor: pointer;
+      
+     
+  
+    /* height: 35px;
+      border-style: solid;
+      font-size: calc( 0.3 * var(--headerHeight) );
+      cursor: pointer;
+      border-width: calc(0.04* var(--headerHeight));
+      border-color: var(--cardBorderColor);
+      background-color: #f2f2f2;
+      
+      font-family: Roboto;
+      border-radius: calc(0.6* var(--cardBorderRadius));
+      padding-left: calc(0.5* var(--headerHeight));
+      padding-right: calc(0.5* var(--headerHeight));
+      border-width: 1px;
+       
+      border-color: var(--themeColor);
+      font-weight: bold;
+    */
+    }
+  
+  
+    .btnContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      height: 40px;
+      /* background-color: #fff; */
+    }
+  
+    .toolContainer{
+      display: flex;
+      height: 1px;
+      margin-left: auto;
+      margin-right: 100px;
+      margin-top: 20px;
+    }
+  
+  
+    .assetItem{
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .fieldContainer{
+      display: flex;
+      margin: 25px;
+      width: 100%;
+    }
+
+    .descriptionDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        width: 100%;
+    }
+
+    .redStar{
+        color: red;
+    }
+
+    .spanAndText{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        color: #808080;
+        width: 100%;
+
+    }
+
+    .borderBox{
+ 
+    width: 90% ;
+    height: 150px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Roboto;
+
+    
+
+    }

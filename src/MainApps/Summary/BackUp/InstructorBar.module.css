@@ -1,0 +1,92 @@
+
+.instructorBar{
+
+width: 75%;
+min-height: calc( 0.7 * var(--headerHeight) );
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding: 20px;
+margin: auto;
+}
+
+
+.instructorBar span{
+display: flex;
+align-items: center;
+
+
+}
+
+.participantIcon{
+padding-right: 0px;
+}
+
+
+.numParticipant{
+min-width:12px;	
+position: relative;	
+top: calc( -1 * 0.20 * var(--headerHeight) );
+font-size: calc( 0.20 * var(--headerHeight) );
+background-color: grey;
+color: white;
+border-radius: 50%;
+padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+.statusSpan{
+padding-left: 20px;
+}
+
+
+
+.instructorBar i{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color: grey;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.instructorBar button{
+font-size:calc( 0.30 * var(--headerHeight) );
+background-color: white;
+cursor: pointer;
+color:var(--themeColor);
+text-decoration: underline;
+display: flex;
+align-items: center;
+border-style: none;
+}
+
+.instructorBar button:hover{
+text-decoration: underline;
+
+}
+
+
+.instructorImage{
+width:calc( 0.40 * var(--headerHeight) );
+height: calc( 0.40 * var(--headerHeight) );
+border-radius: 50%;
+margin-left: 10px;
+}
+
+
+.cStatus{
+color: white;
+background-color: #25D366;
+border-radius: 3px;
+padding: 3px;
+}
+

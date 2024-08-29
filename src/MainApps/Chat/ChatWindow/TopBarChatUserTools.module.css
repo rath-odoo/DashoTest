@@ -1,0 +1,78 @@
+
+
+.topBarChatUserTools{
+position: relative;
+display: flex;
+
+}
+
+
+.toolButtons1{
+
+height: calc( 0.7 * var(--headerHeight) );
+width: calc( 0.7 * var(--headerHeight) );
+font-size: calc( 0.4 * var(--headerHeight) );
+padding: 5px;
+cursor: pointer;
+margin-right: 20px;
+border-color: green;
+border-style: solid;
+border-width: 2px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 50%;
+}
+
+.toolButtons2{
+height: calc( 0.7 * var(--headerHeight) );
+width: calc( 0.7 * var(--headerHeight) );
+font-size: calc( 0.4 * var(--headerHeight) );
+padding: 5px;
+cursor: pointer;
+margin-right: calc( 0.5 * var(--headerHeight) );
+border-color: green;
+border-style: solid;
+border-width: 2px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.toolButtons3{
+
+font-size: calc( 0.3 * var(--headerHeight) );
+padding: 10px;
+cursor: pointer;
+border-style: none;
+background-color: lightgrey;
+}
+
+.toolButtons4{
+
+font-size: calc( 0.3 * var(--headerHeight) );
+padding: 10px;
+cursor: pointer;
+border-style: none;
+background-color: lightgrey;
+}
+
+.audioCallIcon{
+color: green;
+
+}
+
+.videoCallIcon{
+
+color: green;
+}
+
+
+
+
+
+
+

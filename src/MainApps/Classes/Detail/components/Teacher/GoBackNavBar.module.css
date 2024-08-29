@@ -1,0 +1,43 @@
+.goBackNavBar{
+display: flex;
+align-items: center;
+margin-top: 15px;
+margin-left: 10px;
+}
+
+
+.backButton{
+display: flex;
+align-items: center;
+border-style: none;
+background: white;
+color: grey;
+}
+
+.backButton:hover{
+color: var(--themeColor);
+text-decoration: underline;
+cursor: pointer;
+}
+
+
+.currentWindowButton{
+display: flex;
+align-items: center;
+border-style: none;
+background: white;
+color: grey;
+}
+
+
+.currentWindowButton:hover{
+text-decoration: underline;
+color: var(--themeColor);
+cursor: pointer;
+}
+
+
+.backIcon{
+padding-right: 10px;
+
+}

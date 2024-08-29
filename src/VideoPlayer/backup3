@@ -1,0 +1,29 @@
+   <div className={classes.agoraVideo}>
+
+        <div className={classes.joinWrapper}>
+
+          <form className={classes.createTicketForm} onSubmit={handleSubmit}>
+         
+            <input
+              type="text"
+              onChange={handleChange}
+              name="username"
+              placeholder="Enter your name"
+              defaultValue=""
+            />
+
+
+
+
+
+
+            <button  type="submit" className={classes.joinStream}>Join Stream</button>
+
+         </form>
+
+
+        </div>
+
+
+
+   </div> 

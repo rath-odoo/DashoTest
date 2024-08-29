@@ -1,0 +1,31 @@
+
+.contentDiv{
+position: relative;
+background-color: var(--mainAppContainerBkgColor);
+border-style:none;
+border-width: 1px;
+border-color: lightgrey;
+width: 100% ;
+height: calc( 100vh - calc( 1.4  * var(--headerHeight) ) );
+display: flex;
+flex-direction:row;
+border-style: none;
+border-top: 1px solid lightgrey;
+}
+
+
+.noDiscussionSelected{
+height: 100%;
+background-color: white;
+border-left: 1px solid;
+border-color:lightgrey;
+width: 80%;
+display: flex;
+background-color:white;
+align-items: center;
+justify-content: center;
+color: grey;
+
+
+}
+

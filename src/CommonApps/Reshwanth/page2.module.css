@@ -1,0 +1,118 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+
+}
+
+.bodyContainer {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+    padding: 10px;
+}
+
+.bodyContainer .holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color:#ffffff;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    width: 260px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.holder:hover {
+    transform: scale(1.05);
+}
+.bodyContainer .holder .imageContainer img {
+    width: 150px;
+    aspect-ratio: 1/1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.bodyContainer .holder .titleContainer {
+    font-size: 35px;
+    color: #004aad;
+    font-weight: bold;
+    font-family: Roboto;
+    margin: 15px 0;
+
+}
+
+.headingContainer {
+    /* font-size: 23px;
+    font-weight: lighter;
+    font-family: Roboto;
+    margin-top: 5px;
+    margin-bottom: 30px; */
+    color: #666;
+    
+}
+
+
+
+@media (min-width:1300px) {
+    .bodyContainer {
+        width: 1200px;
+    }
+}
+
+@media (800px < width < 1000px) {
+    .bodyContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 400px);
+        grid-column-gap: 20px;
+        overflow-y: hidden;
+        height: 500px;
+    }
+    .holder{
+        height: 314px;
+    }
+
+}
+
+
+@media (500px < width < 800px) {
+    .bodyContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .holder:nth-child(odd) {
+        justify-self: end;
+        
+    }
+
+    .holder:nth-child(even) {
+        justify-self: start;
+    }
+
+}
+
+
+
+@media (0px < width < 600px) {
+    .bodyContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: black;
+    }
+
+}

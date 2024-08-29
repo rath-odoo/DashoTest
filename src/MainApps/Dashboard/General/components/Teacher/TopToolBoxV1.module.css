@@ -1,0 +1,135 @@
+.parentDivBtn{
+border-style: none;
+position: relative;
+border-color: lightgrey;
+/*box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;*/
+width: 25%;
+}
+
+
+
+
+
+
+
+.topToolBoxV1{
+cursor: pointer;
+border-style: solid;
+border-radius: var(--cardBorderRadius);
+border-color: var(--lightThemeColor3);
+width:var(--topRightButtonWidth_home);
+width:90%;
+margin-left: 10%;
+font-family: Roboto;
+background-color: var(--toolButtonDashBkgColor);
+/*box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;*/
+display: flex;
+justify-content: center;
+align-items: center;
+padding: calc( 0.35 * var(--headerHeight) );
+border-width: 1px;
+}
+
+.highLightDiv{
+height:3px;
+background-color: var(--themeColor);
+margin-top: calc( 0.18 * var(--headerHeight) );
+width: 80%;
+border-radius: 3px;
+margin-left: 16%;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+.topToolBoxV1{	
+margin-left: 0%;
+margin-right: 10%;
+}
+.highLightDiv{
+margin-left: 0%;
+
+}
+
+
+}
+
+
+
+
+
+
+.topToolBoxV1:hover{
+color: var(--themeColor);
+background-color: white;
+}
+
+
+
+.topToolBoxV1:hover .toolBoxIcon{
+color: var(--themeColor);
+}
+
+
+
+
+.toolBoxIcon{
+
+font-size: var(--topRightButtonIconFontSize_home);
+flex-shrink: 0;
+}
+
+.toolBoxIcon:hover{
+color: var(--themeColor);
+
+}
+
+
+.titleDiv{
+color: black;
+}
+
+
+.notificationBox{
+position: absolute;
+background-color: red;
+min-width: calc( 0.7 * var(--headerTopMargin) ) ;
+height: calc( 0.7 * var(--headerTopMargin) );
+padding: calc( 0.6 * var(--headerTopMargin) );
+border-radius: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+right: calc( 0.02 * var(--headerHeight) );
+top: -calc( 0.2 * var(--headerHeight) );
+border-style: solid;
+border-color: white;
+}
+
+
+.notificationBox i{
+font-style: normal;
+color: white;
+font-weight: bold;
+font-size: calc( 0.22 * var(--headerHeight) );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

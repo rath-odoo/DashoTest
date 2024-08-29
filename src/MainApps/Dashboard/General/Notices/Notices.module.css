@@ -1,0 +1,41 @@
+.switchBar {
+  height: calc(0.7 * var(--headerHeight));
+  width: 90%;
+  margin: auto;
+  margin-top: calc(0.4 * var(--headerHeight));
+  border-color: lightgrey;
+  border-style: none;
+}
+
+.createNoticeButton {
+  height: 100%;
+  border-style: solid;
+  font-size: calc(0.3 * var(--headerHeight));
+  cursor: pointer;
+  border-width: calc(0.04 * var(--headerHeight));
+  border-color: var(--cardBorderColor);
+  background-color: white;
+  color: var(--themeColor);
+  font-family: Roboto;
+  padding-left: calc(0.5 * var(--headerHeight));
+  padding-right: calc(0.5 * var(--headerHeight));
+  border-radius: calc(0.6 * var(--cardBorderRadius));
+  border-width: 1px;
+  border-style: none;
+  background-color: var(--themeColor);
+  color: white;
+
+}
+.createNoticeTitle {
+  font-weight: 500;
+}
+
+.notices {
+  width: 100%;
+  margin: auto;
+}
+
+.noticeBoardMessage {
+  color: var(--deepDarkThemeTextColor);
+  margin-left: calc(0.2 * var(--headerHeight));
+}

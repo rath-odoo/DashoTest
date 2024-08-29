@@ -1,0 +1,25 @@
+.otpUnit{
+
+height: 40px;
+width: 30px;
+font-size: 20px;
+border-style: solid;
+border-width: 1px;
+border-radius: 5px ;
+border-color: var(--cardBorderColor);
+display: flex;
+justify-content: center;
+padding:5px;
+overflow: hidden;
+}
+
+.otpUnit:focus{
+border-style: solid;
+border-width: 1px;
+outline: none !important;
+border-color: var(--themeColor);
+border-radius:5px;
+align-items: center;
+padding:5px;
+}
+

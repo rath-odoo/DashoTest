@@ -1,0 +1,103 @@
+
+.ticketViewWindow{
+height: 100%;
+background-color: white;
+border-left: 1px solid;
+border-color:lightgrey;
+width: 80%;
+display: flex;
+background-color:white;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.ticketViewWindowContainer{
+height: 100%;
+background-color: white;
+width: 95%;
+display: flex;
+flex-direction: column;
+background-color:white;
+overflow-y: scroll;
+overflow-x: hidden;
+
+}
+
+.ticketNotSelectedPage{
+color: grey;
+
+}
+
+.ticketEditButton{
+width: 100px;
+border-style: none;
+margin-bottom: 10px;
+padding: 5px;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+
+color: var(--themeColor);
+background-color: white;
+border-color: var(--themeColor);
+border-style: solid;
+border-width: 1px;
+}
+
+
+.noEditRights{
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.noEditRights_inner{
+position: relative;
+width: 200px;
+height:200px;
+max-width:800px;
+min-width:370px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+color: grey;
+
+}
+
+
+.noEditButton{
+border-style: none;
+background-color:#00aff0; 
+color: white;
+font-weight: bold;
+padding: 10px;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,604 @@
+
+  
+  .parentSetting {
+    background-color: var(--bodyBkgColor);
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding-left: 30%; */
+  
+    padding: 20px;
+  }
+  
+  .accountTitle {
+    margin-left: 20px;
+  }
+  
+  .accountContainer {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    border: 1px solid var(--cardBorderColorLight);
+  }
+  
+  .subcontainer {
+    margin: 20px;
+  }
+  
+  .passwordContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .usernameContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .emailContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .phoneNumberContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .mainContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .icondiv {
+    height: 20px;
+    width: 20px;
+    color: var(--greyTextColor);
+  }
+  
+  .title1 {
+    margin-left: 10px;
+    font-size: 16px;
+    color: var(--greyTextColor);
+  }
+  
+  .arrowiconContainer {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px solid var(--cardBorderColorLight);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--greyTextColor);
+  }
+  
+  .arrowIcon {
+    color: var(--greyTextColor);
+  }
+  
+  .horiLine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+  }
+  
+  .notificationTitle {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .norificationContainer {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    border: 1px solid var(--cardBorderColorLight);
+  }
+  
+  /* formDesign Change Passowrd */
+  
+  .changePasswordform {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .oldPasswordContainer {
+    margin-top: 10px;
+  }
+  
+  .oldTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .oldPasswordEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .oldPasswordEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .newPasswordContainer {
+    margin-top: 10px;
+  }
+  
+  .newTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .newPasswordEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .newPasswordEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .confPasswordContainer {
+    margin-top: 10px;
+  }
+  
+  .confTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .confPasswordEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .confPasswordEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .buttonContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cancelBtn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--themeColor);
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--themeColor);
+    cursor: pointer;
+  }
+  
+  .submitBtn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--themeColor);
+    background-color: var(--themeColor);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* email form Design */
+  
+  
+  
+  .changePasswordform {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .oldEmailContainer {
+    margin-top: 10px;
+  }
+  
+  .oldTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .oldEmailEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .oldEmailEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .newEmailContainer {
+    margin-top: 10px;
+  }
+  
+  .newTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .newEmailEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .newEmailEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .confEmailContainer {
+    margin-top: 10px;
+  }
+  
+  .confTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .confEmailEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .confEmailEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .buttonContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .emailcancelBtn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--themeColor);
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--themeColor);
+    cursor: pointer;
+  }
+  
+  .emailsubmitBtn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--themeColor);
+    background-color: var(--themeColor);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* phone form design */
+  
+  .changePhoneform {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .oldPhoneContainer {
+    margin-top: 10px;
+  }
+  
+  .oldTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .oldPhoneEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .oldPhoneEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .newPhoneContainer {
+    margin-top: 10px;
+  }
+  
+  .newTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .newPhoneEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .newPhoneEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .confPhoneContainer {
+    margin-top: 10px;
+  }
+  
+  .confTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .confPhoneEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .confPhoneEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .buttonContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .phonecancelBtn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--themeColor);
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--themeColor);
+    cursor: pointer;
+  }
+  
+  .phonesubmitBtn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--themeColor);
+    background-color: var(--themeColor);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* User form design */
+  
+  .changeUsernameform {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .oldUsernameContainer {
+    margin-top: 10px;
+  }
+  
+  .oldTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .oldUsernameEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .oldUsernameEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .newUsernameContainer {
+    margin-top: 10px;
+  }
+  
+  .newTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .newUsernameEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .newUsernameEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .confUsernameContainer {
+    margin-top: 10px;
+  }
+  
+  .confTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  .confUserEditBox {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--cardBorderColor);
+    padding-left: 10px;
+  }
+  .confUserEditBox:focus {
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--themeColor);
+  }
+  
+  .buttonContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .usercancelBtn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--themeColor);
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--themeColor);
+    cursor: pointer;
+  }
+  
+  .usersubmitBtn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid var(--themeColor);
+    background-color: var(--themeColor);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

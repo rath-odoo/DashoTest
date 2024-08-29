@@ -1,0 +1,74 @@
+.ticketProp{
+
+width: 100%;
+display: flex;
+background-color: white;
+padding-bottom: 50px;
+}
+
+.params{
+color: grey;
+}
+
+.params span{
+color: black;
+}
+
+
+.info{
+height:100%;
+width:33%;
+display: flex;
+flex-direction: column;
+}
+
+.statusholder{
+background-color: #25D366;
+border-radius: 3px;
+color: white;
+padding: 4px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 20px;
+
+}
+
+
+.people{
+height:100%;
+width:33%;
+display: flex;
+flex-direction: column;
+}
+
+.dates{
+height:100%;
+width:33%;
+display: flex;
+flex-direction: column;
+}
+
+.proptitlebtn{
+width:70px;
+border-style: none;
+background-color: white;
+color: grey;
+}
+
+
+.oneInfoDiv{
+
+margin: 10px;
+}
+
+
+.bulletIcon{
+margin-right: 10px;
+color: black;
+}
+
+
+
+
+
+

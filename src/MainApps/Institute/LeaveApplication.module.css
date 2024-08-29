@@ -1,0 +1,205 @@
+.demoText,
+.mainContainer {
+  width: 100%;
+  height: calc(100vh - 115px);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.icon {
+  height: 80px;
+  width: 80px;
+  background-color: var(--bodyBkgColor);
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 50%;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.titleText {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+/* .addButton {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--themeColor);
+  border: none;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+
+} */
+
+.horizontal {
+  border-right: 6px solid white;
+  height: 60%;
+  position: absolute;
+  bottom: 10px;
+  right: 22px;
+}
+
+.virtical {
+  border-bottom: 6px solid white;
+  width: 60%;
+  position: absolute;
+  bottom: 22px;
+  right: 10px;
+}
+
+.addButton.rotated {
+  transform: rotate(45deg);
+}
+
+.optionsDiv {
+  position: absolute;
+  height: 0px;
+  display: flex;
+  gap: 10px;
+  top: 10px;
+  left: 50px;
+}
+
+/* .optionsDiv.rotated {
+  height: 85px;
+  border: 1px solid var(--cardBorderColor);
+} */
+
+.optionsDiv.noRotated {
+  height: 45px;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.manageDiv,
+.createDiv,
+.policyDiv {
+  margin: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  height: 20px;
+  background-color: transparent;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+
+}
+
+.manageDiv:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.policyDiv:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.leaveListContainer {
+  width: calc(100% - 4rem);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 0 2rem;
+  overflow: scroll;
+  height: fit-content;
+  align-items: start;
+  max-height: 660px;
+}
+
+.oneLeaveContainer {
+
+  width: 100%;
+  overflow: scroll;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonDiv {
+  position: absolute;
+  background-color: white;
+  top: 10px;
+  right: 50px;
+  border: 1px solid var(--cardBorderColor);
+  width: 140px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonDiv:hover {
+  background-color: var(--cardBorderColor);
+}
+
+.pageDropDown {
+  position: absolute;
+  right: 50px;
+  top: 40px;
+  width: 140px;
+  display: flex;
+  height: 0px;
+  flex-direction: column;
+  transition: 0.3s ease all;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  align-items: start;
+
+}
+
+.pageDropDown>div {
+  padding: 2px 5px;
+
+  cursor: pointer;
+}
+
+.pageDropDown>div:hover {
+  background-color: var(--cardBorderColor);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.pageDropDown.rotated {
+  height: 77px;
+  gap: 7px;
+  padding: 10px;
+  border: 1px solid var(--cardBorderColor);
+  cursor: pointer;
+
+}
+
+.animeDown {
+  position: absolute;
+  left: 135px;
+  top: 7px;
+  transition: 0.3s ease all;
+
+}
+
+.animeDown.spin {
+  transform: rotate(180deg);
+}

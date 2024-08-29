@@ -1,0 +1,55 @@
+.parentSingleCertificate {
+  margin: 10px;
+  width: 100%;
+}
+
+.certificateContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-left: 1px;
+  padding-right: 20px;
+}
+
+.firstContainer {
+  height: auto;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.docTitleContainer {
+  width: 100%;
+  height: 40px;
+  background-color: var(--cardBorderColorLight);
+  border: 1px solid var(--cardBorderColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.docTitle {
+  padding-left: 10px;
+  color: #1b1e24;
+  font-size: 16px;
+}
+
+.deleteIcon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5e5d5d;
+  margin-right: 10px;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.pic {
+  height: auto;
+  width: 100%;
+}

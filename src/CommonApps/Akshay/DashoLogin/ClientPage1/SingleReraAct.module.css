@@ -1,0 +1,66 @@
+.parent {
+  align-items: center;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+.parent:hover{
+  background-color: var(--cardBorderColorLight);
+}
+.parent:hover .downloadBtnContainer{
+  background-color: white;
+}
+
+.detailsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.rightSide {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.nu {
+  width: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.title {
+  margin-left: 20px;
+  width: 80%;
+  color: var(--darkText);
+  font-weight: bold;
+}
+.details {
+  width: 50%;
+  color: var(--lightText);
+  line-height: 28px;
+}
+
+.downloadBtnContainer {
+  border: 1px solid var(--cardBorderColor);
+  background-color: var(--cardBorderColorLight);
+  width: 30px;
+  height: 30px;
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downloadBtnContainer :hover{
+ cursor: pointer;
+}
+
+.downloadIcon {
+  height: 20px;
+  width: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

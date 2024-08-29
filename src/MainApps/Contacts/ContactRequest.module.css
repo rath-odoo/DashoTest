@@ -1,0 +1,302 @@
+
+.contactTitleDiv{
+
+ 
+    }
+    
+    .overLay{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: grey;
+        z-index: 10000;
+        right: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+.closeFormButton{
+    border-style: none;	
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    }
+    
+    .closeButtonIcon{
+    font-size: 23px;
+    color: grey;
+    }
+    
+    .contactTitle{
+    color: var(--greyTextColor);
+    font-size: 20px;
+    }
+    .outerContainer{
+        
+        position: relative;
+        width: 40vw;
+        max-width: 450px;
+        height: 80vh;
+        min-width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        border-style: none;
+        border-color: grey;
+        border-width: 2px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
+    .FriendsIconDiv{
+    display: flex;
+    align-items: center;
+    border-style: none;
+    height: 100%;
+    justify-content: space-between;
+    }
+    .requestContainer{
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    .requestInnerBtn{
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        padding: 6px;
+        padding-left: 11px;
+        padding-right: 11px;
+        cursor: pointer;
+        color: var(--themeColor);
+        border-color: var(--cardBorderColor);
+        display: flex;
+        align-items: center;
+        color: var(--greyTextColor);
+    }
+    
+    .FriendsIconDiv span{
+    font-size: calc( 0.3 * var(--headerHeight) );
+    font-style: normal;
+    margin-left: 10px;
+    
+    
+    }
+    
+    
+    .aboutIcon{
+    left: calc( 0.3 * var(--headerHeight) );
+    border-style: none;
+    }
+    
+    
+    .unitAboutIcon i{/*
+    font-size: calc( 0.3 * var(--headerHeight) );
+    font-style: normal;
+    margin-left: 10px;
+    border-style: solid;
+    */
+    }
+    
+    
+    
+    
+    .editButtonAbout{
+    left: calc( 0.3 * var(--headerHeight) );
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: var(--themeColor);
+    border-color: var(--cardBorderColor);
+    display: flex;
+    align-items: center;
+    color: var(--greyTextColor);
+    }
+    
+    
+    .editButtonAbout span{
+    margin-left:10px;
+    }
+    
+    
+    .editButtonAbout:hover{
+    color: white;
+    background-color: var(--themeColor);
+    
+    }
+    .div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        /* margin-top: 10px; */
+        /* margin-bottom: 10px; */
+    }
+    .inDiv{
+        font-size: 16px;
+
+    }
+    
+    
+    
+.contactList {
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 650px;
+    overflow-y: auto;
+  }
+  
+  .contactRequestItem {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contactRequestItem p {
+    margin: 5px 0;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+
+  .container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height :250px; */
+margin-bottom: 20px;
+
+  }
+  .divInnerOne{
+    display: flex;
+    flex-direction:column;
+ 
+    /* gap: 4%; */
+  }
+  
+  .card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    /* width: 400px; */
+    width: 85%;
+    /* height: 300px; */
+    position: relative;
+    font-family: Arial, sans-serif;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+ 
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+    border-color: var(--cardBorderColor);
+    border-width: 1px;
+    border-radius: var(--cardBorderRadius); 
+  }
+  .requestEmail{
+    font-size: 17px;
+  }
+  .dateBadge {
+    /* position: absolute; */
+    /* top: 10px; */
+    /* right: 10px; */
+border: 1px solid lightgrey;
+    padding: 5px 5px;
+    /* height: 3px; */
+    width: 120px;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 8px;
+   justify-content: center;
+  }
+  
+  .requestTitle {
+    color: red;
+    /* margin: 0;  */
+  }
+  
+  .requestEmail {
+    color: blue; 
+    /* margin: 10px 0;  */
+  }
+  
+  .requestEmail span {
+    color: black;
+  }
+  
+  .requestDetails {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .requestTime {
+    color: gray;
+  }
+  
+  .requestTime .at {
+    color: blue;
+  }
+  
+  .buttons {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 15px; 
+    gap: 56%;
+    
+  }
+  
+  .acceptButton, .rejectButton {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .acceptButton {
+    border-color: green;
+    color: green;
+  }
+  
+  .rejectButton {
+    border-color: red;
+    color: red;
+  }
+  

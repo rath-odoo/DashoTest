@@ -1,0 +1,86 @@
+.mainDiv {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    z-index: 10000;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerDiv{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.closeDiv{
+    position: relative;
+    top: -10px;
+    left: 330px;
+}
+.profileContainer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.imageInput{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nameContainer{
+    font-size: 20px;
+}
+
+.durationContainer{
+    display: flex;
+    gap: 30px;
+}
+
+.statusChangeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.acceptContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: var(--cardBorderColor);
+    height: 30px;
+    border-radius: 10px;
+    color: green;
+    cursor: pointer;
+}
+
+.rejectContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: var(--cardBorderColor);
+    height: 30px;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
+}

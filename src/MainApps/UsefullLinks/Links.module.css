@@ -1,0 +1,81 @@
+
+.links{
+width: 85%;
+margin: auto;
+border-style: none;
+margin-bottom: 200px;
+min-height: 1000px;
+border-radius: var(--cardBorderRadius);
+border-width: 1px;
+border-color: var(--cardBorderColor);
+padding: 2.5%;
+}
+
+.toolsDiv{
+width: 100%;
+border-style: none;
+height: 50px;
+}
+
+
+.uploadButton{
+border-style: none;
+padding: 10px;
+background-color: #00aff0;
+color: white;
+font-weight: bold;
+cursor: pointer;
+border-radius: 5px;
+font-size: 18px;
+}
+
+.linkBoxContainer{
+font-size: 18px;
+border-style: solid;
+color: blue;
+border-style: none;
+background-color: white;
+padding-bottom: 10px;
+
+cursor: pointer;
+}
+
+.linkBoxContainer:hover{
+
+text-decoration: underline;
+}
+
+
+.editdelete{
+border-style: none;
+width: 120px;
+display: flex;
+}
+
+
+.editbuttons{
+
+border-style: none;
+background-color: var(--bodyBkgColor);
+color: var(--greyTextColor);
+width: 50px;
+height: 50px;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+.oneLinkDiv{
+margin-bottom: 20px;
+background-color: white;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+border-radius: 10px;
+display: flex;
+padding: 20px;
+}
+
+
+

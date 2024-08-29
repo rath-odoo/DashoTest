@@ -1,0 +1,30 @@
+.container1 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    height: 32px;
+    width: auto;
+    margin: 8px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .iconBg {
+    height: 40px;
+    width: 40px;
+    color: var(--greyTextColor);
+  }
+
+  .postImage {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .heading1 {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

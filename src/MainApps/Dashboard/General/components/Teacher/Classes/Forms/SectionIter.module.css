@@ -1,0 +1,19 @@
+
+
+.oneTopicSelect{
+border-style: solid;
+border-width: 1px;
+border-color:lightgrey;
+background-color: var(--bodyBkgColor);
+padding: 3px;
+margin: 3px;
+display: inline;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.oneTopicSelect:hover{
+
+background-color: #c8defa;
+border-color: var(--themeColor);
+}

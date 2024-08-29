@@ -1,0 +1,138 @@
+
+
+.instituteBar {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px none;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+  padding: 16px;
+  background-color: white;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoIcon {
+  color: var(--greyTextColor);
+
+  background-color: var(--bodyBkgColor);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTitle {
+  margin-left: 8px;
+  color: var(--greyTextColor);
+  text-transform: uppercase;
+}
+
+.instituteBar i {
+  font-style: normal;
+  font-size: calc(0.3 * var(--headerHeight));
+  color: grey;
+}
+
+.timeAndAddressInfo {
+  font-size: calc(0.3 * var(--headerHeight));
+  border-style: none;
+  background-color: white;
+  color: var(--TextColorDarkBlue1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.editBtnContainer {
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBkgColor);
+}
+
+.editBtnContainer:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--themeColor);
+  font-weight: 700;
+}
+
+.editBtnContainer:hover .editbutton {
+  color: white;
+}
+
+.editbutton {
+  padding-right: 6px;
+  color: var(--tintGreyColor1);
+}
+
+.titleSpace {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editIcon {
+  color: grey;
+  font-size: calc(0.4 * var(--headerHeight));
+}
+
+.videoMicroContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  border-style: none;
+}
+
+.uploadButton {
+  border-style: none;
+  background-color: #207ef5;
+  margin-left: 20px;
+  color: white;
+  padding: 4px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.uploadButton:hover {
+  background-color: white;
+  color: var(--themeColor);
+  cursor: pointer;
+  border: 1px solid var(--themeColor);
+}
+
+.uploadButton:hover {
+  cursor: pointer;
+}
+
+.textInfo {
+  margin-top: 10px;
+  color: var(--deepDarkThemeTextColor);
+}

@@ -1,0 +1,471 @@
+.createTicketFormDivParent {
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    z-index: 10000;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createTicketForm {
+
+    position: relative;
+    width: 80vw;
+    height: 85vh;
+    max-width: 800px;
+    min-width: 370px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    border-color: grey;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    overflow-y: auto;
+
+
+}
+
+
+
+.createTicketFormLoading {
+
+    position: relative;
+    width: 60vw;
+    height: 80vh;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    border-color: grey;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.submittingDiv {
+    padding-top: 100px;
+    color: var(--themeColor);
+
+}
+
+
+
+
+
+
+
+
+
+.closeButtonDiv {
+    width: 95%;
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+.closeFormButton {
+    border-style: none;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.closeButtonIcon {
+
+    font-size: 25px;
+
+}
+
+
+.logoAndTitleContainer {
+
+
+    height: 150px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bwLogo {
+
+    height: 75px;
+    width: 75px;
+
+}
+
+.formTitleDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #585858;
+    align-items: center;
+}
+
+.formTitleDiv i {
+
+    font-size: 30px;
+    font-style: normal;
+}
+
+
+
+.submitButtonDiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 50px;
+    border-style: none;
+}
+
+
+.submit_button {
+    width: 30%;
+    border-style: none;
+    background-color: var(--themeColor);
+    color: white;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.emptyDiv {
+    width: 80%;
+    border-style: solid;
+    height: 100px;
+    color: white;
+
+}
+
+
+.optionContainers {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-auto-rows: 80px;
+    border-style: none;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    border-color: red;
+    margin: auto;
+}
+
+.requiredStar {
+    color: red;
+    margin-right: 5px;
+}
+
+
+.tubeIcon {
+    font-size: 30px;
+    color: blue;
+}
+
+.tubeIconText {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+
+
+.titleDiv {
+    width: 90%;
+
+}
+
+.LinkDiv {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.descriptionDiv {
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.approverDIv {
+    width: 90%;
+    min-height: 50px;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.pleaseDiv {
+    display: flex;
+    justify-content: start;
+    padding: 8px;
+    font-size: 15px;
+    color: rgb(131, 131, 131);
+}
+
+.singleApprovalDiv {
+    display: flex;
+    justify-content: start;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.approvalBoxDiv {
+    max-height: 300px;
+    width: 90%;
+    padding: 5px;
+}
+
+.dateHolderDiv {
+    width: 90%;
+    display: flex;
+    gap: 50px;
+
+}
+
+.leaveTypeDiv {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+
+    align-items: center;
+    gap: 70px;
+}
+
+.leaveTypeRadio {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.radioIcon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.radioOptionChecked {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.leaveTypeRadio input[type="radio"] {
+    transform: scale(1.5);
+}
+
+.leaveTypeRadioDay input[type="radio"] {
+    transform: scale(1.5);
+}
+
+.leaveTypeRadioPaid {
+    margin-right: 25px;
+}
+
+.leaveTypeRadioFull {
+
+    margin-right: 10px;
+}
+
+.leavePolicyDiv {
+    margin-top: 20px;
+    width: 90%;
+    border: 1px solid var(--cardBorderColor);
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+
+}
+
+.leavePolicyContainer {
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.leavePolicyContainertwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+}
+
+.leavePolicyContainerthree {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+}
+
+.leavePolicyDropDownDiv,
+.approverDropDownDiv,
+.reasonDropDownDiv {
+    position: absolute;
+    top: 451px;
+    width: 90%;
+    height: 0px;
+    transition: 0.3s ease all;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1000;
+
+}
+
+.approverDropDownDiv {
+    top: 513px;
+}
+
+.reasonDropDownDiv {
+    top: 575px;
+}
+
+.leavePolicyDropDownDiv.scaled,
+.reasonDropDownDiv.scaled {
+    height: 100px;
+    border: 1px solid var(--cardBorderColor);
+    border-top: none;
+    overflow: scroll;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    border: none;
+
+}
+
+
+.approverDropDownDiv.scaled {
+    height: 150px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    border-top: none;
+    border: none;
+    overflow: scroll;
+}
+
+.oneLeavePolicyMainDiv,
+.oneApproverMainDiv,
+.oneReasonMainDiv {
+    margin-top: 10px;
+    width: calc(100% - 40px);
+    border: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.oneLeavePolicyMainDiv:hover,
+.oneApproverMainDiv:hover,
+.oneReasonMainDiv:hover {
+    background-color: var(--cardBorderColor);
+}
+
+
+
+.oneApproverMainDiv {
+    justify-content: flex-start;
+    gap: 30px;
+    height: 40px;
+}
+
+.durationDiv {
+    color: #585858;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.leaveTypeDivDay {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 135px;
+}
+
+.leavePolicySingleDiv {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.leaveTypeRadioDay {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.imageContainer {
+    height: 30px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+@media only screen and (max-width: 1280px) {
+    .leavePolicyDropDownDiv {
+        top: 385px;
+    }
+
+    .approverDropDownDiv {
+        top: 450px;
+    }
+
+    .reasonDropDownDiv {
+        top: 530px;
+    }
+
+
+
+    .leavePolicyContainer {
+        height: 45px;
+    }
+
+    .leavePolicyContainertwo {
+        height: 45px;
+    }
+
+    .leavePolicyContainerthree {
+        height: 45px;
+    }
+
+}

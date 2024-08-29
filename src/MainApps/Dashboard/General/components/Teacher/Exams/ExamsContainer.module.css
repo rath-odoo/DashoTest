@@ -1,0 +1,86 @@
+
+
+.parentContainer{
+
+width: 90%;
+border-style: none;
+margin: auto;
+height: 1000px;
+margin-top: calc( 0.5 * var(--headerHeight) );
+}
+
+
+
+
+
+.daySection{
+min-height: 50px;
+border-style: none;
+border-width:1px;
+border-color: var(--cardBorderColor);
+border-radius: var(--cardBorderRadius);
+display: flex;
+align-items: center;
+color: var(--greyTextColor);
+align-items: stretch;
+margin-bottom: 10px;
+}
+
+.dayName{
+width: 100%;
+border-style: none;
+margin-left:-10px;
+margin-right: 10px;
+background-color: var(--bodyBkgColor);
+padding-top: 5px;
+padding-bottom: 5px;
+height: 20px;
+margin: auto;
+margin-left:-10px;
+margin-right: 10px;
+}
+
+
+
+.dayClassContainer{
+
+width: 90%;
+border-style: none;
+padding-top: 10px;
+border-width: 5px;
+border-color: var(--bodyBkgColor);
+border-color: white;
+border-radius: var(--cardBorderRadius);
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.leftDayNameContainer{
+width: 10%;
+border-style: none;
+border-color: var(--cardBorderColor);
+border-width: 1px;
+display: flex;
+align-items:center;
+position: relative;
+align-items: stretch;
+border-radius: var(--cardBorderRadius);
+border-left-style: solid;
+}
+
+
+
+
+.noClassDiv{
+border-style: solid;
+border-width: 1px;
+border-color: var(--cardBorderColor);
+padding: 20px;
+border-radius: var(--cardBorderRadius);
+
+}
+
+
+

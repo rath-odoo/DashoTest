@@ -1,0 +1,45 @@
+.achivementBlockParent {
+  margin-top: 10px;
+  width: 270px;
+  border: 1px solid red;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.achivementBlockParent:hover {
+  cursor: pointer;
+}
+
+.pic {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.award {
+  width: 40px;
+  height: 40px;
+  color: #ffd700;
+}
+
+.leftContainer {
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.date {
+  margin-top: 6px;
+  color: var(--greyTextColor);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}

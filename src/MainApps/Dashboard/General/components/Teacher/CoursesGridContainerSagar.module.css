@@ -1,0 +1,211 @@
+
+.coursesGridContainer{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 12px;
+  grid-row-gap: 10px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBkgColor);
+  padding-bottom:20px ;
+  margin-top: 20px;
+  position: relative;
+}
+
+
+
+
+
+/*
+ 
+grid-auto-rows: 160px; 
+grid-row-gap: 10px;
+margin-top: 50px;
+
+ */
+
+
+
+@media screen  and (max-width: 1400px)  {
+
+.coursesGridContainer{
+width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-column-gap: 12px;
+  grid-row-gap: 10px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBkgColor);
+  padding-bottom:20px ;
+  margin-top: 20px;
+  position: relative;
+
+
+}	
+
+}
+
+
+
+
+.course{
+border-style: solid;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+}
+
+
+.course:hover{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.noCourseMessage{
+color: var(--themeColor);
+width: 90%;
+height: 70%;
+margin: auto;
+font-size: calc( 0.35 * var(--headerHeight) );
+border-style: none;
+display: flex;
+border-color: var(--tintGreyColor3);
+border-width: 1px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+font-family: Roboto;
+font-size: 30px;
+}
+
+.noCourseMessage span{
+ width: 50%;
+ margin: auto;
+}
+
+
+
+
+
+.switchBar{
+
+
+height: calc( 0.7 * var(--headerHeight) );
+width:90%;
+margin: auto;
+margin-top: calc( 0.4 * var(--headerHeight) );
+border-color: lightgrey;
+border-style: none;
+}
+
+.newCourseButtonDiv{
+height: 100%;
+}
+
+
+
+.createCourseButton{
+
+height: 100%;
+border-style: solid;;
+font-size: calc( 0.3 * var(--headerHeight) );
+cursor: pointer;
+border-width: calc( 0.04 * var(--headerHeight) );
+border-color: var(--cardBorderColor);
+background-color: white;
+color: var(--themeColor);
+font-family: Roboto;
+border-radius: calc( 0.6 * var(--cardBorderRadius) );
+padding-left: calc( 0.5 * var(--headerHeight) );
+padding-right: calc( 0.5 * var(--headerHeight) );
+border-width: 1px;
+background-color: var(--themeColor);
+color: white;
+border-color: var(--themeColor);
+}
+
+
+
+
+
+
+.exploreCourseButton{
+
+height: 100%;
+border-style: solid;;
+font-size: calc( 0.3 * var(--headerHeight) );
+cursor: pointer;
+border-width: calc( 0.04 * var(--headerHeight) );
+border-color: var(--cardBorderColor);
+background-color: white;
+color: var(--themeColor);
+font-family: Roboto;
+border-radius: calc( 0.6 * var(--cardBorderRadius) );
+padding-left: calc( 0.5 * var(--headerHeight) );
+padding-right: calc( 0.5 * var(--headerHeight) );
+border-width: 1px;
+border-color: var(--themeColor);
+}
+
+
+
+
+.dropDownOptionsNewCourseButtonDiv{
+
+height: 150px;
+width:250px;
+border-style: solid;
+z-index: 99999999;
+position: relative;
+left: 130px;
+top: -100px;
+background-color: white;
+border-radius: 10px;
+border-style:none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.newCourseRedirectButton{
+
+border-style: none;
+padding:20px;
+cursor: pointer;
+background-color: white;
+color: var(--themeColor);
+border-radius: 10px;
+}
+
+
+.newCourseRedirectButton:hover{
+
+font-weight: bold;
+
+}
+
+
+
+.welcomeImg{
+width: calc( 3 * var(--headerHeight) );
+margin: auto;
+border-style: none;
+}
+
+
+.instructions{
+margin-left: 10px;
+color: var(--tintGreyColor1);
+font-size: calc( 0.3 * var(--headerHeight) )
+}
+
+
+
+
+

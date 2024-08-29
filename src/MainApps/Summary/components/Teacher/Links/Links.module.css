@@ -1,0 +1,271 @@
+.links {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  border-style: none;
+  min-height: 1000px;
+  border-radius: var(--cardBorderRadius);
+  margin-bottom: 200px;
+}
+
+.linkButton {
+  border: 1px solid var(--cardBorderColor);
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  background-color: white;
+  color: var(--themeColor);
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.toolsDiv {
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  border-style: none;
+}
+
+.addLinkbtn {
+  width: 100%;
+  justify-content: start;
+  display: grid;
+  align-items: start;
+}
+
+.parentDiv {
+  width: 60vw;
+  margin-top: 5px;
+  margin-left: -40px;
+}
+
+.mainContainer {
+  width: auto;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  /* border: 1px solid blue; */
+}
+
+.topContainers {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  margin-top: -20px;
+  /* border: 1px solid red; */
+}
+
+.titleContainer {
+  width: 60%;
+  padding-left: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.allThreeBtn {
+  display: flex;
+  gap: 5px;
+}
+
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: var(--bodyBkgColor);
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.editicon {
+  color: var(--greyTextColor);
+}
+
+.edit:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.edit:hover .editicon {
+  color: var(--deepDarkThemeTextColor);
+}
+
+.delete {
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: var(--bodyBkgColor);
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.deleteicon {
+  color: var(--greyTextColor);
+}
+
+.delete:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.delete:hover .deleteicon {
+  color: var(--deepDarkThemeTextColor);
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: var(--themeColor);
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+}
+
+.copyicon {
+  color: white;
+}
+
+.copy:hover {
+  cursor: pointer;
+  border: 1px solid var(the);
+}
+
+
+
+.uploadButton {
+  border-style: none;
+
+  padding: 8px;
+  background-color: var(--themeColor);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.linkBoxContainer {
+  font-size: 18px;
+  border-style: solid;
+  color: blue;
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.descText {
+  margin-top: 10px;
+  color: var(--greyTextColor);
+  font-size: 16px;
+  width: 88%;
+}
+
+.linkBoxContainer:hover {
+  text-decoration: underline;
+}
+
+.copied {
+  background-color: green;
+  color: white;
+}
+
+.overLay {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmDialog {
+  padding: 20px;
+  background-color: white;
+  width: 380px;
+  height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);
+  font-family: Roboto;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.p {
+  color: #808080;
+  padding-left: 4px;
+}
+
+.deleteYes {
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteNo {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2;
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.div1 {
+
+  display: flex;
+  gap: 10%;
+  padding-left: 17%;
+}
+
+.div {
+  display: flex;
+  gap: 10%;
+  padding-left: 17%;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.darkBlue {
+  color: blue;
+}

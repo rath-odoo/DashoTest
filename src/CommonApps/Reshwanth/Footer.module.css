@@ -1,0 +1,151 @@
+.mainContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bodyContainer{
+    display: flex;
+    width:1200px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bodyContainer .leftContainer{
+    width: 50%;
+    margin-right: 30px;
+}
+.bodyContainer .leftContainer .appContainer{
+    display: flex;    
+    margin-bottom: 30px;
+}
+.appleIcon{
+    height: 70px;
+    aspect-ratio: 2.8/1;
+    margin-right: 20px;
+}
+.playIcon{
+    height: 70px;
+    aspect-ratio: 2.8/1;
+}
+
+.bodyContainer .leftContainer .companyContainer{
+    margin-bottom: 40px;
+}
+
+.bodyContainer .leftContainer .contactContainer{
+    display: flex;
+
+}
+
+.bodyContainer .leftContainer .companyContainer .companyHeading{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.bodyContainer .leftContainer .companyContainer .companyDescription{
+    font-size: 18px;
+}
+
+.bodyContainer .leftContainer .contactContainer .numberContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.bodyContainer .leftContainer .reachUsContainer .reachUsHeading{
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.bodyContainer .leftContainer .reachUsContainer .reachUsDescription{
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.call{
+    height: 30px;
+    aspect-ratio: 1/1;
+}
+
+.bodyContainer .rightContainer{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border-style: none;
+}
+
+.bodyContainer .rightContainer .heading{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.bodyContainer .rightContainer .content{
+    font-size: 18px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: none;
+}
+
+.copyRights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.copyRights .centerContainer{
+    cursor: pointer;
+}
+
+.centerContainer:hover{
+color: var(--themeColor);
+}
+
+
+.holder1{
+border-style: none;
+}
+
+.holder2{
+border-style: none;
+}
+
+
+
+.footerPolicy{
+margin-top: 10px;
+cursor:pointer;
+}
+
+.footerPolicy:hover{
+color: var(--themeColor);
+
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .mainContainer{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width:1200px) {
+    .mainContainer{
+        display: none;
+    }
+    
+}

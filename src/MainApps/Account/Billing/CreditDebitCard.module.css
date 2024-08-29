@@ -1,0 +1,47 @@
+
+  
+  .CreditDebitParent {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid var(--cardBorderColor);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .leftContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .titleTotalCredit {
+    color: var(--greyTextColor);
+  }
+  
+  .creditAmount {
+    margin-left: 6px;
+    color: var(--deepDarkThemeTextColor);
+    font-weight: bold;
+  }
+  
+  .rightContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .titleTotalDebit {
+    color: var(--greyTextColor);
+  }
+  
+  .debitAmount {
+    margin-left: 6px;
+    color: var(--deepDarkThemeTextColor);
+    font-weight: bold;
+  }
+  

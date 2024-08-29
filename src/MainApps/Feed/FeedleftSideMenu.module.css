@@ -1,0 +1,467 @@
+/* .contentDiv {
+  position: relative;
+  background-color: var(--mainAppContainerBkgColor);
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  width: 100%;
+  height: calc(100vh - calc(var(--headerHeight) + var(--headerTopMargin)));
+  overflow: scroll;
+} */
+
+.appContentDiv {
+  min-width: 250px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.rightBox {
+  /* width: 100%;
+  min-width: 350px; */
+
+ 
+}
+
+.Child{
+  width: 100%;
+  height: 369px;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 10px;
+}
+.horiLine {
+  width: 100%;
+  height: 1px;
+  background-color: var(--cardBorderColorLight);
+}
+
+.leftBox {
+  margin-left: 20px;
+  width: 600px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollDiv {
+  height: 99%;
+  width: 100%;
+  border-style: none;
+  overflow-y: auto;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.allpost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  height: 50px;
+  background-color: var(--cardBorderColorLight);
+  border-bottom: 1px solid var(--cardBorderColor);
+  font-size: 16px;
+  display: flex;
+  padding-left: 16px;
+  justify-content: start;
+  align-items: center;
+}
+
+.container1 {
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  height: 40px;
+  margin-left: 6px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.container1:hover {
+  cursor: pointer;
+}
+
+.iconBg {
+  height: 24px;
+  width: 24px;
+  color: var(--greyTextColor);
+}
+.postImage {
+  height: 30px;
+  width: 30px;
+}
+.heading1 {
+  margin-left: 10px;
+}
+
+.startPost {
+  width: auto;
+  min-width: 600px;
+  min-height: 90px;
+  height: 140px;
+
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.startPost_MarginDiv {
+  border-style: none;
+
+  width: 96%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.postForm {
+  position: absolute;
+  width: 550px;
+  height: 450px;
+  border: 1px solid red;
+  top: 20px;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+}
+
+.postformmainContainer {
+}
+.topSec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftCon {
+  display: flex;
+  align-items: center;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+.pic2 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  color: var(--greyTextColor);
+}
+
+.pic2:hover {
+  cursor: pointer;
+}
+
+.rightSection {
+  margin-left: 10px;
+}
+.nameofuser {
+  font-size: 18px;
+  font-weight: bold;
+}
+.postto {
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--greyTextColor);
+}
+
+.bottomBar {
+}
+
+.textAreaBlock {
+  margin-top: 10px;
+  width: 96%;
+  height: 270px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+}
+
+.textAreaBlock:focus {
+  /* padding-left: 8px;
+      padding-right: 8px; */
+  border-style: solid;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--cardBorderColorLight);
+  border-color: var(--cardBorderColor);
+  background-color: var(--bodyBkgColor);
+}
+
+.imgUploadContainer {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: var(--cardBorderColorLight);
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgUploadContainer:hover {
+  cursor: pointer;
+  /* border: 1px solid var(--themeColor);
+    background-color: white; */
+}
+
+.imageContainer:hover .imgUploadBtn {
+  color: var(--themeColor);
+}
+
+.imgUploadBtn {
+  width: 25px;
+  height: 25px;
+  color: var(--greyTextColor);
+}
+
+.postButton {
+  margin-top: 10px;
+  width: 20%;
+  height: 35px;
+  background-color: var(--themeColor);
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  border: none;
+}
+
+.postButton:hover {
+  border: 1px solid var(--themeColor);
+  cursor: pointer;
+  color: var(--themeColor);
+  background-color: white;
+}
+
+.PosterImage {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.editboxtitle {
+  margin-left: 20px;
+  height: 50px;
+  width: 100%;
+  border: 1px solid var(--cardBorderColorLight);
+  background-color: var(--cardBorderColorLight);
+}
+
+.postbtn {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--cardBorderColorLight);
+  background-color: var(--cardBorderColorLight);
+  font-family: Roboto;
+  text-align: start;
+  color: var(--greyTextColor);
+  cursor: pointer;
+}
+
+.bottomBtnContainer {
+  width: 94%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  visibility: hidden;
+}
+
+.imageContainer {
+  display: flex;
+  display: flex;
+  justify-content: start;
+
+  align-items: center;
+}
+.imgIcon {
+  height: 20px;
+  width: 20px;
+  color: var(--themeColor);
+}
+.imageTitle {
+  margin-left: 10px;
+}
+
+.videoContainer {
+  display: flex;
+  display: flex;
+  justify-content: start;
+
+  align-items: center;
+}
+
+.videoIcon {
+  height: 20px;
+  width: 20px;
+  color: var(--themeColor);
+}
+
+.videoTitle {
+  margin-left: 10px;
+}
+
+.eventContainer {
+  display: flex;
+  justify-content: start;
+
+  align-items: center;
+}
+.eventIcon {
+  height: 20px;
+  width: 20px;
+  color: var(--themeColor);
+}
+
+.eventTitle {
+  margin-left: 10px;
+}
+
+.articleContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.articleIcon {
+  height: 20px;
+  width: 20px;
+  color: var(--themeColor);
+}
+
+.articleTitle {
+  margin-left: 10px;
+}
+
+
+
+
+
+.LeftSide {
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  
+  justify-items: center; 
+}
+
+.Child1 {
+  width: 100%; 
+  height: auto;
+ 
+
+}
+
+.MyContacts {
+  background-color: white;
+ 
+  border-radius: 10px;
+ 
+}
+
+.ContactBox {
+  display: flex;
+  align-items: flex-start;
+  padding: 12px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.Name {
+  font-family: Roboto;
+}
+
+.Contacts {
+ 
+  background-color: var(--cardBorderColorLight);
+  border-bottom: 1px solid var(--cardBorderColor);
+  font-size: 16px;
+  display: flex;
+  padding: 16px;
+  
+  justify-content: start;
+  align-items: center;
+ 
+}
+
+.AddContacts{
+  padding: 8px;
+  background: white;
+}
+
+.AddButton {
+  background-color: var(--themeColor);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-bottom: 1px solid;
+}
+
+@media (max-width: 1000px) {
+  .rightBox {
+    margin-bottom: 10px; 
+    height: 100%;
+  }
+
+  .leftBox {
+    margin-top: 10px;
+  }
+}

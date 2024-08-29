@@ -1,0 +1,25 @@
+
+.detailChildContentDiv{
+width:90%;
+border-style: solid;
+margin: auto;
+border-color: var(--cardBorderColor);
+border-width: 1px;
+border-radius: var(--cardBorderRadius);
+background-color: white;
+}
+
+
+.noCourseSelectedWarning{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
+
+.noCourseSelectedWarning i{
+font-style: normal;
+color: grey;
+
+}

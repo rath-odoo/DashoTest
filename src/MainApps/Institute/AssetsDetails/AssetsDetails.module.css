@@ -1,0 +1,19 @@
+.parent {
+  width: 100%;
+  background-color: var(--bodyBkgColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.mainContainer {
+  width: 80%;
+  background-color: white;
+}
+
+@media (max-width: 1000px) {
+  .mainContainer {
+    width: 100%;
+  }
+}

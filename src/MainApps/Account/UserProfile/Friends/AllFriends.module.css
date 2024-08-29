@@ -1,0 +1,37 @@
+
+
+.allFriends{
+
+width: 96%;
+height: 500px;
+border-style: none;
+margin: auto;
+display: grid;
+justify-content: end;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
+grid-template-rows: 1fr ;
+grid-column-gap: 20px;
+grid-row-gap: 25px;
+margin-top: 20px;
+overflow: auto;
+border-style: none;
+}
+
+
+
+.searchBar_contact{
+width: 80%;
+height: 40px;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+margin: auto;
+display: flex;
+align-items: center;
+}
+
+.searchIcon{
+margin-left: 15px;
+font-size: 25px;
+color: grey;
+}

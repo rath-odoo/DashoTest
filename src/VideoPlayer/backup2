@@ -1,0 +1,19 @@
+   <div className="app">
+                        <div className="app__container">
+                                <video
+                                        height={HEIGHT}
+                                        width={WIDTH}
+                                        muted
+                                        autoPlay
+                                        className="app__videoFeed"
+                                ></video>
+                        </div>
+                        <div className="app__input">
+                                {playing ? (
+                                        <button onClick={stopVideo}>Stop</button>
+                                ) : (
+                                        <button onClick={startVideo}>Start</button>
+                                )}
+                        </div>
+                </div>
+

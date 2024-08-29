@@ -1,0 +1,132 @@
+.mainData {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  width: 99%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+  background-color: transparent;
+}
+
+.mainData:hover {
+  background-color: var(--bodyBkgColor);
+  cursor: pointer;
+}
+
+.nu {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 5%;
+}
+
+.date {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 10%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.userPic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 35px;
+  min-width: 35px;
+}
+
+.userName {
+  margin-left: 10px;
+}
+
+.inTime {
+  width: 12%;
+}
+
+.outTime {
+  width: 12%;
+}
+.absent {
+  border-radius: 4px;
+  width: 16%;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a_text {
+  width: 30px;
+  height: 30px;
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 50%;
+  background-color: var(--redColor1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .present {
+  width: 10%;
+  border-radius: 4px;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p_text {
+  width: 30px;
+  height: 30px;
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 50%;
+  background-color: var(--greenColor1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.edit {
+  width: 10%;
+}
+
+@media (max-width: 1300px) {
+  .mainData {
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .date {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 10px;
+  }
+  .inTime {
+    font-size: 10px;
+  }
+  .outTime {
+    font-size: 10px;
+  }
+
+  .absent {
+    font-size: 10px;
+  }
+
+  .Edit {
+    font-size: 11px;
+  }
+}

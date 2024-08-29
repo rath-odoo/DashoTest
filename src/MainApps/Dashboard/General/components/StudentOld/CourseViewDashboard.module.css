@@ -1,0 +1,337 @@
+.courseViewDashboard{
+border-style: solid;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.courseViewDashboard:hover{
+box-shadow: grey 0px 3px 8px;
+}
+
+
+.infoUnitBarParent{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:white;
+border-radius: 0px 0px 0px 0px;
+}
+
+
+.infoUnitBarParent:hover{
+cursor: pointer;
+}
+
+
+
+.infoUnitBar{
+height: 40px;
+width: 96%;
+border-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: solid 1px lightgrey;
+
+}
+
+
+
+.subjectSection{
+max-width: 50%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+color: grey;
+}
+
+.signupIcon{
+color: green;
+}
+
+
+.subjectName{
+color: var(--themeColor);
+font-weight: bold;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.codeSection{
+margin-left: 50px;
+font-style: normal;
+color: grey;
+max-width: 50%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+
+
+
+.genInfoBar{
+width:90%;	
+background-color: white;
+height: 40px;
+color: grey;
+border-style: none;
+border-bottom: solid 1px lightgrey;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content:space-between;
+border-style: none;
+}
+
+
+.designedFor{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: none;
+}
+
+.designedFor i{
+font-style: normal;
+border-style: solid;
+border-width:1px;
+border-color: lightblue;
+padding:3px;
+padding-left:15px;
+padding-right: 15px;
+border-radius:3px;
+}
+
+
+
+.toolIcons{
+width:30%;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+border-style: none;
+}
+
+.editButton{
+border-style: none;
+font-size: 23px;
+cursor: pointer;
+border-radius: 3px;
+color: var(--themeColor);
+display: flex;
+align-items: center;
+position: relative;
+background-color: white;
+}
+
+
+
+.editButton i {
+font-style: normal;
+
+}
+
+
+
+.enrollIcon{
+padding-left: 5px;
+}
+
+
+
+
+.enrolledStuds{
+position: absolute;
+min-width: 10px;
+height: 10px;
+top: -10px;
+right:-15px;
+font-size: 10px;
+background-color: grey;
+border-radius: 50%;
+color: white;
+padding: 3px;
+border-style: solid;
+}
+
+.enrolledStuds i{
+font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.instructor{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+
+}
+
+.instructor i{
+font-style: normal;
+margin-left: 10px;
+
+}
+
+
+
+
+.upcomingClass{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: none;
+}
+
+.upcomingClass i{
+font-style: normal;
+margin-left: 10px;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+.status{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+
+}
+
+.status i{
+font-style: normal;
+margin-left: 20px;
+background: #25D366;
+color: white;
+padding: 3px;
+border-radius: 3px;
+}
+
+
+.switchTo{
+background-color: var(--themeColor);
+cursor: pointer;
+height: 70%;
+display: flex;
+align-items: center;
+border-style: none;
+color: white;
+font-weight: bold;
+border-radius: 4px;
+border-color: grey;
+width: 200px;
+padding-left:20px;
+}
+
+
+.switchTo:hover{
+background-color:#ffd4d1;
+color:#ff5349;
+}
+
+
+.viewDetail{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+}
+
+.viewDetail i{
+margin: auto;
+font-style: normal;
+}
+
+
+
+
+
+
+
+/*
+
+
+.infoUnitBar div{
+font-style: normal;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: grey;
+display: flex;
+align-items: center;
+}
+
+
+
+
+
+.courseName{
+color: var(--themeColor);
+font-weight: bold;
+overflow: hidden !important;
+white-space: nowrap;
+text-overflow: ellipsis;
+width:50%;
+background-color: red;
+}
+
+.courseNameText{
+overflow: hidden !important;	
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+
+
+
+
+.courseCodeName{
+color: grey;
+width: 200px;
+}
+
+
+.codeSec{
+margin-left: 50px;
+background-color: green;
+}
+
+*/
+
+
+

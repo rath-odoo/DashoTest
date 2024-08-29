@@ -1,0 +1,57 @@
+.messagesInfo{
+
+width: 75%;
+height: calc( 1.5 * var(--headerHeight) );
+background-color: white;
+border-style: none;
+border-width: 1px;
+border-color: lightgrey;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.messagesInfo i{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color:var(--TextColorDarkBlue1);
+color: grey;
+}
+
+.button1{
+width:33%;
+height: 100%;
+border-style: solid;
+border-color: lightgrey;
+border-width: 1px;
+}
+
+.button2{
+width: 33%;
+height: 100%;
+border-style: solid;
+border-color: lightgrey;
+border-width: 1px;
+
+}
+
+
+.button3{
+width: 33%;
+height: 100%;
+border-style: solid;
+border-color: lightgrey;
+border-width: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,594 @@
+.contactUsParent {
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 30px;
+  column-gap: 10px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.heading1 {
+  color: var(--darkText);
+  font-size: 22px;
+  font-weight: bold;
+  width: 50%;
+  line-height: 26px;
+}
+
+.addressContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.addressIcon {
+  border: 1px solid var(--themeColor);
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  padding: 4px;
+  color: var(--themeColor);
+}
+
+.addressHead {
+  margin-left: 10px;
+  font-weight: bold;
+  color: var(--darkText);
+}
+
+.addressDetails {
+  margin-left: 10px;
+}
+
+.phoneContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.phoneIcon {
+  border: 1px solid var(--themeColor);
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  padding: 4px;
+  color: var(--themeColor);
+}
+
+.phoneHead {
+  margin-left: 10px;
+  font-weight: bold;
+  color: var(--darkText);
+}
+
+.phoneDetails {
+  margin-left: 10px;
+}
+
+.emailContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.emailIcon {
+  border: 1px solid var(--themeColor);
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  padding: 4px;
+  color: var(--themeColor);
+}
+
+.emailHead {
+  margin-left: 10px;
+  font-weight: bold;
+  color: var(--darkText);
+}
+
+.emailDetails {
+  margin-left: 10px;
+}
+
+.SocialMediaTitle {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mainContainerIcon {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon1Container {
+  height: 30px;
+  width: 30px;
+}
+
+.icon2Container {
+  margin-left: 16px;
+  height: 30px;
+  width: 30px;
+}
+
+.icon3Container {
+  margin-left: 16px;
+
+  height: 30px;
+  width: 30px;
+}
+
+.icon4Container {
+  margin-left: 16px;
+
+  height: 30px;
+  width: 30px;
+}
+
+.BusinessDetails {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.details1 {
+  margin-top: 10px;
+  color: var(--lightText);
+  font-size: 16px;
+}
+
+.bContainer1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.bContainer2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.dayIcon {
+  height: 20px;
+  width: 20px;
+  padding: 4px;
+  color: var(--themeColor);
+}
+
+.dayHead {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.daytimeDetails {
+  margin-left: 10px;
+}
+
+.details2 {
+  margin-top: 20px;
+}
+
+.getinTouchTitle {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.getintouchdetails3 {
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.headingDetails1 {
+  width: 80%;
+  margin-top: 20px;
+  font-size: 15px;
+  color: var(--lightText);
+  line-height: 22px;
+  text-align: justify;
+}
+
+.heading2 {
+  margin-top: 20px;
+  color: var(--darkText);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.OfficeImageContainer {
+  margin-top: 20px;
+  width: 80%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.bottomDetailsContainer {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.firstContainer {
+  width: 50%;
+}
+
+.firstTitle {
+  font-size: 16px;
+  color: var(--darkText);
+  font-weight: 500;
+  visibility: hidden;
+}
+
+.subFIrstContainer {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.sub_FIrstContainer {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.locationIcon {
+  border: 1px solid var(--cardBorderColor);
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  color: var(--lightText);
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: var(--cardBorderColorLight);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.locationIcon2 {
+  border: 1px solid var(--cardBorderColor);
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  color: var(--lightText);
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: var(--cardBorderColorLight);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.firstAddressText {
+  margin-right: 10px;
+  margin-left: 6px;
+  font-size: 14px;
+  color: var(--lightText);
+  line-height: 20px;
+}
+
+.secContainer {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  justify-self: center;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.formContainer {
+  width: 90%;
+}
+
+.headingText {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.horizontalLine {
+  margin-top: 14px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.topContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.firstContainer {
+  width: 50%;
+}
+
+.firstNameText {
+  margin-top: 20px;
+  color: var(--lightText);
+}
+
+.firstNameEditBox {
+  width: 90%;
+  margin-right: 5px;
+  margin-top: 4px;
+  background-color: white;
+  border-radius: 8px;
+  height: 28px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.firstNameEditBox:focus {
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--themeColor);
+}
+
+.secContainer {
+  width: 50%;
+}
+.secContainer2 {
+  width: 50%;
+  visibility: hidden;
+}
+
+.lastNameText {
+  margin-left: 10px;
+  margin-top: 20px;
+  color: var(--lightText);
+}
+.lastNameEditBox {
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 4px;
+  background-color: white;
+  border-radius: 8px;
+  height: 28px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.lastNameEditBox:focus {
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--themeColor);
+}
+
+.emailContainer {
+  margin-top: 20px;
+  width: auto;
+}
+
+.textEmail {
+  margin-top: 10px;
+  color: var(--lightText);
+}
+
+.emailEditBox {
+  width: 97%;
+  margin-top: 4px;
+  background-color: white;
+  border-radius: 8px;
+  height: 28px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.emailEditBox:focus {
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--themeColor);
+}
+
+.companyContainer {
+  margin-top: 20px;
+  width: auto;
+}
+
+.textCompany {
+  margin-top: 10px;
+  color: var(--lightText);
+}
+
+.companyEditBox {
+  width: 97%;
+  margin-top: 4px;
+  background-color: white;
+  border-radius: 8px;
+  height: 28px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.companyEditBox:focus {
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--themeColor);
+}
+
+.phoneContainer {
+  margin-top: 20px;
+  width: auto;
+}
+
+.textphone {
+  margin-top: 10px;
+  color: var(--lightText);
+}
+
+.phoneEditBox {
+  width: 97%;
+  margin-top: 4px;
+  background-color: white;
+  border-radius: 8px;
+  height: 28px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.phoneEditBox:focus {
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--themeColor);
+}
+
+.messageContainer {
+  margin-top: 20px;
+  width: 97%;
+}
+
+.textMessage {
+  margin-top: 10px;
+  color: var(--lightText);
+}
+
+.messageEditBox {
+  width: 100%;
+  height: 100px;
+  text-align: start;
+  margin-top: 4px;
+  background-color: white;
+  padding-top: 0;
+  padding-left: 0;
+  line-height: 1em;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid var(--cardBorderColorLight);
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.messageEditBox:focus {
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--themeColor);
+}
+
+.sendBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.sendBtn {
+  margin-top: 40px;
+  width: 60%;
+  height: 40px;
+  background-color: var(--themeColor);
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.sendBtn:hover {
+  cursor: pointer;
+}
+
+.horizontalBorder {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.t1 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: var(--darkText);
+  font-weight: bolder;
+}
+
+.d1 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: var(--lightText);
+}
+
+.d2 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: var(--darkText);
+  font-weight: bold;
+}
+
+@media (max-width: 1300px) {
+  .contactUsParent {
+    width: 98%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .OfficeImageContainer {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    margin-right: 10px;
+
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

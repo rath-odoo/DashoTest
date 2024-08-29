@@ -1,0 +1,11 @@
+
+
+.chatBox{
+border-style: none;
+border-color: orange;
+height: 100%;
+width: 400px;
+background-color: lightgrey;
+border-radius: 4px;
+
+}

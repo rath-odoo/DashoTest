@@ -1,0 +1,34 @@
+.mainDiv{
+    width: calc(100% - 4px);
+    height: calc(100% - 15px);
+    border: 1px solid var(--cardBorderColor);
+    border-radius: 10px;
+}
+
+.toggleContainer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid var(--cardBorderColor) ;
+    cursor: pointer;
+}
+
+.oneToggleDiv{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--cardBorderColor);
+}
+.listApprovals{
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow-y: scroll;
+}
+.selected{
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+}

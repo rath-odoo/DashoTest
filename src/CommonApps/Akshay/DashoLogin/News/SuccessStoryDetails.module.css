@@ -1,0 +1,115 @@
+.parent {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.leftContainer {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.imgAndHeading {
+  object-fit: cover;
+}
+
+.mainImg {
+  width: 720px;
+
+  object-fit: cover;
+}
+.title {
+  margin-top: 20px;
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.rightContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.boxContainer {
+  width: 80%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.recentPost {
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.recentPost1 {
+  margin-top: 20px;
+}
+
+.horiBorder {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  border-bottom: 1px solid gray;
+}
+
+.recentPost2 {
+}
+
+.container1 {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.iconCal {
+  width: 30px;
+  height: 30px;
+  background-color: gainsboro;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+}
+.date {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .leftContainer {
+    width: 100%;
+  }
+
+  .mainImg {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .rightContainer {
+    visibility: hidden;
+  }
+}

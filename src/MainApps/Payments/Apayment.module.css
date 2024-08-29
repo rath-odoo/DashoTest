@@ -1,0 +1,274 @@
+
+
+.paymentParent {
+  width: 100%;
+  height: 100%;
+  height: max-content;
+  background-color: var(--bodyBkgColor);
+  margin-bottom: 50px;
+  min-width: 400px;
+}
+
+.topContainer {
+  width: 70%;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.billingTitle {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.setCourseFeeBtn {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 20px;
+  padding: 5px;
+  color: var(--themeColor);
+  background-color: white;
+  border: 1px solid var(--themeColor);
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.setCourseFeeBtn:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.subPayment {
+}
+.boxContainer {
+  width: 70%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.box1 {
+  height: 100px;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxTitle1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 14px;
+}
+
+.box1Amount {
+  font-size: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.box2 {
+  height: 100px;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxTitle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 14px;
+}
+
+.box2Amount {
+  font-size: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.box3 {
+  height: 100px;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxTitle3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 14px;
+}
+
+.box3Amount {
+  font-size: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.mainDetailsContainer {
+  
+}
+
+.paymetDetailsSummary {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 35px;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+
+.StudText {
+  width: 25%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.TotalText {
+  width: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 16px;
+
+}
+
+.DueText {
+  width: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 16px;
+}
+
+.PaidText {
+  width: 15%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 16px;
+
+}
+
+.demo{
+  height: 25px;
+  width: 25px;
+  border: 1px solid #5e5d5d;
+  margin-right: 10px;
+  visibility: hidden;
+}
+
+.horiLine {
+  width: 70%;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColorLight);
+}
+
+.studentDetails {
+  margin-top: 4px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid var(--cardBorderColor);
+}
+
+
+@media (max-width: 800px) {
+
+
+  .boxContainer{
+    width: 95%;
+  }
+
+  .paymetDetailsSummary{
+    width: 95%;
+  }
+
+  .studentDetails{
+    width: 95%;
+  }
+
+  .StudText{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .TotalText{
+    font-size: 14px;
+
+  }
+  .PaidText{
+    font-size: 14px;
+  }
+  .DueText{
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+
+}
+
+@media (max-width: 300px) {
+
+
+
+
+}
+
+
+

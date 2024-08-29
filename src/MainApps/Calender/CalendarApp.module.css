@@ -1,0 +1,556 @@
+.parent {
+  width: 89%;
+  height: min-content;
+  /* max-width: 100%; */
+}
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 98.5%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .menuIconBtn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+
+.menuIcon {
+  color: var(--deepDarkThemeTextColor);
+  height: 26px;
+  width: 26px;
+  border: none;
+} */
+
+.iconAndName {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: var(--lightGreyTintTextColor);
+  width: 26px;
+  height: 26px;
+}
+
+.name {
+  color: var(--deepDarkThemeTextColor);
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.dayContainer {
+  margin-left: 20px;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: white;
+  border-style: none;
+}
+
+.dayContainer:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #224c98;
+}
+
+.dayText {
+  font-size: 14px;
+}
+
+.btnContainer {
+  height: 40px;
+  width: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.arrowLeft {
+  color: var(--deepDarkThemeTextColor);
+  height: 30px;
+  width: 30px;
+  border: 1px solid var(--cardBorderColorLight);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.arrowLeft:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.arrowRight {
+  color: var(--deepDarkThemeTextColor);
+  height: 30px;
+  width: 30px;
+  border: 1px solid var(--cardBorderColorLight);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.arrowRight:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.monthAndYearContainer {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.monthName {
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.year {
+  margin-left: 5px;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.iconContainer {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon1 {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+
+.icon1:hover {
+  cursor: pointer;
+  background-color: var(--cardBorderColor);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon2 {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+.icon2:hover {
+  background-color: var(--cardBorderColor);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.weakDetailContainer {
+  width: 80px;
+  height: 30px;
+  border: 1px solid var(--cardBorderColor);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 6px;
+  background-color: white;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.weakDetailContainer:hover {
+  background-color: #224c98;
+  color: white;
+  cursor: pointer;
+}
+
+.weak {
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+}
+
+.weakDetailContainer:hover .weak {
+  color: white;
+}
+
+.weakMenu {
+  top: 50px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width: 150px;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  /* border: 1px solid var(--cardBorderColor);  */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.t1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1b1e24;
+}
+
+.t1:hover {
+  color: #224c98;
+  cursor: pointer;
+}
+.t2 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1b1e24;
+}
+
+.t2:hover {
+  color: #224c98;
+  cursor: pointer;
+}
+.t3 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1b1e24;
+}
+
+.t3:hover {
+  color: #224c98;
+  cursor: pointer;
+}
+.t4 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1b1e24;
+}
+
+.t4:hover {
+  color: #224c98;
+  cursor: pointer;
+}
+.t5 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1b1e24;
+}
+
+.t5:hover {
+  color: #224c98;
+  cursor: pointer;
+}
+.t6 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1b1e24;
+}
+
+.t6:hover {
+  color: #224c98;
+  cursor: pointer;
+}
+
+.t7 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1b1e24;
+}
+
+.t7:hover {
+  color: #224c98;
+  cursor: pointer;
+}
+
+.content {
+  /* overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: scroll; */
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  background-color: #f2f2f2;
+
+  border-left: 1px solid;
+  border-left-color: var(--cardBorderColor);
+}
+
+.calendar {
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 22%;
+  height: 22%;
+  border: 0 !important;
+}
+
+.cal {
+  border: 0 !important;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.mainContainer {
+  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin-bottom: 80px; */
+  width: 72%;
+  height: calc(100vh - var(--headerHeight) - 80px);
+
+  display: grid;
+  grid-template-columns: repeat(8, 12.4%);
+  grid-template-columns: repeat(auto-fit, minmax(8, 11.75%));
+  grid-template-rows: repeat(24, 7.9%);
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.horizontalLine1 {
+  /* width: 115px;
+  height: 50px;
+  min-width: auto;
+  max-width: auto; */
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.localTime {
+  font-size: 1vw;
+  color: #1b1e24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 {
+  /* width: 115px;
+  height: 50px;
+  min-width: auto;
+  max-width: auto; */
+  place-content: center;
+  display: flex;
+  border-right: 1px solid;
+  border-right-color: var(--cardBorderColor);
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+}
+
+.time {
+  /* width: 115px;
+  height: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #1b1e24;
+}
+
+.date {
+  margin-left: 5px;
+  background-color: #224c98;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.date1 {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  color: #1b1e24;
+  font-size: 1vw;
+}
+.day {
+  margin-left: 5px;
+  font-size: 1vw;
+  color: var(--deepDarkThemeTextColor);
+}
+.day1 {
+  margin-left: 10px;
+  font-size: 1vw;
+  color: var(--themeColor);
+}
+
+.horizontalLine2 {
+  /* min-width: auto;
+  max-width: auto;
+  width: 115px;
+  height: 50px; */
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.horizontalLine3 {
+  /* min-width: auto;
+  max-width: auto;
+  width: 115px;
+  height: 50px; */
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.horizontalLine4 {
+  /* min-width: auto;
+  max-width: auto;
+  width: 115px;
+  height: 50px; */
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.horizontalLine5 {
+  /* min-width: auto;
+  max-width: auto;
+  width: 115px;
+  height: 50px; */
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.horizontalLine6 {
+  /* min-width: auto;
+  max-width: auto;
+  width: 115px;
+  height: 50px; */
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.horizontalLine7 {
+  /* min-width: auto;
+  max-width: auto;
+  width: 115px;
+  height: 50px; */
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.horizontalLine8 {
+  /* min-width: auto;
+  max-width: auto;
+  width: 115px;
+  height: 50px; */
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.row {
+  /* min-width: auto;
+  max-width: auto;
+  width: 115px;
+  height: 50px; */
+  border-right: 1px solid;
+  border-right-color: var(--cardBorderColor);
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColor);
+}

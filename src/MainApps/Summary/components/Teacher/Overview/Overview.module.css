@@ -1,0 +1,108 @@
+
+.overview{
+
+width: 85%;
+margin: auto;
+margin-top:20px;
+border-style: solid;
+margin-bottom: 200px;
+background-color: white;
+padding: 2.5%;
+border-radius: var(--cardBorderRadius);
+border-width: 1px;
+border-color: var(--cardBorderColor);
+}
+
+.instructorGrid{
+width: 100%;	
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) );
+grid-auto-rows: 150px ;
+border-style: none;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
+
+
+.generalInfoGrid{
+
+width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
+/*grid-auto-rows: 50px ;*/
+border-style: none;
+grid-column-gap: 20px;
+grid-row-gap: 30px;
+
+}
+
+.aboutTheCourse{
+
+margin-bottom: 50px;
+margin-top: 30px;
+}
+
+
+.recoBooksTitle{
+font-weight: bold;
+border-style: none;
+color: var(--topRightButtonTextColorInActive_Course);
+margin-top:40px;
+}
+
+.recoBookTitleSpan{
+margin-left: 10px;
+}
+
+
+.recoBooks{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+grid-auto-rows: 200px ;
+border-style: none;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+
+}
+
+
+
+.creditScore{
+
+width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fit, 50px);
+grid-auto-rows: 200px ;
+border-style: none;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+margin-top:20px;
+border-bottom: 4px solid lightgrey;
+}
+
+
+
+.editDiv{
+width: 100%;
+border-style: none;
+height: 40px;
+}
+
+
+.editBasicInfoButton{
+float: right;
+background-color: orange;
+color: white;
+border-style: none;
+padding: 7px;
+border-radius: 5px;
+padding-left: 20px;
+padding-right: 20px;
+cursor: pointer;
+font-size: 1rem;
+}
+
+
+
+

@@ -1,0 +1,74 @@
+.parentDivBtn{
+border-style: none;
+margin-left:20px;
+}
+
+
+
+.topToolBoxV1{
+cursor: pointer;
+border-style: none;
+border-radius:4px;
+}
+
+
+.highLightDiv{
+height:3px;
+background-color: var(--themeColor);
+margin-top:10px;
+}
+
+
+
+
+.topToolBoxV1:hover{
+color: var(--themeColor);
+border-style: none;
+}
+
+
+
+.topToolBoxV1:hover .toolBoxIcon{
+color: var(--themeColor);
+}
+
+
+
+
+.toolBoxIcon{
+
+font-size: 35px;
+color: grey;
+padding: 20px;
+}
+
+.toolBoxIcon:hover{
+color: var(--themeColor);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

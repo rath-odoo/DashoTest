@@ -1,0 +1,14 @@
+
+.contentDiv{
+position: relative;
+border-style:none;
+border-width: 5px;
+border-color: lightgrey;
+width: 100% ;
+height: calc( 100vh - calc( 1.0  * var(--headerHeight) ) );
+border-radius: 0px 0px 0px 0px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+

@@ -1,0 +1,65 @@
+
+.parentGrades {
+  background-color: #f2f2f2;
+}
+
+.mainContainer {
+  margin: 10px;
+  width: auto;
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+  /* grid-template-columns: auto auto; */
+  /* grid-auto-rows: auto; */
+  /* row-gap: 20px; */
+  background-color: #f2f2f2;
+}
+
+.userContainer {
+  width: 25%;
+  min-width: 300px;
+
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.allStudentTitle {
+  margin: 10px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.searchbox {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.searchEditBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  border-radius: 30px;
+  height: 30px;
+  border: 1px solid var(--cardBorderColor);
+  padding-left: 10px;
+}
+
+.horiLine {
+  width: 100%;
+  height: 1px;
+}
+.certificateContainer {
+  margin-left: 10px;
+  width: 75%;
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  grid-auto-rows: auto;
+  row-gap: 20px;
+}

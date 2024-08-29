@@ -1,0 +1,515 @@
+.courseViewDashboard{
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+border-radius: 0px;
+/*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+
+margin-top: 30px;
+
+}
+
+
+.courseViewDashboard:hover{
+box-shadow: grey 0px 3px 8px;
+}
+
+
+.infoUnitBarParent{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:white;
+border-radius: 4px 4px 0px 0px;
+}
+
+
+.infoUnitBarParent:hover{
+cursor: pointer;
+}
+
+
+
+.infoUnitBar{
+height: 40px;
+width: 96%;
+border-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: solid 1px lightgrey;
+
+}
+
+
+
+.subjectSection{
+max-width: 50%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+color: grey;
+border-style: none;
+}
+
+.signupIcon{
+color: green;
+}
+
+
+.serialNo{
+color: white;	
+background-color: var(--themeColor);
+padding-right:5px;
+padding-left: 5px;
+border-radius: 3px;
+margin-right: 5px;
+}
+
+
+
+
+.subjectName{
+color: var(--themeColor);
+font-weight: bold;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.codeSection{
+margin-left: 50px;
+font-style: normal;
+color: grey;
+max-width: 50%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+
+
+
+.genInfoBar{
+width:90%;	
+background-color: white;
+height: 30px;
+color: #c29d9b;
+border-style: none;
+border-bottom: solid 1px lightgrey;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content:space-between;
+border-style: none;
+font-size: 15px;
+}
+
+
+.designedFor{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: none;
+}
+
+.designedFor i{
+font-style: normal;
+border-style: solid;
+border-width:1px;
+border-color: #bbd2fa;
+padding:3px;
+padding-left:15px;
+padding-right: 15px;
+border-radius:1px;
+margin-left: 15px;
+}
+
+
+
+.toolIcons{
+/*width:30%;*/
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+border-style: none;
+position: relative;
+}
+
+.editButton{
+border-style: none;
+font-size: 20px;
+color: grey;
+cursor: pointer;
+border-radius: 3px;
+color: var(--themeColor);
+background-color: #F0F0F0;
+}
+
+
+.editButtonEd{
+border-style: none;
+font-size: 23px;
+color: grey;
+cursor: pointer;
+border-radius: 3px;
+color: var(--themeColor);
+background-color: white;
+}
+
+
+
+.editButton:hover{
+background-color:#E0E0E0;
+}
+
+
+
+
+.instructor{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: none;
+white-space: nowrap;
+}
+
+.creditScore{
+
+white-space: nowrap;
+font-style: normal;
+
+}
+
+
+
+.creditScoreNum{
+margin-left: 10px;
+padding-left:5px;
+padding-right:5px;
+border-radius:3px;
+}
+
+
+
+
+
+
+
+
+
+
+.upcomingClass{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: none;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+
+.chapterTopic{
+font-style: normal;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+
+.topicText{
+
+
+}
+
+
+
+.enrolledRequests{
+position: absolute;
+min-width: 10px;
+height: 10px;
+top: -10px;
+right:20px;
+font-size: 10px;
+background-color: red;
+border-radius: 50%;
+color: white;
+padding: 3px;
+border-style: solid;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.enrolledRequests i{
+font-style: normal;
+}
+
+
+.enrolledStuds{
+position: absolute;
+min-width: 10px;
+height: 10px;
+top: -10px;
+font-size: 10px;
+background-color: grey;
+border-radius: 50%;
+color: white;
+padding: 3px;
+border-style: solid;
+}
+
+.enrolledStuds i{
+font-style: normal;
+}
+
+
+
+.enrollmentInfo{
+position: absolute;
+width: 300px;
+background-color: white;
+top: 20px;
+border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+z-index: 1000;
+}
+
+.enrollmentInfo i{
+
+font-style: normal;	
+}
+
+.singleEnrollRequest{
+margin:auto;	
+width: 80%;
+max-height:150px;
+border-style: solid;
+border-width:1px;
+border-color: lightgrey;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+
+.ApproveRejectBtn{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+
+
+
+
+
+.address{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: none;
+}
+
+
+.addressTitle{
+font-style: normal;
+}
+
+.addressRoom{
+font-style: normal;
+margin-left: 10px;
+border-style: none;
+white-space: nowrap;
+}
+
+
+.meetingLinkButton{
+border-style: none;
+color: white;
+border-width:1px;
+border-color:lightgrey;
+margin-left:10px;
+padding-left:5px;
+padding-right:5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:orange;
+border-radius: 3px;
+}
+
+.meetingLinkButton:hover{
+background-color:green;
+cursor: pointer;
+}
+
+
+.meetingLinkCopy{
+border-style: solid;
+color: white;
+border-width:1px;
+border-color:lightgrey;
+margin-left:10px;
+padding-left:5px;
+padding-right:5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:lightgrey;
+border-radius: 3px;
+}
+
+.meetingLinkCopy:hover{
+background-color:grey;
+cursor: pointer;
+}
+
+
+
+
+
+.joinTxt{
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-style: normal;
+white-space: nowrap;
+}
+
+
+.emptyDiv{
+width: 100%;
+border-style: none;
+height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.switchTo{
+background-color: var(--themeColor);
+cursor: pointer;
+height: 70%;
+display: flex;
+align-items: center;
+border-style: none;
+color: white;
+font-weight: bold;
+border-radius: 4px;
+border-color: grey;
+width: 150px;
+padding-left:20px;
+}
+
+
+.switchTo:hover{
+background-color:#ffd4d1;
+color:#ff5349;
+}
+
+
+.viewDetail{
+background-color: white;
+width:100%;
+cursor: pointer;
+height: 100%;
+display: flex;
+align-items: center;
+border-style: none;
+}
+
+.viewDetail i{
+margin: auto;
+font-style: normal;
+font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.infoUnitBar div{
+font-style: normal;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: grey;
+display: flex;
+align-items: center;
+}
+
+
+
+
+
+.courseName{
+color: var(--themeColor);
+font-weight: bold;
+overflow: hidden !important;
+white-space: nowrap;
+text-overflow: ellipsis;
+width:50%;
+background-color: red;
+}
+
+.courseNameText{
+overflow: hidden !important;	
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+
+
+
+
+.courseCodeName{
+color: grey;
+width: 200px;
+}
+
+
+.codeSec{
+margin-left: 50px;
+background-color: green;
+}
+
+*/
+
+
+

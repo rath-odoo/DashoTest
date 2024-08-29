@@ -1,0 +1,91 @@
+
+
+
+.topheading{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.parentContianer{
+  width: 100%;
+  height: 80px;
+  
+}
+.Parent {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+}
+
+.leftContainer {
+  display: flex;
+}
+
+.logoContainer {
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgLogo {
+  border-radius: 10%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.mainContainer {
+  margin: 10px;
+}
+
+.instituteName {
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--greyTextColor);
+}
+
+.instituteAddress {
+  width: 300px;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+
+@media (max-width: 1000px) {
+
+  .topheading{
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .Parent{
+    display: flex;
+  
+  }
+
+  .instituteName{
+    font-size: 16px;
+  }
+
+  .instituteAddress{
+    font-size: 14px;
+  }
+}

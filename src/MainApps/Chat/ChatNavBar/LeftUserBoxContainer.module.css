@@ -1,0 +1,16 @@
+
+
+.leftUserBoxContainer{
+
+width: 100%;
+height: calc( 100% - calc( 1.6 * var(--headerHeight) ) );
+
+border-style:none;
+border-width: 2px;
+border-color: lightgrey;
+overflow-y: auto;
+overflow-x: hidden;
+background-color: white;
+
+
+}

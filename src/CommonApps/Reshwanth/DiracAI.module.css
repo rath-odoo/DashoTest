@@ -1,0 +1,33 @@
+.mainContainer{
+    background-color: var(--themeColor);
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    font-weight:bolder;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.dashContainer{
+    background-color: var(--themeColor);
+    width: 20px;
+    height: 8px;
+    position: absolute;
+    left:6px;
+    bottom: 18px;
+}
+
+@media (max-width:1300px) {
+    .mainContainer{
+        font-size: 35px;
+    }
+    .dashContainer{
+        height: 6px;
+        bottom: 20px;
+    }
+    
+}

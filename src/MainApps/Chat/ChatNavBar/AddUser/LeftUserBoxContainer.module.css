@@ -1,0 +1,26 @@
+
+
+.leftUserBoxContainer{
+
+width: 100%;
+/*height: calc( 100% - calc( 1.6 * var(--headerHeight) ) );*/
+border-style:none;
+border-width: 2px;
+border-color: red;
+overflow-y: auto;
+overflow-x: hidden;
+background-color: white;
+height: 100%;
+
+}
+
+.loadMoreDataButton{
+
+height: 100px;
+width: 100%;
+border-style: none;
+cursor: pointer;
+background-color: white;
+color: green;
+}
+

@@ -1,0 +1,33 @@
+.toptoolbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: none;
+    background-color: lightcyan;
+    padding: 10px;
+    margin-left: 10px;
+}
+.toolBoxIcon{
+
+    font-size: var(--topRightButtonIconFontSize_Course);
+    color: grey;
+    padding: 10px;
+    margin-left: 0px;
+    }
+    
+    .toolBoxIcon:hover{
+    color: var(--themeColor);
+    
+    }
+    .parentDiv{
+        border-style: none;
+        margin-left:20px;
+        position: relative;
+        }
+        .TitleBox2{
+            font-size: 15px;
+            color: grey;
+            margin-top:15px;
+            background-color: #01aef0;
+            padding: 10px;
+            }

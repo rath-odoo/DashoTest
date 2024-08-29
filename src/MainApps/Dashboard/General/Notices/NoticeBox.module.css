@@ -1,0 +1,218 @@
+.noticeBox {
+  padding: 8px 0;
+
+  border-bottom: 1px solid #e0e0e0;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.noticeBox:hover {
+  background-color: #f7f7f7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.contentContainer {
+  padding: 10px 25px;
+}
+
+.noticeID {
+  font-size: 16px;
+  color: #757575;
+
+}
+
+.textSentBy {
+  color: black;
+  font-size: 16px;
+  font-weight: 800;
+
+}
+
+.midSection {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.allids {
+  display: flex;
+
+  gap: 30px;
+}
+
+.midSection__title {
+  font-size: 16px;
+  display: flex;
+
+  align-items: center;
+  gap: 15px;
+  margin-left: 50px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.creationTime {
+  font-size: 16px;
+  color: #757575;
+
+}
+
+.iconContainer {
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  margin-right: 20px;
+}
+
+.noticeBox:hover .iconContainer {
+  opacity: 1;
+}
+
+.iconWithText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+
+}
+
+.icon {
+  padding: 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+
+}
+
+.icon:hover {
+  background-color: #e0e0e0;
+}
+
+.iconWithText:hover {
+  cursor: pointer;
+
+
+}
+
+
+.postedByTextName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  color: #757575
+}
+
+.postedByTextContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  margin-top: 30px;
+
+}
+
+.expandedContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+
+.timenDateIcon {
+  margin-right: 5px;
+  font-size: large;
+}
+
+.noticeText {
+  font-size: 16px;
+  color: #757575;
+  text-align: var(--5e5d5d);
+  line-height: 1.5rem;
+}
+
+.midSection_itle {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.overLay {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmDialog {
+  padding: 20px;
+  background-color: white;
+  width: 380px;
+  height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);
+  font-family: Roboto;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.p {
+  color: #808080;
+  padding-left: 4px;
+}
+
+.deleteYes {
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteNo {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2;
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.div {
+  display: flex;
+  gap: 10%;
+  padding-left: 17%;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.darkBlue {
+  color: blue;
+}

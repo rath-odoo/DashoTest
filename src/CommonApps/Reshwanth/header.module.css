@@ -1,0 +1,187 @@
+.mainContainer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    backdrop-filter: blur(8px);
+}
+
+.bodyContainer{
+    max-width: 1200px;
+    width: 80%;
+    height: 100px;
+    display: flex;
+}
+
+.joinNow{
+    display: flex;
+    justify-content: center;
+}
+.joinNow .textContainer{
+    border: solid 1px lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 15px;
+
+}
+
+
+.leftContainer{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.leftContainer .holder{
+    display: flex;
+    width: 30%; 
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.leftContainer .holder .logoContainer{
+    padding-right: 13px;
+}
+.textContainer{
+    font-family: Roboto;
+}
+
+.rightContainer {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.rightContainer .top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rightContainer .top .holder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+    padding: 0px 10px 10px 10px;
+
+}
+
+
+.rightContainer .top .holder .logoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.rightContainer .top .holder .logoContainer img{
+    margin: 0px 10px 0px 0px; 
+    height: 30px;
+    width: 30px;
+}
+.rightContainer .menu{
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.rightContainer .menu .holder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+    flex-direction: row-reverse;
+}
+
+.rightContainer .menu .holder .textContainer{
+    margin: 0px 10px 0px 0px;
+}
+
+.rightContainer .menu .holder .textContainer button{
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: var(--themeColor);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.rightContainer .menu .holder .logoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.rightContainer .menu .holder .logoContainer img{ 
+    height: 30px;
+    width: 30px;
+}
+
+.social{
+    width:35px;
+    height: 35px;
+    background-color: var(--cardBackgroundColor);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.icon{
+    color: var(--themeColor);
+}
+@media (max-width:1000px) {
+    .rightContainer .menu{
+        display: block;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+    }
+    .rightContainer .top{
+        display: none;
+    }
+    .rightContainer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .hidder .rightContainer .top{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+}
+
+
+@media (min-width:1300px) {
+    .bodyContainer{
+        width: 1200px;
+    }
+}
+
+@media (max-width:1300px) {
+    .leftContainer .holder{
+        font-size: 35px;
+    }    
+    
+}
+@media (max-width:600px) {
+    .bodyContainer{
+        width: 90%;
+    }
+    
+}

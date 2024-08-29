@@ -1,0 +1,38 @@
+.name_div{
+
+display: flex;
+flex-direction: column;
+width:100%;
+align-items: center;
+justify-content: center;
+border-style: none;
+margin-bottom:30px ;
+
+}
+
+.name_txt{
+width: 80%;
+position: relative;
+background-color:white;
+font-size: 23px;
+color: grey;
+font-weight: thin;
+border-style: none;
+}
+
+.name_inputDiv{
+width: 80%;
+border-style: none;
+
+}
+
+
+
+.input_field  {
+position: relative;
+width: 100%;
+height: 30px;
+font-size:20px;
+box-sizing: border-box;
+}
+

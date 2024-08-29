@@ -1,0 +1,81 @@
+.files {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-style: none;
+    margin-bottom: 200px;
+    height: 1000px;
+
+}
+
+
+
+.toolsDiv {
+    width: 100%;
+    border-style: none;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.videoBoxContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.uploadButton {
+    border: 1px solid var(--cardBorderColor);
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    background-color: white;
+    color: var(--themeColor);
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+
+
+.addFileOptions {
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 100;
+}
+
+.fileOptionButton {
+    padding: 10px;
+    display: flex;
+    border-style: none;
+    color: #36454F;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.videoOptionButton:hover {
+
+    background-color: lightgrey;
+}
+
+.youtubeIcon {
+    color: red;
+    margin-right: 10px;
+}
+
+
+.uploadIcon {
+    color: #00aff0;
+    margin-right: 10px;
+}
+
+.linkFile {
+    margin-right: 10px;
+}

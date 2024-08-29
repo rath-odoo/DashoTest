@@ -1,0 +1,78 @@
+.paymentParent {
+  margin-top: 50px;
+  margin-left: 20px;
+  border: 1px solid var(--cardBorderColor);
+  width: 30%;
+  height: auto;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 100px;
+
+}
+
+.topBar {
+  background-color: var(--bodyBkgColor);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 1px solid var(--cardBorderColor);
+  
+  border-radius: 3px;
+}
+
+.Container1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.totalDebitSch {
+  font-size: 14px;
+  color: var(--greyTextColor);
+}
+
+.totalDebitSchAmt {
+}
+
+.totalCreditSch {
+  font-size: 14px;
+  color: var(--greyTextColor);
+}
+
+.totalCreditSchAmt {
+}
+
+.totalCredit {
+  font-size: 14px;
+  color: var(--greyTextColor);
+}
+
+.totalCreditAmt {
+}
+
+.totalDebit {
+  font-size: 14px;
+  color: var(--greyTextColor);
+}
+
+.totalDebitDue {
+  font-size: 14px;
+  color: var(--greyTextColor);
+}
+.totalDebitDueAmt {
+}
+
+.totalCreditDue {
+  font-size: 14px;
+  color: var(--greyTextColor);
+}
+
+.totalCreditDueAmt {
+}

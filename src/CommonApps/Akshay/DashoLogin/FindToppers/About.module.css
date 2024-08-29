@@ -1,0 +1,367 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.mainTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--themeColor);
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.topTitle {
+  width: 100%;
+  margin-top: 50px;
+  line-height: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  color: var(--darkText);
+}
+
+.parentCard {
+  margin: 10px;
+  display: flex;
+  width: 70%;
+  border-radius: 6px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 20px;
+}
+
+.leftContainer {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picContainer {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.personpic {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.price {
+  margin-top: 20px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: var(--themeColor);
+}
+
+.pricephr {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.midContainer {
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.FeaturedTitleBtn {
+  width: 90px;
+  background-color: green;
+  color: white;
+  padding: 2px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Username {
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.aContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.earthIcon {
+  height: 20px;
+  width: 20px;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+
+.cityName {
+  margin-left: 10px;
+}
+
+.langContainer {
+  margin-top: 10px;
+  display: flex;
+}
+
+.l1Container {
+  display: flex;
+  align-items: center;
+}
+
+.l2Container {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.l1icon {
+  height: 20px;
+  width: 20px;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+
+.l1Lang {
+  margin-left: 10px;
+}
+
+.lessonContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.lessionIcon {
+  height: 20px;
+  width: 20px;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+
+.firstContainer {
+  margin-left: 10px;
+  display: flex;
+}
+
+.lessionTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--darkText);
+}
+
+.lessionDetails {
+}
+
+.secContainer {
+  margin-left: 10px;
+  display: flex;
+}
+
+.lessionTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--darkText);
+}
+
+.lessionDetails {
+  margin-left: 10px;
+}
+
+.aboutuserDetails {
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.readMoreBtn {
+  margin-top: 10px;
+  color: var(--themeColor);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.rightContainer {
+  width: 15%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ratingContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.starContainer {
+  height: 20px;
+  width: 20px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.star {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.totalRating {
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookBtnContainer {
+  margin-top: 10px;
+  width: 100px;
+  height: 25px;
+  background-color: var(--themeColor);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.bookTitle {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomContainer {
+  float: right;
+  border-color: 1px solid gainsboro;
+}
+.iconContainerheart {
+  float: right;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+@media (max-width: 1300px) {
+  .about {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
+{/*findtoppers css classes*/}
+
+.searchToppersCard {
+  width: 100%;
+  height: 400px;
+  background-color: var(--chatCommentBkgColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-style: none;
+  margin: auto;
+}
+
+
+.detailContainer2{
+width: 1200px;
+border-style: none;
+margin: auto;
+}
+
+
+.mainHeading {
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+}
+
+.subHeading {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.textHeading3{
+display: flex;
+border-style: none;
+align-items:end ;
+margin-top: 20px;
+}
+
+
+.findTopperButton{
+    width: 100px;
+    height: 35px;
+    background-color: var(--themeColor);
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.findTopperButton{
+    cursor: pointer;
+}
+
+
+
+.noResultMessage{
+width: 1150px;
+margin: auto;
+height: 300px;
+border-style: none;
+padding-top:30px;
+}
+
+@media (max-width: 1300px) {
+
+  .searchToppersCard{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+
+  }
+
+  .detailContainer2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+
+
+

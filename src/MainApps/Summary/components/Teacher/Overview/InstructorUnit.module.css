@@ -1,0 +1,50 @@
+
+
+
+.unitBar{
+
+border-style: none;
+
+
+}
+
+
+.instructorTitle{
+color: var(--deepDarkThemeTextColor);
+font-style: normal;
+font-weight: bold;
+}
+
+.instructorName{
+font-style: normal;
+color: var(--deepDarkThemeTextColor);
+color: var(--greyTextColor);
+}
+
+
+.instructorDetailDiv{
+
+color: grey;
+font-size: 18px;
+display: flex;
+}
+
+
+.instructorImage{
+height: 100px;
+width: 100px;
+border-radius: 20%;
+}
+
+.instructorInfo{
+
+margin-left: 15px;
+display: flex;
+flex-direction: column;
+}
+
+
+
+
+
+

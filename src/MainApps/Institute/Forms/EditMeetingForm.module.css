@@ -1,0 +1,419 @@
+
+
+.aboutEditFormDivParent{
+  position: fixed;
+  width: 100vw;
+  height:100vh;
+  background-color: grey;
+  z-index: 10000;
+  right:0;
+  top:0;
+  background-color:rgba(0,0,0,0.1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  
+  
+  .aboutEditForm{
+  position: relative;
+  width: 40vw;
+  height:80vh;
+  min-width:300px;
+  background-color: white;
+  border-radius: 5px;
+  border-style:none;
+  border-color: grey;
+  border-width:2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  }
+  
+  
+  .timeContainerDiv{
+  
+  display: flex;
+  justify-content: space-between;
+  
+  }
+  
+  
+  
+  
+  
+  
+  .closeButtonDiv{
+  width:100%;
+  display: flex;
+  background-color: white;
+  justify-content: flex-end;
+  border-radius: 5px;
+  margin-top: 10px;
+  }
+  
+  
+  
+  .closeFormButton{
+  border-style: none;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  }
+  
+  
+  .closeButtonIcon{
+  
+  font-size: 25px;
+  
+  }
+  
+  
+  .logoAndTitleContainer{
+  
+  
+  height:150px;
+  width:100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  
+  }
+  
+  .containerLogo{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .bwLogo{
+  
+  height: 75px;
+  width: 75px;
+  
+  }
+  
+  .titleDiv{
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  color: #585858;
+  
+  }
+  
+  .titleDiv i{
+  
+  font-size: 25px;
+  }
+  
+  
+  .name_div{
+  
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  }
+  
+  .name_txt{
+  width: 100%;
+  position: relative;
+  background-color:white;
+  font-size: 23px;
+  color: grey;
+  font-weight: thin;
+  }
+  
+  .name_inputDiv{
+  width: 100%;
+  }
+  
+  
+  
+  
+  .genpos_div{
+  
+  display: flex;
+  flex-direction: row;
+  width:80%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  }
+  
+  
+  .gender_div{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: red;
+  border-radius: 5px;
+  }
+  
+  
+  .position_div{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: green;
+  border-radius: 5px;
+  border-style: none;
+  }
+  
+  
+  
+  .genpos_field{
+  width:100%;
+  height: 40px;
+  font-size: 23px;
+  padding: 5px;
+  }
+  
+  
+  .dob_div{
+  width: 80%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: flex-start;
+  align-items: flex-start;
+  }
+  
+  .dob_txt{
+  width: 100%;
+  position: relative;
+  background-color:white;
+  font-size: 23px;
+  color: grey;
+  font-weight: thin;
+  
+  }
+  
+  .dob_innerDiv{
+  width: 100%;
+  position: relative;
+  
+  }
+  
+  .dob_innerDiv2{
+  
+  position: relative;
+  width: 45%;
+  
+  }
+  
+  
+  .dateofbirth_field{
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  font-size:23px;
+  min-width:200px;
+  }
+  
+  .firstname_field , .lastname_field,.gender_field,.position_field {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  font-size:23px;
+  }
+  
+  
+  .submitButtonDiv{
+  width: 100%;	
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 50px;
+  }
+  
+  
+  .submit_button{
+  width: 140px;
+  border-style: none;
+  background-color: var(--themeColor);
+  color: white;
+  height: 37px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  font-size: 16px;
+  }
+  
+  
+  .innerDiv{
+  width: 80%;
+  }
+  
+  
+  .nameandrolediv{
+  display: flex;
+  border-style: solid;
+  align-items: center;
+  }
+  
+  
+  
+  
+  
+  .tabs {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      gap: 10px;
+    }
+    
+    .tab {
+      width: 100px;
+      height: 35px; 
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: transparent;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .activeTab {
+      background-color: #f2f2f2;
+      color: white;
+      border: 1px solid var(--themeColor);
+      border-radius: 5px;
+      width: 100px;
+      height: 35px;
+      color: var(--themeColor);
+    }
+    
+    .uploadSection {
+      margin-top: 20px;
+    }
+    
+    .uploadLabel {
+      display: block;
+      margin-bottom: 10px;
+      color: #808080;
+      /* font-weight: bold; */
+    }
+    
+    .uploadInput {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+   
+    .submitButtonDiv {
+      margin-top: 20px;
+    }
+    
+    .submit_button {
+      /* padding: 10px 20px; */
+      /* background-color: #007bff; */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    
+    .submit_button:hover {
+      background-color: #0056b3;
+    }
+  
+  
+      
+  
+  
+  
+    .sampleFileLink{
+      margin-top: 100px; 
+      margin-bottom: 20px;
+      width: 90%;
+  
+    }
+    .downLoadBtn{
+      /* color: #808080; */
+      margin-top: 13px;
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      gap: 10px;
+    }
+  
+    .label{
+  margin-bottom: 9px;
+      color: #808080;
+    }
+    .downloadButton {
+      display: flex;
+      align-items: center;
+      background-color: lightgray; 
+      color:black;
+      border: none;
+      height: 30px;
+      width: 50px;
+      justify-content: center;
+    
+      /* padding: 10px 20px; */
+      cursor: pointer; 
+      border-radius: 5px;
+    }
+    
+  .uploadInput3{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  .uploadInput2{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  
+    .downloadButton:hover {
+      /* background-color: #45a049;  */
+    }
+    
+    .downloadIcon {
+      /* margin-right: 8px; */
+      font-size: 18px;
+    }
+  
+    .submitButton{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: var(--themeColor);
+      border-radius: 5px;
+      height: 35px;
+      width: 90px;
+      cursor: pointer;
+      border: none;
+      color: white;
+    }

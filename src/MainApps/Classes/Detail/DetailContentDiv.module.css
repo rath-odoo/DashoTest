@@ -1,0 +1,15 @@
+
+.contentDiv{
+position: relative;
+background-color: white;
+border-style:none;
+border-width: 1px;
+border-color: lightgrey;
+width: 100% ;
+height: calc( 100vh - calc( 1.0  * var(--headerHeight) ) );
+display: flex;
+flex-direction:row;
+
+}
+
+

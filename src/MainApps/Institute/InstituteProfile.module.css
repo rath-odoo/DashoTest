@@ -1,0 +1,408 @@
+.parentInstitute {
+  width: 98%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: none;
+
+
+  height: 100%;
+
+}
+
+.addBtn {
+  width: 100px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid var(--themeColor);
+  border-radius: 6px;
+  color: var(--themeColor);
+}
+
+.addBtn:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.ABlock {
+  margin-top: 10px;
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.instituteTitle {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.editBtn {
+  width: 80px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid var(--themeColor);
+  border-radius: 6px;
+  color: var(--themeColor);
+}
+
+.editBtn:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+
+.deleteBtn {
+  width: 80px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 6px;
+  color: red;
+}
+
+.deleteBtn:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+
+
+.BBlock {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.topmainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.title {
+  color: var(--greyTextColor);
+}
+
+.titlemainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addressInst {
+  margin-top: 10px;
+}
+
+.B1Block {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.websiteLink {
+  margin-top: 10px;
+}
+
+.CBlock {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.SocialmediaIconContainer {
+  margin-top: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+.DBlock {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.officalPersonBlock {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.DofficalPersonBlock {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  row-gap: 10px;
+  column-gap: 10px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainBlock {
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--cardBorderColorLight);
+}
+
+.name {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EBlock {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.AofficalPersonBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FBlock {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.totalStudent {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nuofStudent {}
+
+.nuoftotalStudent {
+  margin-left: 10px;
+}
+
+.GBlock {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.officalAchivementBlock {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.HBlock {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.IBlock {
+  width: 98%;
+  border-bottom: 1px solid var(--cardBorderColor);
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+
+.socialMediaButton {
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+
+.socialMediaButton:hover {
+
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+
+
+.value_field {
+
+  width: 50%;
+  height: 25px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+
+.linkContainer {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+
+
+.parentSocialMediaDiv {
+
+  position: relative;
+  border-style: none;
+
+}
+
+.deleteSocialMediaButton {
+  position: absolute;
+
+  right: -55px;
+  top: -15px;
+  z-index: 9999;
+  border-style: solid;
+  border-color: red;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px 10px 10px 0px;
+  width: 70px;
+  cursor: pointer;
+  color: red;
+  display: none;
+}
+
+
+.parentSocialMediaDiv:hover .deleteSocialMediaButton {
+
+  display: block;
+}
+
+.deleteSocialMediaButton:hover {
+  color: white;
+  background-color: red;
+
+}
+
+
+.websiteButton {
+  background-color: white;
+  border-style: none;
+  font-size: 17px;
+  color: blue;
+  cursor: pointer;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* Space between input fields */
+  margin-top: 10px;
+}
+
+.inputField {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.officalPersonBlock {}
+
+
+.toggleEditModeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  padding: 10px 20px;
+  background-color: var(--themeColor);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.toggleEditModeBtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--themeColor);
+  border: 1px solid lightgrey;
+}
+
+.addressInst {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 10px;
+  column-gap: 10px;
+}

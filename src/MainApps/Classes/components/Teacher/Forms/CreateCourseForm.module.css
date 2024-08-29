@@ -1,0 +1,264 @@
+
+
+.createTicketFormDivParent{
+
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1); 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.createTicketForm{
+
+position: relative;
+width: 60vw;
+max-width:700px;
+height:80vh;
+min-width:400px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/*display: flex;
+flex-direction: column;*/
+align-items: center;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+
+
+.createTicketFormLoading{
+
+position: relative;
+width: 60vw;
+height:80vh;
+min-width:300px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.submittingDiv{
+padding-top: 100px;	
+color: var(--themeColor);
+
+}
+
+
+
+
+
+
+
+
+
+.closeButtonDiv{
+width:100%;
+display: flex;
+background-color: white;
+justify-content: flex-end;
+border-radius: 5px;
+}
+
+
+
+.closeFormButton{
+border-style: none;
+cursor: pointer;
+background-color: white;
+border-radius: 5px;
+}
+
+
+.closeButtonIcon{
+
+font-size: 25px;
+
+}
+
+
+.logoAndTitleContainer{
+
+
+height:150px;
+width:80%;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+}
+
+.bwLogo{
+
+height: 75px;
+width: 75px;
+
+}
+
+.formTitleDiv{
+width: 100%;
+display:flex;
+justify-content:flex-start;
+color: #585858;
+}
+
+.formTitleDiv i{
+
+font-size: 30px;
+font-style: normal;
+}
+
+
+
+.submitButtonDiv{
+width: 100%;	
+display: flex;
+justify-content: center;
+background-color: white;
+padding-top: 50px;
+margin-bottom: 50px;
+border-style: none;
+}
+
+
+.submit_button{
+width: 300px;
+border-style: none;
+background-color: var(--themeColor);
+color: white;
+height:50px;
+width:200px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 18px;
+}
+
+
+.emptyDiv{
+width: 80%;
+border-style: solid;
+height: 50px;
+color: white;
+
+}
+
+
+
+
+.singleNMultiFormOption{
+
+height: 40px;
+width: 80%;
+display: flex;
+justify-content: space-between;
+margin-top: 0px;
+border-bottom: solid;
+border-color: lightgrey;
+border-width: 1px;
+margin: auto;
+}
+.singleClass{
+width: 50%;
+height: 50px;
+border-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+color: grey;
+}
+
+.singleClass:hover{
+cursor: pointer;
+}
+
+.multiClass{
+width: 50%;
+height:50px;
+border-style: none;
+border-width: 1px;
+border-color: lightgrey;
+font-family: Roboto;
+display: flex;
+align-items: center;
+justify-content: center;
+color: grey;
+}
+
+.multiClass:hover{
+cursor:pointer;
+}
+
+
+
+.noCourseWarning{
+font-style: normal;
+color: grey;
+font-size: 20px;
+margin: auto;
+border-style: none;
+width: 80%;
+}
+
+.formElement1{
+width: 80%;
+margin: auto;
+border-style: none;
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+.multiClassInfo{
+margin: 20px;
+color: grey;
+font-size: 20px;
+
+}
+
+.multiContainer{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr) );
+grid-auto-rows: 100px ;
+border-style: none;
+grid-column-gap: 50px;
+grid-row-gap: 20px;
+border-color: red;
+margin: auto;
+
+
+
+}
+
+
+.dayFieldContainer{
+display: grid;
+grid-row-gap: 20px;
+
+}
+
+
+

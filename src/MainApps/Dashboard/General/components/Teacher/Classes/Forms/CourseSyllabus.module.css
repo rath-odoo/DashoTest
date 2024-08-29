@@ -1,0 +1,249 @@
+
+.courseSyllabus{
+
+width: 85%;
+background-color: white;
+display: flex;
+align-items: center;
+flex-direction: column;
+align-items: flex-start;
+margin-bottom: 200px;
+padding-top:20px;
+border-style: none;
+margin:auto;
+margin-top: 20px;
+padding: 2.5%;
+border-style: none;
+border-width: 1px;
+border-color: var(--cardBorderColor);
+border-radius: var(--cardBorderRadius);
+}
+
+.courseSyllabus i{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color: grey;
+display: flex;
+}
+
+.courseSyllabusss button{
+font-size:calc( 0.30 * var(--headerHeight) );
+border-style: none;
+background-color: white;
+cursor: pointer;
+color:var(--TextColorDarkBlue1);
+display: flex;
+align-items: center;
+}
+
+.courseSyllabus button:hover{
+text-decoration: underline;
+}
+
+
+.ExpandSyllIcon{
+font-size:calc( 0.30 * var(--headerHeight) );
+padding-left: 5px;
+}
+
+
+.syllabusContent{
+position: relative;
+width: 100%;
+background-color: white;
+font-size: calc( 0.30 * var(--headerHeight) );
+color: grey;
+}
+
+
+.topicCheck{
+font-size: calc( 0.35 * var(--headerHeight) );
+color: green;
+}
+
+
+.chapterNames{
+display: flex;
+flex-direction: column;
+
+}
+
+
+.completeIcon{
+color: green;
+}
+
+
+.numLectures{
+color: white;
+background-color: red;
+float: right;
+border-radius: 2px;
+padding: 2px;
+}
+
+.sectionHead{
+
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+margin: 10px;
+}
+
+
+
+.sectionlist{
+counter-reset: item
+}
+
+
+
+
+ol { counter-reset: item }
+
+
+li{ 
+display: block; 
+border-width: 1px;
+border-color: lightgrey;
+border-style: none;
+padding: 10px;
+
+}
+li:before { content: counters(item, ".") " "; counter-increment: item }
+
+
+
+
+.topicsList{
+display: flex;
+
+
+}
+
+
+.sectionEditButton{
+border-style: none;
+float: right;
+background-color: lightgrey;
+border-radius: 3px;
+color: grey;
+padding: 2px;
+padding-left: 5px;
+padding-right: 5px;
+font-size: 15px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.sectionEditButton:hover{
+cursor: pointer;
+}
+
+.editTopicUnit{
+border-style: solid;
+border-width: 1px;
+border-radius: 3px;
+background-color: #ebebeb;
+border-color: lightgrey;
+}
+
+
+
+.inputText_field{
+width: 100%;
+height: 100%;
+
+}
+
+
+.sectionEditBox{
+min-height: 100px;
+border-style: solid;
+width: 100%;
+border-style: solid;
+border-width: 2px;
+border-color:#e0ebff; 
+}
+
+
+.sectionTextArea{
+min-height: 100px;
+border-style: solid;
+width: 100%;
+border-style: solid;
+border-width: 2px;
+border-color:#e0ebff;
+padding: 20px;
+}
+
+
+
+.sectionTextArea:focus {
+    border-style: none;
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+    border-radius:3px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+
+
+.sectionSaveButton{
+border-style: none;
+background: var(--themeColor);
+color: white;
+border-radius: 3px;
+padding: 3px;
+}
+
+.sectionSaveButton:hover{
+cursor: pointer;
+text-decoration: none;
+}
+
+
+
+.deleteChapterButton{
+float: right;
+border-style: none;
+background-color: lightgrey;
+padding: 5px;
+border-radius: 3px;
+font-size: 20px;
+color: grey;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.topBarSyllabus{
+color: grey;
+display: flex;
+}
+
+.topBarSyllabus_button{
+border-style: none;
+color: white;
+background-color: #00aff0;
+background-color: var(--themeColor);
+padding: 5px;
+margin-left: 20px;
+border-radius: 3px;
+cursor: pointer;
+text-decoration: none;
+
+}
+
+.topBarSyllabus_button:hover{
+text-decoration: none;
+}
+
+
+.toggleSwitch{
+ margin-left: 20px;
+ display: flex;
+ align-items: center;
+}
+
+

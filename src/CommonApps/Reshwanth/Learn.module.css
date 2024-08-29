@@ -1,0 +1,345 @@
+.sagarBox1 {
+  width: auto;
+  /* margin: auto; */
+  height: 2000px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBkgColor);
+  margin: 0;
+  margin-right: 0;
+}
+
+
+
+.Container2 {
+  display: grid;
+  margin-top: 20px ;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, auto)); */
+}
+
+.innerBox {
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 20px;
+  transition: border-color 0.3s; 
+}
+
+
+.innerBox:hover {
+  border-color: var(--themeColor);
+}
+
+
+.content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.university {
+  font-size: 14px;
+  font-family: Roboto;
+  color: var(--themeColor);
+  align-self: flex-start;
+  margin-top: 5px;
+  color: blue;
+  margin-left: 2px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  width: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ratecard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pic1 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.courseTitle {
+  font-weight: bolder;
+  font-family: Roboto ; 
+  font-size: larger;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  margin-top: 10px;
+
+}
+.courseTitle:hover  {
+  color: var(--themeColor);
+}
+
+.text {
+  flex: 1;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.instructor {
+  font-weight: lighter;
+  color: grey;
+  display: flex;
+  justify-content: flex-start;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto;
+}
+
+.class {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: var(--themeColor);
+  align-self: flex-end;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.duration {
+ 
+  margin-right: 12px;
+ 
+}
+
+.live{
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  
+
+}
+.code {
+  border: 1px solid green;
+  font-weight: 500;
+  color: green;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  width: fit-content;
+
+  font-family: Roboto;
+}
+
+.mediaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.enrollButton {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-family: Roboto;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  width: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.ratecard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.ratingStar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.starButton {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pricing {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.card {
+  position: relative;
+  width: 96.5%;
+  height: 200px;
+  background-image: url('images/learn/design.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid lightgray; 
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left:  38px;
+
+
+  
+}
+
+
+
+.man {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.content2 {
+  flex: 1;
+  padding: 10px;
+  height: 50%;
+
+
+}
+
+.heading {
+  font-size: 40px;
+  color: rgb(26, 26, 221);
+  display: flex;
+  justify-content: center;
+  
+}
+ 
+ .text1{
+  padding: 5px;
+  font-family: Roboto;
+  font-size: larger;
+ }
+
+ .searchbar{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 5px;
+ }
+.searchInput {
+  width: auto;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+
+
+
+.enrollButton:hover {
+  background-color: #0056b3;
+}
+
+
+
+.linking{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* @media screen and (min-width: 768px) {
+  .innerBox {
+    width: calc(50% - 20px);
+  }
+
+
+
+
+} */
+
+
+@media screen and (max-width: 1000px) {
+  /* .sagarBox1 {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  } */
+  
+ 
+  .card{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .content2{
+    padding: 20px;
+  }
+
+
+}
+
+

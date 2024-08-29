@@ -1,0 +1,62 @@
+
+
+
+.topIdBarLeft{
+position: relative;
+width: 100%;
+height: calc( 0.80 * var(--headerHeight) );
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+transition: all 1.5s;
+
+}
+
+
+.userImageIcon{
+position: relative;
+left: calc( 0.20 * var(--headerHeight) );
+
+
+
+}
+
+.userImage{
+
+width: calc( 0.60 * var(--headerHeight) );
+height: calc( 0.60 * var(--headerHeight) );
+border-radius: 50%;
+
+
+}
+
+
+.backButton{
+height: 100%;
+background-color: white;
+border-style: none;
+cursor: pointer;
+color: grey;
+}
+
+
+.backButtonIcon{
+font-size: calc( 0.5 * var(--headerHeight) );
+font-weight: bold;
+color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

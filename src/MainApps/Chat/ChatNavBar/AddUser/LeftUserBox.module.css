@@ -1,0 +1,44 @@
+
+
+.leftUserBox{
+position: relative;
+width: 100%;
+height: calc( 1.1 * var(--headerHeight) );
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+background-color: var(--mainAppContainerBkgColor);
+border-radius: 10px;
+transition: 1s;
+}
+
+.leftUserBox:after {
+  content: "";
+  width:20%;
+  height:1px;/* slight higher to work around rounding errors(?) on some zoom levels in some browsers. */
+  background-color:white;
+  position: relative;
+  right:0;
+  display: flex;
+  
+}
+
+
+.leftUserBoxButton{
+
+height: 100%;
+width: 100%;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+border-style:none;
+background-color: white;
+position: relative;
+border-radius: 10px;
+}
+
+.leftUserBoxButton:hover{
+background-color: #ebf2ff;
+
+}
+

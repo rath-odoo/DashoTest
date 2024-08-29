@@ -1,0 +1,87 @@
+
+.singleGradesParent {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+}
+
+.singleGrades {
+  width: 96%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  border: 1px solid var(--cardBorderColorLight);
+  padding-left: 5px;
+  height: 55px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.singleGrades:hover {
+  background-color: var(--cardBorderColorLight);
+  border-color: var(--themeColor);
+}
+
+.imagePic {
+  background-color: white;
+  border: 1px solid var(--cardBorderColorLight);
+  height: 45px;
+  width: 45px;
+  max-width: 45px;
+  max-height: 45px;
+  border-radius: 50%;
+}
+
+.pic {
+  height: 45px;
+  width: 45px;
+  max-width: 45px;
+  max-height: 45px;
+  border-radius: 50%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserName {
+  font-size: 16px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.addGradesbtn {
+  width: 100px;
+  margin-top: 5px;
+  border: 1px solid var(--cardBorderColor);
+  background-color: var(--cardBorderColorLight);
+  border-radius: 4px;
+  padding: 2px;
+  color: var(--greyTextColor);
+  font-size: 12px;
+}
+
+.addGradesbtn:hover {
+  color: white;
+  background-color: var(--themeColor);
+}
+
+.rightDetailsContainer {
+  width: 90%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkedBtn {
+  color: var(--greenColor1);
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}

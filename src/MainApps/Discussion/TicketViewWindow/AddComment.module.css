@@ -1,0 +1,140 @@
+.ticketComments {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid;
+    border-color: lightgrey;
+    padding-top: 20px;
+}
+
+
+.commentTitle {
+    width: 100%;
+    background-color: white;
+    color: var(--ticketTextColor);
+    display: flex;
+}
+
+.commenterButton {
+    border-style: none;
+    background-color: white;
+    color: var(--ticketTextColor);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: green;
+    padding: 7px;
+
+}
+
+.commenterButton:hover {}
+
+
+
+.hrLine {
+    width: 90%;
+
+}
+
+.commenterButton {
+    border-style: none;
+    background-color: white;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: var(--themeColor);
+    border-radius: 3px;
+}
+
+
+.descriptionTextBox {
+    width: 90%;
+    padding-top: 5px;
+    color: var(--ticketTextColor);
+}
+
+
+.addCommentForm {
+    position: relative;
+    width: 100%;
+
+}
+
+.textarea_Div {
+    position: relative;
+    width: 100%;
+
+}
+
+
+.inputText_field {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    outline: none;
+}
+
+.inputText_field:focus {
+
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: var(--themeColor) !important;
+}
+
+
+
+.submit_button {
+    color: white;
+    border-style: none;
+    background-color: var(--themeColor);
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.imageDiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* .imageUpload {
+    margin-top: 20px;
+}
+
+.imageUploadLabel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 7px;
+    color: white;
+    border-style: none;
+    background-color: var(--themeColor);
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* Adjust color as needed */
+/* }
+
+.imageInput {
+    display: none;
+    /* Hide the default file input */

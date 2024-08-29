@@ -1,0 +1,70 @@
+.searchToppersCard {
+  width: 100%;
+  height: 320px;
+  background-color: var(--chatCommentBkgColor);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-style: none;
+  margin: auto;
+}
+
+
+.detailContainer2{
+width: 1200px;
+border-style: none;
+margin: auto;
+}
+
+
+.mainHeading {
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  border: 1px solid red;
+
+
+}
+
+.subHeading {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.textHeading3{
+}
+
+
+.findTopperButton{
+    width: 100px;
+    height: 30px;
+    background-color: var(--themeColor);
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.findTopperButton{
+    cursor: pointer;
+}
+
+
+@media (max-width: 1300px) {
+
+
+  .searchToppersCard{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .detailContainer2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid red;
+  }
+}
+

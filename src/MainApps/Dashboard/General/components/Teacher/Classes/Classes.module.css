@@ -1,0 +1,153 @@
+
+
+.classes{
+
+
+width: 100%;
+margin: auto;
+margin-top: 20px;
+border-style: none;
+height: 1000px;
+}
+
+
+.switchBar{
+height: calc( 0.7 * var(--headerHeight) );
+width:90%;
+margin: auto;
+border-color: lightgrey;
+border-style: none;
+display: flex;
+justify-content: space-between;
+}
+
+.downArrow{
+
+border-style: none;
+display: flex;
+font-size: 12px;
+margin-left: 20px;
+}
+
+
+.timeLine{
+height: 30px;
+width: 90%;
+border-style: none;
+margin: auto;
+align-items: center;
+margin: auto;
+display: flex;
+color: var(--greyTextColor);
+margin-top: 20px;
+white-space: nowrap;
+}
+
+
+.dummyDiv{
+position: relative;
+}
+
+
+.dropDownDiv{
+border-style:solid;
+background-color: white;
+border-width: 1px;
+border-color: lightgrey;
+border-radius: 0px 0px calc( 0.6 * var(--cardBorderRadius) )  calc( 0.6 * var(--cardBorderRadius) );
+position: absolute;
+width: 100%;
+z-index: 1000000;
+padding-bottom: 20px;
+}
+
+
+.dropDownButton{
+width: 100%;
+background-color: white;
+height: calc( 0.7 * var(--headerHeight) );
+display: flex;
+justify-content: flex-start;
+align-items: center;
+cursor: pointer;
+border-style: none;
+
+}
+
+
+.dropDownButton span{
+
+margin-left: 15px;
+}
+
+
+.dropDownButton:hover{
+
+background-color: var(--cardBorderColor);
+}
+
+
+
+.navButton{
+border-style: none;
+border-width: 1px;
+border-color: var(--cardBorderColor);
+margin-left: 5px;
+margin-right: 5px;
+border-radius: 3px;
+color: grey;
+padding-left:10px;
+padding-right: 10px;
+display: flex;
+align-items: center;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+.navButton:hover{
+background-color: lightgrey;
+}
+
+
+
+.infoText_i{
+display: flex;
+}
+
+
+.classTimeLine{
+width: 100%;
+height: 1px;
+background-color: var(--cardBorderColor);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 70px;
+}
+
+
+.oneClassBall{
+height: 5px;
+width: 5px;
+border-radius: 50%;
+background-color: grey;
+margin-left: 5%;
+position: relative
+}
+
+
+.oneClassExactTime{
+position: absolute;
+top: 5px;
+}
+
+
+
+.dateText{
+border-style: none;
+display: flex;
+align-items: center;
+}
+
+
+

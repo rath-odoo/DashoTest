@@ -1,0 +1,121 @@
+
+
+.parentContainer {
+  width: 100%;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.topbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+}
+
+.leftdiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  background-color: var(--cardBorderColorLight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  border-radius: 50%;
+}
+
+.studentTitle {
+  margin-left: 10px;
+}
+
+.edit {
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 6px;
+  height: 25px;
+  color: var(--deepDarkThemeTextColor);
+  margin-bottom: 10px;
+}
+
+.edit:hover {
+  background-color: var(--themeColor);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mainContainer {
+  width: 100%;
+  background-color: #1b1e24;
+  background-color: white;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  row-gap: 10px;
+  column-gap: 10px; */
+}
+
+.topDetailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.docSr {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.docName {
+  width: 30%;
+  font-weight: bold;
+}
+
+.docUpload {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.docLink {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.docDownload {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .parentContainer {
+    font-size: 16px;
+  }
+
+  .topDetailsContainer {
+    padding: 0;
+  }
+}

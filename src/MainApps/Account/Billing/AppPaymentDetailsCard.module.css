@@ -1,0 +1,100 @@
+.appPaymentCard {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  border: 1px solid var(--cardBorderColorLight);
+  border-radius: 10px;
+}
+
+.paymentHistoryDetails {
+  margin-top: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid var(--cardBorderColor);
+  margin-bottom: 20px;
+}
+
+.paymentContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  background-color: var(--cardBorderColor);
+  align-items: center;
+  border: 1px solid var(--cardBorderColor);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.srNo {
+  font-size: 14px;
+  width: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Date {
+  font-size: 12px;
+
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Amount {
+  font-size: 14px;
+
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Invoice {
+  font-size: 14px;
+
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PaymnetMethod {
+  font-size: 14px;
+
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Credit {
+  font-size: 14px;
+
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Debit {
+  font-size: 14px;
+
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Status {
+  font-size: 14px;
+
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

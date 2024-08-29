@@ -1,0 +1,121 @@
+
+.instituteBar{
+width: 75%;
+min-height: calc( 0.7 * var(--headerHeight) );
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: white;
+padding: 20px;
+margin: auto;
+border-style: none;
+
+}
+
+.instituteBar i{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color: black;
+}
+
+.timeAndAddressInfo{
+font-size:calc( 0.30 * var(--headerHeight) );
+border-style: none;
+background-color: white;
+color:var(--TextColorDarkBlue1);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.editButton{
+font-size:calc( 0.30 * var(--headerHeight) );
+border-style: none;
+background-color: white;
+cursor: pointer;
+color:var(--TextColorDarkBlue1);
+}
+
+
+
+
+
+.titleSpace{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.editIcon{
+color: grey;
+font-size: calc( 0.40 * var(--headerHeight) );
+}
+
+
+
+
+.videoMicroContainer{
+display: grid;
+grid-template-columns: repeat(auto-fit, 100px );
+grid-template-rows: 1fr ;
+grid-column-gap: 50px;
+grid-row-gap: 50px;
+border-style: none;
+margin: 50px;
+margin-bottom: 20px;
+margin-top: 30px;
+border-style: none;
+}
+
+.uploadButton{
+border-style: none;
+margin-left:20px;
+color: white;
+padding:5px;
+padding-left:20px;
+padding-right: 20px;
+border-radius: 5px;
+color: grey;
+
+
+}
+
+.uploadButton:hover{
+cursor: pointer;
+}
+
+.textInfo{
+margin-top:30px;
+margin-left: 50px;
+}
+
+
+.pdfFileIcon{
+width: 100px;	
+height: 150px;
+}
+
+
+.presentationContainer{
+width: 90%;
+background-color: white;
+border-style: none;
+border-width: 1px;
+border-color: lightgrey;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 200px;
+
+}
+
+
+
+
+
+
+
+
+

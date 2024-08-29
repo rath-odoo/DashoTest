@@ -1,0 +1,46 @@
+
+.parentTopBar {
+  width: 98%;
+  height: auto;
+  margin: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftBox {
+  margin: 10px;
+}
+
+.GradesTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.addGrade {
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.rightBox {
+}
+
+.viewGradesbtton {
+}
+
+.viewgradesBtn {
+  margin-right: 20px;
+  color: white;
+  background-color: var(--themeColor);
+  border-radius: 8px;
+  border: 1px solid var(--themeColor);
+  padding: 6px;
+}

@@ -1,0 +1,79 @@
+.oneFriend {
+  width: 150px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 16px;
+  border-color: var(--cardBorderColor);
+  border-width: 1px;
+  border-radius: var(--cardBorderRadius);
+  height: 250px;
+}
+
+.iconContainer {
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chat {
+  background-color: var(--lightThemeColor2);
+  color: var(--tintGreyColor1);
+  padding: 6px;
+  align-content: center;
+  border-radius: 50px;
+}
+
+.chat :hover {
+  cursor: pointer;
+}
+
+.profile {
+  background-color: white;
+  color: var(--themeColor);
+  border-color: var(--themeColor);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  align-content: end;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.profile:hover {
+ background-color: var(--themeColor);
+ color: white;
+}
+
+.lineHorizontal {
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(37, 36, 36, 0.2);
+}
+
+.friendImage {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  border-radius: var(--cardBorderRadius);
+}
+
+.InfoBox {
+  align-self: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+  border-style: none;
+}
+
+.InfoBox i {
+  font-size: 14px;
+  color: var(--tintGreyColor1);
+}

@@ -1,0 +1,179 @@
+.ticketComments {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid;
+    border-color: lightgrey;
+    padding-top: 20px;
+}
+
+
+.commentTitle {
+    width: 100%;
+    background-color: white;
+    color: var(--ticketTextColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commenterTextDiv {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.commenterButton {
+    border-style: none;
+    background-color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: var(--themeColor);
+}
+
+.commenterButton:hover {
+    text-decoration: underline;
+}
+
+
+.descriptionContent {
+    width: 90%;
+    font-size: 18px;
+    white-space: pre-wrap;
+    margin-top: 10px;
+}
+
+
+.hrLine {
+    width: 90%;
+
+}
+
+.addedComment {
+    color: grey;
+}
+
+
+.authorDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dotsDropdown {
+    position: relative;
+
+
+}
+
+.dropDownButton {
+
+    cursor: pointer;
+    border-style: none;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+
+.dropDownButton:hover {
+    background-color: lightgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+
+
+.dropDownMenu {
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    border-style: solid;
+    right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+}
+
+.changeButton {
+
+    border-style: none;
+    height: 40px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+.changeButton:hover {
+    background-color: lightgrey;
+}
+
+
+
+.editTextDiv {
+
+    border-style: none;
+    width: 100%;
+}
+
+.editCommentInput {
+
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    outline: none;
+    min-height: 100px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+
+.editCommentInput:focus {
+
+    border-width: 1px !important;
+    border-color: var(--themeColor) !important;
+}
+
+.editCommentButtonsDiv {}
+
+
+.saveButton {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    background-color: var(--themeColor);
+    color: white;
+}
+
+
+.cancelButton {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+
+}

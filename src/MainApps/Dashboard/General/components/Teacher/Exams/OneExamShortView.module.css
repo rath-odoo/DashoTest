@@ -1,0 +1,406 @@
+.courseViewDashboard {
+  box-shadow: rgba(0, 0, 0, 0.05) 1px 1px 1px 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 15px;
+  border-color: lightgrey;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 90%; 
+  font-size: 16px;
+  padding-bottom: 23px;
+
+}
+
+.courseViewDashboard:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 1.95px;
+}
+.name{
+  width: 100%;
+  display: flex;
+    justify-content: center;
+}
+
+/* .titleDiv {
+  width: 100%;
+  border-style: none;
+  margin-left: -0%;
+  border-width: 1px;
+  border-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+} */
+
+.titleDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; 
+}
+
+.menu {
+  position: absolute;
+  top: 100%; 
+  right: 0; 
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+}
+
+.menuItem {
+  padding: 8px 16px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background-color: #f5f5f5;
+}
+
+
+.addressDiv {
+  margin-top: 10px;
+  border-style: none;
+  border-width: 1px;
+  color: var(--lightGreyTintTextColor);
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+}
+/* .menu {
+  position: absolute;
+  top: 20%;  
+  right: 20%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem {
+  padding: 8px 16px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background-color: #f5f5f5;
+}
+ */
+
+ 
+
+.classInfo {
+  /* background-color: var(--themeColor); */
+  color: var(--greyTextColor);
+  padding: 2px;
+  padding-right: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--cardBorderColor); */
+}
+
+.leftInfo {
+  display: flex;
+  align-items: center;
+  border-style: none;
+  border-color: green;
+  width: 80%;
+  height: 100%;
+
+}
+
+.classId {
+  background-color: var(--bodyBkgColor);
+  border-radius: 4px;
+  color: var(--greyTextColor);
+  margin-left: 20px;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.classData {
+  padding-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-items: center;
+  margin: auto;
+  color: var(--themeColor);
+
+} 
+
+.dotsButton {
+  /* position: relative; */
+  float: right;
+  border-style: none;
+  margin-left: 20px;
+  background-color: white;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.dotsButton:hover {
+    background-color: var(--bodyBkgColor);
+    border-radius: 20%;}
+
+.middleDiv {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  margin: auto;
+
+}
+
+.authorDiv {
+  border-style: none;
+  align-items: center;
+  color: var(--lightGreyTintTextColor);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 1px;
+  width: 80%;
+  margin-top: 10px;
+  font-size: 14px;
+
+}
+
+.redirButtons {
+  display: flex;
+  border-style: none;
+  float: right;
+  align-items: center;
+  border-color: yellow;
+}
+
+.joinClassButton {
+  height: 50%;
+  border-style: none;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #d67b1a;
+  color: white;
+  width: 150px;
+  border-radius: var(--cardBorderRadius);
+  cursor: pointer;
+  font-family: Roboto;
+}
+
+.viewClassButton {
+  height: 60%;
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-top: 13%;
+  border-style: none;
+  align-items: center;
+  display: flex;
+  width: 140px;
+  cursor: pointer;
+  border-radius: var(--cardBorderRadius);
+  padding-left: 15px;
+  color: var(--tintGreyColor1);
+  font-family: Roboto;
+  border-radius: 4px;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.viewdetailIcon {
+  margin-left: 10px;
+}
+
+
+.viewClassButton:hover{
+    background-color: white;
+    border: 1px solid var(--cardBorderColor);
+}
+
+.classAddress {
+  color: var(--tintGreyColor1);
+  border-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.lowerDiv {
+  height: 50px;
+  border-style: none;
+  width: 100%;
+  border-width: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftLowerDiv {
+  border-style: none;
+  height: 100%;
+  width: 100%;
+}
+
+.rightLowerDiv {
+  border-style: none;
+  height: 100%;
+  display: flex;
+}
+
+.classStatus {
+  color: green;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.toprightBoxes {
+  display: flex;
+  /* position: relative; */
+}
+
+.classTime {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: none;
+  border-width: 1px;
+  padding: 5px;
+  border-radius: 5px;
+  /* border-color: var(--tintGreyColor2); */
+  color: var(--deepDarkThemeTextColor2);
+  /* color: grey; */
+  font-size: 14px;
+}
+
+.topicsTitle {
+  color: var(--deepDarkThemeTextColor);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--deepDarkThemeTextColor2);
+  color: #3f444d;
+  color: #5f656e;
+  color: var(--deepDarkThemeTextColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.classNum {
+  color: grey;
+  background-color: var(--bodyBkgColor);
+  color: var(--greyTextColor);
+  font-weight: 500;
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 6px;
+  margin-right: 10px;
+
+}
+.todayTopic {
+  font-size: 16px;
+  margin-top: 9px;
+  color: var(--greyTextColor);
+  /* letter-spacing: 1px; */
+  font-weight: 600;
+  
+  
+}
+
+.clockIcon{
+color: var(--themeColor); 
+  
+}
+
+
+
+
+
+
+
+.overLay{
+
+  position: fixed;
+  width: 100vw;
+  height:100vh;
+   
+  z-index: 10000;
+  right:0;
+  top:0; 
+  background-color: transparent;
+   background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .confirmDialog{
+    padding: 20px;
+    background-color: white;
+    width: 380px;
+   height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);  
+  font-family: Roboto; 
+  border-radius: 15px; 
+  border-width: 1px;
+  }
+  
+  .p{
+  color: #808080;
+  padding-left: 4px;
+  font-size: 16px;
+  }
+  .deleteYes{
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000 ; 
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .deleteNo{
+    height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2 ; 
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+  }
+  .div{
+    display: flex;
+    gap: 10%;
+    padding-left: 17%;
+  }
+  .pagination{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .pageButton{
+
+  }

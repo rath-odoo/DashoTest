@@ -1,0 +1,83 @@
+.faqContainer {
+  width: 100%;
+
+  background-color: var(--cardBorderColorLight);
+  background-color: var(--bodyBkgColor);
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.mainTitleContainer {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  margin-top: 30px;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.questionsContainer {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.queContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.que1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  background-color: var(--cardBorderColorLight);
+  border-radius: 30px;
+  padding: 6px;
+}
+
+.ans1 {
+  color: black;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .faqContainer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .mainTitleContainer {
+    padding-top: 20px;
+  }
+
+  .mainContainer {
+    width: 100%;
+  }
+}

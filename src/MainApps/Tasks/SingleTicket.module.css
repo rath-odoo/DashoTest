@@ -1,0 +1,92 @@
+.SingleTicketParent {
+    width: 96%;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+    /* border: 1px solid var(--cardBorderColorLight); */
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  
+  .mainContainer {
+    /* border: 1px solid blue; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    background-color: white;
+    text-align: start;
+  }
+
+  .mainContainer:hover{
+    cursor: pointer;
+  }
+  
+  .parentHeading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Heading {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: green;
+    /* border: 1px solid var(--cardBorderColorLight); */
+  }
+  
+  
+  .icon{
+    background-color: var(--cardBorderColorLight);
+    height: 26px;
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+  }
+  .mainicon {
+    color: var(--greyTextColor);
+  }
+  
+  .Title {
+    color: var(--deepDarkThemeTextColor);
+    margin-left: 6px;
+    font-size: 13px;
+  }
+  
+  .statusText {
+    color: green;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .headingTopic {
+    margin-top: 6px;
+    font-size: 13px;
+    color: var(--deepDarkThemeTextColor);
+    font-weight: 500;
+  }
+  
+  .detail {
+    margin-top: 6px;
+    font-size: 13px;
+    color: var(--lightGreyTintTextColor);
+  }
+  

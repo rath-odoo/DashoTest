@@ -1,0 +1,101 @@
+.mainContainer{
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    height: 600px;
+    width: 600px;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.innerContainer{
+    margin: 20px;
+    position: relative;
+}
+
+.closeButton{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0px;
+}
+
+
+.imgTag{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.titleContainer , .contentContainer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.titleInput{
+    height: 30px;
+    width: 90%;
+    font-size: 17px;
+    padding: 10px;
+    border: 1px solid var(--cardBorderColor);
+    outline: none;
+    border-radius: 10px;
+}
+
+.titleInput:focus , .contentInput:focus{
+    outline: none;
+}
+
+.contentInput{
+    width: 90%;
+    font-size: 17px;
+    padding: 10px;
+    border: 1px solid var(--cardBorderColor);
+    outline: none;
+    border-radius: 10px;
+}
+
+.changeImgeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.changeImage{
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    background-color: inherit;
+    border: 2px solid var(--cardBorderColor);
+    border-radius: 10px;
+
+}
+
+.postContainer{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.postButton {
+    width: 20%;
+    height: 35px;
+    background-color: var(--themeColor);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 17px;
+    position: relative;
+    bottom: -10px;
+    right: 25px;
+  }

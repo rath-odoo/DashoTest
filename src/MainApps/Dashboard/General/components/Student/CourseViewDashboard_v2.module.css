@@ -1,0 +1,356 @@
+.courseViewDashboard{
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+/*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+/*border-top: solid 1px grey;
+border-bottom: solid 1px grey;
+*/
+
+
+background-color: white;
+border-radius: 5px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+/*box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;*/
+margin-bottom: 0px;
+border-style: solid;
+border-width: 1px;
+border-color: var(--headerRightIconsColor);
+border-color: #e0ebff;
+
+}
+
+.innerMarginDiv{
+border-style: none;
+margin: 30px;
+}
+
+
+
+.upperPart{
+height: 130px;
+width: 100%;
+border-style: none;
+border-width: 1px;
+display: flex;
+}
+
+
+.upperInfoDiv{
+background-color: white;
+height: 100%;
+width: calc( 100% - 130px);
+margin-left: 15px;
+}
+
+
+.picDiv{
+height:130px;
+width: 130px;
+background-color:#90EE90;
+border-radius: 4px;
+}
+
+
+.picStyle{
+width: 100%;
+height: 100%;
+border-radius: 4px;
+}
+
+
+.topBar1{
+border-style: none;
+color: grey;
+display: flex;
+justify-content: space-between;
+}
+
+.topBar1_left{
+display: flex;
+width: 50%;
+border-style: none;
+justify-content: space-between;
+}
+
+
+
+
+.courseNameDiv{
+border-style: none;
+font-size: 20px;
+margin-top: 15px;
+}
+
+
+.courseNameButton{
+border-style: none;
+background-color: white;
+font-size: 20px;
+cursor: pointer;
+padding: 0px;
+}
+
+
+.courseCode{
+
+background-color:#dcf7ea;
+padding: 3px;
+border-radius:4px;
+color: #65c394;
+}
+
+.topBar1_right{
+display: flex;
+}
+
+
+.notification{
+margin-left:10px;
+margin-right:10px;
+border-style: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.notIcon{
+font-size: 20px;
+
+}
+
+
+
+
+
+
+.lowerPart{
+height: 70px;
+width: 100%;
+border-style: none;
+border-width: 1px;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+.lowerPart_left{
+border-style: none;
+margin: 8px;
+}
+
+.lowerPart_middle{
+border-style: none;
+margin: 8px;
+}
+.lowerPart_right{
+border-style: none;
+margin: 8px;
+}
+
+.lowerPartTitle{
+color: grey;
+font-size: 12px;
+}
+
+
+.lowerPartInfo{
+color: #395B64;
+margin-top:10px;
+display: flex;
+justify-content: space-between;
+}
+
+
+.oneTool{
+height: 35px;
+width: 35px;
+border-radius: 50%;
+border-style: solid;
+border-color: lightgrey;
+margin: 10px;
+}
+
+
+
+
+.progressBar{
+height:12px;
+width:150px;
+background-color: #F0F0F0;
+border-radius:5px;
+
+}
+
+.progressWidth{
+height:12px;
+width:30%;
+background-color: #AFE1AF;
+border-radius:5px;
+}
+
+
+.middlePart{
+border-style: none;
+width: 100%;
+height: 70px;
+border-width: 1px;
+border-color: lightgrey;
+display: flex;
+justify-content: space-between;
+}
+
+
+.goToCourse{
+width: 100px;
+height:100%;
+}
+
+
+
+.middlePart_left{
+width: 30%;
+height: 100%;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+color: grey;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.middlePart_middle{
+width: 30%;
+height: 100%;
+border-style: none;
+border-width: 1px;
+
+}
+
+
+
+
+
+
+.middlePart_right{
+width: 50px;
+height: 100%;
+border-style: none;
+border-width: 1px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+
+.goToCourseButton{
+height: 100%;
+border-style: none;
+color: grey;
+cursor: pointer;
+}
+
+.goToCourseButton:hover{
+background-color: #00aff0;
+color: white;
+
+}
+
+
+.goToCourseBtnIcon{
+font-size:20px;
+
+}
+
+
+
+
+.upcomingClassTitle{
+font-size:12px;
+
+}
+
+.upcomingClassTime{
+
+
+}
+
+
+.dotsButton{
+border-style: none;
+background-color: white;
+cursor: pointer;
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-size: 18px;
+position: relative;
+
+}
+
+.dropdownButtons{
+width: 100px;
+position: absolute;
+border-style: solid;
+z-index: 9999;
+right: 2px;
+top: 25px;
+background-color: white;
+border-width: 1px;
+border-color: lightgrey;
+border-radius: 3px;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.dropdownButton{
+
+height: 35px;
+border-style: none;
+cursor: pointer;
+}
+
+
+.dropdownButton:hover{
+
+ background-color: lightgrey;
+
+}
+
+
+
+.notEnrolledSign{
+  
+cursor: pointer;
+position: relative;
+}
+
+.notEnrolledSign:hover .toolTipText{
+visibility:visible;
+
+}
+
+.toolTipText{
+visibility: hidden;	
+position: absolute;
+top: 10px;
+width: 300px;
+background:white;
+border-radius:5px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+color: grey;
+padding: 10px;
+font-size: 14px;
+}
+
+
+
+
+
+

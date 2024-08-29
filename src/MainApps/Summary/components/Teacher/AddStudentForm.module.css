@@ -1,0 +1,101 @@
+
+
+
+.addStudentFormDiv{
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.formDiv{
+
+
+
+position: relative;
+width: 60vw;
+height:90vh;
+min-width:300px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow-y: scroll;
+
+
+}
+
+
+.closeButtonDiv{
+width:100%;
+display: flex;
+background-color: white;
+justify-content: flex-end;
+border-radius: 5px;
+}
+
+
+
+.closeFormButton{
+border-style: none;
+cursor: pointer;
+background-color: white;
+border-radius: 5px;
+}
+
+
+.closeButtonIcon{
+
+font-size: 25px;
+
+}
+
+.searchBoxEnrolledStudents{
+border-style: solid;
+margin-top: 50px;
+width: 50%;
+padding: 7px;
+border-width: 1px;
+border-color: grey;
+}
+
+.input_fieldSearch{
+
+width: 80%;
+margin-left:10px;
+font-size: 20px;
+border-style: none;
+}
+
+.input_fieldSearch:focus{
+ outline: none !important;
+/* border:none;
+ box-shadow: 0 0 10px #719ECE;*/
+background-color: var(--lightThemeColor1);
+}
+
+.InfoSearchStudent{
+
+font-size: 20px;
+}
+
+
+
+
+
+
+
+

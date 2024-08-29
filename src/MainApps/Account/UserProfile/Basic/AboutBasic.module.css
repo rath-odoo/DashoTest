@@ -1,0 +1,507 @@
+.Parent {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80%;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.uploadButton {
+  background-color: #5b58b0;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 160px;
+  right: 50px;
+  justify-content: center;
+  
+}
+
+.profileBox {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  /* background-color: #161550; */
+  background-color:  #1a1a80;
+  color: white;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.Profile {
+  position: relative;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+  color: white;
+  height: 200px;
+
+}
+
+.Profileimage {
+  position: absolute;
+  bottom: -50px;  
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 230px;
+  height: 250px;
+  border-radius: 50%;
+  left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+
+.WarningBlock{
+ 
+  
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid;
+
+  border-radius: 5px;
+  z-index: 9999;
+  max-width: 500px;
+  height: 50vh;
+  min-width: 25%;
+  background-color: #f5f5f5;
+  border-radius: calc(0.2* 3.0rem);
+  border-style: none;
+  border-color: grey;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+  /* overflow-y: scroll; */
+  /* overflow-x: ; */
+  /* padding-left: 45px;
+  padding-right: 45px; */
+}
+.btnCrossMark{
+  font-size: 13px;
+  background-color: #f5f5f5;
+  border-style: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+svg{
+  font-size: 13px;
+}
+
+.profileTitle{
+  color: #585858;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  
+    }
+
+.cancelBtn{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+  background-color: #f5f5f5;
+  align-items: center;
+  margin-top: 8px;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+
+.cameraIconContainer{
+  background-color: #e4e6eb;
+  /* background-color:  #808080; */
+  color: black;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 160px;
+  top: 220px;
+  cursor: pointer;
+}
+
+.cameraIcon{
+  width: 17px;
+  height: 20px;
+}
+
+
+.Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Name {
+  padding: 5px;
+  font-size: x-large;
+  font-weight: bold;
+  position: absolute;
+  top: 210px;
+  left: 250px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.statusEditBox {
+  justify-content: flex-end;
+}
+
+.editButton1 {
+  background-color: #ffffff;
+  color: #063cc7;
+  font-weight: bold;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 110px;
+}
+
+.status {
+  display: flex;
+  font-size: larger;
+  font-weight: 500;
+  padding: 5px;
+}
+.status ,.Since{
+  margin-right: 6px;
+}
+
+.Active {
+  border: 1px solid;
+  padding: 2px 4px;
+  border-radius: 5px;
+  margin-left: 70px;
+  background-color: #7eb88c;
+  font-size: small;
+  font-weight: 500;
+  width: auto;
+  color: #fff;
+  align-items: center;
+}
+
+.Since {
+  display: flex;
+  font-weight: 500;
+  padding: 5px;
+  font-size: larger;
+}
+
+.date {
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 500;
+  margin-left: 8px;
+  padding: 4px;
+}
+
+.header1{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.ProfileContent{
+  margin-bottom: 20px;
+}
+.Buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.PublicButton,
+.PrivateButton {
+  background-color: #173ba9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.PrivateButton {
+  background-color: #7eb88c;
+}
+
+.PublicButton:hover {
+  background-color: #0f2c70;
+  transform: scale(1.1);
+}
+
+.PrivateButton:hover {
+  transform: scale(1.1);
+}
+
+.PublicButton,
+.PrivateButton {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.About,
+.Education,
+.Skills,
+.Experience,
+.Certificates {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.text {
+  border-bottom: 1px solid lightgray;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.infoBox {
+  font-size: medium;
+  font-weight: 400;
+}
+
+.infoBoxAboutUs{
+  font-size: medium;
+  font-weight: 400;
+  display: flex;
+}
+.aboutContainer{
+  display: flex;
+  margin-left: auto;
+}
+
+.WorkingIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.WorkingIcon img {
+  padding: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.WorkingIcon {
+  font-style: italic;
+  font-size: medium;
+}
+
+.Icon {
+  /* margin-right: 8px; */
+  /* margin-top: 5px; */
+  height: 20px;
+  width: 20px;
+}
+
+.CertificateList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.CertificateItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.CertificateItem img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.ProfileHighlights {
+  font-weight: bold;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-size: medium;
+  font-weight: 400;
+}
+ 
+@media only screen and (max-width: 768px) {
+  .Profile {
+    /* height: auto; */
+    /* position: absolute; */
+  }
+
+  .Profileimage {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 100px;
+  }
+
+  .Name {
+    position: relative;
+    /* top: auto; */
+    left: 190px;
+    transform: none;
+    /* margin-top: 100px; */
+    /* bottom: 30px; */
+    /* right: 90px; */
+    /* text-align: center; */
+    font-size: 18px;
+  }
+
+  .uploadButton {
+    position: relative;
+    top: 5px;
+    left: 40px;
+    transform: none;
+   
+  }
+
+  .status {
+    display: flex;
+    font-size: medium;
+  }
+
+  .Since {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-bottom: 10px;
+    font-size: medium;
+  }
+
+  .date{
+    font-size: medium;
+  }
+  
+  .Active{
+    font-size: small;
+  }
+}
+
+.editButton{
+  margin-left: auto;
+  /* background-color: black; */
+  color: white;
+  border-radius: 50%;
+  /* height: 20px;
+  width: 20px; */
+  height: 26px;
+  width: 26px;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.editIcon{
+  width: 10px;
+  height: 11px;
+  color: black;
+  border-radius: 50%;
+}
+
+.divOne{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.editBtn{
+
+  width: 12px;
+  height: 12px;
+ 
+   
+  /* margin-right: 10px; */
+}
+
+.editBtnContainer{
+    
+  background-color: #efefef;
+  display: flex;
+  margin-left: auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.txtDiv{
+  width: 96%;
+  padding-left: 3px;
+}
+
+
+
+
+
+
+.educationDiv{
+  padding-left: 3px;
+}
+
+.eduInnerDiv{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dateEdu{
+  color: #00000099;
+  font-size: 15px;
+
+}

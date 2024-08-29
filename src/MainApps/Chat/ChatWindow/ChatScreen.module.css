@@ -1,0 +1,114 @@
+
+.chatScreen{
+
+width:100%;
+height: calc( 100% - calc( 1.6 * var(--headerHeight) ) ) ;
+background-color: #f5efe9;
+display: flex;
+/*flex-direction: column-reverse;*/
+flex-flow: column nowrap;
+/*flex-direction:column;*/
+/*justify-content:flex-end;*/
+overflow-y:auto;
+overflow-x: hidden;
+
+}
+
+
+/*
+.chatScreen:first-child {
+    margin-top: auto !important;
+    }
+*/
+
+
+
+.chatScreen::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+}
+
+.chatScreen::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+.chatScreen::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.dummyDiv1{
+display: block;
+background-color: #f5efe9;
+color: #f5efe9;
+float: bottom;
+height: 1500px;
+padding-bottom: 400px;
+}
+
+
+
+.dummyDiv{
+display: block;
+background-color: #f5efe9;
+float: bottom;
+height: 100px;
+}
+
+
+
+
+
+
+
+
+
+.comment{
+display: block;
+background-color: #f5efe9;
+float: bottom;
+padding: 5px;
+margin:2px;
+width:90%;
+}
+
+.commentText{
+max-width:80%;	
+position: relative;	
+font-style: normal;
+background-color: #d0f0c0;
+border-radius: 5px;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+float:right;
+right:0px;
+font-size: 18px;
+word-break: break-word;
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
+display:flex;
+flex-direction: column;
+
+}
+
+
+.chatTime{
+font-size: 10px;
+color: grey;
+border-style: none;
+
+}
+
+.timeText{
+float:right;
+}
+
+
+
+
+

@@ -1,0 +1,140 @@
+
+
+.parentsCard {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px none;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+  padding: 16px;
+}
+
+.mainParentCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meetingText {
+  font-size: 16px;
+}
+.copyLinkBtn {
+  width: 90px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: var(--bodyBkgColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 4px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.editBtnContainer {
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBkgColor);
+}
+
+.editBtnContainer:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--themeColor);
+  font-weight: 700;
+}
+
+.editBtnContainer:hover .editbutton {
+  color: white;
+}
+
+.editbutton {
+  padding-right: 6px;
+  color: var(--tintGreyColor1);
+}
+
+.copyLinkBtn:hover {
+  background-color: var(--themeColor);
+  color: white;
+  cursor: pointer;
+}
+
+.copyText {
+  font-size: 14px;
+  padding: 4px;
+}
+
+.JoinClassButton {
+  height: 30px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color:orange;/* var(--themeColor);*/
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 8px;
+  border: none;
+}
+
+
+.JoinClassButton span{
+margin-left:10px;
+}
+
+
+.JoinClassButton:hover {
+  background-color: white;
+  color: var(--themeColor);
+  border: 1px solid var(--themeColor);
+  cursor: pointer;
+}
+
+.mettingLinkUrl {
+  display: inline-block;
+
+
+
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  color: var(--themeColor);
+  /* display: flex;
+  justify-content: start;
+  align-items: center; */
+  padding: 0px;
+
+}
+
+.mettingLinkUrl:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .mettingLinkUrl{
+    width: 350px; /* Adjust the width to your desired value */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

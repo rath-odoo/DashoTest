@@ -1,0 +1,195 @@
+
+
+.parentInvoice {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bodyBkgColor);
+  display: flex;
+  justify-content: center;
+}
+
+.mainData {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.topheading {
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.mainContainer {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.leftBox {
+  margin-left: 40px;
+  width: 80%;
+  height: 100%;
+}
+
+.rightBox {
+  margin-right: 40px;
+  width: 80%;
+  height: 100%;
+}
+
+.box1 {
+  margin-top: 8px;
+  display: flex;
+}
+
+.title {
+  width: 120px;
+  color: var(--greyTextColor);
+}
+
+.admissionNo {
+  font-weight: 500;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.invoiceNo {
+  font-weight: 500;
+
+  color: var(--deepDarkThemeTextColor);
+}
+
+.receiptNo {
+  font-weight: 500;
+
+  color: var(--deepDarkThemeTextColor);
+}
+
+.dateIssued {
+  font-weight: 500;
+
+  color: var(--deepDarkThemeTextColor);
+}
+
+.paymentMethod {
+  font-weight: 500;
+
+  color: var(--deepDarkThemeTextColor);
+}
+
+.issuedBy {
+  font-weight: 500;
+
+  color: var(--deepDarkThemeTextColor);
+}
+
+.mainBox {
+  width: 90%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid var(--cardBorderColor);
+  margin-bottom: 10px;
+}
+
+.paymentDetials {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBox {
+  width: 90%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--bodyBkgColor);
+}
+
+.des {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.amt {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.gst {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.total {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.address {
+  width: 300px;
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .parentInvoice {
+  }
+
+  .mainContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftBox {
+    margin-left: 0;
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .rightBox {
+    margin-top: 10px;
+    width: 80%;
+    margin-right: 0px;
+    font-size: 14px;
+  }
+  .address {
+    width: 300px;
+  }
+  .paymentDetials {
+    margin: 0;
+  }
+}

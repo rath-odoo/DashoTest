@@ -1,0 +1,287 @@
+
+.warningBlock {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 80vw;
+  height: 85vh;
+  max-width: 800px;
+  min-width: 370px;
+  background-color: white;
+  border-radius: 5px;
+  border-style: none;
+  border-color: grey;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+}
+
+.warningBlock::-webkit-scrollbar {
+  display: none; 
+}
+.option{
+  color: #808080;
+}
+
+  .divOne{
+display: flex;
+/* width: 90%; */
+flex-direction: column;
+width: 100%;
+padding-left: 3.7%;
+  }
+
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+  }
+  
+  .datesContainer{
+    /* justify-content: ce; */
+    display: flex;
+    padding-left: 26px;
+    flex-direction: column;
+  
+    width: 88%;
+    /* gap: 53px; */
+    /* margin: 10px; */
+  }
+  
+  .dateStart {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .dateEnd{
+      width: 50%;
+    margin: 10px;
+    margin-left: 2px;
+    /* margin-left: auto; */
+    /* margin-right: 66px; */
+  }
+  
+  .closeBtn{
+    margin-left: auto;
+    display: flex;
+    cursor: pointer;
+    background-color: white;
+    border-style: none;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  
+  .heading{
+    display: flex;
+    justify-content: center;
+    color: #585858;
+    font-size: 30px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .redStar{
+    color: red;
+  }
+  .LeaveReasonConatainer{
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    padding-left: 35px;
+    gap: 20px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submitContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+  
+  }
+  
+  .submitBtn{
+    width: 50%;
+    border-style: none;
+    background-color: var(--themeColor);
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .demoText {
+      height: 10%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .icon {
+      height: 80px;
+      width: 80px;
+      background-color: var(--bodyBkgColor);
+      border: 1px solid var(--cardBorderColor);
+      border-radius: 50%;
+    }
+    
+    .title {
+      margin-top: 20px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  
+    .btnLeave{
+      /* align-self: flex-start; */
+      /* height: 35px; */
+  
+      background-color: transparent;
+      border: 1px solid var(--themeColor);
+      color: var(--themeColor);
+      margin-left: 10px;
+      padding: 4px;
+      border-radius: 4px;
+      cursor: pointer;
+      
+     
+  
+    /* height: 35px;
+      border-style: solid;
+      font-size: calc( 0.3 * var(--headerHeight) );
+      cursor: pointer;
+      border-width: calc(0.04* var(--headerHeight));
+      border-color: var(--cardBorderColor);
+      background-color: #f2f2f2;
+      
+      font-family: Roboto;
+      border-radius: calc(0.6* var(--cardBorderRadius));
+      padding-left: calc(0.5* var(--headerHeight));
+      padding-right: calc(0.5* var(--headerHeight));
+      border-width: 1px;
+       
+      border-color: var(--themeColor);
+      font-weight: bold;
+    */
+    }
+  
+  
+    .btnContainer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      height: 40px;
+      /* background-color: #fff; */
+    }
+  
+    .toolContainer{
+      display: flex;
+      height: 1px;
+      margin-left: auto;
+      margin-right: 100px;
+      margin-top: 20px;
+    }
+  
+  
+    .assetItem{
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+
+    .fieldContainer{
+     
+      padding-top: 1px;
+      padding-left: 30px;
+      padding-right: 30px;
+      /* padding: 30px; */
+    }
+
+
+    .dateDiv{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .startDate ,.endDate{
+      width: 45%;
+    }
+
+    .label{
+      color: #808080;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      font-size: 16px;
+      margin-top: 15px;
+  }
+
+  .borderBoxTwo{
+    position: relative;
+      width: 100%;
+      padding: 5px;
+      height: 34px;
+      font-size: 19px;
+      box-sizing: border-box;
+      border-style: solid;
+      border-width: 1px;
+      border-color: lightgrey;
+      background-color: white;
+      border-radius: 5px;
+      padding-left: 10px;
+
+  }
+
+  .addSkillContainer{
+    display: flex;
+    gap: 8px;
+    width: 50%;
+    
+  }
+
+   
+
+  .btnPlus{
+    width: 20%;
+    border-style: none;
+    cursor: pointer;
+
+    border-radius: 5px;
+  }
+
+
+ 
+  .borderBox{
+    position: relative;
+    width: 41%;
+    padding: 5px;
+    height: 38px;
+    font-size: 19px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #808080;
+    margin-top: 3px;
+    font-size: 17px;
+
+}

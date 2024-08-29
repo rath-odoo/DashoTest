@@ -1,0 +1,208 @@
+.remarkspage {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center; 
+    border: 1px solid lightgray;
+    width: 45%;
+    height: auto;
+    /* margin: 0 auto;  */
+    
+    /* max-width: 650px;  */
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: fit-content;
+    border-radius: 5px;
+    
+  }
+
+  .outerDiv{
+    padding-top: 100px;
+    display: flex;
+    padding-left: 230px;
+    gap:40px;
+    background-color: #f2f2f2;
+    height: 100vh;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .remarkscontainer {
+    margin: 20px auto;
+    max-width: 800px; 
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .remarksheader {
+    display: grid;
+    grid-template-columns: 50px 100px 150px 100px 100px 150px 100px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .remarksrow {
+    display: grid;
+    grid-template-columns: 50px 100px 150px 100px 100px 150px 100px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .remarksrow:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .input{
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+  
+  .actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .saveButton {
+    background-color: #28a745;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .saveButton:hover {
+    background-color: #218838;
+    border-style: none;
+  }
+  
+  .submitButton {
+    background-color: #dc3545;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    padding: 8px 15px;
+    cursor: pointer;
+    
+
+  }
+  
+  .submitButton:hover {
+    background-color: #c82333;
+  }
+
+  .goBack{
+    display: flex;
+  }
+
+  .gobackBtn{
+    
+
+    cursor: pointer;
+    /* background-color: grey; */
+    border-style: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    }
+    
+    .gobackBtn:hover{
+    background-color: #e8e8e8;
+    }
+    
+
+    /* assignment submit page Styling  */
+    .StudentListPage {
+      width: 45%;
+      /* margin: 0 auto; */
+      padding: 20px;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+      margin-top: 20px;
+      height: fit-content;
+      /* margin-bottom: 20px; */
+    }
+    
+    .Header {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 55px;
+      
+    }
+    
+    .Header h2 {
+      margin: 0;
+    }
+    
+    .Header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+      color: #666;
+    }
+    
+    .StudentTable {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .StudentTable th,
+    .StudentTable td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    .StudentTable th {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    
+    .StudentTable tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    .StudentTable tr:hover {
+      background-color: #ddd;
+    }
+    
+    .StudentTable th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #007bff;
+      color: white;
+    }

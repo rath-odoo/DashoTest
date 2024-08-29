@@ -1,0 +1,59 @@
+.dashboardContentDiv{
+width:100%;
+height: calc(100% - 0.5 * var(--headerHeight)  );
+background: linear-gradient(to right, white, lightgrey );
+display: flex;
+justify-content: flex-end;
+border-style: none;
+}
+
+.classesAndCoursesContentDiv{
+position: relative;
+width: 90%;
+height: 100%;
+background-color: white;
+border-radius: 10px 0px 0px 0px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.classesAndCoursesContentMarginDiv{
+position: relative;
+width: 100%;
+height: 100%;
+background-color: white;
+overflow-y: scroll;
+border-radius: 10px 0px 0px 0px;
+overflow-x: hidden;
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+
+
+.classesAndCoursesContentMarginDiv::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+.classesAndCoursesContentMarginDiv::-webkit-scrollbar-thumb {
+  background: var(--themeColor);
+}
+
+.classesAndCoursesContentMarginDiv::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

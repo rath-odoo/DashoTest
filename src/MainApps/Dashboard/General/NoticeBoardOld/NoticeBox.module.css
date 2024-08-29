@@ -1,0 +1,150 @@
+
+.noticeBox{
+
+max-width: 100%;
+background-color: white;
+border-radius: 5px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+margin-bottom: 0px;
+border-style: solid;
+border-width: 1px;
+border-color: var(--headerRightIconsColor);
+border-color: #e0ebff;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 30px;
+}
+
+
+.topSection{
+
+height: 33%;
+width: 95%;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: calc( 0.25 * var(--headerHeight) );
+}
+
+
+.noticeID{
+font-style: normal;
+white-space: nowrap;
+overflow: hidden !important;
+text-overflow: ellipsis;
+color: var(--ticketTextColor);
+}
+
+.creationTime{
+font-style: normal;
+color: grey;
+white-space: nowrap;
+overflow: hidden !important;
+text-overflow: ellipsis;
+}
+
+
+
+
+.midSection{
+
+height: 33%;
+width: 95%;
+/*overflow: hidden;
+white-space: nowrap;
+overflow: hidden !important;
+text-overflow: ellipsis;
+font-size: calc( 0.33 * var(--headerHeight) );
+color: var(--ticketTextColor);*/
+
+}
+
+
+
+.buttomSection{
+
+height: 33%;
+width: 100%;
+display: flex;
+justify-content: space-around;
+}
+
+
+
+.noticeBoxButtonView{
+border-style: none;
+background-color: white;
+color: orange;
+border-radius: 18px;
+cursor: pointer;
+height:calc( 0.4 * var(--headerHeight) );
+font-size: calc( 0.25 * var(--headerHeight) );
+}
+
+.noticeBoxButtonView i{
+font-size: calc( 0.25 * var(--headerHeight) );
+font-style: normal;
+
+}
+
+
+
+.noticeBoxButtonRead{
+border-style: none;
+background-color: white;
+color: var(--themeColor);
+border-radius: 18px;
+cursor: pointer;
+height:calc( 0.4 * var(--headerHeight) );
+}
+
+
+.noticeBoxButtonRead i{
+font-style: normal;
+font-size: calc( 0.25 * var(--headerHeight) );
+}
+
+
+.noticeBoxButtonHide{
+border-style: none;
+background-color: white;
+color: grey;
+border-radius: 18px;
+cursor: pointer;
+height:calc( 0.4 * var(--headerHeight) );
+font-size: calc( 0.25 * var(--headerHeight) );
+}
+
+.noticeBoxButtonHide i{
+font-style: normal;
+font-size: calc( 0.25 * var(--headerHeight) );
+}
+
+
+
+.noticeBoxButtonView:hover{
+text-decoration: underline;
+}
+
+.noticeBoxButtonRead:hover{
+text-decoration: underline;
+}
+
+
+.noticeBoxButtonHide:hover{
+text-decoration: underline;
+}
+
+
+.noticeReadIcon{
+color: green;
+font-size: calc( 0.4 * var(--headerHeight) );
+}
+
+
+
+

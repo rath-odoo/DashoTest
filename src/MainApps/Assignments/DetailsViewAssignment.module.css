@@ -1,0 +1,990 @@
+.mainDiv {
+  /* display: flex; 
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  left: 0%;
+  padding-left: 8%;
+  
+  top: 1%; 
+  height: 100%; */
+
+  position: fixed;
+  top: 1%; 
+  left: 16%;
+  width: 100%;
+ 
+}
+
+.outerDiv {
+  overflow-y: auto;  
+  background-color: #f2f2f2;
+  height: 800px;  
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.innerDiv {
+  width: 100%;
+  overflow-y: auto; 
+  height: 3000px; 
+  margin-bottom: 20px; 
+  /* border: 1px solid #ccc; */
+}
+.deadline{
+  color: red;
+}
+
+.Assignmentpage {
+  background-color: #f2f2f2;
+  width: 60%;
+  max-width: 1000px;
+  /* margin: auto; */
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-bottom: 4%;
+}
+
+  .Tophead {
+    text-align: center;
+  }
+  
+  .Header {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+  }
+  .pTag{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .th2{
+ /* width: 80px; */
+ height: 100%;
+  }
+  .divFromth{
+    display: flex;
+    justify-content: center;
+  }
+  .divFromth2{
+    display: flex;
+    justify-content: center;
+    /* width: 10%; */
+    height: 100%;
+  }
+  .Icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .InfoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-left: 2%;
+  }
+  
+  .InstructorInfo p strong,
+  .AssignmentInfo p strong {
+    color: #333;
+  }
+  
+  .InstructorName {
+    color: black;
+    display: flex;
+    gap: 3px;
+  }
+  
+  .AssignedBy {
+    color:black;
+  }
+  
+  .Date {
+    color:blue;
+  }
+  .Date1{
+    color: red;
+    margin-left: 48px;
+  }
+  
+  .score{
+    border: 1px solid lightgray;
+    padding: 8px 12px;
+    margin-left: 21px;
+    width: fit-content;
+    border-radius: 5px;
+  }
+  .Credit {
+    color: Blue;
+    margin-left: 5px;
+  }
+  
+  .AssignmentContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-left: 4px;
+  }
+  .tr{
+    width: 100%;
+  }
+ 
+  
+  .UploadAnswer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .UploadAnswer input[type="file"] {
+    display: none;
+  }
+  
+  .UploadAnswer label {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .UploadedFile {
+    margin-bottom: 10px;
+  }
+  
+  .UploadedFile button {
+    border: 1px solid red;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  
+  .Submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .submitDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .SubmitButton {
+    
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .SubmitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .SaveFilesButton {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .SaveFilesButton:hover {
+    background-color: #218838;
+  }
+  
+  .deleteFileBtnOne { 
+    background-color: transparent;
+    border: none;
+     
+  }
+  
+  .DeleteFileButton:hover {
+    background-color: #c82333;
+  }
+  
+  .textArea {
+    margin-top: 3px;
+    width: 99%;
+    height: 60px;
+    /* padding: 8px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 16px;
+  }
+  
+  .PdfDocContainer {
+    padding: 20px;
+  }
+  
+  .DescriptionBox label {
+    font-size: larger;
+  }
+  
+  .DescriptionBox textarea {
+    height: 200px;
+    
+  }
+
+  .textAreaInput{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .inputBox {
+    display: flex;
+    flex-direction: column;
+ 
+    margin-top: 10px;
+  }
+  .DescriptionBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .tbody{
+    display: block;
+ height: auto;
+     
+    overflow: visible;
+  }
+  tbody .tr {
+    width: 100%;
+    height: auto;
+  }
+
+  .inputStyle{
+    padding-left: 10px;
+    margin-top: 3px;
+    height: 35px;
+    font-size: 16px;
+    width: 98%;
+    /* padding: 8px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .PdfDocContainer textarea {
+    height: 200px;
+  }
+  
+  .Popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .gobackBtn{
+    
+
+    cursor: pointer;
+    /* background-color: grey; */
+    border-style: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    }
+    
+    .gobackBtn:hover{
+    background-color: #e8e8e8;
+    }
+    
+    .viewFileBtn{
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: 0.6px solid #007bff;
+        border-radius: 5px;
+        padding: 7px;
+        height: 35px;
+        /* margin-left: 20px; */
+    }
+
+    .viewFileBtn:hover{
+        background-color:  white;
+        color: #007bff;
+    }
+
+    @media screen and (max-width: 980px) {
+        .Assignmentpage{
+            margin-left: 3%;
+            width: 85%;
+            
+        }
+    }
+
+    .redStar{
+        color: red;
+    }
+    .labelDiv{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        margin-bottom: 3px;
+    }
+    .title{
+        margin-bottom: 4px;
+    }
+
+    .divFileBtn{
+      display: flex;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    .ansBtn{
+      padding: 6px ;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    cursor: pointer;
+    }
+
+    .warningBlock{
+
+      position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+    padding: 25px;
+    border-radius: 15px;
+    z-index: 9999;
+    height: 75vh;
+    min-width: 600px;
+    background-color: white;
+    border-radius: calc(0.2* 3rem);
+    border-style: none;
+    border-color: grey;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    }
+    .deleteFileBtn{
+      cursor: pointer;
+      background-color: #f2f2f2;
+      /* color: white; */
+      border: none;
+      border-radius: 5px;
+      padding: 7px;
+      height: 35px;
+      width: 80px;
+      /* margin-bottom: 20px; */
+
+    }
+.addMoreFilesBtn{
+
+  cursor: pointer;
+  background-color: #f2f2f2;
+  /* color: white; */
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  height: 35px;
+  width: 180px;
+}
+.answerFileDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mediaFile{
+  margin-top: 4px;
+  cursor: pointer;
+}
+.unLinkIcon{
+  font-size: 18px;
+  /* margin-top: 13px; */
+  cursor: pointer;
+
+}
+
+.unLinkIcon:hover{
+  cursor: pointer;
+  color: #c82333;
+}
+    .overLay{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 999;
+    }
+
+
+  .cancelBtn{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .btnCrossMark{
+    font-size: 13px;
+    background-color: white;
+    border: 0.1px solid #fff;
+    cursor: pointer;
+}
+
+
+
+.submit_button{
+ 
+  border-style: none;
+  background-color: var(--themeColor);
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  align-items: center;
+}
+
+.divSubmit{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.DeleteAndAns{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.ansDiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.divFile{
+  display: flex;
+  flex-direction: column;
+ width: 100%;
+}
+.innerC{
+  width: 100%;
+  display: flex;
+}
+.twoBtn{
+  display: flex;
+  margin-left: auto;
+  gap: 15px;
+  align-items: center;
+  /* width: 50%; */
+}
+.AnswerFilesContainer{
+  padding: 20px;
+}
+.answerFileContainer1{
+  display: flex;
+  width: 100%;
+
+}
+.divl{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.toggleMetaBtn{
+  display: flex;
+
+  height: 35px;
+  align-items: center;
+  justify-self: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  color: #808080;
+}
+
+
+
+
+/* teacherview */
+
+.remarkspage {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center; 
+  border: 1px solid lightgray;
+  width: 45%;
+  height: auto;
+  /* margin: 0 auto;  */
+  
+  /* max-width: 650px;  */
+  margin-top: 20px;
+  margin-bottom: 0;
+  height: fit-content;
+  border-radius: 5px;
+  
+}
+
+.outerDiv2{ 
+  width:100%;
+  
+}
+
+ 
+
+.header {
+  margin-bottom: 20px;
+}
+
+.remarkscontainer {
+  margin: 20px auto;
+  max-width: 800px; 
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.remarksheader {
+  display: grid;
+  grid-template-columns: 50px 100px 150px 100px 100px 150px 100px;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding: 10px 0;
+}
+
+.remarksrow {
+  display: grid;
+  grid-template-columns: 50px 100px 150px 100px 100px 150px 100px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.remarksrow:hover {
+  background-color: #f0f0f0;
+}
+
+.input{
+  width: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.saveButton {
+  background-color: #28a745;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #218838;
+  border-style: none;
+}
+
+.submitButton {
+  /* background-color: #dc3545; */
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  padding: 8px 15px;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  margin-top: 60px;
+  
+
+}
+.submitDiv{
+
+}
+
+.submitButton:hover {
+  /* background-color: #c82333; */
+}
+
+.goBack{
+  display: flex;
+}
+
+.gobackBtn{
+  
+
+  cursor: pointer;
+  /* background-color: grey; */
+  border-style: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  }
+  
+  .gobackBtn:hover{
+  background-color: #e8e8e8;
+  }
+  
+
+  /* assignment submit page Styling  */
+  .StudentListPage {
+    width: 95%;
+    /* margin: 0 auto; */
+    padding: 20px;
+    /* border: 1px solid lightgray; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin-top: 20px;
+    height: fit-content;
+    /* margin-bottom: 20px; */
+  }
+  
+  .Header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 55px;
+    
+  }
+  
+  .Header h2 {
+    margin: 0;
+  }
+  
+  .Header p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .StudentTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .StudentTable th,
+  .StudentTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .StudentTable th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .StudentTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .StudentTable tr:hover {
+    background-color: #ddd;
+  }
+  
+  .StudentTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #007bff;
+    color: white;
+  }
+
+  .popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+    /* padding: 20px; */
+    border-radius: 5px;
+    z-index: 9999;
+    max-width: 500px;
+    height: 60vh;
+    min-width: 45%;
+    background-color: white;
+    border-radius: calc(0.2* 3.0rem);
+    border-style: none;
+    border-color: grey;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 30px;
+    padding-top: 5px;
+    /* padding-left: 25px; */
+    padding-bottom: 40px
+  }
+
+  .closeButtonDiv {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: flex-end;
+    border-radius: 5px;
+    margin-top: 7px;
+  }
+  
+  .closeFormButton {
+    border-style: none;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .closeButtonIcon {
+    font-size: 25px;
+  } 
+
+  .overLay{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  }
+
+  .heading{
+    display: flex;
+    justify-content: center;
+  }
+
+  .viewFilesButton{
+    cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: 0.6px solid #007bff;
+  border-radius: 5px;
+  padding: 7px;
+  height: 30px;
+  margin-left: 20px;
+  }
+
+  .formGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #808080;
+    margin-bottom: 14px;
+  }
+
+  .input{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+  .inputTwo{ 
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  }
+
+  .inputThree{
+
+  width: 100%;
+  height: 105px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+
+  }
+
+  .viewFiletd{
+    width:100px;
+    /* display: flex;
+    justify-content: center; */
+    /* padding-left: 10px;
+    padding-right: 10px;
+ height: auto; */
+ text-align: center;
+
+  }
+
+  .viewFileLink{
+
+  }
+  .imgDiv{
+    display: flex;
+  }
+
+
+
+.overLay{
+
+  position: fixed;
+  width: 100vw;
+  height:100vh;
+   
+  z-index: 10000;
+  right:0;
+  top:0; 
+   background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .confirmDialog{
+    padding: 20px;
+    background-color: white;
+    width: 380px;
+   height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);  
+  font-family: Roboto; 
+  border-radius: 15px; 
+  border-width: 1px;
+  }
+  
+  .p{
+  color: #808080;
+  padding-left: 4px;
+  }
+  .deleteYes{
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000 ; 
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .deleteNo{
+    height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2 ; 
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+  }
+  .div1{
+    display: flex;
+    gap: 10%;
+    padding-left: 17%;
+  }
+
+  .h2{
+    color: #808080;
+  }
+  .loadMoreButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .loadMore{
+    padding: 10px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #fff;
+  }
+  .divGrade{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .gradev ,.gradeC ,.gradeName{
+    color: #808080;
+    font-size: 16px;
+  }
+  .span{
+    color: black;
+    font-size: 16px;
+
+  }
+
+  

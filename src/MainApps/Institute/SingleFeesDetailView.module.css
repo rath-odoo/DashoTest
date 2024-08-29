@@ -1,0 +1,205 @@
+.parentContainer {
+  border: 1px solid var(--cardBorderColorLight); /* Default border color */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Optional: Add transition for smooth color change */
+}
+
+.parentContainer.active {
+  background-color: #207ef5;
+  border-color: #207ef5;
+}
+
+.parentClass {
+}
+
+.main {
+ 
+}
+
+
+
+.textColor {
+  color: #E8E8E8;
+}
+
+.active {
+  background-color: #207ef5;
+  border-color: #207ef5;
+}
+
+.active .textColor {
+  color: white;
+}
+
+
+
+
+.parentClass {
+  width: 100%;
+  height: 35px;
+
+  border-right: 1px solid var(--cardBorderColorLight);
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+}
+
+.parentClass:hover {
+  cursor: pointer;
+  background-color: var(--cardBorderColorLight);
+}
+
+
+
+
+.b1 {
+  width: 18%;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 15px;
+  color: var(--deepDarkThemeTextColor);
+  white-space: nowrap;
+  overflow:hidden;
+  border-style: none;
+  text-overflow: ellipsis;
+}
+
+.b2 {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 15px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.b3 {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 15px;
+}
+
+.b4 {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 15px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.b5 {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.b6 {
+  width: 12%;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 15px;
+}
+
+.b7 {
+  width: 22%;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 15px;
+  margin-left: 25px;
+  overflow: hidden;
+  white-space: nowrap; 
+  border-style: none;
+  text-overflow: ellipsis;
+}
+
+.b8{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#207ef5;
+  font-size: 15px;
+}
+
+.TranscationDetailsBox {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--cardBorderColor);
+  background-color: white;
+  
+}
+
+.Transid {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.amt {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typ {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.method {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trans {
+  background-color: white;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--greyTextColor);
+}
+.main {
+}
+

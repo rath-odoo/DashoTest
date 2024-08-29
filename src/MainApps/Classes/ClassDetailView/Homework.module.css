@@ -1,0 +1,89 @@
+
+
+.instituteBar {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+  padding: 16px;
+  background-color: white;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeworkIcon {
+  color: var(--greyTextColor);
+
+  background-color: var(--bodyBkgColor);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preTitle {
+  margin-left: 8px;
+  color: var(--greyTextColor);
+  text-transform: uppercase;
+}
+
+.notSetTitle {
+  margin-left: 10px;
+  color: green;
+  font-size: 13px;
+}
+
+.editBtnContainer {
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBkgColor);
+}
+
+.editBtnContainer:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--themeColor);
+  font-weight: 700;
+}
+
+.editBtnContainer:hover .editbutton {
+  color: white;
+}
+
+.editbutton {
+  padding-right: 6px;
+  color: var(--tintGreyColor1);
+}
+i .bottomContainer {
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 10px;
+  font-weight: 600;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.desc {
+  margin-top: 10px;
+  color: var(--deepDarkThemeTextColor);
+}

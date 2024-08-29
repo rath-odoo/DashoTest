@@ -1,0 +1,54 @@
+.parentContainer {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+
+/* .topDetailsContainer {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: gray;
+  border: 1px solid red;
+} */
+
+.docSr{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.docName {
+  width: 30%;
+}
+
+.docUpload {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.docLink {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.docDownload{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

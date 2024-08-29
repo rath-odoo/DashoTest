@@ -1,0 +1,89 @@
+.dropdownButtons {
+    width: 100px;
+    position: absolute;
+    border-style: solid;
+    z-index: 9999;
+    right: 2px;
+    top: 25px;
+    background-color: white;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownButton {
+
+    height: 35px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+.dropdownButton:hover {
+
+    background-color: lightgrey;
+
+}
+
+.overLay {
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 10000;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmDialog {
+    padding: 20px;
+    background-color: white;
+    width: 380px;
+    height: 100px;
+    border-style: solid;
+    border-color: var(--cardBorderColor);
+    font-family: Roboto;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.p {
+    color: #808080;
+    padding-left: 4px;
+}
+
+.deleteYes {
+    height: 35px;
+    background-color: #fff;
+    width: 100px;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteNo {
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid #0056d2;
+    color: #0056d2;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.div1 {
+
+    display: flex;
+    gap: 80px;
+    padding-left: 10%;
+}

@@ -1,0 +1,456 @@
+.onePost {
+  /* width: 600px;
+  min-width: 600px; */
+  width: 100%;
+  min-height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  margin-top: 16px;
+  overflow: visible;
+
+
+}
+
+.topTitleDiv {
+  margin: 10px;
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topLeftContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.posterImage {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.leftContainer {
+  margin-left: 16px;
+}
+
+.detailsBlock {
+  display: flex;
+  justify-content: start;
+}
+
+.status {
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 2px;
+  border: 1px solid var(--cardBorderColorLight);
+  border-radius: 4px;
+  background-color: var(--cardBorderColorLight);
+}
+
+.postTitleDiv {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--deepDarkThemeTextColor);
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.postTitleDiv:hover {
+  cursor: pointer;
+}
+
+.aboutDetail {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--greyTextColor);
+}
+
+.followBtnContainer {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  margin-top: -17px;
+  margin-right: 25px;
+}
+
+
+.followBtnContainer:hover {
+  cursor: pointer;
+}
+
+.addImg {
+  color: var(--themeColor);
+}
+
+.followText {
+  margin-left: 6px;
+  color: var(--themeColor);
+  font-weight: 600;
+}
+
+.horizontalLIne {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: var(--cardBorderColorLight);
+  width: 100%;
+  height: 1px;
+}
+
+.textDiv {
+  color: var(--greyTextColor);
+  line-height: 24px;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+
+}
+
+.ImageDiv {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  border-style: none;
+  padding: 0;
+  /* Remove padding */
+  width: 100%;
+  /* Ensure the button spans the full width of its container */
+  display: flex;
+  /* Use flexbox to align the image */
+  align-items: center;
+  /* Center align items vertically */
+  justify-content: center;
+  /* Center align items horizontally */
+  overflow: hidden;
+  /* Hide any overflow */
+
+}
+
+.postImage {
+  width: 100%;
+  height: fit-content;
+
+}
+
+.likeCommentDiv {
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.LikeContainer {
+  width: 100px;
+  /* border: 1px solid var(--cardBorderColor); */
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+}
+
+
+.LikeContainer:hover {
+  cursor: pointer;
+
+}
+
+.likeImg {
+  height: 20px;
+  width: 20px;
+  color: var(--greyTextColor);
+}
+
+.likeText {
+  margin-left: 10px;
+
+  color: var(--greyTextColor);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.commentContainer {
+  width: 100px;
+  /* border: 1px solid var(--cardBorderColor); */
+
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+}
+
+.commentContainer:hover {
+  cursor: pointer;
+}
+
+
+
+
+.commentImg1 {
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  color: var(--greyTextColor);
+}
+
+.commentText {
+  margin-left: 10px;
+
+  color: var(--greyTextColor);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.shareContainer {
+  width: 100px;
+  /* border: 1px solid var(--cardBorderColor); */
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+}
+
+
+.shareContainer:hover {
+  cursor: pointer;
+}
+
+.shareImg {
+  height: 20px;
+  width: 20px;
+  color: var(--greyTextColor);
+}
+
+.shareText {
+  margin-left: 10px;
+  color: var(--greyTextColor);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.commentView {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .commentImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.userimgComment {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* 
+.commentInputBox {
+  width: 70%;
+  height: auto;
+  border-radius: 30%;
+  border: 1px solid var(--cardBorderColorLight);
+  background-color: var(--cardBorderColorLight);
+  border: 1px solid red;
+} */
+
+.commentInputBox {
+  padding-left: 10px;
+  width: 75%;
+  font-size: 12px;
+
+  background-color: var(--bodyBkgColor);
+  background-color: white;
+
+  border-radius: 20px;
+  /* background-color: #f0f2f5; */
+  height: 40px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.commentInputBox:focus {
+  border-style: solid;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--cardBorderColorLight);
+  border-color: var(--cardBorderColor);
+}
+
+.sendCommentButtonDiv {
+  height: 30px;
+  width: 30px;
+  transform: rotate(45deg);
+  margin-right: 10px;
+  color: var(--themeColor);
+  cursor: pointer;
+}
+
+.optionsContainer {
+  position: absolute;
+  top: 18px;
+  right: 5px;
+  border: solid 1px white;
+  background-color: white;
+  cursor: pointer;
+}
+
+.dropBoxContainer {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  background-color: white;
+  width: 100px;
+  border: 1px solid var(--cardBorderColorLight);
+
+}
+
+.editContainer {
+
+  margin: 10px 0px 10px 0px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.editContainer:hover {
+  background-color: rgb(192, 191, 191);
+}
+
+.commentShowDiv {
+  /* max-height: 200px;
+  overflow: scroll; */
+}
+
+/* @media (max-width: 1000px) {
+
+  .onePost{
+    width: 100%;
+  }
+
+} */
+
+.countLikeCommentDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 10px;
+  color: rgb(0 0 0 / 60%);
+}
+
+
+.titleDivContainer {
+  color: var(--greyTextColor);
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.overLay {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmDialog {
+  padding: 20px;
+  background-color: white;
+  width: 380px;
+  height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);
+  font-family: Roboto;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.p {
+  color: #808080;
+  padding-left: 4px;
+}
+
+.deleteYes {
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteNo {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2;
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.div1 {
+
+  display: flex;
+  gap: 80px;
+  padding-left: 10%;
+}

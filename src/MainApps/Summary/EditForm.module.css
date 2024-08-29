@@ -1,0 +1,551 @@
+
+*{
+    font-family: 'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.exams{
+width: 100%;
+font-size: 40px;
+margin: auto;
+border-style: none;
+}
+
+
+.switchBar{
+height: calc( 0.7 * var(--headerHeight) );
+width:90%;
+margin: auto;
+margin-top: calc( 0.4 * var(--headerHeight) );
+border-color: lightgrey;
+border-style: none;
+display: flex;
+}
+
+
+
+.createCourseButton{
+height: 100%;
+border-style: solid;;
+font-size: calc( 0.3 * var(--headerHeight) );
+cursor: pointer;
+border-width: calc( 0.04 * var(--headerHeight) );
+border-color: var(--cardBorderColor);
+background-color: white;
+color: var(--themeColor);
+font-family: Roboto;
+border-radius: calc( 0.6 * var(--cardBorderRadius) );
+padding-left: calc( 0.5 * var(--headerHeight) );
+padding-right: calc( 0.5 * var(--headerHeight) );
+border-width: 1px;
+}
+
+.logoDiracAI{
+    /* border: 1px solid #0056D2;
+    
+     
+    font-size: 19.2px;
+    border-radius: calc(0.2*3.0rem);
+    text-align: center;
+    background-color: #0056D2;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 27px;
+    width: 28px; */
+    /* border-radius: calc(0.1* var(--headerHeight));; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    /* margin-left: 250px; */
+     
+
+ 
+}
+
+.btnCrossMark{
+    font-size: 13px;
+    background-color: white;
+    border: 0.1px solid #fff;
+    cursor: pointer;
+}
+  svg{
+    font-size: 13px;
+  }
+
+  .cancelBtn{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .createExam{
+    font-size: 25px;
+    font-family: 'Roboto',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 25px;
+    /* margin-left: 0px; */
+    color: #585858;
+    text-align: center;
+
+
+  }
+  .basicInfoContainer{
+    /* display: flex; */
+  }
+
+  .formContainer{
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    height: auto;
+  }
+  
+.txtHeading{
+    font-size: 16px;
+    color: #808080;
+    /* margin-top: 30px; */
+    margin-bottom: 5px;
+     
+}
+.dateDiv{
+    display: grid;
+}
+.txtHeadingCourse{
+    font-size: 16px;
+    color: #808080;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.examLinkTxt{
+    font-size: 16px;
+    color: #808080;
+    /* margin-top: 100px; */
+    margin-bottom: 5px;
+
+}
+.platformContainer{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.courseDiv{
+    margin-top: 26px;
+    display: grid;
+    width: 100%;
+}
+
+.txtHeadingPlatform{
+    font-size: 16px;
+    color: #808080;
+    margin-top: 200px;
+    /* margin-bottom: 5px;  */
+}
+.selectExaminerPlatform{
+    border-style: solid;
+    height: 33px;
+    width: 210px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    background-color: #fff;
+    /* position: relative; */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding-left: 8px;
+}
+
+
+.examiner{
+    font-size: 16px;
+    color: #808080;
+    margin-top: 26px;
+    margin-right: 10px;
+}
+.examinerExamTitle{
+    font-size: 16px;
+    color: #808080;
+    margin-top: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.examLinkContainer label{
+     display: inline-block;
+     text-align: center;
+     align-items: center;
+     display: flex;
+    
+}
+.examLinkContainer{
+    
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns */
+    grid-gap: 1px; 
+    
+}
+ 
+ 
+.editbtnContainer{
+    margin-left: auto;
+    /* margin-right: 5px; */
+}
+
+
+  .editButton{
+
+    width: 70px;
+    display: flex;
+    cursor: pointer;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 5px;
+    
+    }
+
+
+.examinerContainer{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 5px;
+    width: 80%;
+}
+.examinerContainerTwo {
+    display: flex;
+    width: 100%;
+    /* width: 90%; */
+    /* margin-left: 9px; */
+}
+
+.optionContainers{
+    display: flex;
+    width: 100%;
+    
+}
+
+.courseName{
+    width: 100%;
+}
+
+ .className ,.educationBoard ,.subject  {
+    width: 43%;
+}
+
+
+.InstituteCode{
+    width: 40%;
+}
+.StartDate {
+    width: 45%;
+}
+
+.endDate{
+    width: 45%;
+}
+
+.selectExaminer{
+    
+    border-style: solid;
+    height: 33px;
+    width: 210px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    background-color: #fff;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 8px;
+}
+.selectExaminerOne{
+    border-style: solid;
+    height: 33px;
+    width: 210px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    background-color: #fff;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 8px;
+
+}
+
+.selectExaminerCourse{
+    border-style: solid;
+    height: 33px;
+    width: 100%;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    /* background-color: #fff; */
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+
+.star{
+    color: red;
+    margin-right: 4px;
+}
+.star1{
+    color: red;
+    
+    margin-top: 16px;
+    
+
+}
+
+.timeDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 44px;
+    margin-bottom: 20px;
+}
+
+.durationDateContainer{
+    display: flex;
+    gap: 100px;
+    margin-top: 17px;
+    width: 100%;
+    /* margin-left: 6px; */
+    
+}
+
+.selectTime{
+    background-color: #fff;
+    border: #585858;
+}
+
+.btnCreateExam{
+    border: 0.1px solid #0056D2;
+    background-color: #0056D2;
+    color: #fff;
+    height: 40px;
+    width: 50%;
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 133px;
+    border-radius: calc(0.2*3.0rem);
+    margin-top: 37px;
+    cursor: pointer;
+}
+.examLink{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.durationDiv{
+    display: grid;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    z-index: 999; /* Ensure the overlay is above other content */
+  }
+
+  .mainTimeLocation{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    
+  }
+
+  .examTitleContainer{
+    display: grid;
+    gap:6px;
+    
+  }
+  
+
+
+/* styling for warning block */
+.warningBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border: 2px solid; 
+    /* padding: 20px; */
+    border-radius: 5px;
+    z-index: 9999;
+  
+    max-width: 700px;
+      height: 80vh;
+      min-width: 38%;
+      background-color: white;
+      border-radius: calc(0.2*3.0rem);
+      border-style: none;
+      border-color: grey;
+      border-width: 2px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      align-items: center;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      padding: 30px;
+      padding-top: 5px;
+      
+  
+      /* padding-left: 25px; */
+      /* padding-right: px; */
+      padding-bottom: 40px;
+  }
+  
+  
+
+
+
+
+
+  @media screen and (max-width: 1000px) {
+    .warningBlock{
+        width: 60%;
+    }
+    .formContainer{
+        width: 100%;
+    }
+    .mainTimeLocation {
+        width: 100%;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .durationDateContainer{
+        width: 100%;
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+   
+
+    .btnCreateExam{
+        margin-left: 100px;
+    }
+    .timeDiv ,.platformContainer{
+        width: 100%;
+    }
+    .platformContainer{
+        margin-top: 0;
+        margin-left: 4px;
+    }
+    .selectExaminerPlatform ,.selectExaminer{
+        width: 100%;
+    }
+    .warningBlock{
+        /* padding-left: 10px; */
+        /* padding-right: 10px; */
+    }
+
+    .optionContainers {
+        flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    }
+    .optionContainers > div {
+        width: 100%; /* Make each div take up full width when wrapped */
+    }
+
+    .examinerContainerTwo{
+        flex-wrap: wrap;
+    }
+    .examinerContainerTwo > div {
+        width: 100%; /* Make each div take up full width when wrapped */
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .divOne{
+    display: flex;
+    gap: 20px;
+  }
+
+  .DateDiv{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .statusCourse{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .status ,.credit{
+    width: 45%;
+  }
+
+
+
+  .submit_button{
+ 
+    border-style: none;
+    background-color: var(--themeColor);
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+  }
+
+  .submitButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  .divEdit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

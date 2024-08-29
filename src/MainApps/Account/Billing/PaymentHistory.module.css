@@ -1,0 +1,81 @@
+
+  
+  .parentPaymentHistoryMain {
+  }
+  
+  .parentPaymentHistoryMain:hover{
+    background-color: var(--cardBorderColorLight);
+  }
+  
+  .parentPaymentHistory {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .srNo{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  
+  .Date {
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  
+  .Amount {
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: var(--greyTextColor);
+  }
+  
+  .Invoice {
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: var(--themeColor);
+    text-decoration: underline;
+  }
+  
+  .Invoice:hover{
+    cursor: pointer;
+  }
+  
+  .PaymnetMethod {
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }
+  
+  .Status {
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: green;
+  }
+  
+  .horizontalLine {
+    width: 100%;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+  }
+  

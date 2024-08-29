@@ -1,0 +1,107 @@
+.formScreen{
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.formScreenView{
+position: relative;
+width: 50vw;
+height:300px;
+min-width:300px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.closeButtonDiv{
+width:100%;
+display: flex;
+background-color: white;
+justify-content: flex-end;
+border-radius: 5px;
+}
+
+
+
+.closeFormButton{
+border-style: none;
+cursor: pointer;
+background-color: white;
+border-radius: 5px;
+}
+
+.closeButtonIcon{
+font-size: 25px;
+}
+
+
+.createChapterForm{
+
+position: relative;
+width: 95%;
+height:95%;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+
+
+.submitButtonDiv{
+width: 80%;
+display: flex;
+justify-content: center;
+background-color: white;
+padding-top: 50px;
+}
+
+
+.submit_button{
+width: 30%;
+border-style: none;
+background-color: var(--themeColor);
+color: white;
+height:30px;
+width:100px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

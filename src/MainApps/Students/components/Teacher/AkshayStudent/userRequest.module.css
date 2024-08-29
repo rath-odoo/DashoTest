@@ -1,0 +1,31 @@
+.userMainDiv {
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .userMainDiv:hover {
+  cursor: pointer;}
+  
+  .image {
+    width: 150px;
+    height: 180px;
+    background-color: green;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .userName {
+    margin-top: 10px;
+    height: fit-content;
+    width: 150px;
+    color: #1b1e24;
+    font-size: 14px;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  

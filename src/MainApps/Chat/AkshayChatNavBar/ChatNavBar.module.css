@@ -1,0 +1,429 @@
+.chatnavbar {
+  background-color: var(--bodyBkgColor);
+
+  width: 25%;
+  min-width: 370px;
+  max-width: 400px;
+  border-radius: 0px;
+
+  border-right: 1px solid;
+  border-right-color: var(--cardBorderColorLight);
+  border-top: 1px solid;
+  border-top-color: var(--cardBorderColorLight);
+
+}
+
+
+
+.noContactFound{
+
+margin: auto;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+font-family: Roboto;
+color:grey;
+}
+
+
+
+
+.topBarLeft {
+  background-color: var(--bodyBkgColor);
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-bottom-color: var(--cardBorderColorLight);
+  height: 60px;
+  justify-content: space-between;
+  width: 100%;
+  border-style: none;
+}
+
+.circleImage {
+  margin-left: 15px;
+  background-size: cover;
+  display: flex;
+  border-style: none;
+  width: 20%;
+}
+
+.selfUserDetails {
+  margin-left: 15px;
+  background-size: cover;
+  display: flex;
+  border-style: none;
+  width: 60%;
+}
+
+
+
+
+
+.mateIconUserImage {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.userName {
+  margin-left: 10px;
+  max-width: 60%;
+  color: var(--deepDarkThemeTextColor);
+  align-self: center;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-style: none;
+}
+
+.btnContainer {
+  border-style: none;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.img1 {
+  color: var(--tintGreyColor1);
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  background: transparent;
+  border-style: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.img1:hover {
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.img2 {
+  color: var(--tintGreyColor1);
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  border-style: none;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.img2:hover {
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.iconSizeTopTool {
+  height: 20px;
+  width: 20px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-bottom-color: var(--cardBorderColorLight);
+  border-style: none;
+}
+
+
+
+
+
+
+.SearchInputNoString {
+  margin-left: 0px;
+  height: 35px;
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--bodyBkgColor);
+  padding-left: 10px;
+}
+
+.SearchInputNoString:focus {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-width: 1px;
+  outline: none !important;
+  border-color: #719ece;
+  border-radius: 10px 10px 10px 10px;
+  border-color: var(--cardBorderColorLight);
+  border-color: lightgrey;
+  border-style: none;
+}
+
+.SearchInputNoString:hover{
+border-style: none;
+}
+
+
+
+
+.SearchInputString {
+  margin-left: 15px;
+  height: 35px;
+  width: 90%;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--bodyBkgColor);
+  padding-left: 10px;
+  border-style: none;
+}
+
+
+
+
+
+
+
+.SearchInputString:focus {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-right-style: none;
+  border-width: 1px;
+  outline: none !important;
+  border-color: #719ece;
+  border-radius: 10px 0px 0px 10px;
+  border-color: var(--cardBorderColorLight);
+  border-color: lightgrey;
+  border-style:none;
+}
+
+
+.SearchInputString:hover{
+  padding-left: 8px;
+  padding-right: 8px; 
+  border-right-style: none;
+  border-width: 1px;
+  outline: none !important;
+  border-color: #719ece;
+  border-radius: 10px 0px 0px 10px;
+  border-color: var(--cardBorderColorLight);
+  border-color: lightgrey;
+  border-style: none;
+
+}
+
+
+.closeSearchButton{
+  border-style: none;
+  background-color: white;
+  height: 35px;
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+
+
+.scroll {
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-style: none;
+  height: calc( 100% - 120px ) ;
+}
+
+
+.backButtonNewChat{
+
+border-style: none;
+padding: 10px;
+border-radius: 7px;
+cursor: pointer;
+color: grey;
+}
+
+
+.backButtonNewChat:hover{
+background-color: lightgrey;
+
+}
+
+.newChatNewGroup{
+
+height: 40px;
+border-style: none;
+border-width: 1px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: grey;
+}
+
+
+.newChatScroll{
+
+border-style: none;
+border-color: red;
+overflow-y: scroll;
+height: calc( 100vh - 180px - var(--headerHeight) );
+}
+
+
+.loadMoreDataButton{
+
+
+height: 40px;	
+width: 100%;
+cursor: pointer;
+border-style: none;
+color: var(--themeColor);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.loadMoreDataButton span{
+margin-left: 10px;
+}
+
+
+.newChatButton{
+
+width: 50%;
+height: 100%;
+color: var(--themeColor);
+border-radius: 10px;
+cursor: pointer;
+}
+
+.newChatButtonOptions{
+
+height: 100px;
+width: 150px;
+position: absolute;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 10px;
+top: 50px;
+left: 300px;
+z-index: 100;
+padding-top:10px;
+}
+
+.newChatButtons{
+	
+border-style: none;
+height:40px;
+width: 100%;
+display: flex;
+align-items: center;
+cursor:pointer;
+color: grey;
+background-color: white;
+padding-left: 15px;
+}
+
+
+.newChatButtons:hover{
+
+background-color:lightgrey;
+color: grey;
+}
+
+
+.createGroupButtonParent{
+position: relative;
+
+}
+
+
+
+.createGroupButton{
+border-style: none;
+padding: 10px;
+border-radius: 7px;
+cursor: pointer;
+background-color: var(--bodyBkgColor);
+margin-right: 20px;
+color: grey;
+}
+
+
+
+.createGroupButton:hover{
+background-color: var(--themeColor);
+color: white;
+
+}
+
+
+
+.createGroupButtonInfoDiv{
+
+position: absolute;
+border-style: solid;
+width: 150px;
+padding: 10px;
+background-color: var(--greyTextColor);
+color: white;
+visibility: hidden;
+border-radius: 10px;
+left:30px;
+}
+
+
+.createGroupButtonParent:hover .createGroupButtonInfoDiv{
+visibility:visible;
+}
+
+
+
+.newGroupNameInput{
+
+background-color: var(--bodyBkgColor);
+border-style: none;
+font-weight: bold;
+text-decoration: underline;
+color: var(--deepDarkThemeTextColor);
+}
+
+
+.newGroupNameInput:hover{
+background-color: var(--bodyBkgColor);
+border-style: none;
+}
+
+
+.newGroupNameInput:focus{
+
+background-color: var(--bodyBkgColor);
+border-style: none;
+outline: none !important;
+}
+
+
+
+.selectedUsers{
+
+
+border-style: none;
+border-color: red;
+
+
+
+}
+
+
+
+
+

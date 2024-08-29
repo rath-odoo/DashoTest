@@ -1,0 +1,130 @@
+
+
+.addContactForm{
+
+
+position: fixed;
+width: 100%;
+max-width:500px;
+height:80vh;
+background-color: grey;
+z-index: 10000;
+bottom:0;
+background-color:white;
+border-style: none;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+border-radius: 10px;
+}
+
+
+.closeButtonDiv{
+display: flex;
+height: 40px;
+font-size: 16px;
+justify-content: space-between;
+align-items: center;
+border-bottom: solid;
+border-color: var(--cardBorderColorLight);
+color: lightgrey;
+border-width: 1px;
+}
+
+
+.titleSec{
+border-style: none;
+color: var(--greyTextColor);
+margin-left: 30px;
+}
+
+.closeFormButton{
+border-style: none;	
+font-size: 20px;
+cursor: pointer;
+background-color: white;
+}
+
+.closeButtonIcon{
+font-size: 23px;
+color: grey;
+}
+
+
+.searchBarDiv{
+height: 60px;
+width: 100%;
+border-style: none;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.searchIconDiv{
+
+color: grey;
+margin-left: 20px;
+}
+
+.input_field{
+
+height: 35px;
+margin-left: 20px;
+width: 70%;
+font-size: 16px;
+background-color: var(--bodyBkgColor);
+padding-left:20px;
+border-style: solid;
+border-color: lightgrey;
+border-width: 1px;
+border-radius: 10px;
+margin-top:20px;
+font-family: Roboto;
+}
+
+.input_field:focus{
+outline: none !important;
+border-color:lightgrey;
+
+}
+
+
+
+
+.aboutEditForm{
+border-style: none;
+}
+
+.searchedUsersGrid{
+
+
+width: 93%;
+border-style: none;
+margin: auto;
+/*
+display: grid;
+grid-template-columns: repeat(auto-fit, 1fr );
+grid-template-rows: 1fr ;
+grid-column-gap: 50px;
+grid-row-gap: 30px;
+*/
+margin-top: 20px;
+overflow-y: scroll;
+overflow-x: hidden;
+border-style: none;
+height: calc( 100% - 130px );
+}
+
+
+.oneFriend{
+width: 150px;
+height: 190px;
+border-style: none;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: red;
+}
+
+
+
+
+

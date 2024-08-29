@@ -1,0 +1,369 @@
+.parentClassmain {
+  width: 100%;
+}
+
+.parentClass {
+  width: 100%;
+height: 40px;
+  border-right: 1px solid var(--cardBorderColorLight);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--cardBorderColor);
+  background-color: white;
+}
+
+.topNavigationBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+  background-color: var(--bodyBkgColor);
+}
+
+.schedule {
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-left: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.schedule:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.showSummary {
+  visibility: hidden;
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-right: 10px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.showSummary:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.sr {
+  width: 13%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+  /* padding-left: 10px; */
+}
+.sr2{
+  width: 4;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.name {
+  width: 20%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.courseId {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ins {
+ 
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+ 
+}
+
+.ins2 {
+  width: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.startdate {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.status {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.monthTitle {
+  margin: 10px;
+}
+
+.scrollContent {
+  width: 100%;
+  /* max-height: 440px; */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding-bottom: 70px;
+}
+
+
+
+.warningBlock{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid;
+  border-radius: 5px;
+  z-index: 9999;
+  max-width: 500px;
+  height: 45vh;
+  min-width: 30%;
+  background-color: white;
+  border-radius: calc(0.2* 3.0rem);
+  border-style: none;
+  border-color: grey;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.datesContainer{
+  /* justify-content: ce; */
+  display: flex;
+  padding-left: 26px;
+  flex-direction: column;
+
+  width: 88%;
+  /* gap: 53px; */
+  /* margin: 10px; */
+}
+
+.dateStart , .dateEnd{
+  width: 100%;
+  margin: 10px;
+}
+
+.dateEnd{
+  /* margin-left: auto; */
+  /* margin-right: 66px; */
+}
+
+.closeBtn{
+  margin-left: auto;
+  display: flex;
+  cursor: pointer;
+  background-color: white;
+  border-style: none;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  color: #585858;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.LeaveReasonConatainer{
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  padding-left: 35px;
+  margin-top: 50px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.submitContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+
+}
+
+.submitBtn{
+  width: 50%;
+  border-style: none;
+  background-color: var(--themeColor);
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.demoText {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    height: 80px;
+    width: 80px;
+    background-color: var(--bodyBkgColor);
+    border: 1px solid var(--cardBorderColor);
+    border-radius: 50%;
+  }
+  
+  .title {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .btnLeave{
+    /* align-self: flex-start; */
+    /* height: 35px; */
+
+    background-color: transparent;
+    border: 1px solid var(--themeColor);
+    color: var(--themeColor);
+    margin-left: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+   
+
+  /* height: 35px;
+    border-style: solid;
+    font-size: calc( 0.3 * var(--headerHeight) );
+    cursor: pointer;
+    border-width: calc(0.04* var(--headerHeight));
+    border-color: var(--cardBorderColor);
+    background-color: #f2f2f2;
+    
+    font-family: Roboto;
+    border-radius: calc(0.6* var(--cardBorderRadius));
+    padding-left: calc(0.5* var(--headerHeight));
+    padding-right: calc(0.5* var(--headerHeight));
+    border-width: 1px;
+     
+    border-color: var(--themeColor);
+    font-weight: bold;
+  */
+  }
+
+
+  .btnContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 40px;
+    /* background-color: #fff; */
+  }
+
+  .toolContainer{
+    display: flex;
+    height: 1px;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+
+
+  .assetItem{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .selectContainer{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+  .redStar{
+    color: red;
+  }
+
+  .course{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #808080;
+    
+  }
+
+  option{
+    color: #808080;
+  }

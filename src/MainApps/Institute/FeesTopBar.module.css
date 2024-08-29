@@ -1,0 +1,283 @@
+.parentClass {
+  width: 100%;
+height: 40px;
+  border-right: 1px solid var(--cardBorderColorLight);
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid var(--cardBorderColor);
+
+
+}
+
+.topNavigationBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+  background-color: var(--bodyBkgColor);
+}
+
+.schedule {
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  width: 200px;
+}
+
+.schedule:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.showSummary {
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  width: 150px;
+}
+
+.showSummary:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.b1 {
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.b2 {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.b3 {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.b4 {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.b5 {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.b6 {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.b7 {
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.b8 {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  
+  font-weight: bold;
+}
+/* 
+.b9 {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  border: 1px solid red;
+  font-weight: bold;
+}
+
+.b10 {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  border: 1px solid red;
+  font-weight: bold;
+} */
+
+.scrollContent {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border-style: none;
+
+}
+
+.TranscationDetailsBox {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cardBorderColor);
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.Transid {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amt {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typ {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.method {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+}
+
+.monthDetailContainer {
+ padding: 5px;
+ margin: 5px;
+
+  display: flex;
+  align-items: center;
+  
+}
+
+.mainIcon {
+  color: var(--greyTextColor);
+}
+
+.monthTitle {
+  margin-left: 10px;
+}
+
+
+.institutePayTitleDiv{
+border-color: red;
+border-style: solid;
+background-color:red;
+}
+
+.downLoadButton{
+border-style: none;
+cursor: pointer;
+color: grey;
+}
+
+
+
+
+
+
+/* 
+.instituteDropDownButton1 {
+  border: 2px solid lightgray;
+  margin-left: 50px;
+  width: auto; 
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  align-items: center;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  border: 1px solid lightgray; 
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.instituteDropDownButton1:hover {
+  background-color: var(--themeColor); 
+  color: white;
+}
+
+.contactN{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  background-color: transparent;
+  width: 40%;
+ 
+}
+ */

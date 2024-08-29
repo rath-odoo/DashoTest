@@ -1,0 +1,218 @@
+.slider {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  margin: auto;
+}
+
+
+
+
+
+
+.cards {
+  width: 100%;
+  margin-top: 30px;
+  border-style: none;
+  overflow: hidden;
+  position: relative;
+  direction: rtl;
+}
+
+
+.wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  border-style: none;
+  border-color: red;
+  width:200%;
+}
+
+
+
+
+
+.wrapperMobile {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  border-style: none;
+  border-color: red;
+  width:550%;
+  visibility: hidden;
+  height: 0px;
+}
+
+
+
+
+.dot {
+  /* Styles for regular dots */
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  border-style: none;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+ .wrapper {
+   visibility: hidden;
+   height:0px;
+ }
+
+ .dot {
+  width: 30px;
+  height: 20px;
+  background-color: grey;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  border-style: none;
+}
+
+  .wrapperMobile {
+  
+   visibility: visible;
+   height: auto;
+  }
+
+
+
+
+}
+
+
+
+
+.child {
+  width: 16.6%;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-style: none;
+  font-size: 24px;
+  display: inline-block;
+}
+
+
+
+.childMobile {
+  width: 16.6%;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-style: none;
+  font-size: 24px;
+  display: inline-block;
+}
+
+
+
+
+
+
+.cardDiv{
+border-style: none;
+border-color: red;
+}
+
+
+.card {
+  width: 95%;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--cardBorderColor);
+  border: 1px solid var(--cardBorderColor);
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+
+
+.img {
+
+  width: 100%;
+  aspect-ratio:1.7/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.description1 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description2 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ViewToppersBtn {
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+  background-color: var(--themeColor);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.ViewToppersBtn:hover {
+  border: 1px solid var(--themeColor);
+  background-color: white;
+  cursor: pointer;
+  color: var(--themeColor);
+}
+
+.indicatorDots {
+  margin-top: 40px;
+  display: flex; /* Make the dots container a flex container */
+  justify-content: center; /* Center the dots horizontally */
+  
+}
+
+
+.activeDot {
+  /* Styles for active dot */
+  background-color: var(--themeColor);
+}

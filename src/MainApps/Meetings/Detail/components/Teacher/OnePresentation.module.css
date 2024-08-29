@@ -1,0 +1,122 @@
+
+
+
+.onePresentation{
+
+
+width: 100%;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color: white;
+margin: 5px;
+
+border-radius: 5px;
+}
+
+
+
+.onePresentation:hover{
+
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+
+
+
+.onePresentation_talkTitleDiv{
+
+margin-top: 20px; 
+margin-bottom:10px;
+margin-left:20px;
+margin-right: 20px;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.talkEditButton{
+border-style: none;
+font-size: 20px;
+color: black;
+margin-right: 10px;
+}
+
+
+.talkEditButton:hover{
+cursor: pointer;
+}
+
+
+
+.redirectIcon{
+margin-left: 5px;
+
+}
+
+.deleteTalkFile{
+border-style: none;
+background: white;
+color: red;
+margin-left: 15px;
+cursor: pointer;
+}
+
+
+.talkID{
+position: relative;	
+color: white;
+background-color: var(--themeColor);
+border-radius: 3px;
+margin-right: 0px;
+right:50px;
+padding-left: 80px;
+}
+
+
+.uploadedFile{
+
+background-color: #F5F5F5;
+color: #707070;
+padding: 5px;
+text-decoration: none;
+border-style: solid;
+border-width: 1px;
+border-color: #E8E8E8;
+border-radius: 3px;
+margin-left: 10px;
+font-size: 17px;
+}
+
+
+.uploadedFile:hover{
+background-color:lightgrey;
+}
+
+
+.uploadfileIcon{
+color: red;
+
+}
+
+
+.addFileButton{
+margin-left:20px;
+border-style:none;
+cursor:pointer;
+font-size:17px;
+color:grey;
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+.inboxMailShortView {
+  margin-right: 50px;
+  width: 92%;
+  height: calc(0.9 * var(--headerHeight));
+  border-bottom: 1px solid rgba(37, 36, 36, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSec {
+  height: 100%;
+  width: 18%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexDivLeft {
+  font-size: 13px;
+  font-style: bold;
+  display: flex;
+  justify-content: space-around;
+}
+
+.middleSec {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 13px;
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.rightSec {
+  font-size: 13px;
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.rightSecFlexDiv {
+  color: var(--deepDarkThemeTextColor);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.emailDisplayContent {
+  font-size: 13px;
+  width: 62%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: flex;
+  color: var(--tintGreyColor1);
+  font-family: Roboto;
+}
+
+.dateText {
+  color: var(--deepDarkThemeTextColor);
+  font-size: 13px;
+}
+
+.checkbox {
+  padding-left: 6px;
+  color: var(--tintGreyColor2);
+}
+.checkbox:hover{
+ 
+  padding: 6px;
+  background-color: var(--tintGreyColor3);
+  border-radius: 50px;
+  align-self: center;
+  color: var(--deepDarkThemeTextColor);
+}
+.star :hover{
+  padding: 6px;
+  background-color: var(--tintGreyColor3);
+  border-radius: 50px;
+  align-self: center;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.star {
+  color: var(--tintGreyColor2);
+}
+
+.title {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.markAsRead {
+  padding-right: 20px;
+}
+
+.markAsRead :hover{
+  padding: 6px;
+  background-color: var(--tintGreyColor3);
+  border-radius: 40px;
+  align-self: center;
+  color: var(--deepDarkThemeTextColor);
+
+}
+.delete :hover{
+  padding: 6px;
+  background-color: var(--tintGreyColor3);
+  border-radius: 40px;
+  align-self: center;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.btnContainer {
+  visibility: hidden;
+}
+
+.inboxMailShortView:hover {
+  border: 1px solid;
+  border-color: var(--tintGreyColor2);
+}
+
+.inboxMailShortView:hover.dateTextext {
+  visibility: hidden;
+}
+
+.inboxMailShortView:hover .btnContainer {
+  visibility: visible;
+}

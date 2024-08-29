@@ -1,0 +1,302 @@
+.mainData {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+  background-color: transparent;
+}
+
+.mainData:hover {
+  background-color: var(--bodyBkgColor);
+}
+
+
+.userPic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 35px;
+  min-width: 35px;
+}
+
+.userName {
+  margin-left: 10px;
+}
+
+.nu {
+  width: 5%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.date {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 10%;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.name {
+  width: 25%;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nameuser{
+  width: 25%;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.inTime {
+  width: 12%;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outTime {
+  width: 12%;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.approverStatusPending{
+width: 16%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--redColor1)
+}
+
+
+
+.approverStatusApproved{
+width: 16%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--redColor1)
+}
+
+
+
+
+
+.absent{
+  width: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  /* font-weight: bold; */
+}
+
+.pstyle{
+color: white;
+background-color: #45966e;
+padding: 5px;
+width:15px;
+display: flex; 
+justify-content: center;
+border-radius: 50%;
+}
+
+.astyle{
+color: white;
+background-color: var(--redColor1);
+padding: 5px;
+width:15px;
+display: flex;
+justify-content: center;
+border-radius: 50%;
+}
+
+.editIcon:hover{
+  color: var(--themeColor);
+  border-radius: 50%;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+}
+.editIcon{
+   
+}
+
+.nastyle{
+color: white;
+background-color:grey;
+padding: 5px;
+width:15px;
+display: flex;
+justify-content: center;
+border-radius: 50%;
+
+}
+
+.present{
+  width: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  color: white;
+}
+
+
+.notavailable{
+  width: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.a_text {
+  width: 30px;
+  height: 30px;
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 50%;
+  background-color: var(--redColor1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Edit {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  gap: 20px;
+  cursor:pointer;
+}
+
+.wrong:hover , .okay:hover{
+  cursor: pointer;
+  color: var(--themeColor);
+
+}
+
+.imgContainer{
+  height: 22px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.nameContainer{
+margin-left: 0px;
+}
+
+
+
+@media (max-width: 1300px) {
+  .mainData {
+    width: 100%;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .date {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 10px;
+  }
+  .inTime {
+    font-size: 10px;
+  }
+  .outTime {
+    font-size: 10px;
+  }
+
+  .absent {
+    font-size: 10px;
+  }
+
+  .Edit {
+    font-size: 11px;
+  }
+}
+
+
+.approverStatusApproved {
+  color: green;
+}
+
+.approverStatusRejected {
+  color: red; 
+  width: 16%;
+  display: flex;
+  justify-content: center;
+}
+.approverStatusna{
+  color: grey;
+  width: 16%;
+  display: flex;
+  justify-content: center;
+}
+
+.approverStatusPending {
+  color: orange; /* Choose your preferred color */
+}
+
+
+.pending {
+  color: orange;
+}
+
+.approved {
+  color: green;
+}
+
+.rejected {
+  color: red;
+}

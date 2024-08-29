@@ -1,0 +1,11 @@
+
+
+.chatNavBar{
+
+width:20%;
+min-width:300px;
+background-color: white;
+display: flex;
+flex-direction: column;
+}
+

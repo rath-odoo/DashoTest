@@ -1,0 +1,526 @@
+.pendingdiv {
+  /* width: 80%; */
+  /* margin: auto; */
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr)); */
+  /* grid-auto-rows: 250px ; */
+  /* border-style: none; */
+  /* grid-column-gap: 20px; */
+  /* grid-row-gap: 20px; */
+  /* margin: 50px; */
+  /* margin-top: 50px; */
+}
+
+.assignmentBox {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* height: 105px;
+  width: 90%;
+  padding: calc(0.5 * var(--headerHeight));
+  border: 1px solid #d3d3d3;
+  border-radius: var(--cardBorderRadius);
+  border-radius: 8px;
+  background-color: #ffff; */
+}
+
+/* 
+.headSectionDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.assignmentTitle {
+  color: var(--deepDarkThemeTextColor);
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--deepDarkThemeTextColor2);
+  color: #3f444d;
+  color: #5f656e;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: 500;
+  font-size: 20px;
+}
+.courseId {
+  border-style: none;
+  border-radius: 20%;
+  color: grey;
+  background-color: var(--bodyBkgColor);
+  color: var(--themeColor);
+  padding: 10px;
+}
+.status {
+  font-weight: bold;
+  color: #008000;
+}
+.threeDots {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.AssignBy {
+  color: var(--lightGreyTintTextColor);
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.dateInfo {
+  color: var(--lightGreyTintTextColor);
+  margin-top: 10px;
+  display: flex;
+}
+.infoDate {
+  color: var(--themeColor);
+  font-weight: bold;
+}
+.startDate {
+  padding-right: 10px;
+}
+.dueDate {
+  padding-left: 10px;
+  border-left: 1px solid grey;
+}
+.secondSection {
+  display: flex;
+  justify-content: space-between;
+}
+.leftLowerDiv {
+  display: flex;
+}
+.rightLowerDiv {
+  border-style: none;
+  height: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.uploadButton {
+  height: 80%;
+  border-style: none;
+  border-radius: 3px;
+  padding: 15px;
+  background-color: #d67b1a;
+  color: white;
+  width: 150px;
+  border-radius: var(--cardBorderRadius);
+  cursor: pointer;
+  font-family: Roboto;
+}
+
+.viewAssignmentButton {
+  height: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: none;
+  display: flex;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: var(--cardBorderRadius);
+  padding: 15px;
+  color: var(--tintGreyColor1);
+  font-family: Roboto;
+}
+.viewdetailIcon {
+  margin-left: 10px;
+}
+.thirdLeftDiv {
+  display: flex;
+  color: var(--lightGreyTintTextColor);
+  margin-left: 40px;
+  margin-top: 2px;
+}
+.tubeIconText {
+  color: var(--themeColor);
+  font-weight: bold;
+} */
+
+
+
+.optionsContainer {
+  position: relative;
+}
+
+.dropdownMenu {
+  position: absolute;
+  /* top: 20px; */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  font-size: small;
+}
+
+.dropdownItem {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: #f5f5f5;
+}
+
+
+/* Styling for new view  */
+
+.mainBox {
+  max-width: 77%;
+  height: 195px;
+  margin: 0 auto;
+  border: 2px solid lightgray;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  background: linear-gradient(to right, #ffffff, #f1f1f1);
+  /* Add gradient background */
+}
+
+.mainBox:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.viewDetailsBtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+
+.headingBox {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+  width: fit-content;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.numberBox {
+  padding: 0px;
+  margin: 0;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numberBox p {
+  font-size: 20px;
+}
+
+.assignmentNumber {
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 700px;
+
+}
+
+.assignedBy {
+  font-size: 15px;
+  color: #666;
+  margin: 0;
+  margin-top: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dates {
+  margin-top: 10px;
+  display: flex;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.publishedDate,
+.dueDate {
+  font-size: 15px;
+  margin-top: 5px;
+  margin: 0;
+  display: flex;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dateNumber,
+.dateText {
+  font-size: 18px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dateNumber {
+  color: blue;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.dateNumber1 {
+  color: red;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-left: 45px;
+}
+
+.status {
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  border: 1px solid lightgray;
+  width: 90px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.assignmentBox {
+  display: flex;
+  border-top: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.detailsBox {
+  margin-top: 4px;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+
+.Submission {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+.submit {
+  border: 2px solid lightgray;
+  padding: 8px 16px;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.submissionNumber {
+  color: #008000;
+  margin-left: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.credit {
+  margin-top: 4px;
+  width: 170px;
+  text-align: left;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.creditTwo {
+  margin-top: 4px;
+  margin-left: 20px;
+  width: 250px;
+  text-align: left;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.total {
+  width: 100px;
+}
+
+.total1 {
+  width: 160px;
+
+}
+
+.viewDetailsBtn {
+  width: 120px;
+  padding: 10px 16px;
+  border: 2px solid #ccc;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 15px;
+  display: flex;
+  font-weight: thick;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  margin-right: 11px;
+}
+
+.viewDetailsBtn:hover {
+  background-color: #f0f0f0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.icon1 {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.Number {
+  color: Blue;
+  margin-left: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 768px) {
+  .mainBox {
+    max-width: 90%;
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .assignedBy {
+    font-size: 14px;
+  }
+
+  .publishedDate,
+  .dueDate {
+    font-size: 14px;
+  }
+
+  .dateNumber,
+  .dateText {
+    font-size: 16px;
+  }
+
+  .status {
+    font-size: 14px;
+  }
+
+  .credit {
+    font-size: 14px;
+  }
+
+  .viewDetailsBtn {
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon1 {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+
+.delete {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+
+.overLay {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmDialog {
+  padding: 20px;
+  background-color: white;
+  width: 380px;
+  height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);
+  font-family: Roboto;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.p {
+  color: #808080;
+  padding-left: 4px;
+}
+
+.deleteYes {
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteNo {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2;
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.div {
+  display: flex;
+  gap: 10%;
+  padding-left: 17%;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.darkBlue {
+  color: blue;
+}

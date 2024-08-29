@@ -1,0 +1,54 @@
+
+
+.recoBooks{
+margin-top:20px;
+border-style: none;
+}
+
+
+.bookTitle{
+font-weight: bold;
+color: var(--topRightButtonTextColorInActive_Course);
+}
+
+
+.bookSec{
+color: grey;
+display: flex;
+}
+
+.bookImage{
+height: 150px;
+width:100px;
+margin-right: 20px;
+}
+
+.readInfo{
+display: flex;
+flex-direction: column;
+background-color: lightgrey;
+margin-top: 20px;
+padding: 10px;
+}
+
+.readBlock{
+
+height: 15px;
+background-color: white;
+border-radius: 4px;
+margin-top:5px;
+}
+
+.readBlockProgress{
+height: 100%;
+width:20%;
+border-radius: 4px;
+background-color: #AFE1AF;
+
+}
+
+
+
+
+
+

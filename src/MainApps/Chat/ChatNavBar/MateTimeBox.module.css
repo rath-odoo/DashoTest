@@ -1,0 +1,21 @@
+.mateTimeBox{
+position:relative;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.time{
+color: grey;
+}
+
+
+.numMsg{
+background-color: #25D366;
+border-radius: 50%;
+color: white;
+font-size: 10px;
+padding: 5px;
+font-weight: bold;
+}

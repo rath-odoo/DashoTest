@@ -1,0 +1,21 @@
+
+
+
+.mateIconBox{
+
+position: relative;
+height: 100%;
+left: calc( 0.2 * var(--headerHeight) );
+display: flex;
+align-items: center;
+}
+
+
+
+.mateIconUserImage{
+
+height: calc( 0.7 * var(--headerHeight) );
+width: calc( 0.7 * var(--headerHeight) );
+border-radius: 50%;
+
+}

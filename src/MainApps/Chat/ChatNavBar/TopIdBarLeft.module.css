@@ -1,0 +1,48 @@
+
+
+
+.topIdBarLeft{
+position: relative;
+width: 100%;
+height: calc( 0.80 * var(--headerHeight) );
+background-color: var(--tintGreyColor3);
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+.userImageIcon{
+position: relative;
+left: calc( 0.20 * var(--headerHeight) );
+display: flex;
+margin-left: 10px;
+
+}
+
+.userImage{
+
+width: calc( 0.60 * var(--headerHeight) );
+height: calc( 0.60 * var(--headerHeight) );
+border-radius: 50%;
+}
+
+.backButtonToDash{
+border-style: none;
+background-color: lightgrey;
+margin-right: 10px;
+cursor: pointer;
+}
+
+
+.backIcon{
+font-size: 20px;
+
+}
+
+
+
+
+
+

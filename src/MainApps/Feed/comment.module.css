@@ -1,0 +1,230 @@
+.commentContainer {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.commentDiv {
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.imageInput {
+    padding: 5px;
+    height: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.commenterDiv {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.commenterName {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.commenterProfile {
+    padding: 10px;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top-right-radius: 10px;
+
+
+}
+
+.commenterDesignationContainer {
+    margin: 5px 0px 5px 0px;
+    font-size: 13px;
+    color: rgb(0 0 0 / 60%);
+    font-weight: 100;
+}
+
+.commenterProfileContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.commenterRole {
+    background-color: #56687a;
+    color: white;
+    padding: 2px 7px 2px 7px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contentDiv {
+    margin-left: 50px;
+    width: calc(100% - 70px);
+    background-color: #f2f2f2;
+    padding: 0px 10px 10px 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.optionsContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: inherit;
+}
+
+.dropBoxContainer {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    background-color: white;
+    width: 100px;
+    z-index: 100;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.editContainer {
+    margin: 5px 0px 5px 0px;
+    padding: 0px 10px 0px 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.deleteContainer {
+    margin: 5px 0px 5px 0px;
+    padding: 0px 0px 0px 7px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 8px;
+    font-size: 15px;
+}
+
+.editContentDiv {
+    margin-left: 50px;
+    width: calc(100% - 73px);
+    background-color: #f2f2f2;
+    padding: 10px 10px 10px 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.editContentDiv:focus{
+    border: solid 1px black;
+    outline: none;
+    width: calc(100% - 73px);
+
+
+
+}
+
+.commentContent{
+    position: relative;
+}
+.closeButton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.sendButton{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+/*  */
+
+.editInput {
+    height: 30px;
+    width: 70%;
+    padding-left: 10px;
+    border: solid 1px var(--greyTextColor);
+    border-radius: 5px;
+}
+
+.editSendDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 40px;
+    margin-left: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.editSendDiv:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .13), 0 1px 1px 0 rgba(0, 0, 0, .11);
+}
+
+.authorName {
+    width: 10%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.declineButton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0px;
+    color: var(--greyTextColor);
+}
+
+.approveButton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: var(--greyTextColor);
+
+}

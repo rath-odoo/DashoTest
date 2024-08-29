@@ -1,0 +1,510 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.OuterMainDiv{
+ height: 1000px;
+ 
+}
+.outerDiv {
+  /* margin-top: 30px;  */
+   
+}
+
+.noSpinner {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.noSpinner::-webkit-outer-spin-button,
+.noSpinner::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari, Edge, Opera */
+  margin: 0;
+}
+.outerDiv{
+  margin-bottom: 100px;
+}
+
+.studentName {
+  /* width: 150px;  */
+  position: sticky;
+  left: 0;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+.courseName, .tdBtn {
+  min-width: 150px; 
+}
+
+.courseHeader {
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+}
+.cls{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+
+.scrollContainer {
+  overflow-x: auto;
+  display: flex;
+}
+
+.th, .td {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 8px;  
+}
+.td2{
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 8px;  
+  text-align: center;
+}
+.subExamNavigation{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 13px;
+}
+
+.th {
+  background-color: #fff;
+  text-align: center;
+}
+
+.tdBtn {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 8px;  
+  text-align: center;
+}
+
+.btnViewGrade {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: 0.6px solid #007bff;
+  border-radius: 5px;
+  padding: 7px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+ 
+.tWidth{
+  height: 400px; 
+  display: block;
+  max-height: 400px; /* Adjust height as needed */
+  overflow-y: auto;
+}
+ 
+/* .tbody-scroll {
+  display: block;
+  max-height: 300px;  
+  overflow-y: auto;
+} */
+
+
+.table {
+  display: table;
+  width:100%;
+}
+
+thead, .tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+thead {
+  width: calc(100% - 0.1em); 
+}
+
+tbody {
+  width: 100%;
+
+}
+.selectExamContainer{
+  display: flex;
+  color: #808080;
+}
+.selectl{
+  border-style: solid;
+    height: 37px;
+    width: 50%;
+    background-color: white;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.tabButton{
+  /* margin-left: auto; */ 
+}
+.firstContainer{
+  display: flex;
+  align-items: center;
+  
+}
+.secondContainer{
+  display: flex;
+  align-items: center;
+}
+.switchIcon {
+     
+  font-size: 24px;
+  cursor: pointer;
+}
+.divMiddle{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 7px;
+padding-left: 7px;
+}
+.tabButtonHeight {
+  height: 30px;
+  border-radius: 5px; 
+  margin-right: 20px;
+  
+}
+.tabButtonHeight2{
+  height: 33px;
+/* margin-left: 14px; */
+}
+.tabContainer{
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.divEnd{
+  display: flex;
+}
+
+
+
+.tabButton {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: var(--themeColor);
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tabButton.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.tabButton.inactive {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.tabButtonHeight {
+  height: 40px;
+}
+
+.tabButtonHeight2 {
+  height: 40px;
+}
+
+.studentName {
+  /* font-weight: bold; */
+}
+
+.toggleButtons{
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  width: 25%;
+  margin-top: 5px;
+  /* margin-top: 20px; */
+}
+.tableContainer{
+  display: flex;
+  width: 100%;
+  
+}
+.paginationContainer{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  margin-top: 14px;
+}
+.span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.pageIndicator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.inputField{
+  width: 50px;
+  align-self: center; 
+
+  position: relative; 
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.outerDiv{
+  display: flex;
+}
+
+.pagination{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  margin-top: 15px;
+}
+.submitContainer{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.submitButton{
+  background-color: var(--themeColor);
+  color: white;
+  border: 0.6px solid var(--themeColor);
+  border-radius: 5px;
+  padding: 7px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btn{
+  background-color: white;
+    border: 1px solid gray;
+    color: var(--themeColor);
+    /* margin-left: 10px; */
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg{
+  height: 20px;
+  width: 20px; 
+}
+.btn2{
+  background-color: white;
+  border: 1px solid gray;
+  color: var(--themeColor);
+  /* margin-left: 10px; */
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 4px;
+  /* margin-right: 10px; */
+  cursor: pointer;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-left: auto;
+}
+
+.dropdownContainer{
+  /* margin-bottom: 20px; */
+  width: 50%;
+  display: flex;
+}
+.schedule {
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.schedule:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);  
+  color: white;
+}
+
+.gradeBlock {
+  margin-top: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.warningBlock {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid;
+  border-radius: 5px;
+  z-index: 9999;
+  max-width: 500px;
+  height: 70vh;
+  min-width: 35%;
+  background-color: white;
+  border-radius: calc(0.2* 3.0rem);
+  border-style: none;
+  border-color: grey;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+}
+
+.paginationButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationButtons button {
+  background-color:  #28A745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.paginationButtons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.gradesContainer{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.divOuter{
+  display: flex;
+}
+
+.examLabel{
+  color: #808080;
+}
+
+.subExamLabel{
+  font-weight: 500;
+}
+ 
+
+thead {
+  display: table;
+  width: 100%;
+  table-layout: fixed;  
+  background-color: #f2f2f2;  
+}
+
+tbody {
+  display: block;
+  width: 100%;
+  height: auto; 
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+tbody tr {
+  display: table;
+  width: 100%;
+  height: 42px;
+  table-layout: fixed;  
+}
+
+.studentName {
+  position: sticky;
+  left: 0; 
+  z-index: 1;
+  /* font-weight: bold; */
+}
+
+ 
+
+
+
+.gradestablecontainer {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+.gradesTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.gradesTable thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.gradesTable th, .gradesTable td {
+  padding: 12px 15px;
+}
+
+.gradesTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.gradesTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.gradesTable tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.tbody{
+  height: auto;
+  overflow: hidden;
+}
+.divll{
+  /* height: 720px; */
+  /* overflow-y: auto; */
+}

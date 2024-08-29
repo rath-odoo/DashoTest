@@ -1,0 +1,94 @@
+.secTitleTopBar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--bodyBkgColor);
+  width: 100%;
+  height: calc(1.2 * var(--headerHeight));
+  border-style: none;
+  border-width: 1px;
+  border-color: lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.sectionTitle {
+  align-items: center;
+  position: relative;
+  justify-self: baseline;
+  left: calc(0.3 * var(--headerHeight));
+  font-size: calc(0.4 * var(--headerHeight));
+  display: flex;
+}
+
+.searchDiv {
+  border-style: solid;
+  height: 40px;
+  width: 500px;
+  border-style: none;
+  background-color: white;
+  margin-left: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.searchIcon {
+}
+
+
+
+.input:focus {
+  outline: none;
+}
+
+.ctgy {
+  background-color: var(--bodyBkgColor);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.all {
+  font-family: Roboto;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #f2f2f2;
+  background-color: white;
+}
+
+.navEmail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nuOfEmail {
+  font-size: 12px;
+  font-family: Roboto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.arrowBack {
+  padding-right: 10px;
+}
+
+.rightIcon{
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.settingIcon{
+  padding-right: 20px;
+  justify-items: center;
+  align-items: self-end;
+}
+

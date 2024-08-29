@@ -1,0 +1,30 @@
+.eMailSecButton {
+  margin-top: 2px;
+  padding-left: 20px;
+  margin-left: 34px;
+  width: 140px;
+  height: calc(0.8 * var(--headerHeight));
+  color: var(--greyTextColor);
+  background-color: var(--bodyBkg);
+  border-style: none;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(0.3 * var(--headerHeight));
+}
+
+.eMailSecButton:hover {
+  background: var(--sideNavBarBtnhoverColor) ;
+
+  color: black;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+ 
+}
+
+.sectionIcon {
+  position: relative;
+  left: 0;
+  padding-right: 10px;
+}

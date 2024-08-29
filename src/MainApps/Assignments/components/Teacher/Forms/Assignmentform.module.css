@@ -1,0 +1,306 @@
+.createAssignmentFormDivParent {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.createAssignmentForm {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  max-width: 800px;
+  min-width: 370px;
+  background-color: white;
+  border-radius: 5px;
+  border-style: none;
+  border-color: grey;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  padding: 30px;
+}
+
+.createAssignmentFormLoading {
+  position: relative;
+  width: 60vw;
+  height: 80vh;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  border-style: none;
+  border-color: grey;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.submittingDiv {
+  padding-top: 100px;
+  color: var(--themeColor);
+}
+
+.closeButtonDiv {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: flex-end;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+.closeFormButton {
+  border-style: none;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.closeButtonIcon {
+  font-size: 25px;
+}
+
+.logoAndTitleContainer {
+  margin-top: 30px;
+  height: 80px;
+  width: 80%;
+  background-color: white;
+}
+
+.bwLogo {
+  height: 75px;
+  width: 75px;
+}
+
+.formTitleDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.formTitleDiv i {
+  font-size: 30px;
+  font-style: normal;
+}
+
+.submitButtonDiv {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-top: 50px;
+  border-style: none;
+  padding-bottom: 40px;
+}
+
+.submit_button {
+  width: 50%;
+  border-style: none;
+  background-color: var(--themeColor);
+  color: white;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.emptyDiv {
+  width: 80%;
+  border-style: solid;
+  height: 100px;
+  color: white;
+}
+
+.optionContainers {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-auto-rows: 80px;
+  border-style: none;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  border-color: red;
+  margin: auto;
+}
+
+.tubeIcon {
+  font-size: 30px;
+  color: #00aff0;
+}
+
+.tubeIconText {
+  font-size: 30px;
+  margin-left: 15px;
+}
+.DateField {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  margin-top: 20px;
+}
+.DateFieldThree {
+  display: flex;
+  gap: 20px;
+}
+.startData {
+  width: 35%;
+}
+.dueData {
+  width: 35%;
+}
+.creditField {
+  width: 29.5%;
+}
+
+
+.assignmentTitleDiv{
+  width: 90%;
+   
+}
+
+.assignedByDiv{
+  width: 90%;
+  
+}
+.threeDivs{
+  width: 90%;
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.fileUpload{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 30px;
+}
+
+.questionFilesMetaDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: center;
+  /* padding-left: 80px; */
+  padding-top: 8px;
+ 
+}
+
+.metaDiv{
+  width: 90%;
+}
+
+.borderInput{
+  position: relative;
+    /* width: 100%; */
+    height: 35px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.borderInputArea{
+  position: relative;
+    /* width: 100%; */
+    height: 100px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.inputDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.removeMetaButton{
+
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-style: none;
+  width: 100px;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  margin-right: 20px;
+
+}
+.toggleBtn{
+  
+ 
+  border-style: none;
+  width: auto;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  
+}
+.div{
+  margin-left: auto;
+}
+.labelMeta{
+  margin-bottom: 7px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.metaBtn{
+  margin-bottom: 10px;
+}
+
+.addMetaButton{
+  border-style: none;
+  width: 140px;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.statusDiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.redStar{
+  color: red;
+  margin-right: 3px;
+}
+.label{
+  font-size: 16px;
+}
+
+.btnContainer{
+  display: flex;
+}

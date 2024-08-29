@@ -1,0 +1,46 @@
+.infoUnitBarParent{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:#e0ebff;
+border-radius: 0px 0px 0px 0px;
+}
+
+
+.infoUnitBar{
+height: calc( 1.0 * var(--headerHeight) );
+width: 75%;
+border-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid;
+border-color: lightgrey;
+}
+
+.infoUnitBar i{
+font-style: normal;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: grey;
+display: flex;
+align-items: center;
+}
+
+
+.courseName{
+position: relative;	
+color: var(--themeColor);
+left: 10px;
+}
+
+
+
+
+
+
+
+.courseCodeName{
+color: grey;
+}
+

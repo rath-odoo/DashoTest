@@ -1,0 +1,129 @@
+.peopleOuter {
+  width: 100%;
+}
+
+.parentClass {
+  width: calc(100% - 5px);
+  height: 40px;
+  border-right: 1px solid var(--cardBorderColorLight);
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+
+.nameContainer {
+  width: 40%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.rolwContainer {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.dateContainer {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.statusContainer {
+  width: 20%;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+.div{
+  height: 40px;
+  justify-content: center;
+  display: flex;
+}
+.scrollContent {
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden; */
+  /* scroll-behavior: smooth; */
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+
+}
+.div1{
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  margin-top: 300px;
+}
+
+.peopleContainer {
+  margin-top: 10px;
+  margin-bottom: 20px
+}
+
+
+.schedule {
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.schedule:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: var(--themeColor);
+}
+
+.pageButton {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: var(--themeColor);
+}
+
+.pageButtonDisabled {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: not-allowed;
+  color: #ccc;
+}
+
+.pageInfo {
+  margin: 0 10px;
+  color: var(--themeColor);
+}
+
+.loaderContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+}

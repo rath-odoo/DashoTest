@@ -1,0 +1,1244 @@
+ 
+
+  .Container{
+    
+    width: auto;
+    border-style: none;
+    margin: auto;
+    height: 2000px;
+    /* margin-top: calc( 0.5 * var(--headerHeight) ); */
+    margin-left: calc( var(--sideNavBarWidth) + 0.5% );
+    padding-left: 40px;
+    padding-right: 40px;
+    
+      }
+  
+  .examDetails {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .exam-details-text{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .underLine{
+    width: 500px;
+    height: 0.1px;
+    border: 0.1px solid gray;
+    margin-bottom: 10px;
+  }
+  
+  .goBack{
+    /* margin-left: 265px; */
+    margin-top: 80px;
+  
+    margin-bottom: 8px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 0.1px solid white;
+    border-radius: calc(0.2*3.0rem);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-color: lightgrey;
+    cursor: pointer;
+  }
+
+  .spanBack{
+    margin-left: 10px;
+  }
+  
+  .goBack:hover{
+    border: 0.5px solid #007bff;
+  }
+  
+  
+   
+  
+  .txt{
+    font-size: 19px;
+    color: #5E5d5d;
+    margin-bottom: 10px;
+    
+   
+  }
+  
+  .btnMarks{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #D67b1a;
+    border: 0.1px ;
+    border-radius: calc(0.2*3.0rem);
+    cursor: pointer;
+  }
+  
+  
+  .MainContainer{
+    
+    height: auto;
+    width: 100%;
+    /* padding-left: 267px; */
+    /* margin-right: 200px; */
+    }
+  
+  
+    .btnStudentDetails{
+      border-radius: calc(0.2*3.0rem); 
+      width: 150px;
+    height: 30px;
+    color: white;
+    background-color: #D67b1a;
+    border: 0.1px ;
+    border-radius: calc(0.2*3.0rem);
+    cursor: pointer;
+    margin-bottom: 20px;
+    }
+  
+  
+    .btnStudentDetails:hover{
+      background-color: #D67b1a;
+    }
+
+    .editbtnContainer{
+      display: flex;
+      margin-left: auto;
+      margin-right: 7px;
+      
+      /* justify-content: end; */
+    }
+  
+  
+    .btnSubmit ,.btnAddQuestion{
+      border-radius: calc(0.2*3.0rem);
+    }
+  
+  .examForm{
+    width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-style: solid;
+    /* margin-top: 100px; */
+    margin-left: 60px;
+    border-width: 1px;
+    border-radius: calc(0.2*3.0rem);
+    padding: 15px;
+    border-color: lightgrey;
+    background-color: white;
+  }
+
+
+  .stdContainer{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: calc(0.2*3.0rem);
+    padding: 15px;
+    border-color: lightgrey;
+    background-color: white;
+    
+  }
+
+  
+  .stdContainerTwo{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-style: solid;
+ 
+    border-width: 1px;
+    border-radius: calc(0.2*3.0rem);
+    padding: 15px;
+    padding-top: 8px;
+    border-color: lightgrey;
+    background-color: white;
+    /* margin-right: -10px; */
+  }
+  .secondContainer{
+    /* padding-left: 267px; */
+    width: 99.8%;
+    display: flex;
+    gap: 15px;
+  }
+  .studentDetailsContainer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 15px;
+  }
+  span{
+    color: #5e5d5d;
+  }
+  
+  .stdTxt{
+    color: #1b1e24;
+    font-size: 19px;
+    margin-left: 10px;
+  }
+  .stdTxtUi{
+    color: #1b1e24;
+    margin-bottom: 9px;
+    margin-top: 13px;
+    
+     
+  
+  }
+  .stdDiv{
+    border: 0.1px solid #E8E8E8;
+    background-color: #EFEFEF ;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-right: 15px;
+   
+  }
+  
+  .cntStd{
+    color: #585858;
+    
+  }
+  .addStudentFirstDiv{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 8px;
+  }
+
+  .addStudentContainer{
+    color: var(--greyTextColor);
+    background-color: var(--bodyBkgColor);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+
+  }
+
+  
+  .stdID{
+    border-style: solid;
+      height: 33px;
+      width: 100px;
+      border-width: 1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      font-size: 16px;
+      margin-right: 6px;
+      margin-top: 5px;
+      margin-left: 8px;
+      border-radius: 10px;
+      border: 1px solid #d3d3d3;
+      padding-left: 15px;
+   
+       
+  }
+  .stdName{
+    border-style: solid;
+    height: 33px;
+    width: 250px;
+    border-width: 1px;
+    border-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    background-color: #fff;
+    position: relative;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+    padding-left: 15px;
+    margin-left: 10px;
+  }
+
+ .btnCrossMark{
+    font-size: 13px;
+    background-color: white;
+    border: 0.1px solid #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+ }
+
+ .crossButtonContainer {
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
+  margin-right: 1px;
+}
+
+  .btnAddStudent{
+  margin-top: 6px;
+  border: 0.1px solid #0056D2;
+  background-color: #fff;
+  color: #0056D2;
+  height: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  }
+
+  .btnAddStudent:hover{
+    background-color: #0056D2;
+    color: #fff;
+  }
+  
+  .stdIdName{
+    display: flex;
+    margin-top: 6px;
+    margin-left: 10px;
+  }
+
+  .semTwoText{
+    margin-top: 10px;
+    font-size: 22px;
+    font-family:  Roboto  ;
+    margin-left: 15px;
+  }
+  
+  
+  
+  .examDetailsContainer {
+    width: 97.7%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: calc(0.2*3.0rem);
+    padding: 15px;
+    border-color: lightgrey;
+    background-color: white;
+    margin-bottom: 14px;
+  }
+
+  .ExamContainer{
+    margin-top: 15px;
+    margin-left: 9px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .examName{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    
+  }
+  .examinerName{
+    margin-left: 5px;
+    margin-bottom: 40px;
+  }
+  
+  .examDetailsContainer h1 {
+    text-align: center;
+    color: #1b1e24;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  
+  .examForm form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .examForm label {
+    margin-bottom: 5px;
+  }
+  
+  .examForm input[type="text"],
+  .examForm input[type="date"],
+  .examForm select,
+  .examForm textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .examForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .examForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .examForm ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .examForm li {
+    margin-bottom: 10px;
+  }
+  
+  .examForm li strong {
+    font-weight: bold;
+  }
+  
+  
+  
+  option{
+    width: 100px;
+  }
+  
+  
+  .stdContainer{
+    display: grid;
+  }
+  
+  
+  /* Styles for the warning block */
+  .student{
+    display: flex;
+    gap: 10px;
+    height: 43px;
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    padding-right: 8px;
+    padding-left: 5px;
+  }
+
+  .studentTwo{
+    display: flex;
+    gap: 10px;
+    height: 43px;
+    width: 100%;
+    margin-bottom: 17px;
+    margin-top: 10px;
+    padding-right: 8px;
+    
+  }
+
+  .stdIdWarningBlock ,.stdNameWarningBlock{
+    font-size: 17px;
+  }
+  
+  .studentInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    margin-left: 4px;
+  }
+
+  .studentInfoFirstDiv{
+    display: flex;
+  }
+  .studentInfoSecondDiv{
+    font-size: 15px;
+    display: flex;
+    color: #535d5d;
+  }
+
+  .stdImgContainer{
+    overflow: hidden;
+    border-radius: 50%;
+    
+  }
+  .profilePhoto{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .btnAddStudentContainer{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .btnAddStudentWb{
+    background-color: #efefef;
+    cursor: pointer;
+    height: 63%;
+    align-items: center;
+    font-size: 15px;
+    width: 70px;
+    border-radius: var(--cardBorderRadius);
+    color: var(--tintGreyColor1);
+    font-family: Roboto;
+    border: 1px solid var(--cardBorderColor);
+    padding: 4px;
+    text-align: center;
+
+    
+  }
+  .btnAddStudentWb:hover{
+    background-color: white;
+    border: 1px solid var(--cardBorderColor);
+  }
+  .inputField{
+    width: 89%;
+    height: 35px;
+    font-size: 16px;
+    border-radius: var(--cardBorderRadius);
+    color: var(--tintGreyColor1);
+    font-family: Roboto;
+    border: 1px solid var(--cardBorderColor);
+    margin-left: 17px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    
+  }
+
+  .warningBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border: 2px solid; 
+    padding: 15px;
+    border-radius: 15px;
+    z-index: 9999;
+    height: 85vh;
+    min-width: 500px;
+    background-color: white;
+    border-radius: calc(0.2*3.0rem);
+    border-style: none;
+    border-color: grey;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  
+  .logoDiracAI{
+   
+    color: var(--themeColor);
+  font-size: calc( 0.40 * var(--headerHeight) );
+  border-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--themeColor);
+  color: white;
+  height: calc( 0.40 * var(--headerHeight) );
+  border-radius: calc( 0.1 * var(--headerHeight) );
+  padding: calc( 0.16 * var(--headerHeight) );
+  position: relative;
+    } 
+  
+  
+  
+    .student-details{
+      display: flex;
+      align-items: center;
+    }
+  
+    .studentBlock{
+      display: flex;
+      background-color: #EFEFEF;
+      margin-left: 8px;
+      border-radius: 10px;
+      border-color: #fff;
+      border: none;
+       
+    }
+  
+ 
+  
+    .stdUiId{
+      margin-right: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+    }
+    .stdUiName{
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    
+
+
+.timeContainer{
+  display: flex;
+  margin-top: 9px;
+  margin-left: 9px;
+}
+
+.timeandAddressIcon {
+  color: var(--greyTextColor);
+
+  background-color: var(--bodyBkgColor);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.timeandAddressIconForLink{
+  color: var(--greyTextColor);
+
+  background-color: var(--bodyBkgColor);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timenAddressText {
+  margin-left: 10px;
+  color: var(--greyTextColor);
+  text-align: center;
+  padding-top: 6px;
+}
+
+
+.studentList{
+  margin-left: 17px;
+  margin-right: 15px;
+}
+.studentListTwo{
+  margin-left: 1px;
+}
+.studentListThree{
+  background-color: #efefef;
+  padding-top: 7px;
+  padding-left: 15px;
+  padding-bottom: 7px;
+  border-radius: calc(0.2* 3rem);
+}
+
+
+
+.btnStdContainer{
+  margin-left: auto;
+  margin-right: 19px;
+}
+.btnstudent{
+  background-color: #efefef;
+  cursor: pointer;
+  height: 29px;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  border-radius: 5px;
+  color: var(--tintGreyColor1);
+  font-family: Roboto;
+  border: 1px solid var(--cardBorderColor);
+  padding: 5px;
+  text-align: center;
+}
+.btnstudent:hover{
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* for new block  */
+
+
+
+.headerSection {
+  width: 99%;
+  margin-top: 10px;
+  margin-left: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: repeat(auto-fit, minmax(50px, auto));
+  row-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+}
+
+.classContainer {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.classIcon {
+  height: 30px;
+  width: 30px;
+  background-color: var(--bodyBkgColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+}
+
+.classTitle {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #5e5d5d;
+}
+
+.classNa {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #1b1e24;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.statusContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid;
+  border-right-color: #d3d3d3;
+  border-left: 1px solid;
+  border-left-color: #d3d3d3;
+}
+
+.statusIcon {
+  height: 30px;
+  width: 30px;
+  color: var(--greyTextColor);
+
+  background-color: var(--bodyBkgColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statusTitle {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #5e5d5d;
+}
+
+.statusName {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #1b1e24;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.courseContainer {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.courseContainertwo{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+
+}
+.mainContainerTwo{
+  display: flex;
+}
+
+.courseContainerThree{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.timeText{
+  color: #1b1e24;
+  font-size: 15px;
+  margin-left: 61px;
+  margin-top: 8px;
+}
+.timeTextTwo{
+  color: #1b1e24;
+  font-size: 15px;
+  margin-left: 61px;
+  margin-top: 8px;
+
+}
+
+.courseIcon {
+  height: 30px;
+  width: 30px;
+  color: var(--greyTextColor);
+  background-color: var(--bodyBkgColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courseTitle {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #5e5d5d;
+}
+
+.courseName {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #1b1e24;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: green;
+  color: white;
+  min-width: 20px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.editButtonDiv{
+
+width: 100%;
+border-style: none;
+border-color: red;
+display: flex;
+justify-content: flex-end;
+ 
+}
+
+
+.editButton{
+
+width: 100px;
+display: flex;
+cursor: pointer;
+height: 29px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-style: none;
+border-radius: 5px;
+margin-top: 8px;
+}
+
+
+.editText{
+margin-left: 5px;
+}
+
+
+
+.meetingText {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-left: 10px;
+  color: #5E5d5d;
+}
+.copyLinkBtn {
+  width: 90px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: var(--bodyBkgColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 4px;
+  border: 1px solid var(--cardBorderColorLight);
+  margin-bottom: 10px;
+}
+
+.copyLinkBtn:hover {
+  background-color: var(--themeColor);
+  color: white;
+  cursor: pointer;
+}
+
+.copyText {
+  font-size: 14px;
+  padding: 4px;
+}
+
+
+.linkForExam{
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 15px;
+}
+.a{
+  margin-left: 50px;
+}
+
+.examTitleContainer{
+  display: flex;
+}
+
+
+/* stdContainerTwo component */
+.examInsrt ,.gradingTxt ,.examMaterial ,.communicationTools ,.monitoringTools{
+     
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+
+.firstDiv ,.secondDiv ,.thirdDiv ,.fourthDiv ,.fifthDiv{ 
+  margin-left: 10px;
+}
+
+.secondDiv{
+  margin-bottom: 3px;
+}
+.fourthDiv{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.fifthDiv{
+  display: flex;
+  margin-top: 15px;
+}
+
+.instructionDiv ,.gradingDiv{
+  display: flex;
+  padding-top: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.instructionDiv{
+  margin-top: 1px;
+}
+.examMaterial ,.monitoringTools ,.communicationTools{
+  margin-left: 1px;
+}
+
+.editContainer{
+  display: flex;
+  margin-left: auto;
+  margin-right: 7px;
+}
+
+
+.btnEdit{
+  width: 100px;
+display: flex;
+cursor: pointer;
+height: 29px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-style: none;
+border-radius: 5px;
+margin-top: 8px;
+margin-left: 15px;
+
+
+}
+ 
+
+.instructionPara ,.gradingPara { 
+  color: #5e5d5d;
+}
+.liveProctoring ,.screenMonitoring ,.activityTracking ,.chatEnabled{
+  color: #008000;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.chooseFileButton{
+  
+  width: 90px;
+  display: flex;
+  cursor: pointer;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-left: 15px;
+  
+}
+     
+  
+
+
+.uploadFile{
+  display: flex;
+}
+
+.labelsFourthDiv ,.chatEnabled{
+  margin-left: 7px;
+   
+  display: flex;
+  align-items:center ;
+}
+
+p{
+  margin-left: 4px;
+}
+
+
+.addStudentContainer{
+  color: var(--greyTextColor);
+  background-color: var(--bodyBkgColor);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.instructionPara ,.gradingPara{
+  margin-top: 14px;
+  margin-left: 50px;
+}
+
+ 
+
+
+.headerSectiontwo{
+  margin-top: 19px;
+  row-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: white;
+  border: none;
+  padding-top: 2px;
+  padding-bottom: 14px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+}
+
+
+@media screen and (max-width: 1000px){
+
+
+  .Container{
+    width: auto;
+border-style: none;
+margin: auto;
+margin-left: 1px;
+padding-left: 80px;
+padding-right: 40px;
+  }
+
+
+   
+   .secondContainer{
+    
+    height: auto;
+    width: 90%;
+    padding-left: 20px;
+    overflow: hidden;
+    }
+
+
+    .studentDetailsContainer{
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+
+    .goBack{
+      margin-left: 20px;
+    }
+
+ 
+
+    .MainContainer {
+      
+    height: auto;
+    width: 85%;
+    padding-left: 20px;
+    padding-right: 20px;
+       
+    }
+
+    .examDetailsContainer{
+      width: 100%;
+    }
+
+
+ 
+
+    .stdContainer{
+      width: 94.4%;
+    }
+    .stdContainerTwo{
+      width: 94.4%;
+      margin-bottom: 50px;
+    }
+
+    .linkForExam{
+      word-wrap: break-word;
+      max-width: 100%;
+    }
+  
+  .stdContainer ,.stdContainerTwo{
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+
+ 
+
+
+@media screen and (max-width: 1200px) {
+  .stdContainer ,.stdContainerTwo{
+    /* margin-right: 0;
+    margin-left: 0; */
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .Container{
+    width: 90%;
+    padding-right: 0;
+    margin-right: 1px;
+  }
+  
+  .secondContainer{
+    width: 95%;
+    padding-right: 0;
+  }
+  .studentDetailsContainer{
+    width: 100%;
+  }
+
+
+  .semTwoText ,.headerSection ,.timeContainer  {
+    margin-left: 0;
+  }
+  .timeText ,.timeTextTwo{
+    margin-left:52px;
+  }
+  .courseContainerThree{
+    margin-left: 10px;
+  }
+  a{
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .Container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ /* .stdContainer ,.stdContainerTwo{
+  width: 95%;
+ }
+
+ .studentDetailsContainer{
+  width: 100%;
+ }
+ .secondContainer{
+  width: 106%;
+ } */
+
+  
+}
+
+
+@media screen and (max-width: 780px){
+
+.secondContainer{
+  /* width: 90.4%; */
+}
+
+}
+
+
+@media screen and (max-width: 780px){
+  .labelsFourthDiv ,.liveProctoring ,.activityTracking ,.screenMonitoring{
+    margin: 0;
+  }
+  .monitoringTools{
+    width: 140px;
+  }
+  .fourthDiv{
+    width: 90%;
+    padding-left:4px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .secondContainer{
+    width: 100.8%;;
+  }
+ 
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1550px){
+  .secondContainer{
+    width: 100.3%;
+  }
+}

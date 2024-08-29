@@ -1,0 +1,145 @@
+
+
+
+
+
+.editTimeNAddress{
+
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.editTimeNAddressForm{
+
+position: relative;
+width: 40vw;
+height:80vh;
+min-width:300px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow: auto;
+}
+
+
+
+.closeButtonDiv{
+width:100%;
+display: flex;
+background-color: white;
+justify-content: flex-end;
+border-radius: 5px;
+}
+
+
+
+.closeFormButton{
+border-style: none;
+cursor: pointer;
+background-color: white;
+border-radius: 5px;
+}
+
+
+.closeButtonIcon{
+
+font-size: 25px;
+
+}
+
+
+
+.logoAndTitleContainer{
+
+
+height:150px;
+width:80%;
+background-color: white;
+display: flex;
+flex-direction: column;
+
+}
+
+.bwLogo{
+
+height: 75px;
+width: 75px;
+
+}
+
+.titleDiv{
+width: 100%;
+display:flex;
+justify-content:flex-start;
+color: #585858;
+}
+
+.titleDiv i{
+
+font-size: 30px;
+}
+
+
+
+.submitButtonDiv{
+width: 80%;
+display: flex;
+justify-content: center;
+background-color: white;
+padding-top: 50px;
+}
+
+
+.submit_button{
+width: 30%;
+border-style: none;
+background-color: var(--themeColor);
+color: white;
+height:30px;
+width:100px;
+border-radius: 10px;
+cursor: pointer;
+margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

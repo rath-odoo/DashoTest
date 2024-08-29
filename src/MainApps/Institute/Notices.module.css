@@ -1,0 +1,598 @@
+
+.schedule {
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-left: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.schedule:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+
+.btnContainer{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.noticesHeading{
+  display: flex;
+  justify-content: center;
+}
+
+
+.batchName {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+
+.batchName{
+color: #5e5d5d;
+}
+
+
+.noticeBox {
+  max-width: 80%;
+  background-color: white;
+  border-radius: var(--cardBorderRadius);
+  margin-bottom: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /*box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;*/
+  margin-bottom: calc(0.3 * var(--headerHeight));
+  margin-left: 3%;
+}
+
+.noticeBox:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.topSection {
+  height: 33%;
+  width: 98%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(0.25 * var(--headerHeight));
+}
+
+.noticeID {
+  /* font-style: normal; */
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  color: var(--greyTextColor);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.timenDateIcon {
+  color: var(--greyTextColor);
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+.creationTime {
+  font-style: normal;
+  color: var(--greyTextColor);
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midSection {
+  height: 33%;
+  width: 98%;
+  /*overflow: hidden;
+white-space: nowrap;
+overflow: hidden !important;
+text-overflow: ellipsis;
+font-size: calc( 0.33 * var(--headerHeight) );
+color: var(--ticketTextColor);*/
+}
+
+.midSection__title {
+  width: 85%;
+  /* font-size: calc(0.3 * var(--headerHeight)); */
+  font-size: 17px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.buttomSection {
+  margin-top: 10px;
+  height: 33%;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postedByTextContainer {
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.iconPost {
+  margin-right: 6px;
+  color: var(--greyTextColor);
+}
+.postedByText {
+  margin-right: 4px;
+  color: var(--greyTextColor);
+}
+
+.noticeBoxButtonView {
+  border-style: none;
+  color: var(--themeColor);
+  cursor: pointer;
+  height: calc(0.4 * var(--headerHeight));
+  font-size: calc(0.25 * var(--headerHeight));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noticeBoxButtonView i {
+  font-size: calc(0.25 * var(--headerHeight));
+  font-style: normal;
+}
+
+.noticeBoxButtonRead {
+  border-style: none;
+  background-color: white;
+  color: var(--themeColor);
+  border-radius: 18px;
+  cursor: pointer;
+  height: 30px;
+  margin-right: 20px;
+  padding: 5px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+.noticeBoxButtonRead i {
+  font-style: normal;
+  font-size: calc(0.25 * var(--headerHeight));
+}
+
+.noticeBoxButtonHide {
+  border-style: none;
+  background-color: white;
+  color: var(--greyTextColor);
+  border-radius: 4px;
+  cursor: pointer;
+  /*height:calc( 0.4 * var(--headerHeight) );*/
+  font-size: calc(0.25 * var(--headerHeight));
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.deleteTitle {
+  padding: 5px;
+}
+
+.noticeBoxButtonHide i {
+  font-style: normal;
+  font-size: calc(0.25 * var(--headerHeight));
+}
+
+.noticeBoxButtonView:hover {
+}
+
+.noticeBoxButtonRead:hover {
+}
+
+.noticeBoxButtonHide:hover {
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.noticeReadIcon {
+  color: green;
+  font-size: calc(0.4 * var(--headerHeight));
+}
+
+.markAsUnreadButton {
+  border-style: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.noticeText {
+  color: var(--greyTextColor);
+  width: 85%;
+  line-height: 22px;
+  text-align: justify;
+  white-space: pre-wrap;
+}
+
+.bottomRightView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.bottomSection{
+  padding-left: 24px;
+  width: 100%;
+  display: flex; 
+  justify-content: flex-start ;
+}
+
+.noticeMain{
+  width: 100%;
+  height: 650px;
+  overflow-y: auto;
+  padding-right: 20px;
+}
+
+.batchContainer{
+  padding-left: 20px;
+  width: 100%;
+  display: flex; 
+  justify-content: flex-start ;
+}
+.batchInfo{
+  display: flex;
+  width: 100%;
+}
+.instituteInfo{
+  display: flex;
+}
+.batchNames{
+  color: green;
+  margin-left: 5px;
+}
+
+
+
+
+.createTicketFormDivParent{
+
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1); 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.createTicketForm{
+
+position: relative;
+width: 60vw;
+max-width:700px;
+height:70vh;
+min-width:300px;
+background-color: white;
+border-radius: 10px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow-y: scroll;
+
+
+}
+
+
+
+.createTicketFormLoading{
+
+position: relative;
+width: 60vw;
+height:80vh;
+min-width:300px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.innerDiv{
+
+width: 80%;
+}
+
+
+
+
+.submittingDiv{
+padding-top: 100px;	
+color: var(--themeColor);
+
+}
+
+
+
+
+
+
+
+
+
+.closeButtonDiv{
+width:98%;
+display: flex;
+background-color: white;
+justify-content: flex-end;
+border-radius: 5px;
+margin-top: 8px;
+}
+
+
+
+.closeFormButton{
+border-style: none;
+cursor: pointer;
+background-color: white;
+border-radius: 5px;
+}
+
+
+.closeButtonIcon{
+
+font-size: 25px;
+
+}
+
+
+.logoAndTitleContainer{
+
+
+height:150px;
+width:100%;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.bwLogo{
+
+height: 75px;
+width: 75px;
+
+}
+
+.formTitleDiv{
+width: 100%;
+display:flex;
+justify-content:center;
+margin-top: 25px;
+color: #585858;
+}
+
+.formTitleDiv i{
+
+font-size: 30px;
+font-style: normal;
+}
+
+
+
+.submitButtonDiv{
+width: 100%;	
+display: flex;
+justify-content: center;
+background-color: white;
+padding-top: 50px;
+}
+
+
+.submit_button{
+ width: 30%;
+ border-style: none;
+ background-color: var(--themeColor);
+ color: white;
+ height:40px;
+ width:200px;
+ border-radius: 10px;
+ cursor: pointer;
+ font-size:20px;
+}
+
+
+.emptyDiv{
+width: 80%;
+border-style: solid;
+height: 100px;
+color: white;
+
+}
+
+
+.datesDiv{
+display: flex;
+justify-content: space-between;
+
+}
+.label{
+    color: #808080;
+    font-size: 17px;
+}
+.fieldDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 15px;
+}
+
+.selectField{
+
+width: 100%;
+height: 100px;
+box-sizing: border-box;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+background-color: white;
+border-radius: 5px;
+padding-left: 10px;
+font-size: 16px;
+}
+
+.options{
+    padding: 5px;
+}
+
+
+.inputCheckBox{
+width: 20px;
+height: 30px;
+}
+.checkboxLabel{
+color: #808080;
+font-size: 19px;
+}
+.checkboxItem{
+width: 100%;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.menuIcon {
+cursor: pointer;
+font-size: 1.5rem; 
+}
+
+.dropdownMenu {
+position: fixed;
+background: white;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 10px;
+z-index: 100;
+margin-top: 90px;
+margin-right: 80px;
+
+
+}
+
+.dropdownItem {
+background: none;
+border: none;
+cursor: pointer;
+display: block;
+padding: 5px 10px;
+width: 100%;
+text-align: left;
+}
+
+.dropdownItem:hover {
+background: #f1f1f1;
+}
+
+
+
+.overLay{
+
+position: fixed;
+width: 100vw;
+height:100vh;
+ 
+z-index: 10000;
+right:0;
+top:0; 
+ background-color: rgba(0, 0, 0, 0.3);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.confirmDialog{
+  padding: 20px;
+  background-color: white;
+  width: 380px;
+ height: 100px;
+border-style: solid;
+border-color: var(--cardBorderColor);  
+font-family: Roboto; 
+border-radius: 15px; 
+border-width: 1px;
+}
+
+.p{
+color: #808080;
+padding-left: 4px;
+}
+.deleteYes{
+height: 35px;
+background-color: #fff;
+width: 100px;
+color: #ff0000;
+border: 2px solid #ff0000 ; 
+border-radius: 5px;
+cursor: pointer;
+}
+.deleteNo{
+  height: 35px;
+width: 100px;
+background-color: white;
+border: 2px solid #0056d2 ; 
+color: #0056d2;
+border-radius: 5px;
+cursor: pointer;
+
+
+}
+.div{
+  display: flex;
+  gap: 10%;
+  padding-left: 17%;
+}
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.darkBlue {
+  color: blue;
+}

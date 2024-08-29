@@ -1,0 +1,569 @@
+
+.MainParent {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  /* .ticknavbarView {
+    width: 25%;
+    min-width: 350px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: white;
+    padding-bottom: 50px;
+  } */
+  .parentDiv {
+    width: 100%;
+    height: auto;
+  
+    background-color: white;
+    padding-bottom: 50px;
+    /* border: 1px solid var(--cardBorderColorLight); */
+  }
+  
+  .topBarHead {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .topHeadingDiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconContainerDis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bodyBkgColor);
+    color: var(--greyTextColor);
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+  }
+  
+  .disIcon {
+    height: 16px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .discTitle {
+    margin-left: 10px;
+    font-size: 14px;
+    color: var(--greyTextColor);
+  }
+  
+  .topicTitle {
+    margin-left: 10px;
+    color: var(--deepDarkThemeTextColor);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .editBtnContainer {
+    background-color: var(--bodyBkgColor);
+    width: 70px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid var(--cardBorderColorLight);
+    border-radius: 6px;
+  }
+  
+  .editIcon {
+    color: var(--greyTextColor);
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .editTitle {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    color: var(--greyTextColor);
+    font-size: 14px;
+  }
+  
+  .editBtnContainer:hover {
+    background-color: var(--themeColor);
+    cursor: pointer;
+  }
+  
+  .editBtnContainer:hover .editTitle {
+    color: white;
+    font-weight: 600;
+  }
+  
+  .editBtnContainer:hover .editIcon {
+    color: white;
+    font-weight: 600;
+  }
+  
+  .horizontalLine {
+    width: 98%;
+    border-bottom: 1px solid;
+    border-bottom-color: var(--cardBorderColorLight);
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .middleSec {
+    display: flex;
+    margin-top: 16px;
+    width: 90%;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: max-content;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  .firstContainer {
+    width: 33.3%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* border-right: 1px solid;
+      border-right-color: var(--cardBorderColorLight); */
+  }
+  
+  .topContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .peopleicon {
+    display: flex;
+    align-items: center;
+    background-color: var(--bodyBkgColor);
+    color: var(--greyTextColor);
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mainHeading {
+    margin-left: 10px;
+    font-size: 14px;
+    color: var(--greyTextColor);
+    font-weight: 500;
+  }
+  
+  .infoContainer1 {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dot {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--greyTextColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--deepDarkThemeTextColor);
+  }
+  
+  .title {
+    width: 100px;
+    color: var(--greyTextColor);
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  
+  .subtitle {
+    color: var(--deepDarkThemeTextColor);
+    font-size: 13px;
+    /* font-weight: 500; */
+  }
+  
+  .subtitle3 {
+    color: white;
+    font-size: 14px;
+    background-color: #65c394;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 6px;
+    /* font-weight: 500; */
+  }
+  
+  .title1 {
+    width: 110px;
+    color: var(--greyTextColor);
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  
+  .subtitle1 {
+    color: var(--deepDarkThemeTextColor);
+    font-size: 13px;
+    /* font-weight: 500; */
+  }
+  
+  .infoContainer2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .infoContainer3 {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+  }
+  .infoContainer4 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .secondContainer {
+    width: 33.3%;
+    width: auto;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infoContainer5 {
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+  }
+  .infoContainer6 {
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .thirdContainer {
+    width: 33.3%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infoContainer7 {
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+  }
+  .infoContainer8 {
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .descriptionDiv {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+  }
+  
+  .iconContainerDescription {
+    display: flex;
+    align-items: center;
+    height: 26px;
+    width: 26px;
+    align-items: center;
+    background-color: var(--bodyBkgColor);
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .descriptionIcon {
+    color: var(--greyTextColor);
+  }
+  
+  .descriptionTitle {
+    margin-left: 10px;
+    color: var(--greyTextColor);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  /* .descriptionDetails {
+      font-size: 13px;
+      color: var(--greyTextColor);
+    } */
+  
+  .descriptionDetails {
+    width: 60%;
+    margin-top: 10px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 13px;
+    color: var(--deepDarkThemeTextColor);
+    line-height: 20px;
+  }
+  
+  .commnetSection {
+    width: 100%;
+  }
+  
+  .headerDescription {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+  }
+  
+  .startSection {
+    display: flex;
+  }
+  
+  .commentIconContainer {
+    height: 26px;
+    width: 26px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--cardBorderColorLight);
+  }
+  
+  .descriptionIcon {
+    color: var(--greyTextColor);
+  }
+  
+  .commentTitle {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: var(--greyTextColor);
+    font-size: 14px;
+  }
+  
+  .addCommentBtnContainer {
+    background-color: var(--themeColor);
+    width: 130px;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid var(--cardBorderColorLight);
+    border-radius: 6px;
+  }
+  
+  .addCommentBtnContainer:hover {
+    background-color: white;
+    border: 1px solid var(--themeColor);
+    color: var(--themeColor);
+    cursor: pointer;
+  }
+  
+  .addCommentBtnContainer:hover .addCommentIcon {
+    color: var(--themeColor);
+  }
+  
+  .addCommentBtnContainer:hover .addCommentTitle {
+    color: var(--themeColor);
+  }
+  
+  .addCommentIcon {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .addCommentTitle {
+    margin-left: 6px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .writeCommentSection {
+    margin-top: 16px;
+    width: 51%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .discSearchBox {
+    width: 96%;
+    height: 100px;
+    font-size: 14px;
+    padding: 8px;
+    text-align: start;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    resize: none;
+  
+    background-color: var(--bodyBkgColor);
+  
+    border-radius: 10px;
+    /* background-color: #f0f2f5; */
+    border: 1px solid var(--cardBorderColorLight);
+  }
+  
+  .discSearchBox:focus {
+    /* padding-left: 8px;
+      padding-right: 8px; */
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    outline: none !important;
+    border-color: var(--cardBorderColorLight);
+    border-color: var(--cardBorderColor);
+  }
+  
+  .buttonContainer {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .postCommentButton {
+    width: 140px;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--themeColor);
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  .postCommentButton:hover {
+    background-color: white;
+    color: var(--themeColor);
+    border: 1px solid var(--themeColor);
+    cursor: pointer;
+  }
+  
+  .uploadButton {
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 140px;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--themeColor);
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  .uploadButton:hover {
+    background-color: white;
+    color: var(--themeColor);
+    border: 1px solid var(--themeColor);
+    cursor: pointer;
+  }
+  
+  .cancelCommentButton {
+    width: 140px;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--bodyBkgColor);
+    border-radius: 6px;
+    color: var(--greyTextColor);
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border: 1px solid var(--cardBorderColor);
+  }
+  
+  .cancelCommentButton:hover {
+    cursor: pointer;
+  }
+  
+  .userComment {
+    margin-top: 26px;
+    width: 50%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .usercommentTopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .userName {
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+    font-weight: 500;
+  }
+  
+  .dateTime {
+    font-size: 13px;
+    color: var(--greyTextColor);
+    font-weight: 500;
+  }
+  
+  .commentText {
+    margin-top: 8px;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 13px;
+  }
+  
+  @media (max-width: 1000px) {
+    .MainParent {
+      width: 100%;
+    }
+  
+    .parentDiv {
+      width: 100%;
+    }
+  
+    .descriptionDetails {
+      width: 90%;
+    }
+  
+    .userComment {
+      width: 90%;
+    }
+  
+    .usercommentTopBar {
+      width: 100%;
+    }
+    .commentText {
+      width: 90%;
+    }
+  
+    .writeCommentSection {
+      width: 90%;
+    }
+  }

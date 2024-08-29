@@ -1,0 +1,88 @@
+.parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+}
+.mainContainer {
+  width: 80%;
+  background-color: white;
+}
+
+.titleheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.heading1 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.block1 {
+  margin-top: 10px;
+  display: flex;
+}
+
+.dot {
+    margin-top: 6px;
+  margin-left: 10px;
+  height: 5px;
+  width: 5px;
+  min-height: 5px;
+  min-width: 5px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot2 {
+  margin-top: 8px;
+  display: flex;
+  justify-self: start;
+  align-self: flex-start;
+  margin-left: 10px;
+  height: 5px;
+  width: 5px;
+  min-height: 5px;
+  min-width: 5px;
+  background-color: black;
+}
+
+.title1 {
+  width: fit-content;
+  white-space: nowrap;
+  margin-left: 10px;
+  display: flex;
+
+  font-weight: bold;
+}
+
+.details1 {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 22px;
+}
+.title2 {
+  margin-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}

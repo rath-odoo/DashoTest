@@ -1,0 +1,315 @@
+.website {
+  align-items: center;
+}
+
+.innerDiv {
+  width: 1200px;
+  background-color: white;
+  margin: 0 auto;
+  border-style: none;
+}
+
+.headrparent {
+  border: 1px solid red;
+}
+
+.backgroundPicDiv {
+  border-style: solid;
+}
+
+@media (max-width: 1300px) {
+  .innerDiv {
+    width: 80%;
+  }
+}
+
+.topbar {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightContainer {
+  display: flex;
+}
+
+.firstTopContainer {
+  display: flex;
+}
+
+.emailIcon {
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: #5e5d5d;
+}
+
+.textEmail {
+  margin-left: 10px;
+}
+
+.secTopContainer {
+  margin-left: 20px;
+  border: 1px solid green;
+  display: flex;
+}
+
+.mobileIcon {
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: #5e5d5d;
+}
+
+.mobileNumber {
+  margin-left: 10px;
+}
+
+.socialiconContainer {
+  background-color: #207ef5;
+  border: 1px solid red;
+  display: flex;
+  margin-right: 10px;
+}
+
+.fbicon {
+  margin: 10px;
+  background-color: grey;
+  height: 26px;
+  width: 26px;
+}
+
+.topNavigationBar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.nFirstCotainer {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  width: 100px;
+  background-color: #207ef5;
+}
+
+.Name {
+  margin-left: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.navigationMenu {
+  display: flex;
+}
+
+.websiteContent2 {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.HomeImageContainer2 {
+  width: 50%;
+  background-color: green;
+}
+
+.detailContainer2 {
+  margin-left: 20px;
+  width: 50%;
+}
+
+.aboutHeading1 {
+  color: var(--themeColor);
+  font-size: 20px;
+}
+
+.aboutHeading2 {
+  margin-top: 20px;
+  color: var(--darkText);
+  font-size: 40px;
+}
+
+.aboutDetails {
+  margin-top: 20px;
+  width: 280px;
+  font-size: 16px;
+  color: var(--lightText);
+}
+
+.footer {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #207ef5;
+  padding: 10px;
+}
+
+.block1 {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.logotextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logopic {
+  width: 100px;
+  background-color: white;
+  height: 50px;
+}
+
+.websiteNametext {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.websiteDetail {
+  margin-top: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.block2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.cont1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont1Icon {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.cont1Text {
+  margin-left: 10px;
+  color: white;
+}
+
+.block3 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.block4 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.cont4 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont4Icon {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.cont4textContainer {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+/*background-image: url("tbg.png");*/
+
+.backgroundImage {
+/*   
+
+  background-image: url("https://media.istockphoto.com/id/941562950/photo/hand-holding-another-hand.jpg?s=1024x1024&w=is&k=20&c=2olan6rtEiTXh8DskRG1QeZHRxijJJv_iYLAbfTXnRc=");
+
+  background-image: url("https://media.istockphoto.com/id/625736338/photo/stack-of-hands-showing-unity.jpg?s=2048x2048&w=is&k=20&c=m0q5TaMHzRZEzojxhGIFsFMCwWdHdkFwqtAAi1Bf67Q="); */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: This property ensures that the background image remains fixed when scrolling */
+}
+
+
+
+
+/* .backgroundImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 128, 0, 0.1); 
+
+  } */
+/* ================================================ */
+/* .website {
+  position: relative;
+
+} */
+
+.carousel-content{
+  transition-timing-function: ease-out;
+  
+}
+
+.mainContainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  top: 50%;
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transform: translateY(-50%);
+}
+
+.left-arrow {
+  visibility: hidden;
+
+}
+
+.right-arrow {
+  visibility: hidden;
+
+}

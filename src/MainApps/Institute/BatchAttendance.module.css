@@ -1,0 +1,236 @@
+.timeLine {
+  height: 30px;
+  width: 100%;
+  border-style: none;
+  margin: auto;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  color: var(--greyTextColor);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.calendarIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #808080;
+}
+
+.datePickerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: start;
+}
+
+.loadingBar{
+  width: 100%;
+  height: 500px;
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+}
+.noDataMessage{
+  width: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+  height: 100px;
+}
+.datePicker {
+  padding: 5px;
+  font-size: 14px;
+  position: relative;
+  width: 200px;
+  height: 35px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.navButton {
+  border-style: none;
+  border-width: 1px;
+  border-color: var(--cardBorderColor);
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+  border-radius: 3px;
+  color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  background-color: lightgrey;
+}
+
+.infoText_i {
+  display: flex;
+}
+
+.dateText {
+  border-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
+
+.classTimeLine {
+  width: 100%;
+  height: 1px;
+  background-color: var(--cardBorderColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 70px;
+}
+
+.dateContainermain {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9%;
+
+
+  color: var(--deepDarkThemeTextColor);
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+
+.parentClassmain {}
+
+
+.parentClass {
+  width: calc(100% - 4px);
+  height: 40px;
+  border-right: 1px solid var(--cardBorderColorLight);
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid var(--cardBorderColor);
+  margin-top: 2%;
+}
+
+.topNavigationBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid var(--cardBorderColorLight);
+  background-color: var(--bodyBkgColor);
+}
+
+.schedule {
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-left: 10px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.schedule:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.showSummary {
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid var(--themeColor);
+  color: var(--themeColor);
+  margin-right: 10px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.showSummary:hover {
+  cursor: pointer;
+  background-color: var(--themeColor);
+  color: white;
+}
+
+.nameContainer {
+  width: 40%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.rolwContainer {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.dateContainer {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.statusContainer {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--deepDarkThemeTextColor);
+  font-weight: bold;
+}
+
+.scrollContent {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  margin-bottom: 100px;
+}
+
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.paginationDiv {
+  display: flex;
+}
+
+.paginationDiv1 {
+  display: flex;
+  flex-direction: row-reverse;
+}

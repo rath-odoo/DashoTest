@@ -1,0 +1,34 @@
+
+
+.leftUserBoxContainer{
+
+width: 100%;
+height: calc( 100% - calc( 1.6 * var(--headerHeight) ) );
+border-style:none;
+border-width: 1px;
+border-color: lightgrey;
+overflow-y: auto;
+overflow-x: hidden;
+background-color: white;
+}
+
+
+
+.noTicketMessage{
+
+margin: 20px;
+color: grey;
+
+}
+
+
+.totalNoOfTickets{
+
+width: 100%;
+height: 30px;
+display: flex;
+justify-content: center;
+color: grey;
+margin-top: 10px;
+margin-bottom: 10px;
+}

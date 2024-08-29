@@ -1,0 +1,217 @@
+
+
+
+html{
+   
+     /*Core color codes------global color codes #224C98 */
+     --themeColor: #094fb5; /*#0056D2;/*#207ef5;/*#207ef5;*/
+    /* #224C98;/*#207ef5;/* #224C98;/*#263c63;/* #1b3d7a;#4285F4*/
+     --deepDarkThemeTextColor: #1b1e24;/*#29303d;/*#132545;/*#0e1c36;*/
+     --greyTextColor: #5e5d5d;
+     --cardBorderColor: #D3D3D3;
+     --cardBorderColorLight : #E8E8E8;
+     --greenColor1: #65c394;
+     --redColor1: #ff726f;
+
+
+     --chatCommentBkgColor:#E3EFFE ;
+     --meetJoinButtonColor: #d67b1a;
+     --lightThemeColor1: #edf3fc;
+     --lightThemeColor2: #f2f4f7;
+     --lightThemeColor3: #dae0eb;
+     --lightThemeColor4: #e9edf5;
+     --tintGreyColor1: #5e5d5d;
+     --tintGreyColor2: #cbd0d6;
+     --tintGreyColor3: #dee0e3;
+     --tintGreyColor4: #f0f2f5;
+     --lightGreyTintTextColor: var(--tintGreyColor1);
+     
+
+     /*Header Colors*/
+     --headerBkgColor: white;
+     --headerIconColor: #8496b5;/*#9fbaed;*/
+     --headerRightIconsColor: var(--deepDarkThemeTextColor);/* #9fbaed;/*#99add1;/* #9fbaed;*/
+     --headerIconColorOnhover: white;
+     --headerExpConBtnBkgColor: white;/*#1e458a;*/
+
+     /*Side Nav Bar Colors*/
+     --matchingTextColor1: #444655;/*use this color for all text in place of black*/
+     --sideNavBarBtnhoverColor: lightgrey;/* var(--lightThemeColor3);*/
+
+     --sideNavBarButtonTextColor: var(--deepDarkThemeTextColor);
+     --sideNavBarIconColor: var(--deepDarkThemeTextColor);
+
+     --sideNavBarBkgColor: white;/*var(--lightThemeColor3);/* #505050;*/
+
+     --sideToolBarBkgColor: white;/*var(--lightThemeColor4);*/
+     --sideToolBarBkgColor2: var(--sideNavBarBkgColor);
+
+     /* Dashboard side nav Bar colors */
+     --sideNavBarDashBoardBkgColor: var(--sideToolBarBkgColor);/* #f0f3fa;*/
+     --sideNavBarDashBoardBtnColor: var(--deepDarkThemeTextColor);/*var(--darkThemeTextColor);*/
+     --sideNavBarDashBoardBtnBkgColor: #f0f3fa;/*#dae0eb;*/
+     --sideNavBarDashBoardOnClickBtnColor: white;
+     --sideNavBarDashBoardOnClickBtnBkgColor: var(--themeColor);
+
+
+
+     --userProfileInfoBoxBkgColor: white;   
+     --mainAppContainerBkgColor: #E8E8E8;
+     --ticketTextColor: #364a61;
+     --TextColorDarkBlue1: #364a61;
+     --clickBtnColorDash:read;/* #ff5349;*/
+     --clickBtnColorDashBackground: #ffd4d1;
+
+     /*body background color*/
+     --bodyBkgColor: #f2f2f2;
+
+     /*height, width, size settings*/
+     --headerHeight:3.0rem;/* max( 2.5rem, calc( 0.065 * 100vh ) );*/
+     --headerFontSize: calc( 0.35 * var(--headerHeight) );
+     --headerLogoWidth: calc( 0.80 * var(--headerHeight));
+     --headerLogoWidth: calc( 0.80 * var(--headerHeight)); 
+     --headerTopMargin: 10px;
+     --headerLeftMargin: 0.5%;
+     --headerRightMargin: 0.5%;
+     --headerTopMargin: calc( 0.17 * var(--headerHeight) ); 
+
+
+
+     --sideNavBarWidth: calc( 4.0 * var(--headerHeight)) ;
+     --sideNavBarWidthOnContract: 0px;
+     --sideNavBarWidthMobile: 3.4rem;
+     --sideNavBarFontSize: calc( 0.30 * var(--headerHeight) );
+     --sideNavBarIconSize: calc( 0.35 * var(--headerHeight) );
+
+
+     --sideToolBarHeight: calc(0.77 * var(--headerHeight));
+     --topInfoBarInstructorWidth:calc( 7.0 * var(--headerHeight)); 
+     --sideBarHidePoint: 850px;
+
+      /*Top tool bar common style parameters inside the course */
+
+      --topRightButtonWidth_Course: 6vw;
+      --topRightButtonBkgColorInActive_Course: white;
+      --topRightButtonTextColorInActive_Course: var(--deepDarkThemeTextColor);
+      --topRightButtonBkgColorActive_Course:lightgrey;
+      --topRightButtonTextColorActive_Course:var(--themeColor);
+      --topRightButtonIconColorInActive:grey;
+      --topRightButtonIconColorActive:var(--themeColor);
+      --topRightButtonUnderlineColorActive: var(--bodyBkgColor);
+      --topRightButtonUnderlineColorInActive: var(--bodyBkgColor);
+      --topRightButtonTextFontSize_Course: calc(  1vw );/*calc( 0.25 * var(--headerHeight) );*/
+      --topRightButtonIconFontSize_Course: calc( 1vw );/*calc( 0.30 * var(--headerHeight) );*/
+      --topInnerBarWidth:80%;
+      --topBarLeftTitleFontSize: calc( 0.4 * var(--headerHeight) );
+
+      /*Top bar common style parameters in the dashboard/home*/
+      --toolButtonDashBkgColorInActive: white;/*var(--lightThemeColor2);*/
+      --toolButtonDashIconColorInActive: var(--deepDarkThemeTextColor);
+      --toolButtonDashTextColorInActive: var(--deepDarkThemeTextColor);
+      --toolButtonDashBorderColorInActive:lightgrey; 
+      --toolButtonDashBoxShadowInActive:rgba(0, 0, 0, 0) 0px 0px 0px;
+
+      --toolButtonDashBkgColorActive: white;
+      --toolButtonDashIconColorActive: var(--deepDarkThemeTextColor);
+      --toolButtonDashTextColorActive: var(--deepDarkThemeTextColor);
+      --toolButtonDashBorderColorActive:grey; 
+      --toolButtonDashBoxShadowActive:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      --topRightButtonWidth_home: var(--topRightButtonWidth_Course);
+      --topRightButtonTextFontSize_home: var(--topRightButtonTextFontSize_Course);
+      --topRightButtonIconFontSize_home: var(--topRightButtonIconFontSize_Course);
+      --toolButtonDashUnderlineColorInActive: var(--bodyBkgColor);/*var(--lightThemeColor2);*/
+      --toolButtonDashUnderlineColorActive: var(--greyTextColor);
+
+      --standardBoxShadow1: rgba(0, 0, 0, 0) 0px 0px 0px;
+      --standardBoxShadow2: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+      /*Card specifications*/
+      --cardBorderRadius:calc( 0.2 * var(--headerHeight) );
+
+      
+      --planeWhite:white ;
+      --cardBackgroundColor: #E3EFFE;
+      --bordersColor: rgb(180, 180, 180);
+    
+
+}
+
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+*/
+
+/*
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand&display=swap");
+*/
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+
+
+
+.edrapp{
+
+     width:100%;
+     background-color: var(--lightThemeColor2);     
+     -ms-overflow-style: none; 
+     scrollbar-width: none;
+}
+
+.edrapp::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+html{
+   --topRightButtonTextFontSize_Course:calc( 0.25 * var(--headerHeight) );
+   --topRightButtonIconFontSize_Course: calc( 0.25 * var(--headerHeight) );
+   --topRightButtonWidth_Course: 15vw;
+ }
+
+}
+
+
+
+@media screen  and (max-width: 1400px)  {
+
+html{
+
+--headerHeight: 2.6rem;
+}
+
+
+}
+
+
+
+
+
+input::file-selector-button {
+                 background-color: var(--themeColor);
+                 background-position-x: 0%;
+                 background-size: 100%;
+                 border: 0;
+                 border-radius: 8px;
+                 color: #fff;
+                 padding: 10px;
+
+}
+
+
+

@@ -1,0 +1,111 @@
+.instituteBar {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px none;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+  padding: 16px;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ChapterntopicsTitle {
+  color: var(--greyTextColor);
+  text-transform: uppercase;
+}
+
+.topConatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topicsIcon {
+  color: var(--greyTextColor);
+
+  background-color: var(--bodyBkgColor);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editIcon {
+  color: var(--greyTextColor);
+  background-color: var(--bodyBkgColor);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.ChapterntopicsTitle {
+  margin-left: 8px;
+  color: var(--greyTextColor);
+}
+
+.editBtn {
+  width: 80px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--cardBorderColorLight);
+  background-color: var(--bodyBkgColor);
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.editBtn:hover {
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.Maincontainer {
+  margin-top: 10px;
+}
+
+.classTitle {
+  font-weight: 600;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.classDetails {
+  margin-top: 10px;
+  width: 70%;
+  line-height: 22px;
+  color: var(--greyTextColor);
+  color: var(--deepDarkThemeTextColor);
+}
+
+.editBtnContainer {
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-color: #d3d3d3;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBkgColor);
+}
+
+.editBtnContainer:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--themeColor);
+  font-weight: 700;
+}
+
+.editBtnContainer:hover .editbutton {
+  color: white;
+}
+
+.editbutton {
+  padding-right: 6px;
+  color: var(--tintGreyColor1);
+}

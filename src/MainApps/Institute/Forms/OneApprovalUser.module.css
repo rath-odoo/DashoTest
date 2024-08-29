@@ -1,0 +1,128 @@
+.mainContainer {
+    width: 80%;
+    border-bottom: 1px solid var(--cardBorderColor);
+    position: relative;
+    background-color: white;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innerContainer {
+    padding: 25px 80px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid var(--cardBorderColor);
+}
+
+.nameContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.topRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.statusbox {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: red;
+    padding: 5px 10px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.leavetype {
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #ff9900;
+    display: inline-block;
+    padding: 2px 5px;
+    margin-right: 50px;
+    margin-top: 153px;
+}
+
+.fromToContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconContainer {
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    cursor: pointer;
+}
+
+.nameContainer,
+.appliedContainer>b,
+.fromContainer>b,
+.toContainer>b {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.appliedContainer,
+.fromContainer,
+.toContainer {
+    font-size: 16px;
+}
+
+.reasonContainer {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.details {
+    margin-bottom: 10px;
+}
+
+.dates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create,
+.from {
+    display: flex;
+    flex-direction: column;
+}
+
+.dateitem {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.key1 {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #000;
+}
+
+.value {
+    font-weight: normal;
+
+}

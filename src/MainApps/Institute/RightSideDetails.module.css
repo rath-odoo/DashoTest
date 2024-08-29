@@ -1,0 +1,14 @@
+
+
+.parentClass {
+  width: 80%;
+  height: 84vh;
+  background-color: white;
+  border: 1px solid var(--cardBorderColor);
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+
+

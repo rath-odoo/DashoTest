@@ -1,0 +1,73 @@
+
+
+.addNameForm{
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.formDiv{
+
+position: relative;
+width: 400px;
+height: 500px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+overflow-y: scroll;
+
+}
+
+
+.marginDiv{
+width: 80%;
+
+
+}
+
+.setYourName{
+height: 100px;
+font-size: 20px;
+display: flex;
+align-items: center;
+}
+
+
+.saveButton{
+  margin-top: 50px;
+  width: 300px;
+  height: 40px;
+  background-color: var(--themeColor);
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

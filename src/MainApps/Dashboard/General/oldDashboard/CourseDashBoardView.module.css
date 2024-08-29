@@ -1,0 +1,166 @@
+
+.courseDashBoardViewParent{
+position: relative;
+width: 96%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.courseDashBoardView{
+position: relative;
+width: 100%;
+background-color:  white;
+border-style: solid;
+border-width:1px;
+border-color: var(--headerRightIconsColor);
+border-radius: 0px;
+top: 10px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding-bottom: 40px;
+margin-bottom: 20px;
+}
+
+.infoUnitBarParent{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:#e0ebff;
+border-radius: 0px 0px 0px 0px;
+}
+
+
+.infoUnitBar{
+height: calc( 0.5 * var(--headerHeight) );
+width: 96%;
+border-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.infoUnitBar i{
+font-style: normal;
+font-size: calc( 0.3 * var(--headerHeight) );
+color: var(--ticketTextColor);
+display: flex;
+align-items: center;
+}
+
+
+.courseName{
+color: var(--themeColor);
+
+}
+
+.courseCodeName{
+color: grey;
+}
+
+.instructorName{
+color: green;
+}
+
+.cstatus{
+color: white;
+background-color: #25D366;
+border-radius: 3px;
+padding: 2px;
+}
+
+.signupStatus{
+font-size:calc( 0.3 * var(--headerHeight) );
+color: green;
+}
+
+.courseProgress{
+border-style: none;
+width: 100%;
+border-style: none;
+}
+
+
+
+
+
+.cproTitle{
+border-style:none;
+
+}
+
+.cproCont{
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+width: 50%;
+height: calc( 0.3 * var(--headerHeight) );
+}
+
+.progressBar{
+width: 30%;
+height: 100%;
+background-color: #50C878;
+border-style: none;
+}
+
+
+
+.redirecttools{
+height: calc( 0.5 * var(--headerHeight) );
+width: 96%;
+border-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.detailViewButton{
+background-color:  #00aff0 ;
+border-style: none;
+border-radius: 10px;
+color: white;
+font-style: normal;
+font-size: calc( 0.25 * var(--headerHeight) );
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.courseBelongButton{
+background-color: white ;
+border-style: none;
+border-radius: 10px;
+color: var(--themeColor);
+font-style: normal;
+font-size: calc( 0.25 * var(--headerHeight) );
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.courseBelongButton:hover{
+text-decoration: underline;
+}
+
+
+
+.deleteButton{
+background-color:  #C04000 ;
+border-style: none;
+border-radius: 10px;
+color: white;
+font-style: normal;
+font-size: calc( 0.25 * var(--headerHeight) );
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+

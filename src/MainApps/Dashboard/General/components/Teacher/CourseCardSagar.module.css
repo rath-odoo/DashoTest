@@ -1,0 +1,384 @@
+
+
+.sagarBox1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 12px; 
+  grid-row-gap: 10px; 
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBkgColor);
+  padding-bottom:20px ;
+}
+
+.innerBox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* overflow: hidden; */
+  position: relative;
+  background-color: white;
+  
+
+
+}
+.innerBox:hover {
+ 
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: var(--themeColor);
+}
+
+.child {
+  cursor: pointer; 
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 3/ 2; 
+  object-fit: cover; 
+  border-radius: 10px 10px 0px 0px;
+  
+ 
+ 
+  
+}
+
+
+.pic1 {
+  position: relative;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.courseTitle {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Roboto;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  display: inline-block; 
+  vertical-align: middle; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: transparent;
+  border: none;
+  padding: 5px;
+  border-style: none;
+  border-width: 1px; 
+}
+
+
+/*@media screen and (max-width: 1299px) {
+ font-size: 12px;
+}*/
+
+
+
+
+.courseTitle:hover{
+  color: var(--themeColor);
+  
+}
+
+
+
+.arrow {
+  display: flex;
+  vertical-align: middle; 
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  justify-content: flex-start;
+  margin-right: 30px;
+  
+}
+
+.arrow:hover .arrow-icon {
+  color: var(--themeColor);
+}
+
+.arrow-icon {
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+.btnarrow{
+
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  border-style: none;
+  border-width: 1px;
+  margin-bottom: 0px;
+  height: 31px;
+  cursor: pointer;
+}
+
+
+
+
+
+.Submenu{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: transparent;
+  align-items: flex-start;
+}
+
+
+.text {
+  flex: 1;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+
+ 
+}
+
+.instructor {
+  font-weight: lighter;
+  color: grey;
+  display: flex;
+  justify-content: flex-start;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  align-items: flex-start;
+  white-space: nowrap ;
+  text-overflow: ellipsis;
+  border-style: none;
+  width: 80%;
+  overflow: hidden; 
+  height: 20px;
+}
+
+
+.instructor span{
+ white-space: nowrap;	
+}
+
+.class {
+  font-size: 16px;
+  font-weight: bold;
+  font-family:Roboto;
+  color: var(--themeColor);
+  
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  
+  
+}
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.code {
+  border: 1px solid lightgrey;
+  font-weight: 500;
+  font-style: normal;
+  color: #5F9EA0;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  color: grey;
+
+}
+
+.mediaContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  
+ 
+}
+
+.img2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  right: 6px;
+  margin-left: 2px;
+}
+
+
+.img2:hover::after {
+  content: 'Add students';
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: var(--themeColor);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-style: none;
+}
+
+.img2:hover {
+  transform: scale(1.1);
+  color: var(--themeColor);
+} 
+
+
+
+.videoButton {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+ 
+}
+
+.videoButton:hover {
+  transform: scale(1.1);
+}
+
+.edit {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  cursor: pointer;
+  left: 5px;
+  z-index:1;
+}
+
+
+.teachingBox {
+  border: 1px solid var(--themeColor);
+  border-radius: 5px;
+  margin-left: auto;
+  padding: 5px;
+  width: fit-content;
+  color: var(--themeColor);
+  background: transparent;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+
+}
+
+
+
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  width: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+ 
+  
+}
+
+
+
+.student {
+  display: flex;
+  justify-content: flex-start;
+  color: var(--themeColor);
+  font-weight: bold;
+
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  border-radius: 10px;
+ 
+
+ 
+}
+.Menu:hover{
+  color: var(--themeColor);
+}
+
+
+.verticalDotsIcon{
+
+}
+
+
+
+
+
+.textFixedDiv{
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+
+
+

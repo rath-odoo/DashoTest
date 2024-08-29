@@ -1,0 +1,255 @@
+.mainDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.innerDiv {
+
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+
+    background-color: white;
+    position: relative;
+
+}
+
+.innerDiv:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.reason {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.topRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.leavetype {
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #ff9900;
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+.details {
+    margin-bottom: 10px;
+}
+
+.dates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create,
+.from {
+    display: flex;
+    flex-direction: column;
+}
+
+.dateitem {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.key1 {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #000;
+}
+
+.value {
+    font-weight: normal;
+
+}
+
+
+
+
+.status {
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+
+.pendingStatus {
+
+    color: var(--meetJoinButtonColor);
+
+}
+
+
+
+.approvedStatus {
+
+    color: var(--greenColor1);
+
+}
+
+
+
+.deniedStatus {
+
+    color: var(--redColor1);
+
+}
+
+.statusbox {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: red;
+    padding: 2px 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.menuIconDiv {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.menuIcon {
+    color: black;
+    font-size: 20px;
+}
+
+.optionsDiv {
+    position: absolute;
+    top: 20px;
+    height: 0px;
+    border: none;
+
+    right: 50px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    width: 0px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--cardBorderColor);
+    z-index: 100;
+
+}
+
+.optionsDiv.scale {
+    height: 65px;
+    width: 85px;
+}
+
+.editDiv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    margin-top: 4px;
+    padding: 3px 3px;
+
+}
+
+.editDiv:hover {
+    background-color: var(--cardBorderColor);
+
+}
+
+.overLay {
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 10000;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmDialog {
+    padding: 20px;
+    background-color: white;
+    width: 380px;
+    height: 100px;
+    border-style: solid;
+    border-color: var(--cardBorderColor);
+    font-family: Roboto;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.p {
+    color: #808080;
+    padding-left: 4px;
+}
+
+.deleteYes {
+    height: 35px;
+    background-color: #fff;
+    width: 100px;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteNo {
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid #0056d2;
+    color: #0056d2;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.div1 {
+
+    display: flex;
+    gap: 80px;
+    padding-left: 10%;
+}

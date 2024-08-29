@@ -1,0 +1,127 @@
+
+
+.oneFriend{
+
+
+width: 90%;
+height: 80px;
+border-style: solid;
+display: flex;
+align-items: center;
+margin-top: 10px;
+margin-left: 40px;
+border-width: 1px;
+border-color: var(--cardBorderColorLight);
+border-radius: 10px;
+}
+
+
+.friendImage{
+
+width:60px;
+height:60px; 
+margin: auto;
+border-radius: 50%;
+float: left;
+border-style: none;
+margin-left: 15px;
+}
+
+.InfoBox{
+height: 100%;
+width: 100%;
+color: grey;
+border-style: none;
+margin-left: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.fullName i{
+font-style: normal;
+color: black;
+}
+
+
+
+
+
+.addContactButton{
+color: white;
+background-color: var(--themeColor);
+border-style: none;
+border-radius: 5px;
+padding: 3px;
+cursor: pointer;
+padding:5px;
+padding-left: 10px;
+padding-right: 10px;
+width: 120px;
+}
+
+
+
+
+.addContactButtonLoading{
+color: white;
+background-color: white;
+border-style: none;
+border-radius: 3px;
+padding: 3px;
+cursor: pointer;
+padding:5px;
+padding-left: 10px;
+padding-right: 10px;
+border-style: solid;
+border-color: var(--themeColor);
+border-width: 1px;
+width: 100px;
+width: 120px;
+}
+
+
+
+
+
+.addContactButton:hover{
+background-color:white;
+color: var(--themeColor);
+border-color: var(--themeColor);
+border-style: solid;
+border-width: 1px;
+}
+
+
+
+
+
+.addedContactButton{
+color: grey;
+border-style: none;
+border-radius: 3px;
+padding: 3px;
+cursor: pointer;
+padding:5px;
+padding-left:10px;
+padding-right: 10px;
+background:var(--bodyBkgColor);
+background-color: lightgrey;
+display: flex;
+align-items: center;
+color: var(--themeColor);
+width: 120px;
+
+}
+
+.addedContactButton span{
+margin-left: 10px;
+}
+
+
+
+
+
+
+
+

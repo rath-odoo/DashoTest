@@ -1,0 +1,372 @@
+.mainData {
+    /* padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+    background-color: transparent; */
+    display: flex;
+}
+
+.mainData:hover {
+    background-color: var(--bodyBkgColor);
+}
+
+
+.userPic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    min-height: 35px;
+    min-width: 35px;
+}
+
+.userName {
+    margin-left: 10px;
+}
+
+.nu {
+    width: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.date {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 10%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.name {
+    /* width: 30%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px; */
+    display: flex;
+    justify-content: flex-start;
+    border-style: none;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 10%;
+}
+
+.inTime {
+    width: 12%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outTime {
+    width: 12%;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.approverStatusPending {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--redColor1)
+}
+
+
+
+.approverStatusApproved {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--redColor1)
+}
+
+
+
+
+
+.absent {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pstyle {
+    color: white;
+    background-color: var(--themeColor);
+    padding: 5px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.astyle {
+    color: white;
+    background-color: var(--redColor1);
+    padding: 5px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.nastyle {
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.present {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    color: white;
+}
+
+
+.notavailable {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.a_text {
+    width: 30px;
+    height: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    border-radius: 50%;
+    background-color: var(--redColor1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Edit {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 14px;
+    gap: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Edit:hover {
+
+    color: var(--themeColor);
+}
+
+
+
+
+.wrong,
+.okay {
+    cursor: pointer;
+}
+
+.imgContainer {
+    height: 22px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nameContainer {
+
+    margin-left: 15px;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+}
+
+.parentClass {
+    width: 96.2%;
+    height: 65px;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+
+    border-style: none;
+    align-items: center;
+    border-bottom: 1px solid var(--cardBorderColorLight);
+}
+
+
+.presentButton {
+    border-style: none;
+    background-color: #45966e;
+    border-radius: 4px;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.absentButton {
+    border-style: none;
+    background-color: #ff726f;
+    border-radius: 4px;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.rolwContainer {
+    width: 45%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: var(--deepDarkThemeTextColor);
+    font-size: 15px;
+    color: var(--deepDarkThemeTextColor);
+    margin-left: 10%;
+
+}
+
+.notavailable {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.apprAndRej {
+    display: flex;
+    gap: 10px;
+    width: 45%;
+}
+
+.present {
+    border-color: green;
+    color: green;
+    width: 100%;
+}
+
+.absent {
+    border-color: red;
+    color: red;
+    width: 100%;
+}
+
+.present:not(:disabled):hover {
+    background-color: #45966e;
+    color: white;
+}
+
+.absent:not(:disabled):hover {
+    background-color: #ff726f;
+    color: white;
+}
+
+.absent:disabled {
+
+    cursor: not-allowed;
+}
+
+.present:disabled {
+    cursor: not-allowed;
+}
+
+.selected.present {
+    background-color: green;
+    color: white;
+}
+
+.selected.absent {
+    background-color: red;
+    color: white;
+}
+
+@media (max-width: 1300px) {
+    .mainData {
+        width: 100%;
+        font-size: 11px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .date {
+        font-size: 10px;
+    }
+
+    .name {
+        font-size: 10px;
+    }
+
+    .inTime {
+        font-size: 10px;
+    }
+
+    .outTime {
+        font-size: 10px;
+    }
+
+    .absent {
+        font-size: 10px;
+    }
+
+    .Edit {
+        font-size: 11px;
+    }
+}

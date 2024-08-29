@@ -1,0 +1,37 @@
+  {/*   
+   <div className={classes.videoPlayer}>
+
+     
+        <div className={classes.videoDiv}>       
+            <img className={classes.videoImage} src={VideoShot} alt='edr Logo' />          
+        </div>
+
+        <div className={classes.toolsDiv}>
+
+            <div className={classes.timeInfo}> 5:30pm  </div>
+
+            <div className={classes.buttonIcons}> 
+                   <FaMicrophone className={classes.Icon}/> 
+                   <BsFillCameraVideoFill className={classes.Icon}/> 
+        
+                   <GiCctvCamera className={classes.Icon}/>
+
+                   <FiShare className={classes.Icon}/>
+
+                   <BsFillTelephoneXFill className={classes.Icon3} />  
+                
+            </div>
+
+            <div className={classes.buttonIcons}>
+
+            <BsFillChatLeftTextFill className={classes.IconChat}/>
+
+           </div>
+
+
+        </div>
+
+
+   </div>
+  */}
+

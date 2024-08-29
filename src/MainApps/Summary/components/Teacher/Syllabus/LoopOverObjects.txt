@@ -1,0 +1,32 @@
+  {  /*
+
+            Object.keys(syllabusContent1).map((chapter,index)=>{
+
+             return <li key={index} > <b>{chapter}</b>
+                      <ol>
+                         {                                                
+                            Object.keys(syllabusContent1[chapter]).map((topic,tindex)=>{
+                                    return <li key={tindex} className={classes.topicName}>{topic} 
+                                   
+                                        { syllabusContent1[chapter][topic][0] ==="complete" &&
+                                         <span className={classes.numLectures}  style={{backgroundColor:'green'}}> 2 lectures 
+
+                                         </span>
+                                         }
+
+                                         { syllabusContent1[chapter][topic][0] ==="incomplete" &&
+                                         <span className={classes.numLectures}  style={{backgroundColor:'red'}}> 2 lectures
+                                         </span>
+                                         }
+
+                                    </li>
+
+                             })
+                         }
+                      </ol>
+
+                   </li>            
+            })
+
+
+         */}

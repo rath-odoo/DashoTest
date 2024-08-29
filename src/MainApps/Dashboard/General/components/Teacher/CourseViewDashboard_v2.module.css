@@ -1,0 +1,690 @@
+.courseViewDashboard {
+    border-width: 1px;
+    background-color: white;
+    border-radius: var(--cardBorderRadius);
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: var(--headerRightIconsColor);
+    border-color: #e0ebff;
+    /*box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;*/
+    border-color: var(--tintGreyColor3);
+}
+
+
+.courseViewDashboard:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+
+
+.courseViewDashboard:hover .courseNameButton {
+
+    color: var(--themeColor);
+
+}
+
+
+.courseViewDashboard:hover .arrowButton {
+    color: var(--themeColor);
+
+}
+
+
+.courseViewDashboard:hover .enrolldisplayButton1 {
+    visibility: visible;
+}
+
+
+.courseViewDashboard:hover .courseGoToButton {
+    visibility: visible;
+}
+
+
+
+.innerMarginDiv {
+    border-style: none;
+    margin: calc(0.5 * var(--headerHeight));
+}
+
+
+
+.upperPart {
+    height: calc(2 * var(--headerHeight));
+    width: 100%;
+    border-style: none;
+    border-width: 1px;
+    display: flex;
+}
+
+
+.upperInfoDiv {
+    background-color: white;
+    height: calc(3 * var(--headerHeight));
+    width: calc(100% - calc(2.3 * var(--headerHeight)));
+    margin-left: calc(0.3 * var(--headerHeight));
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+.picDiv {
+    height: calc(2 * var(--headerHeight));
+    width: calc(2 * var(--headerHeight));
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+}
+
+
+.picStyle {
+    width: calc(2 * var(--headerHeight));
+    height: calc(2 * var(--headerHeight));
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.topBar1 {
+    border-style: none;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topBar1_left {
+    display: flex;
+    width: 50%;
+    border-style: none;
+    justify-content: space-between;
+    font-size: calc(0.25 * var(--headerHeight));
+}
+
+
+
+
+
+.topBar1_right {
+    display: flex;
+    border-style: none;
+    font-size: calc(0.25 * var(--headerHeight));
+}
+
+
+.courseCode {
+
+    background-color: #dcf7ea;
+    padding: calc(0.05 * var(--headerHeight));
+    border-radius: calc(0.05 * var(--headerHeight));
+    color: #65c394;
+    font-size: calc(0.25 * var(--headerHeight));
+}
+
+.notification {
+    margin-left: calc(0.20 * var(--headerHeight));
+    margin-right: calc(0.20 * var(--headerHeight));
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.notIcon {
+    font-size: calc(0.30 * var(--headerHeight));
+
+}
+
+
+
+.dotsButton {
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-size: calc(0.25 * var(--headerHeight));
+
+}
+
+.verticalDotsIcon {
+    font-size: calc(0.25 * var(--headerHeight));
+}
+
+
+
+
+.courseNameDiv {
+    font-size: calc(0.25 * var(--headerHeight));
+    display: flex;
+    justify-content: space-between;
+}
+
+.courseNameDiv_left {
+    display: flex;
+    border-style: none;
+    width: 80%;
+}
+
+
+.courseNameButton {
+    max-width: 100%;
+    border-style: none;
+    background-color: white;
+    font-size: calc(0.30 * var(--headerHeight));
+    cursor: pointer;
+    padding: 0px;
+    font-family: Roboto;
+    color: var(--deepDarkThemeTextColor);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.arrowButton {
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    font-size: calc(0.30 * var(--headerHeight));
+    cursor: pointer;
+    padding: 0px;
+    font-family: Roboto;
+    color: var(--deepDarkThemeTextColor);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5%;
+    padding-right: 2%;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.middlePart {
+    border-style: none;
+    width: 100%;
+    border-width: 1px;
+    border-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.middlePart_left {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 5px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(0.25 * var(--headerHeight));
+}
+
+
+.middlePart_middle {
+    height: 100%;
+    border-style: none;
+    border-width: 1px;
+
+}
+
+
+
+
+
+
+.middlePart_right {
+    width: calc(1.0 * var(--headerHeight));
+    height: 100%;
+    border-style: none;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.goToCourseButton {
+    height: 100%;
+    border-style: none;
+    color: grey;
+    cursor: pointer;
+    height: calc(0.25 * var(--headerHeight));
+    flex-shrink: 0;
+}
+
+
+
+.goToCourseBtnIcon {
+    font-size: calc(0.25 * var(--headerHeight));
+    flex-shrink: 0;
+    border-style: none;
+    border-width: 1px;
+}
+
+.InfoDivLowest {
+    border-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.InfoDivLowest_left {
+    height: 100%;
+    border-style: none;
+    width: calc(3 * var(--headerHeight));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+
+.courseGoToButton {
+
+    height: calc(0.5 * var(--headerHeight));
+    height: 40px;
+    background-color: var(--greenColor1);
+    color: white;
+    border-style: none;
+    border-radius: calc(0.1 * var(--headerHeight));
+    font-size: calc(0.30 * var(--headerHeight));
+    margin-bottom: calc(0.35 * var(--headerHeight));
+    cursor: pointer;
+    visibility: hidden;
+    background-color: var(--themeColor);
+    /*background-color:white;
+color: var(--themeColor);
+border-style: solid;
+border-width: 1px;
+border-color:var(--themeColor);*/
+}
+
+
+
+
+
+.courseGoToButton2 {
+
+    height: calc(0.5 * var(--headerHeight));
+    background-color: var(--greenColor1);
+    color: white;
+    border-style: none;
+    border-radius: calc(0.1 * var(--headerHeight));
+    font-size: calc(0.30 * var(--headerHeight));
+    margin-bottom: calc(0.35 * var(--headerHeight));
+    cursor: pointer;
+    background-color: var(--themeColor);
+    /*background-color:white;
+color: var(--themeColor);
+border-style: solid;
+border-width: 1px;
+border-color:var(--themeColor);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.InfoDivLowest_right {
+    height: calc(2 * var(--headerHeight));
+    border-style: none;
+    width: calc(2 * var(--headerHeight));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid var(--tintGreyColor3);
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+.lowerPart {
+    height: calc(1 * var(--headerHeight));
+    width: calc(2 * var(--headerHeight));
+    border-style: none;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerPartTitle {
+    color: var(--tintGreyColor1);
+    font-size: calc(0.2 * var(--headerHeight));
+}
+
+
+.lowerPart_left {
+    border-style: none;
+    height: 100%;
+    width: calc(2 * var(--headerHeight));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: red;
+}
+
+
+.lowerPartInfo1 {
+    margin-top: calc(0.2 * var(--headerHeight));
+    width: 100%;
+}
+
+
+
+.progressBar {
+    height: calc(0.2 * var(--headerHeight));
+    width: 100%;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+
+}
+
+.progressWidth {
+    height: calc(0.2 * var(--headerHeight));
+    width: 30%;
+    background-color: #AFE1AF;
+    border-radius: calc(0.2 * var(--headerHeight));
+}
+
+
+
+
+.lowerPart_middle {
+    height: calc(1 * var(--headerHeight));
+    border-style: none;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    width: calc(3.0 * var(--headerHeight));
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.oneTool {
+    height: calc(0.6 * var(--headerHeight));
+    width: calc(0.6 * var(--headerHeight));
+    border-radius: calc(0.2 * var(--headerHeight));
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: calc(0.05 * var(--headerHeight));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+    cursor: pointer;
+    font-size: calc(0.3 * var(--headerHeight));
+}
+
+.oneTool:hover {
+    color: grey;
+    border-color: var(--tintGreyColor1);
+}
+
+
+.lowerPartInfo2 {
+    display: flex;
+    width: 100%;
+    border-style: none;
+    justify-content: space-between;
+    height: calc(1 * var(--headerHeight));
+    align-items: center;
+}
+
+
+
+
+.lowerPart_right {
+    border-style: solid;
+    width: calc(2.5 * var(--headerHeight));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.lowerPartInfo3 {
+    color: var(--tintGreyColor1);
+    width: 50%;
+    border-style: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: calc(0.25 * var(--headerHeight));
+    margin-top: calc(0.1 * var(--headerHeight));
+    padding-bottom: calc(0.1 * var(--headerHeight));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdownButtons {
+    width: 100px;
+    position: absolute;
+    border-style: none;
+    z-index: 9999;
+    right: 2px;
+    top: 25px;
+    background-color: white;
+    border-width: 3px;
+    border-color: lightgrey;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.dropdownButton {
+
+    height: 35px;
+    border-style: none;
+    cursor: pointer;
+    background-color: white;
+    font-family: Roboto;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+
+.dropdownButton:hover {
+
+    background-color: lightgrey;
+
+}
+
+
+
+.upcomingClassTime {
+    margin-top: calc(0.1 * var(--headerHeight));
+    font-size: calc(0.25 * var(--headerHeight));
+    color: var(--tintGreyColor1);
+}
+
+.upcomingClassTime span {
+    font-size: calc(0.25 * var(--headerHeight));
+    color: var(--tintGreyColor1);
+}
+
+.courseAssociation {
+    margin-top: calc(0.1 * var(--headerHeight));
+    font-size: calc(0.25 * var(--headerHeight));
+    color: var(--themeColor);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 60px;
+    font-size: 10px;
+    padding: 3px;
+}
+
+
+
+
+
+.enrolldisplayButton1 {
+
+    height: calc(0.5 * var(--headerHeight));
+    background-color: var(--greenColor1);
+    color: white;
+    border-style: none;
+    border-radius: calc(0.1 * var(--headerHeight));
+    font-size: calc(0.30 * var(--headerHeight));
+    margin-bottom: calc(0.35 * var(--headerHeight));
+    cursor: pointer;
+    visibility: hidden;
+    background-color: var(--themeColor);
+    background-color: white;
+    color: var(--themeColor);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--themeColor);
+}
+
+
+.uploadCourseImageButton {
+
+    position: absolute;
+    left: calc(0.6 * var(--headerHeight));
+    top: calc(0.6 * var(--headerHeight));
+    font-size: calc(0.6 * var(--headerHeight));
+    cursor: pointer;
+    visibility: hidden;
+    background: white;
+    border-style: none;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+
+.picDiv:hover .uploadCourseImageButton {
+    visibility: visible;
+}
+
+.picDiv:hover {
+    cursor: inherit;
+}
+
+.overLay {
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 10000;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmDialog {
+    padding: 20px;
+    background-color: white;
+    width: 380px;
+    height: 100px;
+    border-style: solid;
+    border-color: var(--cardBorderColor);
+    font-family: Roboto;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.p {
+    color: #808080;
+    padding-left: 4px;
+}
+
+.deleteYes {
+    height: 35px;
+    background-color: #fff;
+    width: 100px;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteNo {
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid #0056d2;
+    color: #0056d2;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.div1 {
+
+    display: flex;
+    gap: 80px;
+    padding-left: 10%;
+}

@@ -1,0 +1,15 @@
+
+.instituteBar{
+width: 75%;
+min-height: 500px;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: white;
+padding: 20px;
+margin: auto;
+border-style: solid;
+margin-top: 50px;
+}
+

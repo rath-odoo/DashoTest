@@ -1,0 +1,116 @@
+
+
+
+.classShortViewTeacher{
+
+height: calc( 2.5 * var(--headerHeight) );
+width: 75%;
+border-style: solid;
+margin: auto;
+margin-top: 30px;
+border-width: 1px;
+border-color: lightgrey;
+cursor: pointer;
+}
+
+
+
+.classShortViewTeacher:hover{
+border-style:none;	
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+
+.topBar{
+height: calc( 0.7 * var(--headerHeight) );
+border-bottom:solid 1px lightgrey;
+width: 90%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.topBar i{
+font-style: normal;
+color: grey;
+}
+
+.classNo{
+background-color: var(--themeColor);
+border-radius: 4px;
+font-weight: bold;
+color: white;
+padding-left: 5px;
+padding-right: 5px;
+margin-right: 10px;
+}
+
+
+
+
+
+.deleteButton{
+cursor: pointer;
+margin-left: 10px;
+}
+
+
+.topicsBar{
+height: calc( 0.5 * var(--headerHeight) );
+border-bottom:solid 1px lightgrey;
+width: 90%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+overflow: hidden;
+}
+
+
+.topicsBar i{
+width: 90%;
+text-overflow: ellipsis;
+position: relative;	
+font-style: normal;
+color: grey;
+overflow: hidden !important;
+background-color: white;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.topBar span{
+align-items: center;
+
+}
+
+
+.participantIcon{
+padding-right: 0px;
+font-size:calc( 0.30 * var(--headerHeight) );
+}
+
+
+.numParticipant{
+position: relative;
+top: calc( -1 * 0.20 * var(--headerHeight) );
+font-size: calc( 0.20 * var(--headerHeight) );
+background-color: lightgrey;
+color: white;
+border-radius: 50%;
+padding: 3px;
+}
+
+
+.joinClass{
+
+
+
+}
+
+
+
+

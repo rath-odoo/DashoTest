@@ -1,0 +1,9 @@
+
+
+.mateInfoBox{
+height: 100%;
+display: flex;
+position: relative;
+width:80%;
+justify-content: space-between;
+}

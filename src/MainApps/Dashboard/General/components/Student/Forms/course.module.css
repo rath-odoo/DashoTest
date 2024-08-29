@@ -1,0 +1,260 @@
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin:  auto;
+    font-family: Arial, sans-serif;
+    width: 90%;
+    
+  }
+  
+  .head {
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .liveIcon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-self:flex-start ;
+    /* margin-right: auto; */
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .courseTitle {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    /* margin: 0; */
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .divOuter{
+    background-color: lightgrey;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .enrollButton5{
+    border: none;
+  }
+  
+  .teacherNameInner{
+cursor: pointer;
+  }
+  .courseImageSection {
+   width: 100%;
+   display: flex;
+  }
+  .courseId{
+    display: flex;
+    gap: 10px;
+  }
+  .span{
+    font-size: 19px;
+  }
+  .courseImage {
+    width: 100%;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 10px;
+    object-fit: contain; 
+  }
+  
+  .statusSection {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: end;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .courseId,
+  .courseStatus {
+    margin: 0;
+    font-size: 1.3rem;
+    
+  }
+  .courseStatus{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .ongoing {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .teacherProfileSection,
+  .courseDescription,
+  .whatYouWillLearn,
+  .downloadSyllabus {
+    margin-top: 20px;
+  }
+
+  .teacherProfileSection{
+   margin-bottom: 20px; 
+  }
+  
+  .sectionHeading {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .sectionIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+   
+  .teacherName {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    width: 80%;
+    padding-left: 90px;
+    /* font-size: 1rem; */
+    /* text-align: center; */
+  }
+  
+  .teacherExperience {
+    font-size: 1rem;
+  }
+  .backBtn{
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .enrollmentInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 4px;
+    font-size: 15px;
+    color: green;
+    justify-content: end;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 7px;
+  }
+  .gobackBtn{
+
+    cursor: pointer;
+    /* background-color: grey; */
+    border-style: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    }
+    
+    .gobackBtn:hover{
+    background-color: #e8e8e8;
+    }
+    
+    
+  .designedForDiv {
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 90px;
+    gap: 4px;
+    /* grid-template-columns: 1fr; */
+    /* text-align: center; */
+    margin-bottom: 20px;
+  }
+  
+  .enrollSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .enroll {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .enrollButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .courseDescription p,
+  .whatYouWillLearn ul {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .whatYouWillLearn ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .whatYouWillLearn li {
+    margin-bottom: 10px;
+  }
+  
+  .downloadSyllabus {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .downloadButton {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  
+  .downloadIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  

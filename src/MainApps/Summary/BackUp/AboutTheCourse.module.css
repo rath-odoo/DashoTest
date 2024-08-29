@@ -1,0 +1,77 @@
+
+.aboutTheCourse{
+
+width: 75%;
+min-height: calc( 0.7 * var(--headerHeight) );
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: white;
+padding: 20px;
+margin: auto;
+}
+
+.titleSpace{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color:grey;
+display: flex;
+justify-content: space-between;
+background-color: white;
+}
+
+
+
+
+.aboutTheCourse button{
+font-size:calc( 0.30 * var(--headerHeight) );
+border-style: none;
+background-color: white;
+cursor: pointer;
+color:var(--TextColorDarkBlue1);
+display: flex;
+align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+.aboutTheCourseText{
+
+width:100%;
+background-color: white;
+font-size:calc( 0.30 * var(--headerHeight) );
+border-style: none;
+border-width: 1px;
+border-color: lightgrey;
+color: grey;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+}
+
+
+
+.aboutTheCourseText p{
+
+width:95%;
+}
+
+
+
+
+
+.editIcon{
+color: grey;
+font-size: calc( 0.40 * var(--headerHeight) );
+}
+
+
+
+

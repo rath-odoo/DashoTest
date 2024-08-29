@@ -1,0 +1,73 @@
+.TranscationDetailsBox {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.TranscationDetailsBox:hover{
+    cursor: pointer;
+    background-color: var(--cardBorderColorLight);
+}
+
+
+.Transid {
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+  
+}
+
+.amt {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.typ {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.date {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.method {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--deepDarkThemeTextColor);
+}
+
+.download {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download:hover {
+  cursor: pointer;
+  color: var(--themeColor);
+}

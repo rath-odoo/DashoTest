@@ -1,0 +1,139 @@
+
+.editFormDivParent{
+    position: fixed;
+    width: 100vw;
+    height:100vh;
+    background-color: grey;
+    z-index: 10000;
+    right:0;
+    top:0;
+    background-color:rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .uploadLabel {
+        display: block;
+        margin-bottom: 10px;
+        color: #808080;
+        /* font-weight: bold; */
+      }
+      
+      .uploadInput {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+     
+      .uploadSection {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+      }
+      
+      .logoAndTitleContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    
+    .editForm{
+    position: relative;
+    width: 40vw;
+    height:80vh;
+    min-width:300px;
+    background-color: white;
+    border-radius: 5px;
+    border-style:none;
+    border-color: grey;
+    border-width:2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    }
+    
+    
+    .closeButtonDiv{
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    }
+    
+    .closeFormButton{
+    
+    color: grey;
+    border-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    
+    .closeButtonIcon{
+    font-size: 25px;
+    }
+    
+    .logoAndTitleContaine{
+    
+    }
+    
+    .uploadInput2{
+        position: relative;
+        width: 100%;
+        height: 35px;
+        box-sizing: border-box;
+        border-style: solid;
+        border-width: 1px;
+        border-color: lightgrey;
+        background-color: white;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-size: 16px;
+      }
+      
+      
+    
+    .titleDiv{
+    
+    color: grey;
+    font-weight: bold;
+    margin-top: 30px;
+    }
+    
+    
+    .memberDetail{
+    
+    margin-top:20px;
+    color: var(--themeColor);
+    }
+    
+    .submitButtonDiv{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 50px;
+    
+    }
+    
+    .submit_button{
+    width: 300px;
+    border-style: none;
+    background-color: var(--themeColor);
+    color: white;
+    height:50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+    }
+    

@@ -1,0 +1,136 @@
+.userBox{
+width: 100%;
+cursor: pointer;
+border-style: none;
+}
+
+.mainContainer {
+  height: 55px;
+  background-color: var(--bodyBkgColor);
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  /* border-bottom: 1px solid;
+    border-bottom-color: var(--cardBorderColor); */
+}
+
+.scroll {
+  overflow: scroll;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 400px;
+}
+
+.pic {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.profilePic {
+  align-content: center;
+  display: flex;
+  justify-content: right;
+  background-color: transparent;
+  height: 35px;
+  width: 35px;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.greenDot {
+  margin-left: 20px;
+  margin-top: 22px;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+.midDetails {
+  width: 66%;
+  margin-left: 10px;
+  margin-right: 15px;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+.nameOfUserTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--deepDarkThemeTextColor);
+  font-size: 16px;
+  font-family: Roboto;
+  display: flex;
+}
+.nameOfUserMsg {
+  color: var(--greyTextColor);
+  margin-top: 3px;
+  font-size: 12px;
+  font-family: Roboto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.endContainer {
+}
+
+.RightContainer {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+}
+
+.date {
+  color: var(--greyTextColor);
+  font-size: 12px;
+  font-family: Roboto;
+}
+.bkgMsg {
+  justify-content: flex-start;
+  margin-top: 3px;
+  display: flex;
+  width: 0%;
+}
+
+.noMsg {
+  position: relative;
+  color: white;
+  border-radius: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: Roboto;
+  font-size: 12px;
+  position: relative;
+  background-color: var(--themeColor);
+}
+.line {
+  background-color: var(--bodyBkgColor);
+  margin-left: 55px;
+  border-bottom: 1px solid;
+  border-color: var(--cardBorderColorLight);
+}
+
+
+
+
+

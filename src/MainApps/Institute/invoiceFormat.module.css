@@ -1,0 +1,25 @@
+.mainContainer {
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.userDetailsContainert1 {
+  width: 50%;
+}
+
+.userDetailsContainer2 {
+  width: 50%;
+}
+
+.block{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.t1{
+    width: 150px;
+    color: var(--greyTextColor);
+    margin-right: 10px;
+}

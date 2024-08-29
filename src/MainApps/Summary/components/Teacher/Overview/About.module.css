@@ -1,0 +1,18 @@
+
+
+.about{
+
+}
+
+
+.aboutTitle{
+color: var(--topRightButtonTextColorInActive_Course);
+font-weight: bold;
+display: flex;
+align-items: center;
+}
+
+.aboutText{
+color: grey;
+}
+

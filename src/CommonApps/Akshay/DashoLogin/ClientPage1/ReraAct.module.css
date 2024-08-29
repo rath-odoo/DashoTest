@@ -1,0 +1,163 @@
+.rulesAndRegulationsParent {
+  margin-top: 40px;
+
+  width: 100%;
+}
+
+.serchContainer {
+  background-color: var(--bgColor);
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.serchbox {
+  margin-left: 10px;
+  width: 90%;
+
+  background-color: white;
+  border-radius: 8px;
+  height: 28px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: none;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.serchbox:focus {
+  border-style: solid;
+  background-color: white;
+  border-width: 2px;
+  outline: none !important;
+  border-color: var(--themeColor);
+}
+
+.btnContainer {
+  width: 100px;
+  margin-left: 20px;
+  height: 28px;
+  background-color: var(--themeColor);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-right: 10px;
+}
+
+.btnContainer:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--themeColor);
+  border: 1px solid var(--themeColor);
+}
+
+.parentDiv {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, auto));
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.leftBox {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.topHeadingSection {
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: var(--bgColor);
+  border-bottom: 1px solid var(--cardBorderColor);
+}
+
+.iconContainer {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.title {
+  margin-left: 10px;
+  font-weight: bold;
+  color: var(--darkText);
+}
+
+.rightBoxContainer {
+}
+
+.topBox {
+  width: 100%;
+
+  border: 1px solid var(--cardBorderColor);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.midBox {
+  margin-top: 20px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.bottomBox {
+  margin-top: 20px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px solid var(--cardBorderColor);
+}
+
+.mainContainer {
+}
+
+.mainIcon {
+}
+
+.noticeIcon {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regIcon {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ruleIcon {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actIcon {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

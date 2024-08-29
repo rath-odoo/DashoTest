@@ -1,0 +1,27 @@
+.oneStudentCreditScore{
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+color: grey;
+font-weight: bold;
+}
+
+.creditScoreValue{
+width: 100%;
+display: flex;
+flex-direction: column;
+writing-mode: tb-rl;
+transform: rotate(-180deg);
+
+}
+
+.csnum{
+}
+
+.studentName{
+font-size: 10px;
+
+}

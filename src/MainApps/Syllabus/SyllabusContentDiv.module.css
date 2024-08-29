@@ -1,0 +1,58 @@
+
+.contentDiv{
+position: relative;
+background-color: var(--mainAppContainerBkgColor);
+background-color: white;
+border-style:none;
+border-width: 1px;
+border-color: red;
+width: 100% ;
+height: calc( 100vh - calc( 1.86  * var(--headerHeight) ) );
+/*display: flex;
+flex-direction:column;
+align-items: center;*/
+overflow-y: scroll;
+}
+
+
+
+.updateDiv{
+
+width: 75%;
+height: 2000px;
+background-color: grey;
+margin: auto;
+
+
+
+}
+
+
+
+.noCourseSelectedWarning{
+
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
+
+
+.noCourseSelectedWarning i{
+font-style: normal;
+color: grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

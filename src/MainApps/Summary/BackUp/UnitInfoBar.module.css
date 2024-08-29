@@ -1,0 +1,9 @@
+
+
+
+.unitInfoBar{
+
+width: 95%;
+height:var(--headerHeight);
+background-color: red;
+}

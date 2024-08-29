@@ -1,0 +1,869 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 38px;
+    height: 50px;
+}
+
+.text1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #004aad;
+    height: 25px;
+}
+
+.text2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.strong {
+    font-size: 20px;
+    text-align: center;
+}
+
+.leftImg {
+    /* height: ; */
+}
+
+.rightImg {
+    height: 219px;
+}
+
+.howItWorks {
+    height: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.mainBlock {
+    display: flex;
+    /* flex-direction: column; */
+    height: 100%;
+    gap: 38px;
+    margin-bottom: 30px;
+}
+
+.eduImg{
+    max-width: 100%;
+    max-height: 100%; 
+    display: block; 
+    margin: auto;
+}
+
+
+.LineOne{
+    font-size: 27px;
+    font-weight: 900;
+    margin-top: 25px;
+}
+.LineTwo{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.headContainerSecond{
+    background-color: var(--themeColor);
+    color: #fff;
+    text-align: center;
+    /* padding-top: 5px; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.headthirdContainer{
+    background-color: var(--cardBackgroundColor);
+}
+
+
+
+.howItWorksFirst ,.howItWorksSecond ,.howItWorksThird{
+    display: flex;
+    flex-direction: column;
+    gap: none;
+    /* border: 0.5px black; */
+    border-radius: 15px;
+    text-wrap: wrap;
+    width: 33%;   
+    overflow: hidden;
+    background-color:var(--cardBackgroundColor);
+    /* justify-content: center; */
+
+}
+.divList{
+    font-size: 22px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;    
+    /* text-align: justify; */
+}
+
+
+
+.listItem{
+    display: flex;
+}
+
+.btnJoinNow{
+    background-color: #fff;
+    border-style: none;
+    color: var(--themeColor);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.joinNow{
+    text-align: center;
+}
+
+.leftBlock,
+.rightBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+}
+
+.leftBox,
+.rightBox {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    flex: 1;
+    gap: 35px;
+    justify-content: space-evenly;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0.1px black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.hds {
+    font-size: 20px;
+}
+
+.cnt {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+/* Trending Live Classes */
+
+.heroContainer {
+    /* display: flex; */
+    width: 1200px;
+    height: auto;
+}
+
+
+.heroHeading {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.headCnt {
+    font-size: 31px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.mainTop {
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+    align-items: center;
+    height: auto;
+}
+
+.mainBottom {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.firstBox,
+.secondBox,
+.thirdBox {
+    width: 100%;
+    border: 0.5px solid #004aad;
+    border-radius: 15px;
+    overflow: hidden;
+    flex: 1;
+
+}
+
+.imgAll {
+    width: 100%;
+    aspect-ratio: 1.7/1;
+    object-fit: fill;
+}
+
+
+
+
+
+
+
+
+
+
+.leftBlock .textContainer .hds{
+    color:rgb(57, 54, 54);
+    font-weight: bold;
+}
+
+.rightBlock .textContainer .hds{
+    font-weight: bold;
+}
+
+
+.cnt{
+    color: rgb(107, 105, 105);
+}
+
+
+
+
+
+
+
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 60px; */
+    background-color: #F5F5E8;
+
+
+}
+
+.time,
+.faculty {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: rgb(0, 74, 173);
+    font-weight: 700;
+}
+
+.enrollNow {
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    background-color: #004aad;
+    border: #004aad;
+    cursor: pointer;
+}
+
+.allCourses {
+    font-size: 24px;
+    color: #004aad;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mainBottom {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 170px; */
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+    width: 100%;
+}
+
+.orgInfo {
+    margin-bottom: 40px;
+}
+
+
+
+
+/* start your journey block */
+
+.contentFirst{
+    font-size: 30px;
+    font-weight: 700;
+}
+.contentSecond{
+    font-size: 25px;
+}
+
+.blockThree{
+    display: flex;
+    width: 1200px;
+    gap: 200px;
+    
+}
+
+.leftContent{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.FourImagesContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topImgContainer {
+    display: flex;
+    gap: 208px;
+    /* flex-direction: column-reverse; */
+}
+.bottomImgContainer{
+    display: flex;
+    gap: 119px;
+}
+
+.topImgLeftContainer ,.topImgRightContainer{
+    display: grid;
+    gap: 5px;
+}
+
+.getStarted{
+    background-color: var(--themeColor);
+    color: #fff;
+    font-size: 23px;
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #0b3772;
+    border-radius: 8px;
+}
+
+.sessions ,.liveClass ,.subjects ,.educators {
+    font-size: 22px;
+}
+
+.sessions ,.liveClass{
+    /* margin-top: 3px; */
+}
+
+.firstInFourImg {
+    margin-left: 64px;
+}
+
+.educators{
+    margin-left: 25px;
+}
+
+.subjects{
+    /* margin-left: -21px; */
+}
+
+.educators ,.subjects ,.liveClass ,.sessions{
+    text-align: center;
+}
+
+
+.thirdInFourImg ,.fourthInFourImg{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* App Store */
+
+.appStoreContainer{
+    display: flex;
+    margin-top: 60px;
+    width: 1200px;
+    margin-bottom: 50px;
+}
+
+.headLineAppstore{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.storeImgDiv{
+    display: flex;
+}
+
+.contentAppStore{
+    font-size: 25px;
+}
+
+.imgAppStore{
+    /* width: 70%; */
+}
+.infoAppStore{
+    width: 50%;
+    margin-top: -64px;
+}
+
+.androidImg{
+    width: 100%;
+}
+.appleStoreImgContainer{
+    width: 200px;
+    margin-right: 20px;
+}
+.appleStoreImg {
+    width: 100%;
+    aspect-ratio: 2.8/1;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.playStoreImgContainer{
+    width: 200px;
+    margin-right: 20px;
+}
+.playStoreImg{
+    width: 100%;
+    aspect-ratio: 2.8/1;
+    margin-top: 34px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fourth-block */
+.fourthContainer {
+    background-color: #0C4Dc4;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+}
+
+.join {
+    height: 60px;
+    width: 207px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.cardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottomContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.servicesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.powerContainer{
+    font-size: 20px;
+    color: white;
+    margin-right: 40px;
+}
+
+.servicesContainer button{
+    border: none;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.servicesContainer .diracaiContainer{
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.c{
+    width: 120px;
+}
+
+
+
+
+/* Media queries */
+@media (max-width: 1299px) {
+
+    .howItWorks,
+    .heroContainer,
+    .blockThree,
+    .appStoreContainer {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    .howItWorks,
+    .heroContainer,
+    .blockThree ,
+    .appleStoreContainer{
+        width: 1200px;
+        max-width: none;
+        /* Remove max-width for screens 1300px or more */
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 1024px) {
+    .leftBox {
+        gap: 30px;
+    }
+
+    .heading {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .mainTop {
+        flex-direction: column;
+
+    }
+
+    .firstBox,
+    .secondBox,
+    .thirdBox {
+        /* width: 70%; */
+    }
+}
+
+@media (max-width: 600px) {
+    .mainBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .howItWorksFirst , .howItWorksSecond , .howItWorksThird{
+        width: 90%;
+        max-width: 550px;
+    }
+    .howItWorksFirst img , .howItWorksSecond img , .howItWorksThird img{
+        width: 600px;
+    }
+
+    .text {
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        font-size: 31px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .leftBlock,
+    .rightBlock {
+        width: 100%;
+    }
+
+    .orgInfo {
+        font-size: 25px;
+
+    }
+    
+    .blockThree{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .topImgContainer {
+        gap: 0px;
+        width: 100%;
+        justify-content: center !important;
+    }
+    .bottomImgContainer{
+        gap: 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .FourImagesContainer{
+        width: 100% !important;
+        gap: 30px;
+    }
+    
+    .c{
+        width: 70px;
+    }
+    .blockThree .leftContent{
+        width: 90%;
+    }
+
+    .blockThree .leftContent .content{
+        width: 100%;
+    }
+
+    .blockThree .leftContent .content button{
+        width: 100%;
+    }
+
+    .appStoreContainer{
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .appStoreContainer .imgAppStore{
+        width: 90%;
+    }
+    .appStoreContainer .infoAppStore{
+        width: 90%;
+    }
+    .appStoreContainer ,.infoAppStore .storeImgDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .playStoreImgContainer, .appleStoreImgContainer{
+        margin-right: 0px;
+    }
+    .sessions ,.liveClass ,.subjects ,.educators {
+        font-size: 19px;
+    }
+    .divList{
+        font-size: 18px;
+    }
+    
+}
+
+
+@media (max-width: 1200px) {
+    .mainBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .howItWorksFirst , .howItWorksSecond , .howItWorksThird{
+        width: 90%;
+        max-width: 550px;
+    }
+    .howItWorksFirst img , .howItWorksSecond img , .howItWorksThird img{
+        width: 600px;
+    }
+
+    .text {
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        font-size: 31px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .leftBlock,
+    .rightBlock {
+        width: 100%;
+    }
+
+    .orgInfo {
+        font-size: 25px;
+
+    }
+    
+    .blockThree{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .topImgContainer {
+        gap: 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .bottomImgContainer{
+        gap: 0px;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .blockThree .leftContent{
+        width: 90%;
+    }
+
+    .blockThree .leftContent .content{
+        width: 100%;
+    }
+
+    .blockThree .leftContent .content button{
+        width: 100%;
+    }
+
+    .appStoreContainer{
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .appStoreContainer .imgAppStore{
+        width: 90%;
+    }
+    .appStoreContainer .infoAppStore{
+        width: 90%;
+    }
+    .appStoreContainer ,.infoAppStore .storeImgDiv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .playStoreImgContainer, .appleStoreImgContainer{
+        margin-right: 0px;
+    }   
+    .thirdInFourImg{
+        margin-left: 54px;
+    } 
+
+    
+    .topImgContainer {
+        width: 100%;
+        gap: 130px;
+        justify-content: center;
+
+    }
+    
+    
+    .bottomImgContainer{
+        justify-content: center;
+        gap: 90px;
+    }
+    .FourImagesContainer{
+        gap: 60px;
+    }
+    .blockThree{
+        gap: 60px;
+    }
+}
+
+
+@media (max-width :425px) {
+    .text {
+        font-size: 30px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+
+    .mainBottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .orgInfo {
+        margin-bottom: 5px;
+    }
+    .sessions ,.liveClass ,.subjects ,.educators {
+        font-size: 15px;
+    }
+    
+}
+
+
+
+@media (max-width :850px) {
+
+    .heading {
+        font-size: 30px;
+
+    }
+
+    .text2 {
+        font-size: 25px;
+    }
+
+    .orgInfo {
+        display: flex;
+        justify-content: center;
+    }
+}

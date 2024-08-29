@@ -1,0 +1,194 @@
+.oneFile {
+  border-radius: 3px;
+  width: 100%;
+  aspect-ratio: 1.4/2;
+  object-fit: contain;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.oneFile:hover {
+
+  border-color: var(--themeColor);
+
+}
+
+
+
+.docFileStyle {
+  margin: 0 auto;
+  width: 80px !important;
+  height: 100px !important;
+
+}
+
+
+.fileImage {
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+
+
+
+.displayName {
+  font-size: 16px;
+  width: 100%;
+}
+
+.displaydesc {
+  color: gray;
+}
+
+.delete {
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: var(--bodyBkgColor);
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.deleteicon {
+  color: var(--greyTextColor);
+  font-size: 16px;
+}
+
+.delete:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.delete:hover .deleteicon {
+  color: var(--deepDarkThemeTextColor);
+}
+
+
+
+.oneFile {
+  position: relative;
+  /* Other styles */
+}
+
+.delete {
+  display: none;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  /* background: transparent; */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  /* Additional styles for the button if needed */
+}
+
+.oneFile:hover .delete {
+  display: block;
+}
+
+.fileImage {
+  /* Your existing styles */
+}
+
+.displayName {
+  text-align: center;
+  /* Other styles */
+}
+
+.displaydesc {
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.displaydesc:hover {
+  cursor: pointer;
+  width: 10px;
+  text-wrap: wrap;
+
+}
+
+.overLay {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmDialog {
+  padding: 20px;
+  background-color: white;
+  width: 380px;
+  height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);
+  font-family: Roboto;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.p {
+  color: #808080;
+  padding-left: 4px;
+}
+
+.deleteYes {
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteNo {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2;
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.div {
+  display: flex;
+  gap: 10%;
+  padding-left: 17%;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.darkBlue {
+  color: blue;
+}

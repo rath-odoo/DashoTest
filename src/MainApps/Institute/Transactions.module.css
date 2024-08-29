@@ -1,0 +1,271 @@
+
+ 
+/*
+body 
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+*/
+ 
+.paymentDetailPage{
+
+width: 80%;
+margin: auto;
+max-width: 1000px;
+border-style: solid;
+padding: 30px;
+padding-bottom: 200px;
+border-width: 1px;
+border-color: lightgrey;
+}
+
+
+.downLoadButtonDiv{
+display: flex;
+justify-content: flex-end;
+padding-bottom: 20px;
+border-style: none;
+border-radius: 5px;
+}
+
+
+.downLoadButton{
+ border-style: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+
+
+.downloadButtonInvoice{
+
+border-style: none;
+cursor: pointer;
+height: 100%;
+}
+
+
+.senderReceiverDiv{
+display: flex;
+justify-content: flex-start;
+margin-top: 15px;
+width: 95%;
+margin: auto;
+margin-top: 15px;
+}
+
+.ReceiverDiv{
+width: 95%;
+margin: auto;
+margin-top: 10px;
+
+}
+
+
+
+
+.addTransactionButton{
+
+margin-left: 20px;
+border-style: none;
+padding: 10px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+
+
+.deletePaymentButton{
+
+border-style: none;
+margin-left: 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+  .Header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightgrey;  
+}
+  
+  .Logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 3px;
+  }
+  
+  .HeaderContent {
+    flex-grow: 1;
+  }
+  
+  .InstituteName {
+    margin: 0;
+  }
+  
+  .ReportHeading {
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: grey;
+    margin-top: 50px;
+  }
+  
+  .SubHeader {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .Course {
+    color: #007bff; 
+  }
+  .Description {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+  
+  .Institute {
+    color: #007bff ; 
+  }
+  
+
+  .SubHeader p {
+    margin: 5px 0;
+  }
+  
+  .FromTo {
+    font-weight: bold;
+  }
+  
+  .ScheduleDate,
+  .Status,
+  .TotalAmount,
+  .Dues {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .Dues {
+    color: #dc3545;
+  }
+  
+  .TransactionStatement {
+    margin: 20px;
+  }
+  
+  .TransactionStatement h2 {
+    margin-top: 0;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .Credit {
+    color: black;
+  }
+  
+  .Debit {
+    color: black;
+  }
+  
+  .InvoiceIcon {
+    display: block;
+    margin: 0 auto; 
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+
+.backButton{
+
+border-style: none;
+padding: 5px;
+padding-left:15px;
+padding-right: 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+
+  @media screen and (max-width: 768px) {
+    .Logo {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+  
+    .ReportHeading {
+      font-size: 20px;
+    }
+  
+    .SubHeader {
+      padding: 10px;
+    }
+  
+    .TransactionStatement h2 {
+      font-size: 20px;
+    }
+  
+    table {
+      overflow-x: auto; 
+    }
+  
+  
+    table th {
+     display:grid;
+    }
+  
+  
+    table td {
+      display: block;
+      padding: 10px;
+      text-align: center;
+    }
+  
+  
+    table td:first-child {
+      text-align: left; 
+    }
+  
+    table tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  }
+  

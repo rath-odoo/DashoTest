@@ -1,0 +1,246 @@
+.addContactForm {
+    position: fixed; /* Use fixed position to center relative to the viewport */
+    top: 50%; /* Position 50% down from the top */
+    left: 50%; /* Position 50% across from the left */
+    transform: translate(-50%, -50%); /* Translate back by half of its own width and height */
+    
+    width: 100%;
+    max-width: 500px;
+    height: 80vh;
+    background-color: grey;
+    z-index: 10000;
+    background-color: white;
+    border-style: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 10px;
+}
+
+    
+    .closeButtonDiv{
+    display: flex;
+    height: 40px;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-color: var(--cardBorderColorLight);
+    color: lightgrey;
+    border-width: 1px; 
+    margin-top: 30px;
+    }
+    
+    
+    .titleSec{
+    border-style: none;
+    color: var(--greyTextColor);
+    margin-left: 30px;
+    }
+    
+    .closeFormButton{
+    border-style: none;	
+    font-size: 20px;
+    cursor: pointer;
+
+    margin-left: auto;
+    background-color: white;
+    }
+    
+    .closeButtonIcon{
+    font-size: 23px;
+    color: grey;
+    }
+    
+    
+    .searchBarDiv{
+    height: 60px;
+    width: 100%;
+    border-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+    
+    .searchIconDiv{
+    
+    color: grey;
+    margin-left: 20px;
+    }
+    
+    .input_field{
+    
+    height: 35px;
+    margin-left: 20px;
+    width: 70%;
+    font-size: 16px;
+    background-color: var(--bodyBkgColor);
+    padding-left:20px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-top:20px;
+    font-family: Roboto;
+    }
+    
+    .input_field:focus{
+    outline: none !important;
+    border-color:lightgrey;
+    
+    }
+    
+    
+    
+    
+    .aboutEditForm{
+    border-style: none;
+    }
+    
+    .searchedUsersGrid{
+    
+    
+    width: 93%;
+    border-style: none;
+    margin: auto;
+    /*
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr );
+    grid-template-rows: 1fr ;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    */
+    margin-top: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-style: none;
+    height: calc( 100% - 280px );
+    }
+    
+    
+    .oneFriend{
+    width: 150px;
+    height: 190px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    }
+
+    .formGroup{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 20px; 
+        margin-bottom: 24px;
+    }
+    
+
+  
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 10px;
+padding-left: 150px;
+}
+
+.tab {
+  width: 100px;
+  height: 35px; 
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.activeTab {
+  background-color: #f2f2f2;
+  color: white;
+  border: 1px solid var(--themeColor);
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  color: var(--themeColor);
+}
+
+      
+      .uploadSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .uploadInput {
+        margin-bottom: 10px;
+      }
+      
+      .uploadIcon {
+        margin-right: 8px;
+      }
+      
+    
+    
+    
+    
+    
+
+
+
+  .sampleFileLink{
+    margin-top: 100px; 
+    margin-bottom: 20px;
+    width: 90%;
+
+  }
+  .downLoadBtn{
+    /* color: #808080; */
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+  }
+
+  .label{
+margin-bottom: 9px;
+    color: #808080;
+  }
+  .downloadButton {
+    display: flex;
+    align-items: center;
+    background-color: lightgray; 
+    color:black;
+    border: none;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+  
+    /* padding: 10px 20px; */
+    cursor: pointer; 
+    border-radius: 5px;
+  }
+  
+  .downloadButton:hover {
+    /* background-color: #45a049;  */
+  }
+  
+  .downloadIcon {
+    /* margin-right: 8px; */
+    font-size: 18px;
+  }
+
+  .submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--themeColor);
+    border-radius: 5px;
+    height: 35px;
+    width: 90px;
+    cursor: pointer;
+    border: none;
+    color: white;
+  }

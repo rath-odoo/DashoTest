@@ -1,0 +1,476 @@
+
+
+.createTicketFormDivParent{
+
+position: fixed;
+width: 100vw;
+height:100vh;
+background-color: grey;
+z-index: 10000;
+right:0;
+top:0;
+background-color:rgba(0,0,0,0.1); 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.createTicketForm{
+
+position: relative;
+width: 60vw;
+max-width: 700px;
+height:90vh;
+min-width:400px;
+background-color: white;
+border-radius: var(--cardBorderRadius);
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/*display: flex;
+flex-direction: column;*/
+align-items: center;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+
+
+.createTicketFormLoading{
+
+position: relative;
+width: 60vw;
+height:80vh;
+min-width:300px;
+background-color: white;
+border-radius: 5px;
+border-style:none;
+border-color: grey;
+border-width:2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.submittingDiv{
+padding-top: 100px;	
+color: var(--themeColor);
+
+}
+
+
+
+
+
+
+
+
+
+.closeButtonDiv{
+width:100%;
+display: flex;
+background-color: white;
+justify-content: flex-end;
+border-radius: 5px;
+}
+
+
+
+.closeFormButton{
+border-style: none;
+cursor: pointer;
+background-color: white;
+border-radius: 5px;
+}
+
+
+.closeButtonIcon{
+
+font-size: 25px;
+
+}
+
+
+.logoAndTitleContainer{
+
+
+width:80%;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+border-style: none;
+margin-bottom: 30px;
+}
+
+.bwLogo{
+
+height: 75px;
+width: 75px;
+
+}
+
+.formTitleDiv{
+width: 100%;
+display:flex;
+justify-content:flex-start;
+color: #585858;
+margin-top: 20px;
+}
+
+.formTitleDiv i{
+
+font-size: 25px;
+font-style: normal;
+}
+
+
+
+.submitButtonDiv{
+width: 100%;	
+display: flex;
+justify-content: center;
+background-color: white;
+padding-top: 50px;
+margin-bottom: 50px;
+border-style: none;
+}
+
+
+.submit_button{
+width: 300px;
+border-style: none;
+background-color: var(--themeColor);
+color: white;
+height:50px;
+width:200px;
+border-radius: 10px;
+cursor: pointer;
+font-size: 18px;
+}
+
+
+.emptyDiv{
+width: 80%;
+border-style: solid;
+height: 50px;
+color: white;
+
+}
+
+
+
+
+.singleNMultiFormOption{
+
+height: 40px;
+width: 80%;
+display: flex;
+justify-content: space-between;
+margin-top: 0px;
+border-bottom: none;
+border-color: lightgrey;
+border-width: 1px;
+margin: auto;
+}
+.singleClass{
+width: 50%;
+height: 40px;
+border-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+color: grey;
+border-radius: var(--cardBorderRadius) 0px 0px var(--cardBorderRadius);
+}
+
+.singleClass:hover{
+cursor: pointer;
+}
+
+.multiClass{
+width: 50%;
+height:40px;
+border-style: none;
+border-width: 1px;
+border-color: lightgrey;
+font-family: Roboto;
+display: flex;
+align-items: center;
+justify-content: center;
+color: grey;
+border-radius: 0px var(--cardBorderRadius) var(--cardBorderRadius) 0px;
+}
+
+.multiClass:hover{
+cursor:pointer;
+}
+
+
+
+.noCourseWarning{
+font-style: normal;
+color: grey;
+font-size: 20px;
+margin: auto;
+border-style: none;
+width: 80%;
+}
+
+.formElement1{
+width: 80%;
+margin: auto;
+border-style: none;
+margin-top: 30px;
+}
+
+
+
+.multiClassInfo{
+margin: 20px;
+color: grey;
+font-size: 20px;
+}
+
+.multiContainer{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr) );
+grid-auto-rows: 100px ;
+border-style: none;
+grid-column-gap: 50px;
+grid-row-gap: 20px;
+border-color: red;
+margin: auto;
+
+}
+
+
+.dayFieldContainer{
+display: grid;
+grid-row-gap: 20px;
+
+}
+
+
+
+.customTimePicker{
+
+border-style: solid;
+height: 40px;
+width: 200px;
+border-width: 1px;
+border-color: lightgrey;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: grey;
+position: relative;
+}
+
+
+.customTimePicker:hover{
+
+border-color: var(--themeColor)
+
+}
+
+.timeDropDownOptions{
+height: 400px;
+width: 100%;
+background-color: white;
+position: absolute;
+top: 40px;
+z-index: 22;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 0px 0px 5px 5px;
+display: flex;
+visibility: hidden;
+}
+
+
+.customTimePicker:hover .timeDropDownOptions{
+
+visibility: visible;
+}
+
+
+
+
+
+
+.hourDiv{
+width: 33%;
+height:100%;
+border-style: none;
+overflow-y: scroll;
+overflow-x:hidden;
+}
+
+.minDiv{
+width:33%;
+height:100%;
+border-style: none;
+overflow-y: scroll;
+overflow-x:hidden;
+}
+
+.ampmDiv{
+height:100%;
+width: 33%;
+border-style: none;
+}
+
+
+.oneTimeDropDownBox{
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-style:none;
+width: 100%;
+background-color: white;
+color: var(--greyTextColor);
+cursor: pointer;
+}
+
+
+
+.oneTimeDropDownBox1{
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-style:none;
+width: 100%;
+background-color: white;
+color: var(--greyTextColor);
+}
+
+
+
+
+
+.oneTimeDropDownBox:hover{
+background-color: lightgrey;
+color: grey;
+}
+
+
+.firstFieldBlock{
+
+width: 100%;
+border-style: none;
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.firstFieldBlockSmall{
+width: 200px;
+border-style: none;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+
+
+.firstFieldBlockLong{
+width: 100%;
+border-style: none;
+display: flex;
+margin-top:20px;
+}
+
+
+.optionalSettings{
+
+height: 2px;
+margin-top:50px;
+display: flex;
+justify-content: space-between;
+border-style: none;
+position: relative;
+height: 30px;
+align-items: center;
+width: 100%;
+cursor: pointer;
+background-color: white;
+}
+
+
+
+
+.optionSettingDiv{
+position: relative;
+background-color: white;
+border-style: none;
+color: var(--themeColor);
+}
+
+
+.optionSettingButton{
+position: relative;
+background-color: white;
+border-style: none;
+color: var(--themeColor);
+}
+
+
+
+.chooseTopicForClassDiv{
+
+width:100%;
+max-width:300px;
+border-style: none;
+height: 30px;
+border-radius: 5px;
+height: 33px;
+cursor: pointer;
+margin-top: 35px;
+color: var(--greyTextColor);
+font-family: Roboto;
+}
+
+
+.selTopicsParentDiv{
+margin-top:20px;
+
+}
+
+.selectedTopicDiv{
+
+color: var(--themeColor);
+}
+
+.selTopicTitle{
+ margin-bottom: 15px;
+ color: grey;
+}
+
+
+
+.optionalSettingDiv{
+display: flex;
+justify-content: space-between;
+z-index: 1;
+}
+
+
+.noTopicsSelMessage{
+
+font-size: 13px;
+margin-left: 20px;
+color: red;
+}
+
+
+
+

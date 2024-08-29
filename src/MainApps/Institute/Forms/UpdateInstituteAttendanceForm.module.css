@@ -1,0 +1,266 @@
+.mainContainer {
+    /* position: absolute;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    top: 200px;
+    left: 600px;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px; */
+    position: relative;
+    width: 60vw;
+    max-width: 600px;
+    height: 75vh;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: none;
+    border-color: grey;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.requiredAsterisk {
+    color: red;
+    margin-left: 2px;
+}
+.selectApproverContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 6px;
+}
+.approverDropdown{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    z-index: 10000;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inTimeContainer {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.statusTextContainer {
+    color: #808080;
+    font-size: 16px;
+}
+
+.dateContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeContainer {
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.label {
+    color: #808080;
+    margin-bottom: 4px;
+}
+
+.dateInput {
+    border-style: solid;
+    height: 33px;
+    width: 46%;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.statusContainer {
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.presentContainer,
+.absentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.presentContainer {
+    color: green;
+}
+
+.absentContainer {
+    color: red;
+}
+
+.remarkContainer {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+.remarkInput {
+    width: 96%;
+    padding: 10px;
+    border-style: solid;
+    height: 60px;
+
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(129, 125, 125);
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.updateButtonContainer {
+    margin-top: 30px;
+    width: 89%;
+    display: flex;
+    justify-content: center;
+}
+
+.updateButton {
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    /* background-color: var(--themeColor); */
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.closeContainer {
+    position: relative;
+}
+
+.closeButtonIcon {
+    position: absolute;
+    top: 15px;
+    left: 240px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.leavePolicyDiv {
+    margin-top: 0px;
+    width: 88%;
+    border: 1px solid var(--cardBorderColor);
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+}
+
+.approverDropDownDiv {
+    top: 444px;
+    width: calc(100% - 77px);
+    height: 0px;
+    overflow: hidden;
+    /* display: flex; */
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    padding: 7px;
+
+}
+
+.approverDropDownDiv.scaled {
+    height: 150px;
+    border: 1px solid var(--cardBorderColor);
+    border-top: none;
+    overflow: scroll;
+}
+
+.oneApproverMainDiv {
+    margin-top: 10px;
+    width: calc(100% - 40px);
+    border: 1px none var(--cardBorderColor);
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+.oneApproverMainDiv:hover{
+
+background-color: lightgrey;
+}
+
+
+
+.leavePolicySingleDiv {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.imageContainer {
+    height: 30px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}

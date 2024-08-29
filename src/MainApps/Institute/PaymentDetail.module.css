@@ -1,0 +1,171 @@
+
+ 
+
+.bodySettings {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .Header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .Logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .HeaderContent {
+    flex-grow: 1;
+  }
+  
+  .InstituteName {
+    margin: 0;
+  }
+  
+  .ReportHeading {
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+  }
+  
+  .SubHeader {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .Course {
+    color: #007bff; 
+  }
+  .Description {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+  
+  .Institute {
+    color: #007bff ; 
+  }
+  
+
+  .SubHeader p {
+    margin: 5px 0;
+  }
+  
+  .FromTo {
+    font-weight: bold;
+  }
+  
+  .ScheduleDate,
+  .Status,
+  .TotalAmount,
+  .Dues {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .Dues {
+    color: #dc3545;
+  }
+  
+  .TransactionStatement {
+    margin: 20px;
+  }
+  
+  .TransactionStatement h2 {
+    margin-top: 0;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .Credit {
+    color: green;
+  }
+  
+  .Debit {
+    color: red;
+  }
+  
+  .InvoiceIcon {
+    display: block;
+    margin: 0 auto; 
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .Logo {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+  
+    .ReportHeading {
+      font-size: 30px;
+    }
+  
+    .SubHeader {
+      padding: 10px;
+    }
+  
+    .TransactionStatement h2 {
+      font-size: 20px;
+    }
+  
+    table {
+      overflow-x: auto; 
+    }
+  
+  
+    table th {
+     display:grid;
+    }
+  
+  
+    table td {
+      display: block;
+      padding: 10px;
+      text-align: center;
+    }
+  
+  
+    table td:first-child {
+      text-align: left; 
+    }
+  
+    table tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  }
+  

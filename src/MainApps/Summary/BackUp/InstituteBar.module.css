@@ -1,0 +1,48 @@
+
+.instituteBar{
+
+width: 75%;
+min-height: calc( 0.7 * var(--headerHeight) );
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-color: white;
+padding: 20px;
+margin: auto;
+}
+
+.instituteBar i{
+font-style: normal;
+font-size: calc( 0.30 * var(--headerHeight) );
+color: grey;
+}
+
+.instituteBar button{
+font-size:calc( 0.30 * var(--headerHeight) );
+border-style: none;
+background-color: white;
+cursor: pointer;
+color:var(--TextColorDarkBlue1);
+display: flex;
+align-items: flex-start;
+}
+
+.instituteBar button:hover{
+text-decoration: underline;
+
+}
+
+.titleSpace{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.editIcon{
+color: grey;
+font-size: calc( 0.40 * var(--headerHeight) );
+}
+

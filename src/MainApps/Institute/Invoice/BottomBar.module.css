@@ -1,0 +1,30 @@
+
+
+
+
+.Parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--cardBorderColor);
+}
+
+
+.mainContainer{
+    margin: 20px;
+}
+
+.instituteName {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--deepDarkThemeTextColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .instituteAddress {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--deepDarkThemeTextColor);
+  }

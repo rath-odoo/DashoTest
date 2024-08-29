@@ -1,0 +1,129 @@
+.mainBlock {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-style: none;
+
+  background-color: white;
+}
+
+.overLay {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmDialog {
+  padding: 20px;
+  background-color: white;
+  width: 380px;
+  height: 100px;
+  border-style: solid;
+  border-color: var(--cardBorderColor);
+  font-family: Roboto;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.p {
+  color: #808080;
+  padding-left: 4px;
+}
+
+.deleteYes {
+  height: 35px;
+  background-color: #fff;
+  width: 100px;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteNo {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid #0056d2;
+  color: #0056d2;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.div1 {
+
+  display: flex;
+  gap: 80px;
+  padding-left: 10%;
+}
+
+.mainBlock:hover {
+  cursor: pointer;
+
+  .nameContainer1 {
+    color: blue;
+
+  }
+
+}
+
+
+
+
+
+.nameContainer1 {
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.dateContainer1 {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.linkContainer1 {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  height: 30px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.linkContainer1:hover {
+
+  background-color: var(--cardBorderColorLight);
+
+
+}
+
+
+
+
+.docDivParent {
+  display: flex;
+  justify-content: space-between;
+}
