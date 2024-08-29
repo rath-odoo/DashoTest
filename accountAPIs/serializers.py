@@ -91,7 +91,7 @@ class CustomTokenObtainPairSerializer(serializers.Serializer):
 class UserSearchSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('id','firstname', 'lastname','usertype','profile_image' ,'name' ,'username' ,'password','main','dataofbirth','radhaaass')
+        fields = ('id','firstname', 'lastname','usertype','profile_image' ,'name' ,'username' ,'password','main','dataofbirth','shraddha')
 
 
 
