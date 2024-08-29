@@ -43,7 +43,6 @@ jobs:
       env:
         DJANGO_SETTINGS_MODULE: myproject.settings
       run: |
-        cd DashoTest
         python manage.py migrate
 
     
@@ -51,7 +50,6 @@ jobs:
       env:
         DJANGO_SETTINGS_MODULE: myproject.settings
       run: |
-        cd DashoTest
         python manage.py test
     
     - name: Run linting
