@@ -33,41 +33,28 @@ jobs:
       with:
         python-version: '3.9'
     
-    - name: Install dependencies
+    - name: Debug repository structure
       run: |
-        python -m pip install --upgrade pip
-        pip install django psycopg2-binary
-        if [ -f requirementsOld.txt ]; then
-          pip install -r requirementsOld.txt
-        else
-          echo "requirementsOld.txt not found. Installing only Django and psycopg2-binary."
-        fi
-
-    - name: Debug current directory
-      run: |
-        echo "Current directory:"
+        echo "Current directory after checkout:"
         pwd
-        echo "Directory contents:"
+        echo "List all files and directories:"
         ls -R
 
     - name: Run migrations
       env:
         DJANGO_SETTINGS_MODULE: myproject.settings
       run: |
-        cd $GITHUB_WORKSPACE
-        cd DashoTest
+        cd $GITHUB_WORKSPACE/DashoTest
         python manage.py migrate
     
     - name: Run tests
       env:
         DJANGO_SETTINGS_MODULE: myproject.settings
       run: |
-        cd $GITHUB_WORKSPACE
-        cd DashoTest
+        cd $GITHUB_WORKSPACE/DashoTest
         python manage.py test
     
     - name: Run linting
       run: |
         pip install flake8
-        # Run flake8 from the root directory
         flake8 . --exclude=.git,__pycache__,migrations
