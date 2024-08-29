@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Account</title>
+</head>
+<body>
+    <h1>Link Your Google Account</h1>
+    <p>The Google account you are trying to use is already associated with another user account.</p>
+    <form method="post" action="{% url 'link_account' %}">
+        {% csrf_token %}
+        <input type="hidden" name="uid" value="{{ request.GET.uid }}">
+        <button type="submit">Link Account</button>
+    </form>
+    <a href="{% url 'home' %}">Cancel</a>
+</body>
+</html>

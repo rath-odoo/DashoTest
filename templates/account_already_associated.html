@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Already Associated</title>
+</head>
+<body>
+    <h1>{{ message }}</h1>
+    <form method="post" action="{% url 'account_already_associated' %}">
+        {% csrf_token %}
+        <input type="hidden" name="uid" value="{{ social_user.uid }}">
+        <button type="submit" name="action" value="link">Link Account</button>
+        <button type="submit" name="action" value="delete">Delete Associated Account</button>
+    </form>
+</body>
+</html>
