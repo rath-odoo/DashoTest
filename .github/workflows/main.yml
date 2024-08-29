@@ -54,14 +54,16 @@ jobs:
       env:
         DJANGO_SETTINGS_MODULE: myproject.settings
       run: |
-        cd $GITHUB_WORKSPACE/DashoTest
+        cd $GITHUB_WORKSPACE
+        cd DashoTest
         python manage.py migrate
     
     - name: Run tests
       env:
         DJANGO_SETTINGS_MODULE: myproject.settings
       run: |
-        cd $GITHUB_WORKSPACE/DashoTest
+        cd $GITHUB_WORKSPACE
+        cd DashoTest
         python manage.py test
     
     - name: Run linting
