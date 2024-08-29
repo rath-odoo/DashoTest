@@ -39,13 +39,13 @@ jobs:
         pwd
         echo "List all files and directories:"
         ls -R
-
     - name: Run migrations
       env:
         DJANGO_SETTINGS_MODULE: myproject.settings
       run: |
         cd $GITHUB_WORKSPACE/DashoTest
         python manage.py migrate
+
     
     - name: Run tests
       env:
